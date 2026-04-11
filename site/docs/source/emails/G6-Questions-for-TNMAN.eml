@@ -1,0 +1,179 @@
+Delivered-To: aaron.overton@tnstateguard.org
+Received: by 2002:a05:7022:61b:b0:128:cec0:3ba2 with SMTP id 27csp768629dlb;
+        Thu, 2 Apr 2026 05:19:49 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AJvYcCWq0+4XWr2KabaKHC6GbdEx+DCX8rlaOWoP7Mm9oHlo9dgj/hfHr52MCpoO8Tsnz1Z8ENAvcgle6962lXr+@tnstateguard.org
+X-Received: by 2002:a05:6870:e123:b0:417:47a8:9f4e with SMTP id 586e51a60fabf-422ec822e09mr1997652fac.38.1775132389378;
+        Thu, 02 Apr 2026 05:19:49 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1775132389; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=j2rU5o19elwuUGxnfxWwR3RrNboXaTvZpgUuk/qHZDB6V4AfohrEqK05LrZdfKqoqF
+         JQfOwZoQVMAfjOmf9StD6LwIn+OvQgJq0NH4xU/I2IDo/ZORFbVxTNe1pXP7zUt1Fdkc
+         BmBZn++ueENWT0UhsY/GMaI9lPIgQU6oBt+SrxL4nYJ7FJdij3s+jPW7I26e/TbawD4R
+         Bqm6FYnHGzoGqDBeu/qKNqbZoEbz65IoBxmFpq0yFbH9NG5SYJh7dSwkJRwjIwZlj55z
+         MjcQPxCuvGNTPwlGYkSVv8VOFl73iffdArdz7tycWdIvWAVKxIz2iTb3EF78HL0Khity
+         ePTA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=+rCn3NH/TfCLjAPS24H5SzkBsEKBPfA4FKTmcjKej8Q=;
+        fh=lN+n201C3cXYAobVMhLYO5PyqgQA6xlFT3LcgfdRj80=;
+        b=XzMYKMwkgdX5c1umk+Mhf+z+65hOt3VoepPWnoHcM9mGLwnT0/muGeO/7w538JxQWg
+         C99f4ke7+1nyvwwNextnVyeJdDCUg046wD4gqIUAIAsxfNYS7/JZdPI/gcfemtu/kSgp
+         KNo2XKYcrrGwMkoSgHjoDMymBDdQGNW1AbyLxeZAYae2ydFR8GKS4MUIpGKB5iJju05z
+         4QLyhlYS8ZYw4s8qAEYYmvIBMqzrwZdtyIce5eY9iH6ojQqLCtbYD+9lf0dIC8iOjvPQ
+         m2ds/qZBRitebJXmDzgxtd2pNAGI+nXZ5UyY+O4usw5ozUuoB5B5zAL/ozQ6MfGLhswr
+         Cpfg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20230601.gappssmtp.com header.s=20230601 header.b=bYrC3nXB;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of scott.smith@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=scott.smith@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+Return-Path: <scott.smith@tnstateguard.org>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 586e51a60fabf-422eaedc463sor666642fac.2.2026.04.02.05.19.49
+        for <aaron.overton@tnstateguard.org>
+        (Google Transport Security);
+        Thu, 02 Apr 2026 05:19:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of scott.smith@tnstateguard.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20230601.gappssmtp.com header.s=20230601 header.b=bYrC3nXB;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of scott.smith@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=scott.smith@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+ARC-Seal: i=1; a=rsa-sha256; t=1775132389; cv=none;
+        d=google.com; s=arc-20240605;
+        b=FLy4VMyeGldHyipdSotnICa9wRurGkIr4wi9cOZ0im5mdo13mO26BbkPOXH1QF40hC
+         W6XK8ck9eaq6nTefQTUAzXJkSi2KSnhS6h5LPfv0zyjxn5T9o5eRrOIKSkarWxspTh1B
+         rrffTtwfMiaccoUiOh4DAYslGDklPSEllCXD3Fa/tFDztvEilRkuSZ8dcefioHr6Bn9U
+         h+3RKgHelgv8ZZwmzryi8hIk7bh4Nnn2FogKlitkx6xBL4VpMO40DFJJI2oQ2p4vhMH2
+         jehUIx5heZupdkQayWMWH9YQk9/8a7PTMAPBlScd1bQZQRqg8BK6OrqcjNkK7k8WxKEP
+         1mCw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=+rCn3NH/TfCLjAPS24H5SzkBsEKBPfA4FKTmcjKej8Q=;
+        fh=lN+n201C3cXYAobVMhLYO5PyqgQA6xlFT3LcgfdRj80=;
+        b=I+BtULyVX521ZQiTFF56qixyL9BBAjumZKosINxMSAlk+vQXlTECYC3HCMYiINpVE3
+         ONxw5/AeK/5Jb/QCInKe0mrdvVC9JNeI37rasf4MWrlbzDzSRPCG1oc82rbxTwShAHdf
+         AVbd2exw2PXGI4KVyKBGu4vOvmjGW6SUqLG/UL4bcliTMXf5kzEh6VzPm9wx2lo0FnFo
+         XF4Vj/WIhWd8X2laZmD//M2uMq9YTDXLgZk3alk+AnOgEZbmvaWC5aqOkZZseac5gLyd
+         3WIIooE/5slzB8i5y9DRXrACQ5BEmeoCQcp+1g+jo9yYctBy8nGBACXaubSyjh1Zh+kW
+         koKQ==;
+        darn=tnstateguard.org
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tnstateguard-org.20230601.gappssmtp.com; s=20230601; t=1775132389; x=1775737189; darn=tnstateguard.org;
+        h=cc:to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=+rCn3NH/TfCLjAPS24H5SzkBsEKBPfA4FKTmcjKej8Q=;
+        b=bYrC3nXBeOtiMk/ZV9qAyYcTP8yw+W+n+JOWFSc4CDeYAlJJBuU1tpxOkkP+ZKh5Ll
+         PZlf7BfgNBRs79/X14/GgZJIX0EkkReV4Va1PFrnapBqXFcelAWBXuHjjY6wmQESGTMO
+         ZRIywcakMaN0aKnB2m7e9ovbVQ9M3LyPikuGThXP8s6O/LBEP2KAo5kbkYuXFVK3ajiV
+         ixM2zxHpULoM7CVu0jN0h+H/oPkOwxgwl4BTVjpZ5vcaBq8naer+v2ycqXlFlTS7sY1N
+         lB+mvIwy/JhPDVTk816G+lGUIAbt5EuqXoOLMmAOGKbEuf/jtShs/Hd8aFEdxw4MwUj9
+         Gd+Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1775132389; x=1775737189;
+        h=cc:to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=+rCn3NH/TfCLjAPS24H5SzkBsEKBPfA4FKTmcjKej8Q=;
+        b=iMGE8RPkhDXizlN+AgErGvJbS5GrMQfJfyMEiK+s0cWBPAEFjBbqcB5vsgRYTPsww5
+         755HfMiFaijnuzIXk0GLWWDw2gk76R9HJERy82Raz8OUys8bizDhaCMUDRZncjuRAS6D
+         qiMz+Rk/kWj1aXyJNFjzk0vZ8mpREzH/wgVZl3H7OGD0hZA3d7ZkcKelvNVaJHdCdMBc
+         +tgGSNskGIJi4wOzI1CwoLzfBmB3NlwvHYoHmpy6J3flkEqm1OyM+zaq7y4RNfO4IqFL
+         YRav/Es2c5hMIkIIhy8asQadx7NcA20IligCBcdmw5+fzKiSqP/IBvlz1LekQKR8rEoH
+         UPcQ==
+X-Forwarded-Encrypted: i=1; AJvYcCUxoejX3u1Ur/8Awm9br6Gu8S9JRMSdRDR/GEQgfTvpZ7B/MYYKYykojDs+Z/0O/joVRdKkRwZ+sUmR84VI@tnstateguard.org
+X-Gm-Message-State: AOJu0YwwBV12fKDqLLJVFyVSHMPzw6Mk7A90H/YZvCPCZzPKhid1yYq1
+	OksgmUirqnDS/X8dxxgo+Uw9GmI+7X4+7XqvJJm88w6BAfQpaakX87iJ2OcKVC8X4cH+dhLacNb
+	pj3sGNc/vOarEewf5CcBmKauW8vk+r6HBBayRFzv8ueSl
+X-Gm-Gg: ATEYQzwQah/jjFDQYfwGU5H9HM2Qa7iqZqh34phDKjqDeCMu3He2fHdjv6zwhMuU0iT
+	zRyfabDDYVTvEBX1bFV6kLRW8p3xzeVlnKqapc9H+2LPxocsTLZ5gQDoJ7+iSLnSjlqUwHylk+0
+	92C7rvWkcuuTAY9JZvpIgdLScQVTfyjr78QrIEQWVgdsQjOi8PUSRaDNFmkOMzDLcG8ZJvfJiLh
+	yHG6ZYTRTWWPmCYC6sYusLWaAGxcQcBW+mScn5xvMdJUwjmHq2lVopuEWOqnl6Qhxz0jUfoeY5h
+	na7H
+X-Received: by 2002:a05:6870:b2cf:b0:404:15b0:4602 with SMTP id
+ 586e51a60fabf-422ec4b8ef2mr1857228fac.7.1775132388595; Thu, 02 Apr 2026
+ 05:19:48 -0700 (PDT)
+MIME-Version: 1.0
+From: "Smith, Scott" <scott.smith@tnstateguard.org>
+Date: Thu, 2 Apr 2026 08:19:41 -0400
+X-Gm-Features: AQROBzCQ5FhR9oO6sqHGxB2NCGBCg20x8Doi9Pg6RvZtCQNbebnTwqaGGzKHWIY
+Message-ID: <CAAUU8H3ED9UoJcdXf7wGoYmJbJ9AM9f+r30San5VuJF-w3NJQw@mail.gmail.com>
+Subject: G6 Questions for TNMAN
+To: TNSG G6 Team <tnsg.g6@tnstateguard.org>, Timmy Hughes <timmy.hughes@tnstateguard.org>, 
+	"CW4 Michael TNSG Simpson, CHS-III, PCII" <michael.simpson@tnstateguard.org>
+Cc: Michael Rutherford <michael.rutherford@tnstateguard.org>, 
+	John Sheaf <john.sheaf@tnstateguard.org>, Robert Roark <robert.roark@tnstateguard.org>, 
+	Aaron Overton <aaron.overton@tnstateguard.org>
+Content-Type: multipart/alternative; boundary="00000000000073a5d5064e793751"
+
+--00000000000073a5d5064e793751
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Gentlemen,
+
+During the Google Meet about TNMAN 26   some comms items were discussed
+that needed clarification.
+
+TACN? Radio =E2=80=93 The CG and Chief Simpson talked about these and it lo=
+oks like
+3RGT will require at least 4 for the Holston Defense Mission. This may
+change due to taskings on the OPORD but will we receive some training and
+is there a plan to get them to the 3RGT AO.
+
+ATAK was discussed and 3RGT will need training and technical help setting
+that up. We have lost most of our people with any training in this.How do
+you want to set this up?
+
+Starlink. Is there any chance of 3RGT getting a Starlink for the  ICP in Mt
+Carmel? Internet would be useful.
+
+Please note CSM Michael Rutherford is the new 3RGT S6 and should be
+included in all comms discussions going forward.
+
+Joseph Smith
+
+LTC(TN)
+
+3RGT XO
+
+--00000000000073a5d5064e793751
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Gentlemen,<div><br></div><div><p class=3D"MsoNormal" style=
+=3D"margin:0in 0in 8pt;line-height:115%;font-size:12pt;font-family:Aptos,sa=
+ns-serif">During the Google Meet about TNMAN 26 =C2=A0=C2=A0some
+comms items were discussed that needed clarification.</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:115%;font-si=
+ze:12pt;font-family:Aptos,sans-serif">TACN? Radio =E2=80=93 The CG and Chie=
+f Simpson talked about these
+and it looks like 3RGT will require at least 4 for the=C2=A0Holston Defense=
+ Mission. This may change due to taskings
+on the OPORD but will we receive some training and is there a plan to get t=
+hem
+to the 3RGT AO.</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:115%;font-si=
+ze:12pt;font-family:Aptos,sans-serif">ATAK was discussed and 3RGT will need=
+ training and technical
+help setting that up. We have lost most of our people with any training in =
+this.How do you want to set this up?</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:115%;font-si=
+ze:12pt;font-family:Aptos,sans-serif">Starlink. Is there any chance of 3RGT=
+ getting a Starlink for
+the =C2=A0ICP in Mt Carmel? Internet would be useful.</p><p class=3D"MsoNor=
+mal" style=3D"margin:0in 0in 8pt;line-height:115%;font-size:12pt;font-famil=
+y:Aptos,sans-serif">Please note CSM Michael Rutherford is the new 3RGT S6 a=
+nd should be included in all comms discussions going forward.</p><p class=
+=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:115%;font-size:12pt;=
+font-family:Aptos,sans-serif">Joseph Smith</p><p class=3D"MsoNormal" style=
+=3D"margin:0in 0in 8pt;line-height:115%;font-size:12pt;font-family:Aptos,sa=
+ns-serif">LTC(TN)</p><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;lin=
+e-height:115%;font-size:12pt;font-family:Aptos,sans-serif">3RGT XO</p></div=
+></div>
+
+--00000000000073a5d5064e793751--

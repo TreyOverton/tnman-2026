@@ -8,9 +8,9 @@ Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — name
 
 | Unit | Count | <span class="mrc mrc-1">MRC-1</span> | <span class="mrc mrc-2">MRC-2</span> | <span class="mrc mrc-3">MRC-3</span> | <span class="mrc mrc-4">MRC-4</span> |
 |------|------:|------:|------:|------:|------:|
-| Regimental HQ | 10 | 5 | 4 | 0 | 1 |
+| Regimental HQ | 11 | 5 | 5 | 0 | 1 |
 | 2nd Battalion | 9 | 3 | 3 | 1 | 2 |
-| 3rd Battalion | 14 | 8 | 2 | 2 | 2 |
+| 3rd Battalion | 13 | 8 | 1 | 2 | 2 |
 | 4th Battalion | 7 | 2 | 1 | 1 | 3 |
 | **Total (draft)** | **40** | **18** | **10** | **4** | **8** |
 
@@ -20,7 +20,7 @@ Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — name
 
 | Unit | Count | Role | Status |
 |------|------:|------|--------|
-| 911th MED BN | 2 | Medics | Verbal/off-hand only — no names, ranks, or written confirmation |
+| 61st MED BN | 2 | Medics | Verbal/off-hand originally said "911th"; confirmed as **61st MED BN** per DIV WARNO tasking — no names, ranks, or written confirmation yet |
 
 Not counted in the totals above until confirmed. See Open Items.
 
@@ -33,6 +33,7 @@ Not counted in the totals above until confirmed. See Open Items.
 | LTC | Sheaf, John T | S3 | <span class="mrc mrc-2">MRC-2</span> | 717-673-6177<br>john.sheaf@tnstateguard.org<br>510 Marble Ln Apt 105, Morristown, TN 37813 |
 | MAJ | Rookard, Curtis R | Eng Officer | <span class="mrc mrc-1">MRC-1</span> | 865-272-3919<br>curtis.rookard@tnstateguard.org<br>114 Pasadena Ln, Oak Ridge, TN 37830 |
 | CSM | Seals, Michael L | RCSM | <span class="mrc mrc-2">MRC-2</span> | 423-312-0882<br>michael.seals@tnstateguard.org<br>4979 Lori Ln, Morristown, TN 37815 |
+| CSM | Rutherford, Michael J | S6 NCO | <span class="mrc mrc-2">MRC-2</span> | 423-538-0667<br>michael.rutherford@tnstateguard.org<br>1061 Morrel Creek Ln, Bluff City, TN 37618 |
 | CPT | McCroskey, Travis D | ASST JAG | <span class="mrc mrc-4">MRC-4</span> | 865-696-0164<br>travis.mccroskey@tnstateguard.org<br>1123 Stewart St, Knoxville, TN 37917 |
 | 1LT | Fielitz-Scarbrough, Cheryl A | S1 Officer | <span class="mrc mrc-2">MRC-2</span> | 865-809-6060<br>cheryl.fielitzscarbrough@tnstateguard.org<br>158 Courtney Rd, Talbott, TN 37877 |
 | 1LT | Overton, Aaron L III | ASST S3 | <span class="mrc mrc-1">MRC-1</span> | 425-301-2423<br>aaron.overton@tnstateguard.org<br>248 Rolling Hills Pvt Dr, Blountville, TN 37620 |
@@ -60,7 +61,6 @@ Not counted in the totals above until confirmed. See Open Items.
 | Rank | Name | Position | MRC | Contact Info |
 |------|------|----------|-----|--------------|
 | MAJ | Crosby, Lyle A | BN CO | <span class="mrc mrc-3">MRC-3</span> | 865-314-0407<br>lyle.crosby@tnstateguard.org<br>4521 Merrywood Ave, Kingsport, TN 37664 |
-| CSM | Rutherford, Michael J | BN CSM | <span class="mrc mrc-2">MRC-2</span> | 423-538-0667<br>michael.rutherford@tnstateguard.org<br>1061 Morrel Creek Ln, Bluff City, TN 37618 |
 | CPT | Moore, Leonard L | S6 C&E Officer | <span class="mrc mrc-4">MRC-4</span> | 239-877-6659<br>leonard.moore@tnstateguard.org<br>503 Phillips St, Rogersville, TN 37857 |
 | 1LT | Riley, Michael W | BN XO | <span class="mrc mrc-1">MRC-1</span> | 423-291-0365<br>michael.riley@tnstateguard.org<br>214 Arrowhead Pvt Dr, Mountain City, TN 37683 |
 | SFC | Ferguson, Joshua P | HQ Co 1SG | <span class="mrc mrc-1">MRC-1</span> | 423-278-8869<br>joshua.ferguson@tnstateguard.org<br>240 Plates Ln, Greeneville, TN 37745 |
@@ -90,7 +90,9 @@ Not counted in the totals above until confirmed. See Open Items.
 
 ## Open Items
 
-- **911th MED BN attachment** — two medics expected per verbal, off-hand guidance. No names, ranks, contact info, or written confirmation yet. Need to chase down the POC at 911th MED BN and get a written attachment order or at minimum a named pair with MRC status.
+- **PAO assignment** — 3 RGT wants a PAO representative for TNMAN-26. LTC Sheaf plans to contact **LTC Daniel Epright (Division PAO)** as the POC to work out how the assignment is made. No name or contact info for the assigned PAO yet.
+- **3 BN CSM vacancy** — CSM Rutherford moved to Regimental HQ as S6 NCO (confirmed by LTC Smith, 2 APR 26). 3 BN currently has no Command Sergeant Major on the mission roster — confirm with MAJ Crosby whether an interim is identified.
+- **61st MED BN attachment** — two medics expected per verbal, off-hand guidance (the verbal mention said "911th" but the unit is **61st MED BN** per the DIV WARNO). No names, ranks, contact info, or written confirmation yet. Need to chase down the POC at 61st MED BN (CO is BG Cox) and get a written attachment order or at minimum a named pair with MRC status.
 - **2/3 availability** — 2BN roster imported from the [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point. LTC Sheaf is unsure of 2/3 posture; follow-up pending with 2BN leadership (CPT Borrilez).
 - **PHA tracking** — Sheaf asked whether most-recent PHA dates could be included. PHA data is not in the alert rosters. Need a data source (S1 medical records?) — deferred pending confirmation from CPT Meager's replacement.
 - **Departures since 7 APR email** — CPT Meager (HHC, moved to Texas — will not participate), CPT Sutton and CW2 Hickman (HHC, now IRR), 2LT Zeinali and PV2 Crosby, Caleb (3/3, inactive 2+ years), PV2 Danger (3/3, now IRR and PFC), PV1 Tobin (3/3, IRR or out). Removed from roster.
