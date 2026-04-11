@@ -22,8 +22,10 @@
 - [Situational Awareness Brief](docs/sabrief.md)
 - [WARNO](docs/warno.md)
 - [RGT OPORD](docs/opord-rgt.md)
+- [OPORD Encl A — Storyboard](docs/opord-encl-a.md)
 - [Task Organization](docs/taskorg-doc.md)
 - [DD Form 2977](docs/dd2977.md)
+- [JAG Pre-Brief](docs/jag-brief.md)
 
 - **OIC NOTES**
 - [AAR Notes](aar-draft.md)
