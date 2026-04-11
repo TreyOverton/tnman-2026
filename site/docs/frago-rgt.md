@@ -1,3 +1,0 @@
-# RGT FRAGO
-
-*Content pending.*

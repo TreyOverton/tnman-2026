@@ -1,3 +1,0 @@
-# AAR — TNSG
-
-*Content pending.*
