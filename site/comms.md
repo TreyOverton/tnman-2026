@@ -6,6 +6,19 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-11 — CG standing policy: dawn-to-dusk + RON at home
+
+Capturing a previously-issued CG direction so we do not lose track of it in planning:
+
+- **Dawn-to-dusk duty day** — TNSG participation in TNMAN 26 is limited to daylight hours.
+- **RON at home or hotel** — Soldiers participating on more than one day must return home (or to a hotel of their choosing) overnight. No billeting at the ICP.
+
+**Impact on 3 RGT plans:**
+
+- Any OPORD language implying overnight assembly at the ICP must be reviewed and rewritten (the current draft RGT OPORD has Phase II starting 120520RMAY26 BMNT, which is consistent with dawn arrival, and ends 132131RMAY26 EENT, which is also end-of-day — but longer-duration multi-day participation needs a daily home→ICP→home cycle, not an ICP billet).
+- Convoy / fatigue controls in the [Risk Assessment](risk.md) O-3 and [DD Form 2977](docs/dd2977.md) Block 3 updated accordingly: daily round-trip driving, 2-driver rule for >4 hr one-way legs, Soldiers with long commutes may self-fund a hotel in the Mt Carmel area to shorten the daily drive.
+- Combined with the MRC-3 single-day-only mitigation (see DD 2977 Block 4 addendum), MRC-3 personnel participating only on 14 MAY naturally fit this policy.
+
 ### 2026-04-11 — PAO assignment path: LTC Epright (DIV PAO) is the POC
 
 3 RGT wants a PAO representative assigned for TNMAN-26. **LTC Daniel Epright, Division PAO** is the POC for working out how that assignment is made. LTC Sheaf plans to contact LTC Epright directly. Logged as an open item on the [Mission Roster](roster.md) pending a name and contact info.
