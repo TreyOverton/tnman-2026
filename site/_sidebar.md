@@ -28,9 +28,9 @@
 - [Cyber WG Slides](docs/cyber-wg.md)
 - [Task Organization](docs/taskorg-doc.md)
 - [DD Form 2977](docs/dd2977.md)
-- [JAG Pre-Brief](docs/jag-brief.md)
 
 - **OIC NOTES**
 - [AAR Notes](aar-draft.md)
 - [Comms Log](comms.md)
 - [Orders Consistency Review](warno-opord-review.md)
+- [JAG Pre-Brief](docs/jag-brief.md)
