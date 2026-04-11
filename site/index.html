@@ -79,6 +79,9 @@
     table { width: 100%; }
     td, th { vertical-align: top; }
     th { background: #2E4057 !important; color: white !important; }
+    /* Keep short first-column row keys (like "O-1", "M-2") on one line */
+    .markdown-section table td:first-child,
+    .markdown-section table th:first-child { white-space: nowrap; }
 
     /* MRC status badges */
     .mrc {
