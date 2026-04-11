@@ -6,6 +6,10 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-11 — Verbal, off-hand: two medics expected from 911th MED BN
+
+We were told verbally and somewhat off-hand that two medics from the **911th Medical Battalion** will be attached to 3 RGT for TNMAN-26. No names, ranks, or contact information have been provided, and there is no written confirmation of this attachment. Noted on the [Mission Roster](roster.md) as an expected attachment and added to the Open Items list for follow-up.
+
 ### 2026-04-11 — 1LT Overton → MAJ Crosby (email, 3BN roster review)
 
 Sent MAJ Crosby the draft 3BN mission roster (14 personnel) and asked him to confirm additions, removals, rank/position/MRC updates since the Mar 2026 alert roster, and status on PV1 Gauthier. Called out the departures already applied (1SG Snow to HHC S2 NCO; 2LT Zeinali, PV2 Caleb Crosby, PV2 Danger, PV1 Tobin removed). Also requested address/phone/email/MRC for any additions and most-recent PHA date if available.

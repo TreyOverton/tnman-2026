@@ -1,6 +1,6 @@
 # RGT OPORD 26-05-01 (Draft)
 
-> **Source file:** [RO-26-05-01.docx](source/RO-26-05-01.docx) — authoritative version. This page is a Markdown transcription for in-site reading.
+> **Source file:** [RO-26-05-01.docx](/docs/source/RO-26-05-01.docx) — authoritative version. This page is a Markdown transcription for in-site reading.
 >
 > **Status:** Draft, pre-release. Edits and changes to previously assigned tasks or narrative remain in effect until edited, changed, or completed.
 
@@ -37,9 +37,9 @@ The 26 counties that comprise TEMA East Region; Volunteer Training Site – Tull
 
 Government-owned, contractor-operated ammunition and explosives plant — the largest capacity supplier of high-performance explosives in the country.
 
-- **Plant A** — 4509 W Stone Dr, Kingsport, TN 37660 (Sullivan County); ~120 acres
-- **Plant B** — ~4 miles east in a less developed part of Hawkins County; ~5,900 acres
-- The two plants are connected by rail. The combined site includes ~465 buildings.
+- **Plant A** — 4509 W Stone Dr, Kingsport, TN 37660 (Sullivan County); approx. 120 acres
+- **Plant B** — approx. 4 miles east in a less developed part of Hawkins County; approx. 5,900 acres
+- The two plants are connected by rail. The combined site includes approx. 465 buildings.
 
 ### Enemy Forces
 
@@ -97,7 +97,7 @@ Phase ends with notification to end the exercise (ENDEX) and to demobilize the a
 
 Begins NET 132131RMAY26 (end of Phase II). Consists of actions required to safely, efficiently, and effectively return TNSG personnel, resources, and capabilities to respective Home of Record, Home Station, and assigned units, and to a state of preparedness / readiness to respond to contingency / emergency events (if needed). Includes post-exercise activities such as Hot Wash, After Action Review and Reporting, and Corrective Action Planning and Programming in preparation for the next training event.
 
-Initial actions during this phase will most likely be completed within ~+24 Hrs of ENDEX (NLT 142131RMAY26); post-training administrative actions may potentially be completed +90 Days of ENDEX (~ 10 AUG 26).
+Initial actions during this phase will most likely be completed within approx. +24 Hrs of ENDEX (NLT 142131RMAY26); post-training administrative actions may potentially be completed +90 Days of ENDEX (approx. 10 AUG 26).
 
 ### Tasks to Subordinate Units
 
@@ -185,6 +185,6 @@ S3
 
 **ENCLS:**
 
-- [A — RO 26-05-01 HDWG TNMAN-26 Overview](opord-encl-a.md) ([source .pptx](source/ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx))
+- [A — RO 26-05-01 HDWG TNMAN-26 Overview](opord-encl-a.md) ([source .pptx](/docs/source/ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx))
 
 **DISTRIBUTION:** 2 MP BN · 3 MP BN · 4 MP BN · HHC / Staff, 3 RGT

@@ -1,6 +1,6 @@
 # 3rd Regiment Alert Roster
 
-> **Source**: Regimental Alert Roster PDF (`uploads/alert_rosters/Alert Roster-2026-03-2026.pdf`), Mar 2026.
+> **Source**: [Regimental Alert Roster PDF](/data/alert_rosters/Alert%20Roster-2026-03-2026.pdf), Mar 2026.
 > **Extracted**: 15 Mar 2026. This is the authoritative source for rank, MRC, and contact info across the regiment.
 > **Overrides**: Elrod rank → PV2 (confirmed 15 Mar via email). Riley rank → 1LT (persistent 2LT error in some source docs). Smith email shows as scott.smith@ (goes by Scott, not Joseph).
 

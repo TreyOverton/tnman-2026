@@ -1,6 +1,6 @@
 # OPORD Enclosure A — RO 26-05-01 HDWG TNMAN-26 Overview
 
-> **Source file:** [ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx](source/ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx) — PowerPoint storyboard. This page is a Markdown transcription of the slide content for in-site reading.
+> **Source file:** [ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx](/docs/source/ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx) — PowerPoint storyboard. This page is a Markdown transcription of the slide content for in-site reading.
 
 This enclosure is the Homeland Defense Working Group (HDWG) storyboard referenced in Section 1 (Situation) of [RGT OPORD 26-05-01](opord-rgt.md).
 

@@ -2,7 +2,7 @@
 
 Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — names will be added/removed as planning matures.
 
-> **Source data:** [data/regiment-roster.md](data/regiment-roster.md) (regimental Mar 2026 PDF) plus unit-level alert rosters in `uploads/alert_rosters/`. Flag any discrepancies in the [Comms Log](comms.md).
+> **Source data:** [data/regiment-roster.md](data/regiment-roster.md) (regimental Mar 2026 PDF) plus unit-level alert rosters in `site/data/alert_rosters/`. Flag any discrepancies in the [Comms Log](comms.md).
 
 ## Summary
 
@@ -15,6 +15,14 @@ Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — name
 | **Total (draft)** | **40** | **18** | **10** | **4** | **8** |
 
 **Legend:** <span class="mrc mrc-1">MRC-1</span> fully available &nbsp; <span class="mrc mrc-2">MRC-2</span> partial &nbsp; <span class="mrc mrc-3">MRC-3</span> limited &nbsp; <span class="mrc mrc-4">MRC-4</span> unknown / unverified (treated as red for safety)
+
+## Expected Attachments
+
+| Unit | Count | Role | Status |
+|------|------:|------|--------|
+| 911th MED BN | 2 | Medics | Verbal/off-hand only — no names, ranks, or written confirmation |
+
+Not counted in the totals above until confirmed. See Open Items.
 
 ## Regimental Headquarters
 
@@ -33,7 +41,7 @@ Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — name
 
 ## 2nd Battalion
 
-*Availability not yet confirmed — LTC Sheaf indicated he is unsure of 2/3 posture and a query is pending with 2BN leadership. Full roster imported from [2BN alert recall roster (1 Mar 2026)](uploads/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point.*
+*Availability not yet confirmed — LTC Sheaf indicated he is unsure of 2/3 posture and a query is pending with 2BN leadership. Full roster imported from [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point.*
 
 | Rank | Name | Position | MRC | Contact Info |
 |------|------|----------|-----|--------------|
@@ -82,7 +90,8 @@ Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — name
 
 ## Open Items
 
-- **2/3 availability** — 2BN roster imported as a starting point. LTC Sheaf is unsure of 2/3 posture; follow-up pending with 2BN leadership (CPT Borrilez).
+- **911th MED BN attachment** — two medics expected per verbal, off-hand guidance. No names, ranks, contact info, or written confirmation yet. Need to chase down the POC at 911th MED BN and get a written attachment order or at minimum a named pair with MRC status.
+- **2/3 availability** — 2BN roster imported from the [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point. LTC Sheaf is unsure of 2/3 posture; follow-up pending with 2BN leadership (CPT Borrilez).
 - **PHA tracking** — Sheaf asked whether most-recent PHA dates could be included. PHA data is not in the alert rosters. Need a data source (S1 medical records?) — deferred pending confirmation from CPT Meager's replacement.
 - **Departures since 7 APR email** — CPT Meager (HHC, moved to Texas — will not participate), CPT Sutton and CW2 Hickman (HHC, now IRR), 2LT Zeinali and PV2 Crosby, Caleb (3/3, inactive 2+ years), PV2 Danger (3/3, now IRR and PFC), PV1 Tobin (3/3, IRR or out). Removed from roster.
 - **MRC-4 (unknown) personnel** — Bennett, Neisler, Hendon (4/3), McCroskey (HHC), Moore, Gauthier (3/3), Burns, Walker (2/3) shown as MRC-4 pending verification.
