@@ -1,6 +1,6 @@
 # ICP Task Organization Reference
 
-> **Source file:** [ICP-Organization.pptx](/docs/source/ICP-Organization.pptx) — explanatory document provided by LTC Sheaf. This page is a Markdown rendering of the slide content for in-site reading. Use this as the template when drafting the 3 RGT [Task Organization](docs/taskorg-doc.md).
+> **Source file:** [ICP-Organization.pptx](/docs/source/ICP-Organization.pptx) — explanatory document provided by LTC Sheaf. This page is a Markdown rendering of the slide content for in-site reading. Use this as the template when drafting the 3 RGT [Task Organization](taskorg.md).
 
 The slide describes the structure of an Incident Command Post (ICP) task organization and maps 3 RGT staff sections (S1–S6) to standard ICS positions.
 

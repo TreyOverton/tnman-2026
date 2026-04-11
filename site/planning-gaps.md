@@ -17,9 +17,9 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Task Organization (depends on personnel)
 
-- **Incident Commander / TF Commander designation** — COL Roark or MAJ Crosby. Blocks the Task Org lock. *Source: [Task Organization](docs/taskorg-doc.md).*
-- **Safety Officer designation** — no dedicated Safety Officer on the roster. Hard dependency for DD 2977 signature routing. *Source: [Task Organization](docs/taskorg-doc.md), [DD 2977](docs/dd2977.md).*
-- **Operations Section Chief** — LTC Sheaf (primary) or 1LT Overton (alternate). Depends on whether LTC Sheaf is pulled to LNO. *Source: [Task Organization](docs/taskorg-doc.md).*
+- **Incident Commander / TF Commander designation** — COL Roark or MAJ Crosby. Blocks the Task Org lock. *Source: [Task Organization](taskorg.md).*
+- **Safety Officer designation** — no dedicated Safety Officer on the roster. Hard dependency for DD 2977 signature routing. *Source: [Task Organization](taskorg.md), [DD 2977](docs/dd2977.md).*
+- **Operations Section Chief** — LTC Sheaf (primary) or 1LT Overton (alternate). Depends on whether LTC Sheaf is pulled to LNO. *Source: [Task Organization](taskorg.md).*
 - **Planning Section Chief designation**.
 - **Support Section Chief designation** — likely one of the BN S4s dual-hatted (2LT Garrison or 2LT Neisler).
 - **Staging Area Manager designation**.
@@ -84,7 +84,7 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Planning Quality
 
-- **Task Organization final lock** — [Task Organization](docs/taskorg-doc.md) is currently a draft with 12 explicit dependencies. Cannot lock until personnel and designations above are resolved.
+- **Task Organization final lock** — [Task Organization](taskorg.md) is currently a draft with 12 explicit dependencies. Cannot lock until personnel and designations above are resolved.
 - **Rehearsal / back-brief** — currently not scheduled. RGT back-brief to the CDR on convoy plans is due 30 APR; an earlier internal task org rehearsal would help.
 - **Distinguished Visitor Day coordination** — FPM mentions a DV Day; 3 RGT posture is unknown.
 

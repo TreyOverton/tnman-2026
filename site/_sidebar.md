@@ -26,7 +26,6 @@
 - [OPORD Encl A — Storyboard](docs/opord-encl-a.md)
 - [FPM Slides (26-27 MAR 26)](docs/fpm-slides.md)
 - [Cyber WG Slides](docs/cyber-wg.md)
-- [Task Organization](docs/taskorg-doc.md)
 - [DD Form 2977](docs/dd2977.md)
 
 - **OIC NOTES**
