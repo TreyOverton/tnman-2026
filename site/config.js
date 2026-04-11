@@ -6,16 +6,16 @@
  */
 window.TABULAKIT_CONFIG = {
   // Site identity
-  name: "TabulaKit",
-  description: "A TabulaKit documentation site",
+  name: "TNMAN 2026",
+  description: "3rd Regiment's mission planner for the May 2026 TNMAN homeland defense exercise, managed by the regimental S3 shop.",
   logo: "",  // Path to logo image (optional, shown in sidebar)
 
   // Theme colors (CSS custom property overrides)
   theme: {
-    color: "#e84118",           // Primary accent color (headings)
+    color: "#f97316",           // Primary accent color (headings)
     tealColor: "#3bc0cb",       // Secondary accent (links, nav highlights)
     sidebarWidth: "280px",
-    baseFontSize: "16px"
+    baseFontSize: "20px"
   },
 
   // Docsify options (merged into window.$docsify)

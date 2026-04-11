@@ -1,11 +1,18 @@
-- [Home](/)
-- [Case Studies](case-studies.md)
-- [Getting Started](getting-started.md)
+- [Overview](/)
+- **PLANNING**
+- [Timeline](timeline.md)
+- [Roster](roster.md)
+- [Checklist](checklist.md)
+- [Risk Register](risk.md)
+- **COORDINATION**
+- [Comms Log](comms.md)
+- [Contacts](contacts.md)
+- [RFI Tracker](rfi.md)
+- **DOCUMENTS**
+- [OPORD](docs/opord.md)
+- [FRAGO Log](docs/frago.md)
+- [AAR](docs/aar.md)
 - **DEPLOYMENT**
-- [GitHub Pages](deploy-github-pages.md)
 - [Firebase](deploy-firebase.md)
-- [Netlify](deploy-netlify.md)
-- **HELP**
-- [How Do I...?](how-do-i.md)
 - **CLAUDE CODE**
 - [Setup & Permissions](claude-code-setup.md)

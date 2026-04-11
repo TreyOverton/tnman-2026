@@ -13,7 +13,7 @@
  *   4. Copy your config values below from Project Settings > General > Web app
  */
 window.TABULAKIT_AUTH = {
-  mode: "public",
+  mode: "domain",
 
   // Firebase config (required for "domain" and "allowlist" modes)
   firebase: {
@@ -24,7 +24,7 @@ window.TABULAKIT_AUTH = {
   },
 
   // For "domain" mode: allowed Google Workspace domain
-  allowedDomain: "example.com",
+  allowedDomain: "tnstateguard.org",
 
   // For "allowlist" mode: specific email addresses
   allowedEmails: [
