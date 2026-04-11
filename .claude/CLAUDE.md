@@ -108,3 +108,17 @@ npx live-server site --port=3000
 ## Permissions
 
 This repository's `.claude/settings.json` grants broad file access so you can freely edit site content, configuration, and documentation without permission prompts. This is intentional — TabulaKit is a content-focused project where most work is editing markdown and config files.
+
+## Writing Conventions
+
+### Always include rank when naming military personnel
+
+Every time a person is referenced in site content, comms log entries, emails, or any other written communication, include their rank. This applies to **every** mention, not just the first — "LTC Sheaf" and "LTC Sheaf again", not "LTC Sheaf" then "Sheaf".
+
+Examples:
+- ✅ "LTC Sheaf provided initial nominations. LTC Sheaf also asked about PHA data."
+- ❌ "LTC Sheaf provided initial nominations. Sheaf also asked about PHA data."
+- ✅ "CPT Widner confirmed the list. CPT Widner noted the exception for MAJ Bennett."
+- ❌ "CPT Widner confirmed the list. He noted the exception for Bennett."
+
+If a rank is unknown, flag it (e.g., "**?**") and treat resolving it as a follow-up item rather than dropping the rank silently.
