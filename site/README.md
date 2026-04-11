@@ -4,6 +4,8 @@
 **Exercise window:** 11-17 MAY 2026 (3 RGT execution window 13-15 MAY)
 **3 RGT primary sites:** Holston Army Ammunition Plant, Kingsport TN · Resource Staging Area / ICP at US Army Reserve Center, 399 US-11W Scenic, Mt Carmel, TN 37645
 
+*Area of Operations map and detailed situational picture: [Situational Awareness Brief](docs/sabrief.md).*
+
 ## Mission
 
 > 3 RGT participates in DIV training operations in the Tennessee Maneuver Exercise 2026 (TNMAN-26) — Simulated Kinetic Attack on the Holston Army Ammunition Plant — in multiple locations across TN 12-17 MAY 26 IOT increase MET proficiency and sustain collective and staff training proficiency at the Regimental level.

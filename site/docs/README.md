@@ -28,7 +28,7 @@ Central index of all TNMAN 26 planning documents accessible from this site. Each
 
 | Doc | Status | Notes |
 |-----|--------|-------|
-| [Situational Awareness Brief](sabrief.md) | Placeholder | Replacement for the traditional "intel brief" — not yet written. |
+| [Situational Awareness Brief](sabrief.md) | Draft | AO satellite view (LTC Sheaf), key terrain, scenario summary, weather outlook, friendly picture, and outstanding SA items. Replacement for the traditional "intel brief." |
 | [Task Organization](../taskorg.md) | Draft | Moved to Planning section. 3 RGT ICP task org built against LTC Sheaf's ICP reference; 12 explicit dependencies flagged. |
 | [DD Form 2977 — Deliberate Risk Assessment](dd2977.md) | Draft | Pre-decisional. Covers operational hazards and includes a medical-readiness deviation addendum (MRC-2 role limits, MRC-3/4 deviations). Routing ends at **BG Cox** (61st MED BN CO, medical deviation concurrence) and **BG Stewart** (CG, final residual-risk approval). MRC-4 personnel statuses must be resolved before 30 APR. |
 
