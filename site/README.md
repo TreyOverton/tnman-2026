@@ -16,7 +16,7 @@ TNMAN 26 is a full-scale domestic response exercise planned by the Tennessee Nat
 
 Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field **approx. 30 Soldiers** as a task force providing:
 
-- **SECFOR** — approx. 20 Pax, Holston AAP area security, dismounted and aerial patrols, TCPs, and surveillance of the maritime domain (Holston River)
+- **SECFOR** — approx. 20 Pax, **HAAP perimeter-only** area security, dismounted and aerial patrols, TCPs, and surveillance of the maritime domain (Holston River). No TNSG personnel enter the HAAP premises; the ICP is sited outside the HAAP perimeter as well.
 - **UAS / sUAS** — 4 Pax, reconnaissance and detection at HAAP; requires FAA Part 107 and TDOT coordination for any Caney Fork bridge-assessment taskings
 - **ICP Support** — TBD Pax, US Army Reserve Center, Mt Carmel TN
 - **Comms Support** — TBD Pax, TACN radio, HF / VHF, and contribution to the regimental signal annex

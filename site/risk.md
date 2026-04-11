@@ -4,11 +4,12 @@ Risk register for TNMAN 26, 3 RGT operations 13-15 MAY 26. Feeds into [DD Form 2
 
 **Risk levels:** <span class="mrc mrc-1">L</span> Low · <span class="mrc mrc-2">M</span> Moderate · <span class="mrc mrc-3">H</span> High · <span class="mrc mrc-4">E</span> Extremely High
 
-## Standing Mission Constraints (from CG)
+## Standing Mission Constraints (from CG and HAAP)
 
 - **Dawn-to-dusk duty day** — Per CG direction, TNSG participation in TNMAN 26 is limited to daylight hours. No overnight assembly at the ICP.
 - **RON at home or hotel** — Soldiers participating on more than one day must return home (or to a hotel of their choosing) overnight between duty days. Billeting at the ICP is not authorized.
-- These constraints apply to all ranks and are baseline controls on every hazard below — not optional mitigations. They affect convoy planning, sleep/fatigue posture, and the practical construction of multi-day SECFOR coverage.
+- **Perimeter-only operations at HAAP** — No TNSG personnel are authorized to enter the actual premises of the Holston Army Ammunition Plant. All 3 RGT operations are conducted on the outside perimeter only. The ICP is likewise sited outside the HAAP perimeter.
+- These constraints apply to all ranks and are baseline controls on every hazard below — not optional mitigations. They substantially reduce exposure to HAAP interior hazards (explosive overpressure zones, interior industrial traffic, hazmat inventories) and concentrate remaining operational risk on perimeter SECFOR, public-road adjacency, and weather.
 
 ## Hazard Register
 
@@ -17,7 +18,7 @@ Risk register for TNMAN 26, 3 RGT operations 13-15 MAY 26. Feeds into [DD Form 2
 | # | Hazard | Initial | Controls | Residual | Implementer |
 |---|--------|:-------:|----------|:--------:|-------------|
 | O-1 | **Severe weather / flooding** — exercise scenario includes Northeast TN flood impacts 9-14 MAY; real weather could compound. Slip/fall, lightning, vehicle accident, exposure. | H | Monitor NWS daily; suspend outdoor tasks during lightning within 10 mi; rain gear issued; Safety Officer has stop-work authority; shift to ICP-interior tasks if weather red. | M | S3 / Safety Officer |
-| O-2 | **HAAP site hazards** — government-owned ammunition and explosives plant. Restricted areas, explosive overpressure zones, industrial vehicle traffic, hazmat inventories. | H | HAAP POC (Mr. Tony Armstrong, 423-341-5840) site orientation mandatory pre-mission; stay on approved routes; no ignition sources in designated zones; liaison with HAAP safety officer for each work area. | M | S3 / HAAP LNO |
+| O-2 | **HAAP perimeter-adjacency hazards** — TNSG operates on the outside perimeter only (no interior access). Residual exposure is to industrial-area adjacency, perimeter-road vehicle traffic, and the very low probability of a hazmat-release affecting perimeter positions. Interior explosive overpressure zones, internal traffic, and on-site hazmat inventories are **excluded by the no-entry constraint** above. | M | HAAP POC (Mr. Tony Armstrong, 423-341-5840) perimeter orientation pre-mission; pre-briefed perimeter route and emergency pull-back points; liaison with HAAP safety officer for each work area; HAAP notification protocol if a real facility event occurs during the exercise. | L | S3 / HAAP LNO |
 | O-3 | **Vehicle movement / convoy ops** — **Per CG dawn-to-dusk / RON-at-home policy, Soldiers on multi-day rotations drive home→ICP→home each day.** Multi-vehicle convoys from home station to RSA at Mt Carmel and to HAAP. Risk concentrates on front-end and back-end daily driving rather than on in-theater fatigue. | H | Route/convoy plans briefed to CDR NLT 30 APR; pre-trip inspections; 2-driver rule for >4 hr one-way legs; max 12 hr combined duty-plus-drive per day; VC en-route safety briefs. **Soldiers with home stations >2 hr one-way from ICP authorized to self-fund hotel at Mt Carmel-area lodging to shorten daily drive.** BNs track RON locations for accountability. | M | BN CDRs / HHC |
 | O-4 | **SECFOR duty — extended outdoor operations** — area security, TCPs, dismounted patrols in variable weather. Heat/cold, hydration, exhaustion, weapon handling. | M | Battle-buddy system; 2-on / 4-off rotation target; hydration logged; weapons uploads only when authorized; ROE briefed and written against TN state law authority (see [JAG Pre-Brief](docs/jag-brief.md)). | M | 3 BN CDR / NCOIC |
 | O-5 | **sUAS / UAS operations** — airspace conflicts, equipment failure, battery fire, FAA/TDOT compliance. | M | FAA Part 107 certified pilot required (4 BN provides); airspace check w/ Tri-Cities TRACON if within Class D/E; LiPo battery storage per SOP; emergency landing zones pre-identified; TCA 39-13-609 compliance verified with JAG. | L | 4 BN UAS Pilot |
@@ -42,6 +43,10 @@ Risk register for TNMAN 26, 3 RGT operations 13-15 MAY 26. Feeds into [DD Form 2
 
 ## Overall Residual Risk: <span class="mrc mrc-3">HIGH</span>
 
-The combination of HAAP explosives environment, extended outdoor SECFOR, weather-coincident exercise timing, and the MRC-3/4 deviation request holds the overall residual risk at **High**, driving approval to the first general officer in the chain (**BG Stewart, CG**).
+**Rationale:** Extended outdoor SECFOR in potential severe weather, the Title 10 / SAD command authority seam, and the MRC-3 / MRC-4 medical readiness deviations combine to hold the overall residual risk at **High**. The HAAP interior explosive environment — previously the single largest driver — has been removed by the **perimeter-only constraint**, which reduced O-2 from H/M down to M/L.
 
-**Medical readiness deviation** (M-2, M-3) requires separate concurrence from **BG Cox (DCG-O / 61st MED BN CO)** — see the [DD Form 2977](docs/dd2977.md) medical readiness addendum.
+**Path to Moderate residual:** If the 8 MRC-4 personnel have their medical status resolved (to MRC-1 or MRC-2) before orders issue on 30 APR, and the MRC-3 deviation is approved by BG Cox, the remaining risk drivers are weather (O-1 M residual) and the Title 10/SAD seam (L-1 M residual). At that point the overall residual risk could legitimately drop to **Moderate**, changing the approval authority from first general officer (BG Stewart) to the mission commander (COL Roark). Re-evaluation will occur after 30 APR once MRC resolutions are in.
+
+**Approval authority (current HIGH residual):** first general officer in the chain — **BG Stewart, CG**.
+
+**Medical readiness deviation** (M-2, M-3) requires separate concurrence from **BG Cox (DCG-O / 61st MED BN CO)** — see the [DD Form 2977](docs/dd2977.md) medical readiness addendum. This concurrence is independent of the overall residual risk rating and is required regardless of whether the aggregate rating is High or Moderate.
