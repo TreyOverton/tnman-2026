@@ -32,5 +32,7 @@
 - **OIC NOTES**
 - [AAR Notes](aar-draft.md)
 - [Comms Log](comms.md)
+- [Planning Gaps](planning-gaps.md)
 - [Orders Consistency Review](warno-opord-review.md)
+- [ICP Org Reference](icp-org-reference.md)
 - [JAG Pre-Brief](docs/jag-brief.md)
