@@ -17,10 +17,10 @@ window.TABULAKIT_AUTH = {
 
   // Firebase config (required for "domain" and "allowlist" modes)
   firebase: {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    appId: ""
+    apiKey: "AIzaSyCjjnBNxe_0cjGhvMNks8KsUmLnDrDyq_0",
+    authDomain: "tnman-2026.firebaseapp.com",
+    projectId: "tnman-2026",
+    appId: "1:1072049931332:web:b4fd334af14d20804d6811"
   },
 
   // For "domain" mode: allowed Google Workspace domain
