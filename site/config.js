@@ -8,7 +8,8 @@ window.TABULAKIT_CONFIG = {
   // Site identity
   name: "TNMAN 2026",
   description: "3rd Regiment's mission planner for the May 2026 TNMAN homeland defense exercise, managed by the regimental S3 shop.",
-  logo: "",  // Path to logo image (optional, shown in sidebar)
+  logo: "favicon.png",  // Path to logo image (optional, shown in sidebar)
+  titlePrefix: "TNMAN",  // Prefix for browser tab title (format: "{prefix} :: {page}")
 
   // Theme colors (CSS custom property overrides)
   theme: {

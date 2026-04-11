@@ -172,6 +172,8 @@
 
         var docsifyOpts = config.docsify || {};
 
+        var titlePrefix = config.titlePrefix || config.name || "";
+
         window.$docsify = {
           name: sidebarName,
           repo: false,
@@ -182,7 +184,18 @@
             placeholder: 'Search...',
             noData: 'No results',
             depth: 3
-          } : false
+          } : false,
+          plugins: [
+            function(hook) {
+              hook.doneEach(function() {
+                var h1 = document.querySelector('.markdown-section h1');
+                var pageName = h1 ? h1.textContent.trim() : "";
+                document.title = titlePrefix && pageName
+                  ? titlePrefix + " :: " + pageName
+                  : (pageName || titlePrefix || "Documentation");
+              });
+            }
+          ]
         };
 
         var docsifyScript = document.createElement('script');

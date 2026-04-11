@@ -1,0 +1,3 @@
+# Exercise Precedent
+
+*Content pending.*
