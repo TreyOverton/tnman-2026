@@ -19,6 +19,7 @@
 - [RGT OPORD](docs/opord-rgt.md)
 - [OPORD Encl A — Storyboard](docs/opord-encl-a.md)
 - [DD Form 2977](docs/dd2977.md)
+- [CG's Intent](docs/cg-intent.md)
 
 - **REFERENCE**
 - [Reference Index](reference-index.md)

@@ -78,6 +78,15 @@ Full personnel contact info: [Mission Roster](roster.md) · Full chain of comman
 | HAAP Security / Control | 423-341-5840 (Tony Armstrong) | Confirm HAAP's emergency notification number before execution |
 | ICP Duty Phone | TBD | Assign before execution |
 
+## New Contacts (from CG's Intent / LTC Estes 13 APR email)
+
+| Role | Name | Contact |
+|------|------|---------|
+| Unknown (addressed alongside COL Roark) | MAJ Robert Garner | robert.garner@tnstateguard.org |
+| DIV SGM | SGM Allen Nunley | allen.nunley@tnstateguard.org |
+| Unknown (cc'd) | David Wemyss | david.wemyss@tnstateguard.org |
+| RCSM (unknown regiment) | RCSM John Barton | john.barton@tnstateguard.org |
+
 ## Open Contact-Info Items
 
 - **LTC Epright (DIV PAO)** — need phone and email.

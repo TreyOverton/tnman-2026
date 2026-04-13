@@ -12,8 +12,8 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 - **PHA currency data** — LTC Sheaf flagged this as a DIV requirement. No source in hand. Chase via S1 medical records. *Source: [Risk Assessment M-4](risk.md).*
 - **2 BN availability confirmation** — outreach email sent to CPT Borrilez 11 APR. Imported 9 personnel assumed until response is in. *Source: [Comms Log](comms.md), [Mission Roster](roster.md) 2nd Battalion note.*
 - **3 BN roster adjustments** — outreach email sent to MAJ Crosby 11 APR for confirmation of adds/removes and status on PV1 Gauthier. *Source: [Comms Log](comms.md).*
-- **PAO representative assignment** — LTC Sheaf to contact LTC Epright (DIV PAO). *Source: [Mission Roster Open Items](roster.md), [Comms Log](comms.md).*
-- **61st MED BN attachment** — 2 medics expected; no names, ranks, contact info, or written confirmation. POC at 61st MED BN is BG Cox. *Source: [Mission Roster](roster.md), [Comms Log](comms.md).*
+- **PAO representative assignment** — CG intent confirms 1 PAX PAO from DIV Staff, consolidating with TNARNG PAO. LTC Sheaf to contact LTC Epright. *Source: [CG Intent](docs/cg-intent.md), [Mission Roster](roster.md).*
+- **61st MED BN (31st MED Co) attachment** — now **3 Green/Yellow tab** medical personnel per CG intent (upgraded from 2). No names, ranks, or written confirmation. POC is BG Cox. *Source: [CG Intent](docs/cg-intent.md), [Mission Roster](roster.md).*
 
 ### Task Organization (depends on personnel)
 
@@ -49,8 +49,11 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Division / Higher HQ
 
-- **Division OPORD 26-05** — **not yet received**. We are planning from the WARNO only. Several DIV-level details remain TBD. Chase through G3 BEAVER. *Source: [Document Index](docs/README.md).*
+- **Division OPORD 26-05** — **due NLT 18 APR 1000R** per CG intent. This is the document we've been waiting for. *Source: [CG Intent](docs/cg-intent.md).*
+- **FPM Videoconference this week (14-16 APR)** — LTC Estes coordinating. All staff/CDRs invited. Confirm attendance. *Source: [CG Intent](docs/cg-intent.md).*
+- **CG + DIV staff brief on 02 MAY** — second briefing event, pre-TNMAN. *Source: [CG Intent](docs/cg-intent.md).*
 - **Contact info for LTC Epright (DIV PAO)** and **G3 BEAVER** (full name and rank). *Source: [Key Contacts](contacts.md).*
+- **Incoming LNO names** — 2 RGT (1), 4 RGT (1), DIV Staff (2). Need names, ranks, contact info. *Source: [CG Intent](docs/cg-intent.md).*
 
 ### Comms / Technology
 

@@ -19,8 +19,10 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | 10 APR 26 (102100RAPR26) | Draft RGT OPORD 26-05-01 issued (original version) | [RGT OPORD](docs/opord-rgt.md) |
 | 11 APR 26 | Mission roster outreach emails sent (MAJ Crosby for 3 BN, CPT Borrilez for 2 BN) | [Comms Log](comms.md) |
 | 13 APR 26 (131200RAPR26) | **Final coordinating draft RGT OPORD 26-05-01** — Phase I/II seam fixed, all prior typos resolved (except S4 "Tasl"), submitted to COL Roark / CSM Seals. LTC Sheaf outlines next steps: execution timeline, team composition, CG brief. | [RGT OPORD](docs/opord-rgt.md) · [Comms Log](comms.md) |
+| **14-16 APR 26** | **FPM Videoconference** — LTC Estes coordinating; Tue/Wed/Thu this week. All staff/CDRs invited. | [CG Intent](docs/cg-intent.md) |
 | **18 APR 26** | **S3 Task 2:** Provide initial TF Organization Structure estimate IAW ICS protocols | [OPORD §3 S3](docs/opord-rgt.md) |
-| **18 APR 26** | **CG operational brief** — LTC Sheaf to brief BG Stewart. Draft to G3 BEAVER as pre-read beforehand. | [Comms Log](comms.md) |
+| **18 APR 26** | **Report to DIV / CG operational brief.** DIV OPORD NLT 1000 hrs this date. LTC Sheaf to brief. | [CG Intent](docs/cg-intent.md) · [Comms Log](comms.md) |
+| **02 MAY 26** | **Brief CG and DIV staff** prior to TNMAN execution. | [CG Intent](docs/cg-intent.md) |
 | **15 APR 26 (152000RAPR26)** | **S1 Task 1/2:** Provide committed-personnel roster; coordinate personnel reporting with DIV G1 | [OPORD §3 S1](docs/opord-rgt.md) |
 | **25 APR 26** | **IDT (monthly drill)** — training and planning day; RGT WARNO 26-04 covers this. Not part of TNMAN exercise, but relevant for face-to-face TNMAN coordination. | [Comms Log](comms.md) |
 | **30 APR 26 (302000RAPR26)** | **S1 Task 3:** Issue Regimental Orders to participating personnel (enables civilian-employment coordination for 13-15 MAY) | [OPORD §3 S1](docs/opord-rgt.md) |
@@ -75,7 +77,9 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 - [x] WARNO issued (11 FEB 26)
 - [x] Final Planning Meeting (26-27 MAR 26)
 - [x] Draft OPORD issued (10 APR 26)
-- [ ] CG operational brief (18 APR 26) — draft to G3 as pre-read before
+- [ ] FPM Videoconference (14-16 APR 26) — this week
+- [ ] Report to DIV / CG brief (18 APR 26) — DIV OPORD due NLT 1000 same day
+- [ ] CG + DIV staff brief (02 MAY 26)
 - [ ] S3 TF organization estimate (due 18 APR 26)
 - [ ] S1 mission roster locked (due 15 APR 26)
 - [ ] IDT 25 APR 26 — face-to-face TNMAN coordination opportunity

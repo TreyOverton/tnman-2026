@@ -39,7 +39,7 @@ graph TD
 | Role | Proposed | Notes |
 |------|----------|-------|
 | **Public Information Office (PAO)** | **TBD** — pending assignment via LTC Epright (DIV PAO) | Open item on the [Mission Roster](roster.md). No 3 RGT personnel currently fills this slot. |
-| **Liaison Officer (LNO)** | **TBD — LTC Smith or TF XO recommended** | LTC Smith (RGT XO) has the seniority and breadth of contacts to coordinate across TNNG, TEMA, HAAP, and supporting agencies. Alternative: one of the BN XOs (2LT Sobel, 1LT Riley, CPT Widner) if LTC Smith is needed elsewhere. |
+| **Liaison Officer (LNO)** | **TBD — LTC Smith or TF XO recommended** | LTC Smith (RGT XO) has the seniority and breadth of contacts to coordinate across TNNG, TEMA, HAAP, and supporting agencies. Alternative: one of the BN XOs. **Note:** CG intent also assigns 2 RGT LNO, 4 RGT LNO, and 2 DIV LNOs to 3 RGT TF — coordinate with incoming LNOs. |
 | **Safety Officer** | **TBD — designation required** | No current 3 RGT Safety Officer on the mission roster. Must be designated before execution (also a [DD 2977](docs/dd2977.md) dependency). LTC Sheaf to assign. Recommend an MRC-1 officer with prior safety experience. |
 
 ## Operations Section (S3)
@@ -74,14 +74,19 @@ graph TD
 |------|----------|-------|
 | **Support Section Chief** | **TBD** | No dedicated RGT S4 officer on the roster. 3 BN has **2LT Garrison (BN S4)** and 4 BN has **2LT Neisler (BN S4, MRC-4 — verify)**. One of the BN S4s is likely dual-hatted as the task force S4 at ICP. LTC Sheaf to designate. |
 | **Communications Unit (S6)** | **Unit Leader: CSM Rutherford (new 3 RGT S6 NCO)**<br>**3 BN S6: SSG Singh**<br>**3 BN S6 C&E Officer: CPT Moore (MRC-4 — verify)** | CSM Rutherford is the RGT S6 per LTC Smith's 2 APR email. SSG Singh moved from HHC to 3 BN as S6. Communication plan status is blocked on unresolved TACN radios, ATAK training, and Starlink — see [G6 Questions email](comms.md). |
-| **Medical Unit** | **2 Medics attached from 61st MED BN — names TBD** | Pending written confirmation of the attachment. 61st MED BN CO is BG Cox. No 3 RGT organic medical personnel on this mission. |
+| **Medical Unit** | **3 Green/Yellow tab medics attached from 61st MED BN (31st MED Co) — names TBD** | Per CG intent. Upgraded from 2 to 3. 61st MED BN CO is BG Cox. No 3 RGT organic medical personnel. |
 
 ## Attached Forces
 
 | Unit | Role | Status |
 |------|------|--------|
-| 61st MED BN | 2 Medics | Verbal only; no names / ranks / MRC |
-| DIV PAO | PAO Representative | Pending assignment via LTC Epright |
+| 61st MED BN (31st MED Co) | 3 Medics (Green/Yellow tab) | Per CG intent; no names / ranks / MRC yet |
+| 2 RGT | 1 LNO to ICP | Per CG enabling task; name TBD |
+| 4 RGT | 1 LNO to ICP | Per CG enabling task; name TBD |
+| DIV Staff | 2 LNOs to 3 RGT TF | Per CG enabling task; names TBD |
+| DIV PAO | 1 PAO rep | Per CG enabling task; consolidates with TNARNG PAO |
+| DIV Staff | On-site Mob Cell | Individual Orders Production |
+| 1 RGT | 6 OPFOR at Holston | 13-15 MAY; not under 3 RGT C2 but on-site |
 
 ## Dependencies for Final Task Organization
 

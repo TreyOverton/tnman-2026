@@ -20,7 +20,12 @@ Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — name
 
 | Unit | Count | Role | Status |
 |------|------:|------|--------|
-| 61st MED BN | 2 | Medics | Verbal/off-hand originally said "911th"; confirmed as **61st MED BN** per DIV WARNO tasking — no names, ranks, or written confirmation yet |
+| 61st MED BN (31st MED Co) | **3** | Medics (Green/Yellow tab) | Per CG intent ([CG Intent](docs/cg-intent.md)) — upgraded from 2 to 3 per LTC Estes 13 APR email. Names, ranks, MRC still TBD. |
+| 2 RGT | 1 | LNO to 3 RGT ICP | Per CG enabling task. Name TBD. |
+| 4 RGT | 1 | LNO to 3 RGT ICP | Per CG enabling task. Name TBD. |
+| DIV Staff | 2 | LNOs to 3 RGT TF | Per CG enabling task. Names TBD. |
+| DIV PAO | 1 | PAO rep | Per CG enabling task. Name TBD. Consolidates with TNARNG PAO. |
+| 1 RGT | 6 | OPFOR at Holston | 13-15 MAY. POC Mr. Tony Armstrong. Names TBD. |
 
 Not counted in the totals above until confirmed. See Open Items.
 
@@ -91,7 +96,9 @@ Not counted in the totals above until confirmed. See Open Items.
 
 - **PAO assignment** — 3 RGT wants a PAO representative for TNMAN-26. LTC Sheaf plans to contact **LTC Daniel Epright (Division PAO)** as the POC to work out how the assignment is made. No name or contact info for the assigned PAO yet.
 - **3 BN CSM vacancy** — CSM Rutherford moved to Regimental HQ as S6 NCO (confirmed by LTC Smith, 2 APR 26). 3 BN currently has no Command Sergeant Major on the mission roster — confirm with MAJ Crosby whether an interim is identified.
-- **61st MED BN attachment** — two medics expected per verbal, off-hand guidance (the verbal mention said "911th" but the unit is **61st MED BN** per the DIV WARNO). No names, ranks, contact info, or written confirmation yet. Need to chase down the POC at 61st MED BN (CO is BG Cox) and get a written attachment order or at minimum a named pair with MRC status.
+- **61st MED BN (31st MED Co) attachment** — now **3 Green/Yellow tab medical personnel** per CG intent (upgraded from 2). No names, ranks, or written confirmation yet. POC is BG Cox (61st MED BN CO).
+- **Incoming LNOs** — 2 RGT (1), 4 RGT (1), DIV Staff (2) per CG enabling tasks. Names TBD.
+- **1 RGT OPFOR** — 6 PAX at Holston, 13-15 MAY. Not on our roster but will be on-site; coordinate through HAAP POC Mr. Tony Armstrong.
 - **2/3 availability** — 2BN roster imported from the [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point. LTC Sheaf is unsure of 2/3 posture; follow-up pending with 2BN leadership (CPT Borrilez).
 - **PHA tracking** — Sheaf asked whether most-recent PHA dates could be included. PHA data is not in the alert rosters. Need a data source (S1 medical records?) — deferred pending confirmation from CPT Meager's replacement.
 - **Departures** — CPT Meager (HHC, moved to Texas), CPT Sutton and CW2 Hickman (HHC, now IRR), 2LT Zeinali and PV2 Crosby Caleb (3/3, inactive 2+ years), PV2 Danger (3/3, now IRR/PFC), PV1 Tobin (3/3, IRR or out), **SSG Burns (2 BN, discharged per CPT Borrilez 11 APR)**, MSG Klaus (2 BN, discharged — was never on mission roster). Removed from roster.

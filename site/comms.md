@@ -6,6 +6,26 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-13 — LTC Sheaf fwd LTC Estes → COL Roark / MAJ Garner (email, FPM Videoconference + CG's Intent)
+
+LTC Sheaf forwarded an email from **LTC Estes (2 RGT CO)** containing the CG's intent for TNMAN and detailed task assignments from the 31 MAR TNMAN Videoconference. LTC Estes spoke with BG Cox on 13 APR and received guidance. LTC Sheaf marked this "information only" and requested it be added to the planning app.
+
+**Major new information — see full reference: [CG's Intent for TNMAN 26](docs/cg-intent.md)**
+
+Key items affecting 3 RGT planning:
+
+1. **DIV OPORD due NLT 18 APR 1000R** — the document we've been waiting for has a deadline now.
+2. **FPM Videoconference this week (14-16 APR)** — LTC Estes requesting availability Tue/Wed/Thu.
+3. **CG + DIV staff brief 02 MAY** — second briefing beyond the 18 APR report.
+4. **61st MED BN providing 3 medical personnel (not 2)** from 31st MED Co, Green/Yellow tab.
+5. **2 RGT and 4 RGT each providing 1 LNO** to 3 RGT ICP.
+6. **DIV Staff providing 2 LNOs to 3 RGT TF**, plus PAO (1 pax), Mob Cell, Class I supply, and legal review (RUF + UAS policy).
+7. **1 RGT providing 6 PAX OPFOR at Holston, 13-15 MAY.**
+8. **Daily COMMEX** (HF/TACN) 1 per day, 13-15 May.
+9. **ICP location**: CG says "Kingsport Readiness Center" vs OPORD "US Army Reserve Center, Mt Carmel" — likely same facility; confirm.
+
+Source: [TNMAN26-FPM-Videoconference.eml](/docs/source/emails/TNMAN26-FPM-Videoconference.eml)
+
 ### 2026-04-13 — LTC Sheaf → 1LT Overton (email, TNMAN-26 Next Steps + final OPORD draft)
 
 LTC Sheaf sent an updated OPORD draft (dtd 131200RAPR26) and outlined three near-term action items.
