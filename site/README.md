@@ -28,8 +28,8 @@ Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field 
 ### Phases
 
 1. **Phase I — Planning and Coordination** — began with receipt of WO 1 on 11 FEB 26 ([RGT WARNO 26-05-01](docs/warno.md)). Consists of planning, interagency coordination, and notifications. Ends when authorized taskings arrive NLT 120800RMAY26.
-2. **Phase II — Training Execution** — 12-13 MAY 26. Alert, mobilize, and assemble at the ICP / RSA NLT 130519RMAY26 (BMNT). Ends NLT 132131RMAY26 (EENT) with notification to demobilize.
-3. **Phase III — Recovery and AAR** — begins NET 132131RMAY26. Initial actions complete approx. +24 hrs (NLT 142131RMAY26); administrative close-out may extend approx. 90 days (approx. 10 AUG 26).
+2. **Phase II — Training Execution** — 12-14 MAY 26. Alert, mobilize, and assemble at the ICP / RSA NLT 130519RMAY26 (BMNT). Ends NLT 142131RMAY26 (EENT) with notification to demobilize.
+3. **Phase III — Recovery and AAR** — begins NET 142131RMAY26 (includes 15 MAY half-day/AAR). Initial actions complete approx. +24 hrs (NLT 152131RMAY26); administrative close-out may extend approx. 90 days (approx. 10 AUG 26).
 
 ## Quick Status
 
@@ -49,7 +49,7 @@ Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field 
 | WARNO 26-05-01 issued | 11 FEB 26 | [Source](docs/warno.md) |
 | TNSG prep videoconference | 19 MAR 26 | Pre-FPM coordination |
 | TNMAN Final Planning Meeting | 26-27 MAR 26 | Sidco — [Slides](docs/fpm-slides.md) |
-| Draft RGT OPORD 26-05-01 | 10 APR 26 | [Source](docs/opord-rgt.md) |
+| Revised draft RGT OPORD 26-05-01 | 13 APR 26 | [Source](docs/opord-rgt.md) |
 | S1 mission roster due | 15 APR 26 | (152000RAPR26) — provide committed personnel roster |
 | Final MSEL Review (DIV) | 30 APR 26 | |
 | RGT Orders / convoy brief / TPFDD / SOI | 30 APR 26 | (302100RAPR26) — multiple S3 / S6 deadlines |
@@ -60,8 +60,9 @@ Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field 
 | ADVON / ICP established | 13 MAY 26 | Per storyboard |
 | Main day | 14 MAY 26 | Per storyboard — D+3 in division scenario (cyber + kinetic attack) |
 | Half day + local AAR | 15 MAY 26 | Per storyboard — D+4 comms blackout in division scenario |
-| ENDEX / demob NLT | 13 MAY 26 | (132131RMAY26 EENT) — see OPORD for Phase II end |
-| Phase III initial actions complete | 14 MAY 26 | (142131RMAY26) |
+| S3 TF org estimate due | 18 APR 26 | S3 Task 2 — ICS-structured task org estimate |
+| ENDEX / demob NLT | 14 MAY 26 | (142131RMAY26 EENT) — 15 MAY half-day/AAR is Phase III |
+| Phase III initial actions complete | 15 MAY 26 | (152131RMAY26) |
 | Phase III admin close-out | approx. 10 AUG 26 | +90 days from ENDEX |
 
 ## Quick Links

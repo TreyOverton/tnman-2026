@@ -1,13 +1,17 @@
-# RGT OPORD 26-05-01 (Draft)
+# RGT OPORD 26-05-01 (Draft — Revised)
 
-> **Source file:** [RO-26-05-01.docx](/docs/source/RO-26-05-01.docx) — authoritative version. This page is a Markdown transcription for in-site reading.
+> **Source files:**
+> - [RO-26-05-01.docx](/docs/source/RO-26-05-01.docx) — original version
+> - [RO-26-05-01-revised.docx](/docs/source/RO-26-05-01-revised.docx) — revised version (authoritative)
+>
+> This page is a Markdown transcription for in-site reading.
 >
 > **Status:** Draft, pre-release. Edits and changes to previously assigned tasks or narrative remain in effect until edited, changed, or completed.
 
 COPY ___ OF ___
 3 RGT, TNSG
 Greenville, TN
-102100RAPR26
+132100RAPR26
 
 ## Summary
 
@@ -18,6 +22,7 @@ Greenville, TN
 - WO 1 to DIV OPORD 26-05 (TNMAN 26)
 - BG Stewart email, 30 MAR 2026, 2:32 PM
 - RGT WARNO 26-05-01 TNMAN-26, dtd 112100RFEB26
+- TNNG Letter of Instruction, dtd 11 DEC 24
 
 **Time Zone:** ROMEO
 
@@ -31,7 +36,7 @@ The states comprising FEMA Region 4 (AL, FL, GA, KY, MS, NC, SC, TN); VA; AR; MO
 
 ### Area of Operations
 
-The 26 counties that comprise TEMA East Region; Volunteer Training Site – Tullahoma (VTS-T); Volunteer Training Site – Smyrna (VTS-S); Volunteer Training Site – Milan (VTS-M); and Home Station / Drill Locations.
+The 26 counties that comprise TEMA East Region and Home Station / Drill Locations.
 
 ### Holston Army Ammunition Plant (HAAP)
 
@@ -91,13 +96,13 @@ Begins with the receipt of tasking from authorized unit and agency representativ
 
 **3 MP BN** is the Focus of Main Effort (FOME) for this phase, supported by 2 MP BN, 4 MP BN, HHC 3 RGT, and other supporting agencies and units. **3 MP BN** has the Priority of Support (POS), followed by HHC 3 RGT, 2 MP BN, and 4 MP BN respectively. FOME and POS remain in effect until changed as necessary and directed by the CDR / ICP.
 
-Phase ends with notification to end the exercise (ENDEX) and to demobilize the assembled TNSG personnel, resources, and capabilities NLT 132131RMAY26 (EENT).
+Phase ends with notification to end the exercise (ENDEX) and to demobilize the assembled TNSG personnel, resources, and capabilities NLT 142131RMAY26 (EENT).
 
 #### Phase III — Recovery and AAR
 
-Begins NET 132131RMAY26 (end of Phase II). Consists of actions required to safely, efficiently, and effectively return TNSG personnel, resources, and capabilities to respective Home of Record, Home Station, and assigned units, and to a state of preparedness / readiness to respond to contingency / emergency events (if needed). Includes post-exercise activities such as Hot Wash, After Action Review and Reporting, and Corrective Action Planning and Programming in preparation for the next training event.
+Begins NET 142131RMAY26 (end of Phase II). Consists of actions required to safely, efficiently, and effectively return TNSG personnel, resources, and capabilities to respective Home of Record, Home Station, and assigned units, and to a state of preparedness / readiness to respond to contingency / emergency events (if needed). Includes post-exercise activities such as Hot Wash, After Action Review and Reporting, and Corrective Action Planning and Programming in preparation for the next training event.
 
-Initial actions during this phase will most likely be completed within approx. +24 Hrs of ENDEX (NLT 142131RMAY26); post-training administrative actions may potentially be completed +90 Days of ENDEX (approx. 10 AUG 26).
+Initial actions during this phase will most likely be completed within approx. +24 Hrs of ENDEX (NLT 152131RMAY26); post-training administrative actions may potentially be completed +90 Days of ENDEX (approx. 10 AUG 26).
 
 ### Tasks to Subordinate Units
 
@@ -130,7 +135,7 @@ Initial actions during this phase will most likely be completed within approx. +
 
 1. **Task 1:** Provide a roster of personnel committed to training in TNMAN-26 IOT facilitate Troop-to-Task organization, staffing, and MET mission sets, NLT 152000RAPR26.
 2. **Task 2:** Coordinate personnel reporting requirements with DIV G1 to support TNMAN-26 NLT 152000RAPR26.
-3. **Task 3:** Provide Regimental Orders to personnel participating in TNMAN-26 to respective subordinate units NLT 302000RAPR26 IOT enable employees to coordinate absence from employment prior to the order period (13-15 MAY 26).
+3. **Task 3:** Provide Regimental Orders to personnel participating in TNMAN-26 to respective subordinate units NLT 302000RAPR26 IOT enable employees to coordinate absence from employment prior to the order period (13-15 MAY 26). *(Editor's note: "ca" appears in source — likely a typo; context suggests "ca." abbreviation for "circa" or a partial word; verify with originator.)*
 4. **Task 4:** During TNMAN-26, track personnel names and attendance location and provide daily updates to CDR and S3 during scheduled reporting periods and as needed IOT facilitate situational awareness and support incident planning.
 5. **Task 5:** BPT account for attachment of personnel from adjacent and higher units NET 120800RMAY26 IOT provide resources and capabilities for enhanced response during TNMAN-26.
 
@@ -141,15 +146,17 @@ Initial actions during this phase will most likely be completed within approx. +
 #### S3
 
 1. **Task 1:** During TNMAN-26, BPT coordinate with external agency partners for operational support and training, to include but not limited to TEMA / TNNG.
-2. **Task 2:** Provide initial estimate of Task Force Organization Structure IAW ICS protocols IOT facilitate troop-to-task planning and coordination.
-3. **Task 3:** Contact and coordinate with Mr. Tony Armstrong, HAAP POC, at 423-341-5840 IOT coordinate TNSG exercise participation.
-4. **Task 4:** Contact and coordinate with MAJ Trinity Callison, TNNG DJ3/5/7, exercise planner IOT coordinate TNSG exercise participation.
-5. **Task 5:** Prepare a list of personnel, resources, and capabilities required to perform the assigned mission during TNMAN-26 (12-17 MAY 26) IOT request support from DIV and adjacent units.
-6. **Task 6:** Prepare a Time Phased Force Deployment Data (TPFDD) as a planning tool used to organize, synchronize, and execute deployment / redeployment of TNSG personnel, resources, and capabilities to/from the RSA NLT 302100RAPR26.
+2. **Task 2:** Provide initial estimate of Task Force Organization Structure IAW ICS protocols IOT facilitate troop-to-task planning and coordination **NLT 18 APR 26**.
+3. **Task 3:** ICW S4, BPT receive medical augmentation from 61st MED BN, TNSG, to facilitate on-site medical support NLT 130800RMAY26. *(Editor's note: source document reads "130800RAPR26" — corrected to MAY per context; 13 MAY is ADVON day. Verify with LTC Sheaf.)*
+4. **Task 4:** Contact and coordinate with Mr. Tony Armstrong, HAAP POC, at 423-341-5840 IOT coordinate TNSG exercise participation.
+5. **Task 5:** Contact and coordinate with MAJ Trinity Callison, TNNG DJ3/5/7, exercise planner IOT coordinate TNSG exercise participation.
+6. **Task 6:** Prepare a list of personnel, resources, and capabilities required to perform the assigned mission during TNMAN-26 (12-17 MAY 26) IOT request support from DIV and adjacent units.
+7. **Task 7:** Prepare a Time Phased Force Deployment Data (TPFDD) as a planning tool used to organize, synchronize, and execute deployment / redeployment of TNSG personnel, resources, and capabilities to/from the RSA NLT 302100RAPR26.
 
 #### S4
 
-1. During TNMAN-26, BPT establish a feeding, billeting, and transportation plan ICW DIV MOB Cell, DIV G4, and supporting agencies to include but not limited to TEMA / TNNG.
+1. **Task 1:** During TNMAN-26, BPT establish a feeding, billeting, and transportation plan ICW DIV MOB Cell, DIV G4, and supporting agencies to include but not limited to TEMA / TNNG.
+2. **Task 2:** ICW S3, BPT receive medical augmentation from 61st MED BN, TNSG, to facilitate on-site medical support NLT 130800RMAY26. *(Editor's note: source document reads "130800RAPR26" — corrected to MAY per context; 13 MAY is ADVON day. Verify with LTC Sheaf.)*
 
 #### S6
 

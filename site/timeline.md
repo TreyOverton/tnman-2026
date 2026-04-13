@@ -16,8 +16,10 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | 30 MAR 26 | BG Stewart email (OPORD reference) | [OPORD](docs/opord-rgt.md) |
 | 2 APR 26 | LTC Smith G6 Questions email — TACN radios (4 required), ATAK training, Starlink at ICP; confirms **CSM Rutherford is the new 3 RGT S6** | [Comms Log](comms.md) |
 | 7 APR 26 | LTC Sheaf → S1: initial 4/3 personnel nominations for TNMAN; HHC and 3/3 offered in full; 2/3 unknown | [Comms Log](comms.md) |
-| 10 APR 26 (102100RAPR26) | **Draft RGT OPORD 26-05-01 issued** | [RGT OPORD](docs/opord-rgt.md) |
+| 10 APR 26 (102100RAPR26) | Draft RGT OPORD 26-05-01 issued (original version) | [RGT OPORD](docs/opord-rgt.md) |
 | 11 APR 26 | Mission roster outreach emails sent (MAJ Crosby for 3 BN, CPT Borrilez for 2 BN) | [Comms Log](comms.md) |
+| 13 APR 26 (132100RAPR26) | **Revised coordinating draft RGT OPORD 26-05-01** — Phase II ENDEX fixed (142131RMAY26), AO scoped, TNNG LOI cited, 61st MED tasks added, S3 Task 2 deadline set | [RGT OPORD](docs/opord-rgt.md) · [Comms Log](comms.md) |
+| **18 APR 26** | **S3 Task 2:** Provide initial TF Organization Structure estimate IAW ICS protocols | [OPORD §3 S3](docs/opord-rgt.md) |
 | **15 APR 26 (152000RAPR26)** | **S1 Task 1/2:** Provide committed-personnel roster; coordinate personnel reporting with DIV G1 | [OPORD §3 S1](docs/opord-rgt.md) |
 | **30 APR 26 (302000RAPR26)** | **S1 Task 3:** Issue Regimental Orders to participating personnel (enables civilian-employment coordination for 13-15 MAY) | [OPORD §3 S1](docs/opord-rgt.md) |
 | **30 APR 26 (302000RAPR26)** | **S6 Task 1/2:** Receive SOI with callsigns; publish Signal Annex with HF/VHF frequencies | [OPORD §3 S6](docs/opord-rgt.md) |
@@ -43,7 +45,7 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 |------|-------|--------|
 | 13 MAY 26 (D+2, WED) | **ADVON / Establish ICP** at US Army Reserve Center, Mt Carmel. JBAT TTX (location TBD) | [Encl A Storyboard](docs/opord-encl-a.md), [FPM](docs/fpm-slides.md) |
 | **13 MAY 26 (130519RMAY26 BMNT)** | **NLT:** All TNSG personnel, resources, and capabilities assembled at ICP / RSA | [OPORD §3](docs/opord-rgt.md) |
-| **13 MAY 26 (132131RMAY26 EENT)** | **NLT ENDEX** — Phase II notification to demobilize | [OPORD §3](docs/opord-rgt.md) |
+| **14 MAY 26 (142131RMAY26 EENT)** | **NLT ENDEX** — Phase II notification to demobilize. 15 MAY half-day/AAR is Phase III. | [OPORD §3](docs/opord-rgt.md) |
 | 14 MAY 26 (D+3, THU) | **Main day.** Scenario: simultaneous **kinetic attack on Holston AAP** + **cyber attack on ORNL Eagle-I**. TNNG focuses on HD while TEMA fills capability gaps. Holston requires security D+3 through D+5. JBAT request for I-40 Caney Fork bridge assessments D+3 through D+4. Air NG EOC activations D+3 through D+5 | [Encl A](docs/opord-encl-a.md), [FPM](docs/fpm-slides.md), [Cyber WG](docs/cyber-wg.md) |
 | 15 MAY 26 (D+4, FRI) | **Half day + local AAR.** Scenario: **comms blackout** — JFHQ exercises PACE / Emergency Communications Plan | [Encl A](docs/opord-encl-a.md), [FPM](docs/fpm-slides.md) |
 | 16 MAY 26 (D+5, SAT) | Continuing security; EMAC engineer JTF continues; AAR prep | [FPM](docs/fpm-slides.md) |
@@ -53,8 +55,8 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 
 | Date | Event | Source |
 |------|-------|--------|
-| 13 MAY 26 (NET 132131RMAY26) | **Phase III begins** — safe return of personnel and capabilities to Home of Record, Home Station, and ready state | [OPORD §3](docs/opord-rgt.md) |
-| 14 MAY 26 (approx. +24 hrs, NLT 142131RMAY26) | Initial Phase III actions complete | [OPORD §3](docs/opord-rgt.md) |
+| 14 MAY 26 (NET 142131RMAY26) | **Phase III begins** — includes 15 MAY half-day/AAR plus safe return of personnel and capabilities to Home of Record, Home Station, and ready state | [OPORD §3](docs/opord-rgt.md) |
+| 15 MAY 26 (NLT 152131RMAY26) | Initial Phase III actions complete (approx. +24 hrs from ENDEX) | [OPORD §3](docs/opord-rgt.md) |
 | 10 AUG 26 (approx. +90 days) | Administrative close-out / Hot Wash / AAR reporting / Corrective Action Planning | [OPORD §3](docs/opord-rgt.md) |
 
 ## Outstanding Date-Dependent Open Items
@@ -70,6 +72,7 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 - [x] WARNO issued (11 FEB 26)
 - [x] Final Planning Meeting (26-27 MAR 26)
 - [x] Draft OPORD issued (10 APR 26)
+- [ ] S3 TF organization estimate (due 18 APR 26)
 - [ ] S1 mission roster locked (due 15 APR 26)
 - [ ] Orders issued to personnel (due 30 APR 26)
 - [ ] TPFDD published (due 30 APR 26)
@@ -87,11 +90,11 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 
 - [ ] ADVON / ICP established (13 MAY 26)
 - [ ] Key checkpoints reached (HAAP kinetic, ORNL cyber, comms blackout)
-- [ ] ENDEX (13 MAY 26 2131R)
+- [ ] ENDEX (14 MAY 26 2131R)
 
 ### Recovery Phase
 
-- [ ] Personnel accounted for (14 MAY 26)
+- [ ] Personnel accounted for (15 MAY 26)
 - [ ] Equipment recovered
 - [ ] Hot Wash / local AAR conducted
 - [ ] DIV AAR reporting complete

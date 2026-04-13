@@ -6,6 +6,25 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-13 — LTC Sheaf → 1LT Overton (email, revised draft RGT OPORD 26-05-01)
+
+LTC Sheaf sent a revised coordinating draft of [RGT OPORD 26-05-01](docs/opord-rgt.md) (now dtd 132100RAPR26). LTC Sheaf made the following changes in response to the [Orders Consistency Review](warno-opord-review.md):
+
+1. **Phase II ENDEX revised** — moved from 132131RMAY26 to **142131RMAY26** (Phase II now ends 14 MAY evening; 15 MAY half-day/AAR falls into Phase III). LTC Sheaf confirmed the main execution day is 14 MAY, with exercise support actions occurring 12-15 MAY.
+2. **MOB Cell task intentionally omitted** — LTC Sheaf clarifies this is a DIV G1 task, not an RGT S1 task. 3 RGT will NOT provide personnel to the DIV MOB Cell at Sidco.
+3. **61st MED BN attachment tasks added** — New S3 Task 3 and S4 Task 2 added for coordinating receipt of 61st MED BN medical augmentation ICW S3/S4.
+4. **AO scoped down** — VTS-T, VTS-S, VTS-M dropped from the AO description. AO now reads "TEMA East Region and Home Station / Drill Locations."
+5. **TNNG LOI cited** — added to references as "TNNG Letter of Instruction, dtd 11 DEC 24." LTC Sheaf has requested a copy from MAJ Callison.
+6. **S3 Task 2 deadline** — Task Force Organization estimate now due **NLT 18 APR 26**.
+
+**Potential issues noted in the revised draft:**
+
+- S3 Task 3 and S4 Task 2 date reads "130800R**APR**26" — likely should be "130800R**MAY**26" (13 MAY is ADVON day; 13 APR is today and already past).
+- S1 Task 3 has a trailing "ca" typo at end of sentence.
+- S3 task numbering has two "3." entries (should be "3." then "4." etc.).
+
+Source: [Initial-Coordinating-Draft-RGT-OPORD-26-05-01.eml](/docs/source/emails/Initial-Coordinating-Draft-RGT-OPORD-26-05-01.eml) · [RO-26-05-01-revised.docx](/docs/source/RO-26-05-01-revised.docx)
+
 ### 2026-04-11 — CG standing policy: dawn-to-dusk + RON at home
 
 Capturing a previously-issued CG direction so we do not lose track of it in planning:

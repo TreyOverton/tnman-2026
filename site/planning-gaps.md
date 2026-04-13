@@ -28,12 +28,16 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Orders and Deadlines (OPORD-driven)
 
-- **RGT OPORD 26-05-01 corrections** — LTC Sheaf owns. Open items from the [Orders Consistency Review](warno-opord-review.md):
-    - **Phase II ENDEX** — currently 132131RMAY26 (13 MAY night). Should be 152131RMAY26 or 172131RMAY26. (High priority — current OPORD has 3 RGT demobilizing before main execution days.)
-    - **Mission date range** — 12-17 MAY 26 vs DIV 13-17 MAY 26.
-    - **Sidco MOB Cell task** — dropped in the OPORD draft; must be restored to S1 tasks.
-    - **61st MED BN attachment** — missing from OPORD Task Organization and coordination tasks.
-    - **RGT AO scope** — drop VTS-T/S/M boilerplate.
+- **RGT OPORD 26-05-01 minor typos** — LTC Sheaf revised the OPORD on 13 APR 26, resolving 5 of 6 original items from the [Orders Consistency Review](warno-opord-review.md). Remaining cleanup:
+    - S3 Task 3 / S4 Task 2: "130800R**APR**26" → likely "130800R**MAY**26" (verify with LTC Sheaf)
+    - S1 Task 3: trailing "ca" typo
+    - S3 task numbering: two items numbered "3." in source
+    - ~~Phase II ENDEX~~ — **RESOLVED** (142131RMAY26)
+    - ~~MOB Cell~~ — **RESOLVED** (intentionally omitted — DIV G1 task)
+    - ~~61st MED attachment~~ — **RESOLVED** (S3 Task 3 + S4 Task 2 added)
+    - ~~AO scope~~ — **RESOLVED** (VTS sites dropped)
+    - ~~TNNG LOI~~ — **RESOLVED** (cited)
+- **S3 Task 2 — TF Organization estimate** — **NLT 18 APR 26** (new deadline in revised OPORD). Current [Task Organization](taskorg.md) is a draft with 12 dependencies. This is 5 days away.
 - **S1 Task 1 — Mission roster locked** — NLT 152000RAPR26 (15 APR 26). Currently a draft with open 2/3 response, MRC-4 unknowns, PAO and 61st MED attachment TBD.
 - **S1 Task 3 — RGT Orders issued** — NLT 302000RAPR26 (30 APR 26). Depends on personnel roster lock.
 - **S6 — SOI and Signal Annex** — NLT 302000RAPR26. Blocked on unresolved TACN radios, ATAK training, and Starlink (see [G6 Questions email](comms.md)).

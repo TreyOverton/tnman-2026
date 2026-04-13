@@ -1,0 +1,164 @@
+Delivered-To: aaron.overton@tnstateguard.org
+Received: by 2002:a05:7022:1081:b0:12c:43be:2420 with SMTP id ep1csp729289dlb;
+        Sun, 12 Apr 2026 15:03:44 -0700 (PDT)
+X-Received: by 2002:a05:6402:3051:10b0:670:8b30:a6cc with SMTP id 4fb4d7f45d1cf-6708b30a7c1mr3807905a12.26.1776031424737;
+        Sun, 12 Apr 2026 15:03:44 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1776031424; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=WxE5ivAqboO4kQUxQkXYFCB7w5z3H8Zg6DkNNlUR30woraakaWQsfw3MjuuIDqVaPm
+         rqJ10mZ2/OpiY7XF8zHleyMOT/9x/OGavfs2wFWS7we1PbktMhEaCkcI2zwwou8Y/y7a
+         5Eck9Jd4dG8WlRqstm2EgYSD1g3GhgDZAh/Xb4WHs/0e81RzwEhhvQgjxucok+24lchC
+         TgjK/4Gw8ZOhZAwNA6avlAqjb74uTzptI1MWY9znWkGIO2+9iZMyQM8OtITqiYFYVASz
+         oWiR6mzSmRnpBi6HXKkJpfCEgzA9p3OOuTBiCthmu6RaI/tTI+xmTLMb4EYr/kfPQNX5
+         aOrg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=NIOs38WyHSCJMYHFIWypONu8qvWZD8fTf+m8cgRiH6s=;
+        fh=FR0G+kB/07R7T4fQzxLBArD1g9i7/GG+OeyaHGeRQVA=;
+        b=MIF2js6f12vwzamin5DLCWnbuzeABYmFu3X/+dih55ak6ebCrheYneHggy3EyOukpg
+         prDK3Y/BWBc7YpLcE48uODDq3PUJ5EoXNN4SmM31xLOJbt4kZpv+9A09bVPK4paGztpv
+         MslZ5yqYLlWOAaL5FXHVBTcjIyVUEQHX+9/JDq0vp7k5GEGvxCC1m66mI816lw+nmkgM
+         THjxSM6k0WycuRNTroaOQtXtSEp8fB15NQMtkYWG07jQLXKzAJbgnhFZfwgFUkCizB8v
+         4Ip2SVsn3Ko5ufSRl4B0/3D9W3MB+S3WGmzV7ne0kjgamtw9YS4Jm0/D+G/MS7ei0LSV
+         MkcA==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=NFJEtco8;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=john.sheaf@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+Return-Path: <john.sheaf@tnstateguard.org>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 4fb4d7f45d1cf-6707060b473sor1044867a12.8.2026.04.12.15.03.44
+        for <aaron.overton@tnstateguard.org>
+        (Google Transport Security);
+        Sun, 12 Apr 2026 15:03:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=NFJEtco8;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=john.sheaf@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+ARC-Seal: i=1; a=rsa-sha256; t=1776031423; cv=none;
+        d=google.com; s=arc-20240605;
+        b=DBip/HXRrpbtCOzcSTyWP9Ulf/G0Xvi/G5IHhFgJRyxKkJQyvDtbld3p+bnFWTpSTl
+         jEzsGNq2khlrfO3c0Efgo01Nnr+Myi9KCDBpe7hteW81br9pBQXw+Wg+toFMYdijT1N0
+         OsLIeM7x/C5WIUZa/HjzlNGNv0qoYo5bqQsuFq3BG8oRXQkGjlpPtf+e0GpP0WArNAJW
+         tprj/sj5m/LjA6wD8+uUn3HnYvqL+6vz/y9ETQoQMlT9OMyaAFUWge6jy/wcWXH/T/Mv
+         34uhqaiJjh16lKEEM8FsfOP2LMqbYGbh4tF3KEKK6DikcmlEHHUlHHcJQR9BGlHczC4+
+         T0KQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=NIOs38WyHSCJMYHFIWypONu8qvWZD8fTf+m8cgRiH6s=;
+        fh=FR0G+kB/07R7T4fQzxLBArD1g9i7/GG+OeyaHGeRQVA=;
+        b=A7eYsDnQDQww61li4FOenaqMn9nx+qSEDzRe/O+oS+HoJqFqRHz2lIKYmmFdEejRNl
+         7EoapR7uIihpFVXarPQqaSlxCa4PaxHTHWZyACJN1Gc/ODlKmJwdCAHhRtTVf5DkKh7P
+         wWL6MpKI7PHXPbvDJIx5oE92qlVwlMfTIJPoG1vn1bogU/z5masLGvxEiuBCoQLIn4Su
+         m2Ei4wdVjI3W30lvHP2zIC1YSKkSR6E+5tO+52fBCcpCgHTNKAodQ72xPVycj2CBvOV4
+         98yGSof6INkrVQl9xYXYmOPPXUCguTb3uut+/OoDp69NTX/YDdkSpwk3dxYj7rZbISAv
+         uGVw==;
+        darn=tnstateguard.org
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tnstateguard-org.20251104.gappssmtp.com; s=20251104; t=1776031423; x=1776636223; darn=tnstateguard.org;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=NIOs38WyHSCJMYHFIWypONu8qvWZD8fTf+m8cgRiH6s=;
+        b=NFJEtco8UO6TTnB1yQiqyTY8CcxcHRCKZN0kRNUu+ix2bUiPN0NHUEDFqQ0Z8mjN3g
+         FqlBMYNUporiTeclBtioqzAz84jw7MrtYHI+/oJTbrPDmTJPTgRV7zR9MqyNRWheRbLu
+         cgJxht8rBYHUT75odCFRJjpejbMLOpiKCNhODWDorIcIKLEM3ljFP4G3X6xYCLAK0SVP
+         fdsDVdJiTvZNxYWfvW6R4LXz0FsStT0lqHfVTxLcAanjBSSTAIV+1Z828ypGFvfNtFrm
+         Nj7lLv/Z6fYbgl3z4Sgg8ytyfL6zuHMHHFOb6eKknMS9W16sHUEMpA/PU2fC1UrgB0aH
+         bAiA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1776031423; x=1776636223;
+        h=to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=NIOs38WyHSCJMYHFIWypONu8qvWZD8fTf+m8cgRiH6s=;
+        b=lNHmIgczBcqjzAhln2xCEXX4dQBtPqUq90PiCJAp7QmIIApyAytpJ/2EI1AlBTljw+
+         8pRvuc5Sgh85cY+gFLhC6OAThzbul+bOKt94jW1nBsDPTJCkFC4BxZY7ev4OU6w4oW4c
+         XsGsaNNnraxe4VRo/4XiCZsZbcCzW5KcRZf6U/eqrbPgU+YsRzkmNGW8ABT2alyUsKNq
+         E01XR+Ay4rLZZGeGUgQ/1/BBWQrU97WHQR0Kk7qnkTZJWX43rsHP6pkQrzY4E8fKnRJ1
+         AjjhP1QdAeXnVUiZiSJIvs0FP/Vewx2uLEWE+zAH0KmAgbcZ1Q2KABAABHo0qY8UmSM0
+         V9Zw==
+X-Gm-Message-State: AOJu0Yz7fv16oSZEaXPaNezmyBM5IFELLjNeiOOgNQEYn0oD5O/ePG7a
+	I/A3G5HCnuIgM0y6LAaX+4jkk1V3oSBN2CaEGYcZLSzbrLRxQ2/vt/2BlJY0XfGGZnqaAibww0O
+	Z/cGDLeYHL8aXR1tRa693Fmjs8GrTxxjnoqkedNk12kwH1V2RTmjXgL9h61Gj
+X-Gm-Gg: AeBDievsvRgpvwZ4GmsNKvCCbNv6NUgdVzxnY07yOZcnmT4HemFHcb7kxOwxA+gr6DX
+	avV8R5VtcsBzMeBXth9N5dlex9RzxUF1OFyeXEWn/kOGnyQboDuMR5K/Wt1lP4ZKZQfMgJliCOs
+	k9M5ABFFP6IURBJEEo6+ud93AWXo2FM6Jbdl+gltSsoxC+d9Lw6NNKBaTUQMQJjK+rubCnwxvBN
+	ryITvnruaQE8vUR/vgaLczbzdrkmv+P8ZYg8ihv1P87scVtRizKacO3qu9qDzcd6G4A1Elcn4JH
+	KBGrjxw0STBgCGyxfYQzaTxyA47If+iqIwJMZGuZ
+X-Received: by 2002:a05:6402:847:b0:66f:2fff:683a with SMTP id
+ 4fb4d7f45d1cf-670786a2df4mr4323340a12.4.1776031423360; Sun, 12 Apr 2026
+ 15:03:43 -0700 (PDT)
+MIME-Version: 1.0
+From: "Sheaf, John" <john.sheaf@tnstateguard.org>
+Date: Sun, 12 Apr 2026 18:03:33 -0400
+X-Gm-Features: AQROBzBAl8yLwBZpVLchk4GnEgRLo8zYStSwjLOm9-G67Ajx4Lor9V991OaK9eY
+Message-ID: <CADnmdSM1VuvxzgX9r3LPOkGpbEdWwhTegAFx26gqpOtsi8QTVg@mail.gmail.com>
+Subject: Initial Coordinating draft RGT OPORD 26-05-01 TNMAN-26
+To: Aaron Overton <aaron.overton@tnstateguard.org>
+Content-Type: multipart/alternative; boundary="00000000000019812f064f4a8a90"
+
+--00000000000019812f064f4a8a90
+Content-Type: text/plain; charset="UTF-8"
+
+1LT Overton;
+
+Greetings.
+
+I've been making adjustments to the above subject document, based upon the
+recommendations from the Orders Consistency Review.
+
+Here are the changes that I made, according to the numbering on the AI
+results:
+
+1, The main execution day is 14 MAY 26 the exercise, and actions supporting
+the exercise will occur during the time period of 12 - 15 MAY 26.. This is
+not a RGT S1 task, it is a task to DIV G1. We won't be providing anyone to
+the DIV Mob Cell.
+2. I have revised the time-line in the Phasing in Paragraph 3(b)(2).
+3. This is not a RGT S1 task, it is a task to DIV G1. We won't be providing
+anyone to the DIV Mob Cell.
+4. I added a line and tasks for the 61 Med attachment and S3 / S4
+coordination.
+5. I dropped the VTS sites from the AO description.
+6. I cited the TNNG LOI and requested a copy from the TNNG POC, MAJ
+Callison.
+
+-- 
+V/R
+
+JOHN T. SHEAF
+LTC, TNSG
+S3, 3 RGT
+717.673.6177
+john.sheaf@tnstateguard.org
+
+--00000000000019812f064f4a8a90
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>1LT Overton;</div><div><br></div><div>Greetings.</div=
+><div><br></div><div>I&#39;ve been making adjustments to the above subject =
+document, based upon the recommendations from the Orders Consistency Review=
+.=C2=A0</div><div><br></div><div>Here are the changes that I made, accordin=
+g to the numbering on the AI results:</div><div><br></div><div>1, The main =
+execution day is 14 MAY 26 the exercise, and actions supporting the exercis=
+e will occur during the=C2=A0time period of 12 - 15 MAY 26.. This is not a =
+RGT S1 task, it is=C2=A0a task to DIV=C2=A0G1. We won&#39;t be providing an=
+yone to the DIV Mob Cell.</div><div>2. I=C2=A0have revised the time-line in=
+ the Phasing=C2=A0in Paragraph 3(b)(2).</div><div>3. This is not a RGT S1 t=
+ask, it is=C2=A0a task to DIV=C2=A0G1. We won&#39;t be providing anyone to =
+the DIV Mob Cell.</div><div>4. I added a line and tasks for the 61 Med atta=
+chment and S3 / S4 coordination.</div><div>5. I=C2=A0dropped the VTS sites=
+=C2=A0from the AO description.</div><div>6. I cited the TNNG LOI and reques=
+ted a copy from the TNNG POC, MAJ Callison.</div><div><br></div><span class=
+=3D"gmail_signature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_s=
+ignature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr">V/R<div><br><=
+/div><div>JOHN T. SHEAF</div><div>LTC, TNSG</div><div>S3, 3 RGT</div><div>7=
+17.673.6177</div><div><a href=3D"mailto:john.sheaf@tnstateguard.org" target=
+=3D"_blank">john.sheaf@tnstateguard.org</a></div></div></div></div>
+
+--00000000000019812f064f4a8a90--
