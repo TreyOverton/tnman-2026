@@ -6,25 +6,27 @@ The slide describes the structure of an Incident Command Post (ICP) task organiz
 
 ## Org Chart
 
-```
-                      Incident Commander / TF Commander
-                                    │
-        ┌───────────────────────────┼─────────────────────┐
-        │                                                 │
-  Command Staff                                     General Staff
-        │                                                 │
-  ├── Public Information Office (PAO)             ├── Operations (S3)
-  ├── Liaison Section (LNO)                       │     ├── Staging Area Manager
-  └── Safety (implied)                            │     ├── Air Operations Branch (4 / 3)
-                                                  │     └── SECFOR TF (3 / 3)
-                                                  │
-                                                  ├── Planning
-                                                  │     ├── Situation Unit (S2)
-                                                  │     └── Resource Unit (S1)
-                                                  │
-                                                  └── Support (S4)
-                                                        ├── Communications Unit (S6)
-                                                        └── Medical Unit
+```mermaid
+graph TD
+    IC["Incident Commander<br/>TF Commander"]
+    IC --> CMD["Command Staff"]
+    IC --> OPS["Operations<br/>(S3)"]
+    IC --> PLN["Planning"]
+    IC --> SUP["Support<br/>(S4)"]
+
+    CMD --> PAO["Public Information<br/>Office (PAO)"]
+    CMD --> LNO["Liaison Section<br/>(LNO)"]
+    CMD --> SAF["Safety Officer"]
+
+    OPS --> STG["Staging Area<br/>Manager"]
+    OPS --> AIR["Air Operations<br/>Branch (4/3)"]
+    OPS --> SEC["SECFOR TF<br/>(3/3)"]
+
+    PLN --> SIT["Situation Unit<br/>(S2)"]
+    PLN --> RES["Resource Unit<br/>(S1)"]
+
+    SUP --> COM["Communications<br/>Unit (S6)"]
+    SUP --> MED["Medical Unit"]
 ```
 
 ## Role Descriptions (from the slide)

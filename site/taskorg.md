@@ -4,25 +4,27 @@
 
 ## Structure Overview
 
-```
-                      Incident Commander / TF Commander
-                                    │
-        ┌───────────────────────────┼─────────────────────┐
-        │                                                 │
-  Command Staff                                     General Staff
-        │                                                 │
-  ├── PAO                                         ├── Operations (S3)
-  ├── Liaison (LNO)                               │     ├── Staging Area Manager
-  └── Safety                                      │     ├── Air Ops Branch (4/3)
-                                                  │     └── SECFOR TF (3/3)
-                                                  │
-                                                  ├── Planning
-                                                  │     ├── Situation Unit (S2)
-                                                  │     └── Resource Unit (S1)
-                                                  │
-                                                  └── Support (S4)
-                                                        ├── Comms Unit (S6)
-                                                        └── Medical Unit
+```mermaid
+graph TD
+    IC["Incident Commander<br/>TF Commander"]
+    IC --> CMD["Command Staff"]
+    IC --> OPS["Operations<br/>(S3)"]
+    IC --> PLN["Planning"]
+    IC --> SUP["Support<br/>(S4)"]
+
+    CMD --> PAO["PAO"]
+    CMD --> LNO["Liaison (LNO)"]
+    CMD --> SAF["Safety"]
+
+    OPS --> STG["Staging Area<br/>Manager"]
+    OPS --> AIR["Air Ops Branch<br/>(4/3)"]
+    OPS --> SEC["SECFOR TF<br/>(3/3)"]
+
+    PLN --> SIT["Situation Unit<br/>(S2)"]
+    PLN --> RES["Resource Unit<br/>(S1)"]
+
+    SUP --> COM["Comms Unit<br/>(S6)"]
+    SUP --> MED["Medical Unit"]
 ```
 
 ## Incident Commander / TF Commander
