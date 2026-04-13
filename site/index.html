@@ -266,21 +266,16 @@
             noData: 'No results',
             depth: 3
           } : false,
-          markdown: {
-            renderer: {
-              code: function(code, lang) {
-                if (lang === 'mermaid') {
-                  return '<div class="mermaid">' + code + '</div>';
-                }
-                return this.origin.code.apply(this, arguments);
-              }
-            }
-          },
           plugins: [
             function(hook) {
+              hook.afterEach(function(html) {
+                return html.replace(/<pre[^>]*><code[^>]*class="lang-mermaid"[^>]*>([\s\S]*?)<\/code><\/pre>/gi, function(m, code) {
+                  return '<div class="mermaid">' + code.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"') + '</div>';
+                });
+              });
               hook.doneEach(function() {
                 if (window.mermaid) {
-                  mermaid.run({ querySelector: '.mermaid' });
+                  try { mermaid.run(); } catch(e) {}
                 }
                 var h1 = document.querySelector('.markdown-section h1');
                 var pageName = h1 ? h1.textContent.trim() : "";
