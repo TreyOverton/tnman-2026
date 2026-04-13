@@ -65,19 +65,6 @@ Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field 
 | Phase III initial actions complete | 15 MAY 26 | (152131RMAY26) |
 | Phase III admin close-out | approx. 10 AUG 26 | +90 days from ENDEX |
 
-## Quick Links
-
-- [Mission Roster](roster.md) — Personnel and contact info
-- [Timeline](timeline.md) — Full phase-by-phase schedule
-- [RGT OPORD 26-05-01](docs/opord-rgt.md) — Authoritative order
-- [RGT WARNO 26-05-01](docs/warno.md) — Warning order
-- [OPORD Encl A — Storyboard](docs/opord-encl-a.md) — HDWG storyboard
-- [FPM Slides (26-27 MAR 26)](docs/fpm-slides.md) — Division-level brief
-- [Cyber WG Slides](docs/cyber-wg.md) — Cyber inject details
-- [JAG Pre-Brief](docs/jag-brief.md) — Legal questions prepared for consultation
-- [Comms Log](comms.md) — Communications record
-- [Risk Assessment](risk.md) — Risk register
-
 ## Using This Site
 
 This site is your central reference for **TNMAN 2026**. Use it to track planning, coordinate with your team, and maintain a record of decisions.
