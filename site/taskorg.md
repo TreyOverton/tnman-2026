@@ -1,4 +1,4 @@
-# Task Organization — 3 RGT TNMAN 26
+# Task Organization
 
 > **Status:** Draft. Uses the [ICP Organization reference](icp-org-reference.md) provided by LTC Sheaf as the structural template. Populated from the current [Mission Roster](roster.md). Every TBD must be resolved before orders issue on 30 APR 26.
 
