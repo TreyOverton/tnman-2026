@@ -28,6 +28,10 @@
 - **Comms blackout inject:** 15 MAY 26 (D+4) — JFHQ exercises the Emergency Communications Plan (PACE).
 - **3 RGT role window:** Primary execution 13-15 MAY 26 (ADVON 13, main day 14, half day + AAR 15). See [Timeline](../timeline.md) for detailed DTGs.
 
+## sUAS Employment Posture
+
+Per LTC Sheaf (11 APR email to 1SG Snow): 3 RGT will **NOT** take imagery or video of anything within the HAAP perimeter fence line. The primary purpose of sUAS during the exercise is to **test the installation's drone detection system**. No imagery product is generated. This simplifies the legal picture under TCA 39-13-609 (see [Risk Assessment L-2](../risk.md)) and means the JAG consultation on UAS collection/retention/dissemination can focus on the detection-test protocol rather than imagery handling.
+
 ## Weather Outlook (Scenario-Driven)
 
 Per the [FPM Slides](fpm-slides.md) early notice (published 4 MAY 26 in the scenario), the exercise is built around a developing weather system projecting:
@@ -58,7 +62,8 @@ See [Risk Assessment](../risk.md) for the full register and [DD Form 2977](dd297
 
 ## Outstanding SA Items
 
+- **NAI identification** — **1SG Snow (HHC S2 NCO) has been tasked** by LTC Sheaf (11 APR) to review the imagery, identify potential NAIs, and develop this brief further with weather, critical points, and NAIs. See [Comms Log](../comms.md) entry.
 - **Labeled map overlay** — this image is unannotated. Recommend adding labels for proposed SECFOR positions, TCPs, ICP/RSA location (US Army Reserve Center, Mt Carmel TN), sUAS operating boxes, and the Holston River surveillance sector once those are planned.
 - **Ingress route graphics** — convoy routes from home stations to the RSA/ICP, with travel time estimates for the dawn-to-dusk / RON-at-home cycle.
 - **HAAP perimeter clear-zone map** — to be requested from HAAP POC during site orientation. Confirms exactly where 3 RGT can and cannot position.
-- **Threat brief** — the RGT OPORD currently says "Enemy Forces: UNK." 1SG Snow (HHC S2 NCO) to coordinate with DIV G2 for a baseline Intelligence Preparation of the Battlefield (IPB) and scenario-specific threat inputs.
+- **IPB / threat brief** — the RGT OPORD currently says "Enemy Forces: UNK." 1SG Snow to coordinate with DIV G2 for a baseline Intelligence Preparation of the Battlefield (IPB) and scenario-specific threat inputs per OPORD S2 Task 1.

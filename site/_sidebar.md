@@ -11,12 +11,6 @@
 - [Task Organization](taskorg.md)
 - [Risk Assessment](risk.md)
 
-- **REFERENCE**
-- [Participant Guide](docs/participant-guide.md)
-- [Technology & Platforms](tech.md)
-- [RFI Log](rfi.md)
-- [Exercise Precedent](precedent.md)
-
 - **DOCUMENTS**
 - [Document Index](docs/README.md)
 - [Situational Awareness Brief](docs/sabrief.md)
@@ -24,9 +18,16 @@
 - [RGT WARNO](docs/warno.md)
 - [RGT OPORD](docs/opord-rgt.md)
 - [OPORD Encl A — Storyboard](docs/opord-encl-a.md)
+- [DD Form 2977](docs/dd2977.md)
+
+- **REFERENCE**
+- [Reference Index](reference-index.md)
 - [FPM Slides (26-27 MAR 26)](docs/fpm-slides.md)
 - [Cyber WG Slides](docs/cyber-wg.md)
-- [DD Form 2977](docs/dd2977.md)
+- [Participant Guide](docs/participant-guide.md)
+- [Technology & Platforms](tech.md)
+- [RFI Log](rfi.md)
+- [Exercise Precedent](precedent.md)
 
 - **OIC NOTES**
 - [AAR Notes](aar-draft.md)

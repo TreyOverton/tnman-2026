@@ -6,6 +6,33 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-11 — CPT Borrilez → 1LT Overton (email thread, 2BN roster response)
+
+CPT Borrilez responded to the 2 BN roster review request. Key points from the thread:
+
+1. **SSG Burns and MSG Klaus are both discharged** — remove from all rosters. (SSG Burns was on the mission roster; MSG Klaus was not.)
+2. CPT Borrilez will "recheck with staff" on availability. Some 2 BN Soldiers are truck drivers who would have to take leave without pay; commitment depends on whether orders are issued.
+3. CPT Borrilez and 2LT Sobel are likely to attend if orders come through.
+4. **Billeting concern:** CPT Borrilez noted that 4 BN and 2 BN returning home nightly would be "disagreeable" given the distance. 1LT Overton explained the CG dawn-to-dusk / RON-at-home policy and offered hosting at his home near the Holston Armory (guest room, spare mattresses, cots, hamburgers for guests). Also flagged HHC armory and ETSU research center as potential options. Billeting capacity depends on final numbers from 4 BN and 2 BN.
+
+**Action:** SSG Burns removed from mission roster and DD 2977. Awaiting CPT Borrilez's follow-up with specific names/availability. Billeting planning to proceed once headcount is clearer.
+
+Source: [TNMAN-2026-2BN-Roster-Review-Response.eml](/docs/source/emails/TNMAN-2026-2BN-Roster-Review-Response.eml)
+
+### 2026-04-11 — LTC Sheaf → 1SG Snow (email, Imagery for TNMAN-26)
+
+LTC Sheaf sent the Google Earth imagery of the HAAP AO to **1SG Snow (HHC S2 NCO)** and tasked him to:
+
+1. Review the imagery and **identify potential Named Areas of Interest (NAIs)** based on the scenario.
+2. **Develop a situational brief** including weather considerations, critical points on the installation, and NAIs.
+3. Call LTC Sheaf to discuss.
+
+**Important sUAS clarification from LTC Sheaf:** 3 RGT will **NOT** take imagery or video of anything within the HAAP perimeter fence line. The primary purpose of sUAS during the exercise is to **test the installation's drone detection system**. Imagery/video capture within the fence is a moot point.
+
+This aligns with TCA 39-13-609 drone privacy constraints (see [Risk Assessment L-2](risk.md)) and simplifies the JAG consultation on UAS collection/retention — no imagery product is generated.
+
+Cc: LTC Smith (Scott), 1LT Overton. Source: [Imagery-for-TNMAN-26.eml](/docs/source/emails/Imagery-for-TNMAN-26.eml)
+
 ### 2026-04-13 — LTC Sheaf → 1LT Overton (email, revised draft RGT OPORD 26-05-01)
 
 LTC Sheaf sent a revised coordinating draft of [RGT OPORD 26-05-01](docs/opord-rgt.md) (now dtd 132100RAPR26). LTC Sheaf made the following changes in response to the [Orders Consistency Review](warno-opord-review.md):

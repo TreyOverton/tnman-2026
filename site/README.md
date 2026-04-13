@@ -35,12 +35,12 @@ Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field 
 
 | Area | Status | Last Updated |
 |------|--------|-------------|
-| Personnel | Draft roster at 40 (HHC 11 / 2BN 9 / 3BN 13 / 4BN 7); 2BN unconfirmed; PAO and 911th MED attachments TBD | 11 APR 26 |
-| Timeline | See [Timeline](timeline.md) — FPM complete; MSEL final review 30 APR | 11 APR 26 |
-| Logistics | S4 to establish feeding, billeting, transport ICW DIV MOB Cell and DIV G4 — not yet begun | 11 APR 26 |
-| Communications | TACN radios, ATAK training, and Starlink for ICP all open with G6 ([G6 Questions email](comms.md)) | 11 APR 26 |
-| Risk | Risk register started; DD Form 2977 draft pending — see [Risk Assessment](risk.md) and [DD Form 2977](docs/dd2977.md) | 11 APR 26 |
-| Legal / JAG | JAG pre-brief prepared ([JAG Pre-Brief](docs/jag-brief.md)) but not yet consulted | 11 APR 26 |
+| Personnel | Draft roster at **39** (HHC 11 / 2BN 8 / 3BN 13 / 4BN 7); SSG Burns removed (discharged); 2BN availability pending CPT Borrilez; PAO and 61st MED attachments TBD | 13 APR 26 |
+| Timeline | See [Timeline](timeline.md) — OPORD revised 13 APR; TF org estimate due **18 APR**; MSEL final review 30 APR | 13 APR 26 |
+| Logistics | S4 feeding/transport plan not yet begun; billeting is self-arranged per CG policy; 1LT Overton hosting option available for distant travelers | 13 APR 26 |
+| Communications | TACN radios, ATAK training, and Starlink for ICP all open with G6 ([G6 Questions email](comms.md)) | 13 APR 26 |
+| Risk | Risk register complete; DD Form 2977 drafted; overall residual **Moderate** — see [Risk Assessment](risk.md) and [DD Form 2977](docs/dd2977.md) | 13 APR 26 |
+| Legal / JAG | JAG pre-brief prepared ([JAG Pre-Brief](docs/jag-brief.md)) but not yet consulted | 13 APR 26 |
 
 ## Key Dates
 

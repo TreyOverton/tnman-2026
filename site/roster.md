@@ -9,10 +9,10 @@ Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — name
 | Unit | Count | <span class="mrc mrc-1">MRC-1</span> | <span class="mrc mrc-2">MRC-2</span> | <span class="mrc mrc-3">MRC-3</span> | <span class="mrc mrc-4">MRC-4</span> |
 |------|------:|------:|------:|------:|------:|
 | Regimental HQ | 11 | 5 | 5 | 0 | 1 |
-| 2nd Battalion | 9 | 3 | 3 | 1 | 2 |
+| 2nd Battalion | 8 | 3 | 3 | 1 | 1 |
 | 3rd Battalion | 13 | 8 | 1 | 2 | 2 |
 | 4th Battalion | 7 | 2 | 1 | 1 | 3 |
-| **Total (draft)** | **40** | **18** | **10** | **4** | **8** |
+| **Total (draft)** | **39** | **18** | **10** | **4** | **7** |
 
 **Legend:** <span class="mrc mrc-1">MRC-1</span> fully available &nbsp; <span class="mrc mrc-2">MRC-2</span> partial &nbsp; <span class="mrc mrc-3">MRC-3</span> limited &nbsp; <span class="mrc mrc-4">MRC-4</span> unknown / unverified (treated as red for safety)
 
@@ -50,7 +50,6 @@ Not counted in the totals above until confirmed. See Open Items.
 | 1LT | Barnes, Christopher W | BN Chaplain | <span class="mrc mrc-3">MRC-3</span> | 865-696-9415<br>christopher.barnes@tnstateguard.org<br>1254 Sunrise Dr, Newport, TN 37821 |
 | 2LT | Sobel, Scott T | BN XO | <span class="mrc mrc-1">MRC-1</span> | 559-476-9312<br>scott.sobel@tnstateguard.org<br>510 Richland Rd, Blaine, TN 37709 |
 | SFC | Collins, Jeffrey S | HQ Co 1SG | <span class="mrc mrc-1">MRC-1</span> | 423-231-5144<br>jeffrey.collins@tnstateguard.org<br>5974 Old White Pine Rd, White Pine, TN 37890 |
-| SSG | Burns, Benjamin J | MP Plt Sgt | <span class="mrc mrc-4">MRC-4</span> | 423-415-6478<br>benjamin.burns@tnstateguard.org<br>130 Industrial Blvd, Newport, TN 37821 |
 | SSG | Lillard, Randall B | Comm NCO | <span class="mrc mrc-2">MRC-2</span> | 423-248-6344<br>randall.lillard@tnstateguard.org<br>1024 Animal Way, Newport, TN 37822 |
 | SGT | Spence, Troy G | Info Tech | <span class="mrc mrc-2">MRC-2</span> | 865-755-8699<br>troy.spence@tnstateguard.org<br>2005 Allensville Ridge, Sevierville, TN 37876 |
 | SGT | Walker, Derrick A | ASST S3 NCO | <span class="mrc mrc-4">MRC-4</span> | 423-231-9886<br>derrick.walker@tnstateguard.org<br>1645 Greene Rd, Morristown, TN 37814 |
@@ -95,7 +94,7 @@ Not counted in the totals above until confirmed. See Open Items.
 - **61st MED BN attachment** — two medics expected per verbal, off-hand guidance (the verbal mention said "911th" but the unit is **61st MED BN** per the DIV WARNO). No names, ranks, contact info, or written confirmation yet. Need to chase down the POC at 61st MED BN (CO is BG Cox) and get a written attachment order or at minimum a named pair with MRC status.
 - **2/3 availability** — 2BN roster imported from the [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point. LTC Sheaf is unsure of 2/3 posture; follow-up pending with 2BN leadership (CPT Borrilez).
 - **PHA tracking** — Sheaf asked whether most-recent PHA dates could be included. PHA data is not in the alert rosters. Need a data source (S1 medical records?) — deferred pending confirmation from CPT Meager's replacement.
-- **Departures since 7 APR email** — CPT Meager (HHC, moved to Texas — will not participate), CPT Sutton and CW2 Hickman (HHC, now IRR), 2LT Zeinali and PV2 Crosby, Caleb (3/3, inactive 2+ years), PV2 Danger (3/3, now IRR and PFC), PV1 Tobin (3/3, IRR or out). Removed from roster.
+- **Departures** — CPT Meager (HHC, moved to Texas), CPT Sutton and CW2 Hickman (HHC, now IRR), 2LT Zeinali and PV2 Crosby Caleb (3/3, inactive 2+ years), PV2 Danger (3/3, now IRR/PFC), PV1 Tobin (3/3, IRR or out), **SSG Burns (2 BN, discharged per CPT Borrilez 11 APR)**, MSG Klaus (2 BN, discharged — was never on mission roster). Removed from roster.
 - **MRC-4 (unknown) personnel** — Bennett, Neisler, Hendon (4/3), McCroskey (HHC), Moore, Gauthier (3/3), Burns, Walker (2/3) shown as MRC-4 pending verification.
 - **Rank discrepancy — Hendon (4/3)** — 4BN Feb 2026 PDF lists SSG/WOC; regimental Mar 2026 PDF and Sheaf's email list WO1. Using **WO1**.
 - **Rank discrepancy — Miles (4/3)** — 4BN Feb 2026 PDF lists SGT; regimental Mar 2026 PDF and Sheaf's email list SSG. Using **SSG**.

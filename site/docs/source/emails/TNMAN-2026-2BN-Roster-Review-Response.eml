@@ -1,0 +1,434 @@
+Delivered-To: aaron.overton@tnstateguard.org
+Received: by 2002:a05:7022:1081:b0:12c:43be:2420 with SMTP id ep1csp365257dlb;
+        Sat, 11 Apr 2026 19:09:12 -0700 (PDT)
+X-Received: by 2002:a05:6830:b83:b0:7d7:d1f0:7493 with SMTP id 46e09a7af769-7dc27db08c1mr6054147a34.18.1775959752008;
+        Sat, 11 Apr 2026 19:09:12 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1775959752; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=J2PCWmKVFP2j3Qkd7Hd8uZPNsVlyW/4zSp6OfUZLujJ4iJCKDdZiwUlP6JxfNxcdO6
+         /FeThGpk/qdFbmCV/4m6uQfNuC3hDp77acMUaDmoq3TxTB9KpK2wqgXQitMgksRXMEFk
+         uO9mrNxpgmcQzD4ewLDRclYay+8sF64qP949HGRbgY+pH8kE4XkHWu0JPpGF/ipnrPDY
+         Je+OUPSfzLg3ztO1pvZEaWKGEaae+fpcrUSFMsT5LgFhoA36gwGuGki+qdMOMnrvtpqF
+         xGs57w9W3TulOuxdQeln2x8dGgGrC1PZ6Y8mH9hjNp2HYdXfG7eOK4HwWmLZe16QcYau
+         5Gfg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=Weuyq1WH4QRlR/wQLEzD7VK5nF3rNHnedFo/+fRTniE=;
+        fh=bNeJ9BK56SHZiMh3tkVlPlXIPPrNfSxQJnACvJ7qqRA=;
+        b=D+rR/OBrHkKSh7eRDvv3+05LU/Gg66OKd0X/aLmnxiKpipzh2e1pNudyclfu3HbSk2
+         QCCeinRXGCn106XQbFbiSxHD/+Lmm7js/mJ3aDJls35WP+4SaZ7j/jlupBYYqEs7wzyx
+         iMjLzaUjHtoaqWpvlOnhKyqQLlSQXJvwKS1RLSQrbBXN38idTW63WOOYKfmwzXZ9frYu
+         MR+Wmlp8dv1swhm1sDMqRzPD+Duqz6b4q80ZqsxysKf0RFpBRxRVnfWcr0wSBbVJEiAZ
+         pG8KljNhgdjGxr+7IOnVo7hz4pmxfhqeQpm+Sp1N+lrangU8Mb4ecMxQ/nqJkJv/0Cp0
+         CBkg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=Objze0G2;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of michael.borrilez@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=michael.borrilez@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+Return-Path: <michael.borrilez@tnstateguard.org>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 46e09a7af769-7dc26614a24sor3095876a34.6.2026.04.11.19.09.11
+        for <aaron.overton@tnstateguard.org>
+        (Google Transport Security);
+        Sat, 11 Apr 2026 19:09:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of michael.borrilez@tnstateguard.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=Objze0G2;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of michael.borrilez@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=michael.borrilez@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+ARC-Seal: i=1; a=rsa-sha256; t=1775959751; cv=none;
+        d=google.com; s=arc-20240605;
+        b=dvkk/gutB1MAmKCBvIRetYd1Bgo3+S4Qg1gm4jMvT4moMDASHhdyxSvorQAdxoUY1E
+         5gvp92AMwgkp9xSxCH/vrTC0UDfLW/46V2DH6zmdLEZh/GRkdG3spUFRpHqb/ZROfIBC
+         9ET7ZJKnB50SlzodEbIQI3WqepkVyyn2NnQ5LFju5CCHIAjLXt17dB1ZzwtAqjyvrBFg
+         4GLN/E1iWe1DQnASDVtzTt/1JUzQ0NVvAXQ4rXAPdo6qMF6f1CwtLpl+DkyLyzj0Ub1x
+         4c6HFkyrfrDQEAAhm9diZn6YNMyv++GRDkAbF7aIy7y4C9w8I+vRb7TdVxQrL3OnmjxK
+         5EZg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=Weuyq1WH4QRlR/wQLEzD7VK5nF3rNHnedFo/+fRTniE=;
+        fh=bNeJ9BK56SHZiMh3tkVlPlXIPPrNfSxQJnACvJ7qqRA=;
+        b=FekxwRMZgaZfLA7/4LaHfDCd/B7Yw42XPUeBYIQVWn5QAcVXD6opUAuneATfWrHeJf
+         xJXYt40RdLC0H0ZYNPPxbQUgvCpHVqb7LDrEFr4ITuhGXqR2IwrueQOcoRcXmpln0Kot
+         f0LDKEd9MtiVLBS9ztwqelJp8XULHj75NVry7onjPNNYEFslN7pnhvukgoLYLRUQfWPz
+         44jF8bGxDRZUN8uIwLjGngTBCTM2JHshd4EEsCKIEkkn5DV1SvRz58mGaQkkBPeV2aB+
+         1SobOQBYtfaBSYNH22j9lwL+NIPuDrIu+R62O14/gMGevuxeLw97sNPg2F71q874TKUD
+         MSAQ==;
+        darn=tnstateguard.org
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tnstateguard-org.20251104.gappssmtp.com; s=20251104; t=1775959751; x=1776564551; darn=tnstateguard.org;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=Weuyq1WH4QRlR/wQLEzD7VK5nF3rNHnedFo/+fRTniE=;
+        b=Objze0G2VNHnVOM4WnD7eV9ryXQmQtRVg7zfmCE704DCCsNH1m0rrpVrjByuVEhR1H
+         hrSCx7vbp4bfH4MA/16uOqQcN6aTPLTG9f2oghUkvHaxYg5ZhlNnqdWHR2o/x4eX3x/Y
+         PhNRkDMnRKwByzmbKDX/SU7z6hoQD5r4x/ZebS7feV5Fkxr+MiK6ebSKPId+3MDrtlfU
+         edkDAHAm6TL61Xb5FQKMgPR73sPsVGb7Kf2nh7I5qWm2s3pINwjUO40XU/fBkjhslQvx
+         VAfNnQlE2WydlQ1jxLzjVgXklopCu3lY1TBiTozGXdDc40TB2cLINfJWXPee5ihm2XI/
+         yr/g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1775959751; x=1776564551;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Weuyq1WH4QRlR/wQLEzD7VK5nF3rNHnedFo/+fRTniE=;
+        b=YQX96T3AQTcC/LYoZOzGpK3bsYZi6DoK5VOvMqU0MG1ueRfMNOBtNmGJJk4dP9r0Oo
+         DQuUEHaujCT9yV4XNL8VubzdxolUIgwC3dmNZaDvfejO5GzGaFRbdlpMAuUQx8UpM4tc
+         xsPPiuVkLFgixYrsztNf5ywOZB0CG/vKWgNgLLBlNCRQCDwQvqN00BMwILGSQM8Za9hg
+         2g3O8RjYPNjRFrItl1zKOs1ozA9rx8VkvPy3qk0snEWuo0UFSA2oeNTdndHEYGj9XjyM
+         IHgtAlnjLa79BqCmGhxy+HygJ14cBDYxJf2ObqlvFNtGQtCt3kAPrBw4JL/ujyChPog/
+         CvjA==
+X-Gm-Message-State: AOJu0YzvvCQTGwoO+GTNZV/FWhuiOkMmgUXQlhNNk0xbU0cIqwi1NzpU
+	xS//ikAvuroR0qGffCxV2cTpqwwwyekMZEQtblGjT6+3NxzHCbEk/+eIeJUgAAJY4cXPo8uChJe
+	bBC3drzbscKsLm6jaFZYGLfHx4gQoLEnGs/byAZ2GmjwK5uH2vDh/jZRdDA==
+X-Gm-Gg: AeBDiescHAfnBmEMEvpZsbNGf4SlWJsarope1TOkqF/H2gUm3XyBJDz9zC7jM+4Z2bY
+	lqWEjSyPEOSC8H6V0iZNP2OV7jrS2fFu64jiGrL6CcP22xpKkySRfE9GLVxjfjhj0H+fepPfzgD
+	y1HbtMZy7OXnpUDZd4rbIaSf0PO+kxvEsZCaCyXXZ4Ey3/6nEWrZmJ98HbISkUtIMbAN1bUYKQl
+	559f6CuSt2cKI52fOjoL9evyeIeyvSX9MQz4gqKSq1KMBD6NxMrdSOHfczvHMfuspwU90Y8NHRa
+	t/zI77CKstRtWStnHCPhHuAJuBOfMMGAzLMiu6bb
+X-Received: by 2002:a05:6830:438a:b0:7d7:f15b:bf32 with SMTP id
+ 46e09a7af769-7dc27e6e712mr4690119a34.27.1775959751301; Sat, 11 Apr 2026
+ 19:09:11 -0700 (PDT)
+MIME-Version: 1.0
+References: <CANGMLZDg+xzJU6xWHqNLC6aG8b=TR3q+2-gHaDo56i8BQEVhrQ@mail.gmail.com>
+ <CAEkC=EYhHVBgp7nhofqqR_=_HE0xZtc23ypD4sMKdtxZu4RaHA@mail.gmail.com>
+ <CANGMLZCy3S_F6ReWFbK-jD-eBQ7r3=K=VEbY1LYXAkeS-oFUHw@mail.gmail.com>
+ <CAEkC=EanNWRe3Uj5gFgEgCUzDXc7foO2riM_FkE6ex_Gvqy-pA@mail.gmail.com>
+ <CANGMLZAhsL9rATPRF5-Ok+C+GYR1hNVtmHChX2NcE+58V7KCTQ@mail.gmail.com>
+ <CAEkC=EbnnnPE0KE6PJmJEVScp3X_HKq-3d7AhKY21-YfG9BjTg@mail.gmail.com> <CANGMLZBQfkByfjU_QF_OnAuNx4ddAh5wFU7vK6m=zg9gjqM4kA@mail.gmail.com>
+In-Reply-To: <CANGMLZBQfkByfjU_QF_OnAuNx4ddAh5wFU7vK6m=zg9gjqM4kA@mail.gmail.com>
+From: "Borrilez, Michael" <michael.borrilez@tnstateguard.org>
+Date: Sat, 11 Apr 2026 22:09:00 -0400
+X-Gm-Features: AQROBzApBFM_SEI2S8HsONwGvH2cfBK1kHbPfQvMSedt-XcEQnjz9DiCryRLVRM
+Message-ID: <CAEkC=EZwBmesU_PESM2cHdHOXP+Rf-YFBP-hZxvb5GBER=0Qmw@mail.gmail.com>
+Subject: =?UTF-8?Q?Re=3A_TNMAN_2026_=E2=80=94_2BN_Roster_Review_Requested?=
+To: "Overton, Aaron" <aaron.overton@tnstateguard.org>
+Content-Type: multipart/alternative; boundary="0000000000001cab2e064f39da07"
+
+--0000000000001cab2e064f39da07
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+I should have an answer tomorrow
+
+Respectfully,
+Michael S. Borrilez
+CPT CO (TNSG)
+3RGT 2BN - Military Police
+916-220-0262
+Michael.Borrilez@tnstateguard.org
+
+
+On Sat, Apr 11, 2026 at 9:53=E2=80=AFPM Overton, Aaron <
+aaron.overton@tnstateguard.org> wrote:
+
+> We could do HHC maybe. We could do the ETSU research center maybe. We can
+> definitely accommodate at my house.
+>
+> We need numbers from 4BN and 2BN to understand necessary capacity. I=E2=
+=80=99ll
+> ask CPT Widener about 4BN, as he=E2=80=99s the one who was providing thei=
+r roster.
+>
+> On Sat, Apr 11, 2026 at 9:47=E2=80=AFPM Borrilez, Michael <
+> michael.borrilez@tnstateguard.org> wrote:
+>
+>> It would be disagreeable for 4BN and 2BN to go back to their respective
+>> homes. No chance for HHC to be available?
+>>
+>>
+>> Respectfully,
+>> Michael S. Borrilez
+>> CPT CO (TNSG)
+>> 3RGT 2BN - Military Police
+>> 916-220-0262
+>> Michael.Borrilez@tnstateguard.org
+>>
+>>
+>> On Sat, Apr 11, 2026 at 9:46=E2=80=AFPM Overton, Aaron <
+>> aaron.overton@tnstateguard.org> wrote:
+>>
+>>> The CG has specified this is a =E2=80=9Cdawn to dusk=E2=80=9D maximum, =
+so personnel are
+>>> expected to go home at night or make personal arrangements for
+>>> accommodations.
+>>>
+>>> LTC Sheaf is going to make use of my guest room. I have two sofas, thre=
+e
+>>> spare mattresses,  and enough room beyond that to handle quite a few
+>>> additional folks who have cots. Once we have a picture of how many, I m=
+ay
+>>> be able to host everyone who would otherwise drive quite far. I live pr=
+etty
+>>> close to the Holston Armory. My wife and have discussed getting hamburg=
+ers
+>>> and such to feed anyone who stays with us.
+>>>
+>>> Basically, if I have a clear idea of who might need overnight to avoid
+>>> hours of driving or the expense of lodging, I may be able to make it wa=
+y
+>>> easier for many or even all such travelers.
+>>>
+>>> On Sat, Apr 11, 2026 at 9:29=E2=80=AFPM Borrilez, Michael <
+>>> michael.borrilez@tnstateguard.org> wrote:
+>>>
+>>>> Do we have confirmation as to the availability of any billeting?
+>>>>
+>>>>
+>>>> Respectfully,
+>>>> Michael S. Borrilez
+>>>> CPT CO (TNSG)
+>>>> 3RGT 2BN - Military Police
+>>>> 916-220-0262
+>>>> Michael.Borrilez@tnstateguard.org
+>>>>
+>>>>
+>>>> On Sat, Apr 11, 2026 at 6:02=E2=80=AFPM Overton, Aaron <
+>>>> aaron.overton@tnstateguard.org> wrote:
+>>>>
+>>>>> Thank you, sir. LTC Sheaf and I were working on TNMAN planning today
+>>>>> and realized we were short on expected participation. Whatever additi=
+onal
+>>>>> clarity you can provide helps greatly.
+>>>>>
+>>>>> Part of what we did today was also prepping the risk assessment and
+>>>>> the DD Form 2799, which is what we file with Division to get clearanc=
+e for
+>>>>> yellow and red tab participation. We are trying to get proper clearan=
+ce
+>>>>> with in-place mitigations to maximize ability to participate. Assumin=
+g we
+>>>>> really get the 61st Medcom support that=E2=80=99s been at least sugge=
+sted, that=E2=80=99s
+>>>>> part of the mitigation plan that can let yellow and red tab folks do =
+more.
+>>>>> At a minimum we want to at least allow all SMs to be able to be on si=
+te in
+>>>>> the ICP/TOC.
+>>>>>
+>>>>> Thanks for highlighting Burns=E2=80=99 status. We knew about Klaus, d=
+idn=E2=80=99t
+>>>>> know about him. I=E2=80=99ll update our tracking with what you do kno=
+w already.
+>>>>>
+>>>>> V/r
+>>>>> -1LT Overton
+>>>>>
+>>>>> On Sat, Apr 11, 2026 at 5:54=E2=80=AFPM Borrilez, Michael <
+>>>>> michael.borrilez@tnstateguard.org> wrote:
+>>>>>
+>>>>>> LT-
+>>>>>>
+>>>>>> I will recheck with staff as to their availability. Their commitment
+>>>>>> depends on (for some) their ability to get orders. However some woul=
+d
+>>>>>> likely have difficulty as they are truck drivers, etc. I will see if=
+ I can
+>>>>>> pin it down. I have already indicated that I will attend the 3 days =
+and I
+>>>>>> believe Sobel will be able depending on orders. A number of 2BN woul=
+d have
+>>>>>> to take leave without pay.
+>>>>>>
+>>>>>> Both Burns and Klaus should be off the roster. Both have been
+>>>>>> discharged.
+>>>>>>
+>>>>>> Our ability to support would depend on the intended position
+>>>>>> assignments as well as the latitude given based on MRC status.
+>>>>>>
+>>>>>> We have no viable additions until they attend 3 drills. If they
+>>>>>> attend Apr drill, they will still be two drills short.
+>>>>>>
+>>>>>> Respectfully,
+>>>>>> Michael S. Borrilez
+>>>>>> CPT CO (TNSG)
+>>>>>> 3RGT 2BN - Military Police
+>>>>>> 916-220-0262
+>>>>>> Michael.Borrilez@tnstateguard.org
+>>>>>>
+>>>>>>
+>>>>>> On Sat, Apr 11, 2026 at 1:25=E2=80=AFPM Overton, Aaron <
+>>>>>> aaron.overton@tnstateguard.org> wrote:
+>>>>>>
+>>>>>>> Sir,
+>>>>>>>
+>>>>>>> Per LTC Sheaf's 7 APR email, we are building the 3 RGT mission
+>>>>>>> roster for TNMAN 2026 (May 2026). Sheaf indicated he was unsure of =
+2 BN's
+>>>>>>> posture for this exercise, so we have imported the following 9 pers=
+onnel
+>>>>>>> directly from the 1 MAR 2026 2 BN alert recall roster as a starting=
+ point,
+>>>>>>> with no confirmation of availability yet:
+>>>>>>>
+>>>>>>> Rank Name Position MRC
+>>>>>>> CPT Borrilez, Michael S BN CO MRC-2
+>>>>>>> 1LT Barnes, Christopher W BN Chaplain MRC-3
+>>>>>>> 2LT Sobel, Scott T BN XO MRC-1
+>>>>>>> SFC Collins, Jeffrey S HQ Co 1SG MRC-1
+>>>>>>> SSG Burns, Benjamin J MP Plt Sgt MRC-4
+>>>>>>> SSG Lillard, Randall B Comm NCO MRC-2
+>>>>>>> SGT Spence, Troy G Info Tech MRC-2
+>>>>>>> SGT Walker, Derrick A ASST S3 NCO MRC-4
+>>>>>>> CPL Cate, Ronald E S3 Clerk MRC-1
+>>>>>>> Please let us know:
+>>>>>>>
+>>>>>>> Does 2 BN intend to support TNMAN 2026, and if so at what level?
+>>>>>>> Who from this list is actually available to participate?
+>>>>>>> Anyone who should be added or removed, or any rank, position, or MR=
+C
+>>>>>>> changes since 1 MAR?
+>>>>>>> For any additions, we will need address, phone, email, and MRC
+>>>>>>> status, and =E2=80=94 if available =E2=80=94 most-recent PHA date. =
+Thank you sir.
+>>>>>>>
+>>>>>>> Very respectfully,
+>>>>>>> 1LT Aaron Overton
+>>>>>>> ASST S3, 3 RGT TNSG
+>>>>>>>
+>>>>>>
+
+--0000000000001cab2e064f39da07
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">I should have an answer tomorrow<br clear=3D"all"><br cle=
+ar=3D"all"><div><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=
+=3D"gmail_signature">Respectfully,<br>Michael S. Borrilez <br>CPT  CO  (TNS=
+G)<br>3RGT 2BN - Military Police<br>916-220-0262<br><a href=3D"mailto:Micha=
+el.Borrilez@tnstateguard.org">Michael.Borrilez@tnstateguard.org</a><br></di=
+v></div></div><div><br></div><div><br><div class=3D"gmail_quote gmail_quote=
+_container"><div dir=3D"ltr" class=3D"gmail_attr">On Sat, Apr 11, 2026 at 9=
+:53=E2=80=AFPM Overton, Aaron &lt;<a href=3D"mailto:aaron.overton@tnstategu=
+ard.org">aaron.overton@tnstateguard.org</a>&gt; wrote:<br></div><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left-width:=
+1px;border-left-style:solid;padding-left:1ex;border-left-color:rgb(204,204,=
+204)"><div dir=3D"auto">We could do HHC maybe. We could do the ETSU researc=
+h center maybe. We can definitely accommodate at my house.</div><div dir=3D=
+"auto"><br></div><div dir=3D"auto">We need numbers from 4BN and 2BN to unde=
+rstand necessary capacity. I=E2=80=99ll ask CPT Widener about 4BN, as he=E2=
+=80=99s the one who was providing their roster.</div><div><br><div class=3D=
+"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Sat, Apr 11, 2026 at=
+ 9:47=E2=80=AFPM Borrilez, Michael &lt;<a href=3D"mailto:michael.borrilez@t=
+nstateguard.org" target=3D"_blank">michael.borrilez@tnstateguard.org</a>&gt=
+; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px=
+ 0px 0.8ex;border-left-width:1px;border-left-style:solid;padding-left:1ex;b=
+order-left-color:rgb(204,204,204)"><div dir=3D"auto">It would be disagreeab=
+le for 4BN and 2BN to go back to their respective homes. No chance for HHC =
+to be available?</div><div dir=3D"auto"><br clear=3D"all"><br clear=3D"all"=
+><div><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_si=
+gnature">Respectfully,<br>Michael S. Borrilez <br>CPT  CO  (TNSG)<br>3RGT 2=
+BN - Military Police<br>916-220-0262<br><a href=3D"mailto:Michael.Borrilez@=
+tnstateguard.org" target=3D"_blank">Michael.Borrilez@tnstateguard.org</a><b=
+r></div></div></div><div><br></div><div><br><div class=3D"gmail_quote"><div=
+ dir=3D"ltr" class=3D"gmail_attr">On Sat, Apr 11, 2026 at 9:46=E2=80=AFPM O=
+verton, Aaron &lt;<a href=3D"mailto:aaron.overton@tnstateguard.org" target=
+=3D"_blank">aaron.overton@tnstateguard.org</a>&gt; wrote:<br></div><blockqu=
+ote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left-wid=
+th:1px;border-left-style:solid;padding-left:1ex;border-left-color:rgb(204,2=
+04,204)"><div dir=3D"auto">The CG has specified this is a =E2=80=9Cdawn to =
+dusk=E2=80=9D maximum, so personnel are expected to go home at night or mak=
+e personal arrangements for accommodations.</div><div dir=3D"auto"><br></di=
+v><div dir=3D"auto">LTC Sheaf is going to make use of my guest room. I have=
+ two sofas, three spare mattresses, =C2=A0and enough room beyond that to ha=
+ndle quite a few additional folks who have cots. Once we have a picture of =
+how many, I may be able to host everyone who would otherwise drive quite fa=
+r. I live pretty close to the Holston Armory. My wife and have discussed ge=
+tting hamburgers and such to feed anyone who stays with us.</div><div dir=
+=3D"auto"><br></div><div dir=3D"auto">Basically, if I have a clear idea of =
+who might need overnight to avoid hours of driving or the expense of lodgin=
+g, I may be able to make it way easier for many or even all such travelers.=
+</div><div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_a=
+ttr">On Sat, Apr 11, 2026 at 9:29=E2=80=AFPM Borrilez, Michael &lt;<a href=
+=3D"mailto:michael.borrilez@tnstateguard.org" target=3D"_blank">michael.bor=
+rilez@tnstateguard.org</a>&gt; wrote:<br></div><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0px 0px 0px 0.8ex;border-left-width:1px;border-left-s=
+tyle:solid;padding-left:1ex;border-left-color:rgb(204,204,204)"><div dir=3D=
+"auto">Do we have confirmation as to the availability of any billeting?</di=
+v><div dir=3D"auto"><br clear=3D"all"><br clear=3D"all"><div><div dir=3D"lt=
+r" class=3D"gmail_signature" data-smartmail=3D"gmail_signature">Respectfull=
+y,<br>Michael S. Borrilez <br>CPT  CO  (TNSG)<br>3RGT 2BN - Military Police=
+<br>916-220-0262<br><a href=3D"mailto:Michael.Borrilez@tnstateguard.org" ta=
+rget=3D"_blank">Michael.Borrilez@tnstateguard.org</a><br></div></div></div>=
+<div><br></div><div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">On Sat, Apr 11, 2026 at 6:02=E2=80=AFPM Overton, Aaron &lt;=
+<a href=3D"mailto:aaron.overton@tnstateguard.org" target=3D"_blank">aaron.o=
+verton@tnstateguard.org</a>&gt; wrote:<br></div><blockquote class=3D"gmail_=
+quote" style=3D"margin:0px 0px 0px 0.8ex;border-left-width:1px;border-left-=
+style:solid;padding-left:1ex;border-left-color:rgb(204,204,204)"><div dir=
+=3D"auto">Thank you, sir. LTC Sheaf and I were working on TNMAN planning to=
+day and realized we were short on expected participation. Whatever addition=
+al clarity you can provide helps greatly.</div><div dir=3D"auto"><br></div>=
+<div dir=3D"auto">Part of what we did today was also prepping the risk asse=
+ssment and the DD Form 2799, which is what we file with Division to get cle=
+arance for yellow and red tab participation. We are trying to get proper cl=
+earance with in-place mitigations to maximize ability to participate. Assum=
+ing we really get the 61st Medcom support that=E2=80=99s been at least sugg=
+ested, that=E2=80=99s part of the mitigation plan that can let yellow and r=
+ed tab folks do more. At a minimum we want to at least allow all SMs to be =
+able to be on site in the ICP/TOC.</div><div dir=3D"auto"><br></div><div di=
+r=3D"auto">Thanks for highlighting Burns=E2=80=99 status. We knew about Kla=
+us, didn=E2=80=99t know about him. I=E2=80=99ll update our tracking with wh=
+at you do know already.</div><div dir=3D"auto"><br></div><div dir=3D"auto">=
+V/r</div><div dir=3D"auto">-1LT Overton</div><div><br><div class=3D"gmail_q=
+uote"><div dir=3D"ltr" class=3D"gmail_attr">On Sat, Apr 11, 2026 at 5:54=E2=
+=80=AFPM Borrilez, Michael &lt;<a href=3D"mailto:michael.borrilez@tnstategu=
+ard.org" target=3D"_blank">michael.borrilez@tnstateguard.org</a>&gt; wrote:=
+<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8=
+ex;border-left-width:1px;border-left-style:solid;padding-left:1ex;border-le=
+ft-color:rgb(204,204,204)"><div dir=3D"auto">LT-=C2=A0</div><div dir=3D"aut=
+o"><br></div><div dir=3D"auto">I will recheck with staff as to their availa=
+bility. Their commitment depends on (for some) their ability to get orders.=
+ However some would likely have difficulty as they are truck drivers, etc. =
+I will see if I can pin it down. I have already indicated that I will atten=
+d the 3 days and I believe Sobel will be able depending on orders. A number=
+ of 2BN would have to take leave without pay.=C2=A0</div><div dir=3D"auto">=
+<br></div><div dir=3D"auto">Both Burns and Klaus should be off the roster. =
+Both have been discharged.</div><div dir=3D"auto"><br></div><div dir=3D"aut=
+o">Our ability to support would depend on the intended position assignments=
+ as well as the latitude given based on MRC status.</div><div dir=3D"auto">=
+<br></div><div dir=3D"auto">We have no viable additions until they attend 3=
+ drills. If they attend Apr drill, they will still be two drills short.<br =
+clear=3D"all"><br clear=3D"all"><div dir=3D"auto"><div dir=3D"ltr" class=3D=
+"gmail_signature" data-smartmail=3D"gmail_signature">Respectfully,<br>Micha=
+el S. Borrilez <br>CPT  CO  (TNSG)<br>3RGT 2BN - Military Police<br>916-220=
+-0262<br><a href=3D"mailto:Michael.Borrilez@tnstateguard.org" target=3D"_bl=
+ank">Michael.Borrilez@tnstateguard.org</a><br></div></div></div><div><br></=
+div><div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_att=
+r">On Sat, Apr 11, 2026 at 1:25=E2=80=AFPM Overton, Aaron &lt;<a href=3D"ma=
+ilto:aaron.overton@tnstateguard.org" target=3D"_blank">aaron.overton@tnstat=
+eguard.org</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=
+=3D"margin:0px 0px 0px 0.8ex;border-left-width:1px;border-left-style:solid;=
+padding-left:1ex;border-left-color:rgb(204,204,204)"><div dir=3D"ltr">Sir,<=
+br><br>Per LTC Sheaf&#39;s 7 APR email, we are building the 3 RGT mission r=
+oster for TNMAN 2026 (May 2026). Sheaf indicated he was unsure of 2 BN&#39;=
+s posture for this exercise, so we have imported the following 9 personnel =
+directly from the 1 MAR 2026 2 BN alert recall roster as a starting point, =
+with no confirmation of availability yet:<br><br>Rank	Name	Position	MRC<br>=
+CPT	Borrilez, Michael S	BN CO	MRC-2<br>1LT	Barnes, Christopher W	BN Chaplai=
+n	MRC-3<br>2LT	Sobel, Scott T	BN XO	MRC-1<br>SFC	Collins, Jeffrey S	HQ Co 1=
+SG	MRC-1<br>SSG	Burns, Benjamin J	MP Plt Sgt	MRC-4<br>SSG	Lillard, Randall =
+B	Comm NCO	MRC-2<br>SGT	Spence, Troy G	Info Tech	MRC-2<br>SGT	Walker, Derri=
+ck A	ASST S3 NCO	MRC-4<br>CPL	Cate, Ronald E	S3 Clerk	MRC-1<br>Please let u=
+s know:<br><br>Does 2 BN intend to support TNMAN 2026, and if so at what le=
+vel?<br>Who from this list is actually available to participate?<br>Anyone =
+who should be added or removed, or any rank, position, or MRC changes since=
+ 1 MAR?<br>For any additions, we will need address, phone, email, and MRC s=
+tatus, and =E2=80=94 if available =E2=80=94 most-recent PHA date. Thank you=
+ sir.<br><br>Very respectfully,<br>1LT Aaron Overton<br>ASST S3, 3 RGT TNSG=
+</div>
+</blockquote></div></div>
+</blockquote></div></div>
+</blockquote></div></div>
+</blockquote></div></div>
+</blockquote></div></div>
+</blockquote></div></div>
+</blockquote></div></div>
+
+--0000000000001cab2e064f39da07--
