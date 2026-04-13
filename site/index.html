@@ -165,6 +165,26 @@
     .sidebar::-webkit-scrollbar-thumb { background: rgba(156, 163, 175, 0.5); border-radius: 3px; }
     .sidebar::-webkit-scrollbar-thumb:hover { background: rgba(156, 163, 175, 0.7); }
 
+    /* Mermaid zoom overlay */
+    .mermaid-overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: rgba(0,0,0,0.85);
+      z-index: 9998;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: zoom-out;
+      padding: 1em;
+      box-sizing: border-box;
+    }
+    .mermaid-overlay svg {
+      max-width: 95vw;
+      max-height: 95vh;
+    }
+    .mermaid { cursor: zoom-in; }
+
     /* Auth gate styles */
     #auth-gate {
       display: flex;
@@ -279,6 +299,21 @@
                 if (window.mermaid) {
                   try { mermaid.run(); } catch(e) {}
                 }
+
+                // Mermaid click-to-zoom
+                document.querySelectorAll('.mermaid').forEach(function(el) {
+                  if (el.dataset.zoomBound) return;
+                  el.dataset.zoomBound = '1';
+                  el.addEventListener('click', function() {
+                    var svg = el.querySelector('svg');
+                    if (!svg) return;
+                    var overlay = document.createElement('div');
+                    overlay.className = 'mermaid-overlay';
+                    overlay.appendChild(svg.cloneNode(true));
+                    overlay.addEventListener('click', function() { overlay.remove(); });
+                    document.body.appendChild(overlay);
+                  });
+                });
                 var h1 = document.querySelector('.markdown-section h1');
                 var pageName = h1 ? h1.textContent.trim() : "";
                 document.title = titlePrefix && pageName
