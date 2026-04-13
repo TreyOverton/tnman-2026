@@ -6,6 +6,43 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-13 — LTC Sheaf → 1LT Overton (email, TNMAN-26 Next Steps + final OPORD draft)
+
+LTC Sheaf sent an updated OPORD draft (dtd 131200RAPR26) and outlined three near-term action items.
+
+**OPORD changes from the 132100RAPR26 revision:**
+
+- **Greeneville spelling fixed** (was "Greenville")
+- **Phase I/II seam fixed** — Phase I now ends at 120520RMAY26, matching Phase II start
+- **S3 Task 3 / S4 Task 2 APR→MAY typo fixed** — now correctly reads "130800RMAY26"
+- **S1 Task 3 trailing "ca" removed**
+- **S3 task numbering fixed** — sequential 1-7
+- **One remaining typo:** S4 Task 1 still reads "Tasl" instead of "Task"
+
+**Action items from LTC Sheaf:**
+
+1. **Create an execution timeline** of OPORD taskings from 15 APR 26 through 172359RMAY26, highlighting known exercise execution actions with DTGs. *(Our existing [Timeline](timeline.md) largely covers this — may need reformatting for LTC Sheaf's preferred view.)*
+2. **Refine personnel participation assessment** so LTC Sheaf can build sUAS and SECFOR teams to execute tasking on 14 MAY 26. If numbers are insufficient, LTC Sheaf will request reinforcement from adjacent RGTs.
+3. **Draft an operational brief to the CG for 18 APR 26.** Needs to go to G3 BEAVER as a pre-read/read-ahead before the brief. This is a new hard deadline — 5 days away.
+
+LTC Sheaf also thanked 1LT Overton for technical proficiency in plan generation.
+
+Source: [TNMAN-26-Next-Steps.eml](/docs/source/emails/TNMAN-26-Next-Steps.eml) · [RO-26-05-01-final-draft.docx](/docs/source/RO-26-05-01-final-draft.docx)
+
+### 2026-04-13 — LTC Sheaf → COL Roark / CSM Seals (email, final coordinating drafts)
+
+LTC Sheaf sent the final coordinating drafts of the RGT OPORD 26-05-01 (TNMAN-26) with enclosure, plus a separate RGT WARNO 26-04 for IDT on 25 APR 26, to COL Roark and CSM Seals for review, comment, and edits. Cc: LTC Smith (Scott), 1LT Overton.
+
+Key points from LTC Sheaf's message:
+
+- **DIV OPORD for TNMAN-26 has still not been received.** LTC Sheaf states he has "exercised disciplined initiative to comply with the DIV CDR's intent" and will issue a FRAGO to adjust the RGT OPORD once the DIV OPORD arrives.
+- LTC Sheaf acknowledges having held the documents "until the last possible moment" waiting for further DIV guidance.
+- The attached documents are the same drafts already in our system ([RGT OPORD 26-05-01](docs/opord-rgt.md) revised 132100RAPR26, plus the storyboard enclosure).
+
+**New item:** RGT WARNO 26-04 for IDT on **25 APR 26** — this is a separate order for the April IDT period, not an update to the TNMAN OPORD. Not yet imported to this site.
+
+Source: [Final-Coordinating-Drafts-TNMAN-26-OPORD-WARNO-26-04.eml](/docs/source/emails/Final-Coordinating-Drafts-TNMAN-26-OPORD-WARNO-26-04.eml)
+
 ### 2026-04-11 — CPT Borrilez → 1LT Overton (email thread, 2BN roster response)
 
 CPT Borrilez responded to the 2 BN roster review request. Key points from the thread:

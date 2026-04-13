@@ -32,3 +32,5 @@ Key emails are archived in `/docs/source/emails/` and logged in the [Comms Log](
 | 11 APR 26 | Imagery for TNMAN-26 | LTC Sheaf → 1SG Snow | [eml](/docs/source/emails/Imagery-for-TNMAN-26.eml) |
 | 11 APR 26 | 2BN Roster Review Response | CPT Borrilez → 1LT Overton | [eml](/docs/source/emails/TNMAN-2026-2BN-Roster-Review-Response.eml) |
 | 13 APR 26 | Revised draft RGT OPORD | LTC Sheaf → 1LT Overton | [eml](/docs/source/emails/Initial-Coordinating-Draft-RGT-OPORD-26-05-01.eml) |
+| 13 APR 26 | Final coordinating drafts to CDR | LTC Sheaf → COL Roark / CSM Seals | [eml](/docs/source/emails/Final-Coordinating-Drafts-TNMAN-26-OPORD-WARNO-26-04.eml) |
+| 13 APR 26 | TNMAN-26 Next Steps + final OPORD | LTC Sheaf → 1LT Overton | [eml](/docs/source/emails/TNMAN-26-Next-Steps.eml) |

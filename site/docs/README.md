@@ -20,7 +20,7 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | Doc | Status | Issued / Drafted | Source file | Notes |
 |-----|--------|------------------|-------------|-------|
 | [RGT WARNO 26-05-01](warno.md) | Final | 11 FEB 26 | [docx](/docs/source/RGT-WARNO-26-05-01.docx) | Signed COL Roark, S3 Sheaf. Advance notice of TNMAN and May IDT. |
-| [RGT OPORD 26-05-01](opord-rgt.md) | **Draft (revised 13 APR 26)** | 13 APR 26 | [revised docx](/docs/source/RO-26-05-01-revised.docx) · [original docx](/docs/source/RO-26-05-01.docx) | Revised coordinating draft addressing [Orders Consistency Review](../warno-opord-review.md) items. Phase II ENDEX corrected, AO scoped, 61st MED tasks added, TNNG LOI cited. Minor typos remain (APR/MAY date, "ca", numbering). |
+| [RGT OPORD 26-05-01](opord-rgt.md) | **Final coord. draft** | 13 APR 26 | [final docx](/docs/source/RO-26-05-01-final-draft.docx) · [prior rev](/docs/source/RO-26-05-01-revised.docx) · [original](/docs/source/RO-26-05-01.docx) | Submitted to COL Roark / CSM Seals. All [consistency review](../warno-opord-review.md) items resolved (one cosmetic "Tasl" typo remains). LTC Sheaf will FRAGO once DIV OPORD arrives. |
 | [OPORD Encl A — HDWG Storyboard](opord-encl-a.md) | Received | Pre-OPORD | [pptx](/docs/source/ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx) | HDWG storyboard referenced as Enclosure A of the RGT OPORD. |
 
 ## Staff Products

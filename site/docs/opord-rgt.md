@@ -1,17 +1,18 @@
-# RGT OPORD 26-05-01 (Draft — Revised)
+# RGT OPORD 26-05-01 (Final Coordinating Draft)
 
 > **Source files:**
+> - [RO-26-05-01-final-draft.docx](/docs/source/RO-26-05-01-final-draft.docx) — final coordinating draft (authoritative)
+> - [RO-26-05-01-revised.docx](/docs/source/RO-26-05-01-revised.docx) — prior revision
 > - [RO-26-05-01.docx](/docs/source/RO-26-05-01.docx) — original version
-> - [RO-26-05-01-revised.docx](/docs/source/RO-26-05-01-revised.docx) — revised version (authoritative)
 >
 > This page is a Markdown transcription for in-site reading.
 >
-> **Status:** Draft, pre-release. Edits and changes to previously assigned tasks or narrative remain in effect until edited, changed, or completed.
+> **Status:** Final coordinating draft, submitted to COL Roark / CSM Seals for review. LTC Sheaf will issue a FRAGO once the DIV OPORD is received.
 
 COPY ___ OF ___
 3 RGT, TNSG
-Greenville, TN
-132100RAPR26
+Greeneville, TN
+131200RAPR26
 
 ## Summary
 
@@ -88,7 +89,7 @@ This operation will be conducted in three phases.
 
 #### Phase I — Planning and Coordination
 
-Begins with the receipt of Warning Order #1 to DIV OPORD 26-05 (TNMAN-26), 111100RFEB26. Consists of planning, interagency and unit coordinating actions, and notifications to support tasks and actions during Phase II. Ends with the receipt of tasking from authorized unit and agency representatives which initiate exercise training actions NLT 120800RMAY26.
+Begins with the receipt of Warning Order #1 to DIV OPORD 26-05 (TNMAN-26), 111100RFEB26. Consists of planning, interagency and unit coordinating actions, and notifications to support tasks and actions during Phase II. Ends with the receipt of tasking from authorized unit and agency representatives which initiate exercise training actions NET 120520RMAY26.
 
 #### Phase II — Training Execution
 
@@ -135,7 +136,7 @@ Initial actions during this phase will most likely be completed within approx. +
 
 1. **Task 1:** Provide a roster of personnel committed to training in TNMAN-26 IOT facilitate Troop-to-Task organization, staffing, and MET mission sets, NLT 152000RAPR26.
 2. **Task 2:** Coordinate personnel reporting requirements with DIV G1 to support TNMAN-26 NLT 152000RAPR26.
-3. **Task 3:** Provide Regimental Orders to personnel participating in TNMAN-26 to respective subordinate units NLT 302000RAPR26 IOT enable employees to coordinate absence from employment prior to the order period (13-15 MAY 26). *(Editor's note: "ca" appears in source — likely a typo; context suggests "ca." abbreviation for "circa" or a partial word; verify with originator.)*
+3. **Task 3:** Provide Regimental Orders to personnel participating in TNMAN-26 to respective subordinate units NLT 302000RAPR26 IOT enable employees to coordinate absence from employment prior to the order period (13-15 MAY 26).
 4. **Task 4:** During TNMAN-26, track personnel names and attendance location and provide daily updates to CDR and S3 during scheduled reporting periods and as needed IOT facilitate situational awareness and support incident planning.
 5. **Task 5:** BPT account for attachment of personnel from adjacent and higher units NET 120800RMAY26 IOT provide resources and capabilities for enhanced response during TNMAN-26.
 
@@ -147,7 +148,7 @@ Initial actions during this phase will most likely be completed within approx. +
 
 1. **Task 1:** During TNMAN-26, BPT coordinate with external agency partners for operational support and training, to include but not limited to TEMA / TNNG.
 2. **Task 2:** Provide initial estimate of Task Force Organization Structure IAW ICS protocols IOT facilitate troop-to-task planning and coordination **NLT 18 APR 26**.
-3. **Task 3:** ICW S4, BPT receive medical augmentation from 61st MED BN, TNSG, to facilitate on-site medical support NLT 130800RMAY26. *(Editor's note: source document reads "130800RAPR26" — corrected to MAY per context; 13 MAY is ADVON day. Verify with LTC Sheaf.)*
+3. **Task 3:** ICW S4, BPT receive medical augmentation from 61st MED BN, TNSG, to facilitate on-site medical support NLT 130800RMAY26.
 4. **Task 4:** Contact and coordinate with Mr. Tony Armstrong, HAAP POC, at 423-341-5840 IOT coordinate TNSG exercise participation.
 5. **Task 5:** Contact and coordinate with MAJ Trinity Callison, TNNG DJ3/5/7, exercise planner IOT coordinate TNSG exercise participation.
 6. **Task 6:** Prepare a list of personnel, resources, and capabilities required to perform the assigned mission during TNMAN-26 (12-17 MAY 26) IOT request support from DIV and adjacent units.
@@ -156,7 +157,7 @@ Initial actions during this phase will most likely be completed within approx. +
 #### S4
 
 1. **Task 1:** During TNMAN-26, BPT establish a feeding, billeting, and transportation plan ICW DIV MOB Cell, DIV G4, and supporting agencies to include but not limited to TEMA / TNNG.
-2. **Task 2:** ICW S3, BPT receive medical augmentation from 61st MED BN, TNSG, to facilitate on-site medical support NLT 130800RMAY26. *(Editor's note: source document reads "130800RAPR26" — corrected to MAY per context; 13 MAY is ADVON day. Verify with LTC Sheaf.)*
+2. **Task 2:** ICW S3, BPT receive medical augmentation from 61st MED BN, TNSG, to facilitate on-site medical support NLT 130800RMAY26. *(Editor's note: source document still reads "Tasl" in Task 1 — minor typo.)*
 
 #### S6
 

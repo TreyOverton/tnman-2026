@@ -18,13 +18,16 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | 7 APR 26 | LTC Sheaf → S1: initial 4/3 personnel nominations for TNMAN; HHC and 3/3 offered in full; 2/3 unknown | [Comms Log](comms.md) |
 | 10 APR 26 (102100RAPR26) | Draft RGT OPORD 26-05-01 issued (original version) | [RGT OPORD](docs/opord-rgt.md) |
 | 11 APR 26 | Mission roster outreach emails sent (MAJ Crosby for 3 BN, CPT Borrilez for 2 BN) | [Comms Log](comms.md) |
-| 13 APR 26 (132100RAPR26) | **Revised coordinating draft RGT OPORD 26-05-01** — Phase II ENDEX fixed (142131RMAY26), AO scoped, TNNG LOI cited, 61st MED tasks added, S3 Task 2 deadline set | [RGT OPORD](docs/opord-rgt.md) · [Comms Log](comms.md) |
+| 13 APR 26 (131200RAPR26) | **Final coordinating draft RGT OPORD 26-05-01** — Phase I/II seam fixed, all prior typos resolved (except S4 "Tasl"), submitted to COL Roark / CSM Seals. LTC Sheaf outlines next steps: execution timeline, team composition, CG brief. | [RGT OPORD](docs/opord-rgt.md) · [Comms Log](comms.md) |
 | **18 APR 26** | **S3 Task 2:** Provide initial TF Organization Structure estimate IAW ICS protocols | [OPORD §3 S3](docs/opord-rgt.md) |
+| **18 APR 26** | **CG operational brief** — LTC Sheaf to brief BG Stewart. Draft to G3 BEAVER as pre-read beforehand. | [Comms Log](comms.md) |
 | **15 APR 26 (152000RAPR26)** | **S1 Task 1/2:** Provide committed-personnel roster; coordinate personnel reporting with DIV G1 | [OPORD §3 S1](docs/opord-rgt.md) |
+| **25 APR 26** | **IDT (monthly drill)** — training and planning day; RGT WARNO 26-04 covers this. Not part of TNMAN exercise, but relevant for face-to-face TNMAN coordination. | [Comms Log](comms.md) |
 | **30 APR 26 (302000RAPR26)** | **S1 Task 3:** Issue Regimental Orders to participating personnel (enables civilian-employment coordination for 13-15 MAY) | [OPORD §3 S1](docs/opord-rgt.md) |
 | **30 APR 26 (302000RAPR26)** | **S6 Task 1/2:** Receive SOI with callsigns; publish Signal Annex with HF/VHF frequencies | [OPORD §3 S6](docs/opord-rgt.md) |
 | **30 APR 26 (302100RAPR26)** | **All BN and HHC:** Brief 3 RGT CDR on route/convoy plans | [OPORD §3](docs/opord-rgt.md) |
 | **30 APR 26 (302100RAPR26)** | **S3 Task 6:** Publish Time-Phased Force Deployment Data (TPFDD) for RSA deployment/redeployment | [OPORD §3 S3](docs/opord-rgt.md) |
+| **25 APR 26** | **IDT** — Regular monthly drill; training and planning day | [WARNO 26-04](docs/source/emails/Final-Coordinating-Drafts-TNMAN-26-OPORD-WARNO-26-04.eml) |
 | 30 APR 26 | **Final MSEL Review (DIV level)** | [FPM Slides](docs/fpm-slides.md) |
 
 ## Preparation Phase
@@ -72,8 +75,11 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 - [x] WARNO issued (11 FEB 26)
 - [x] Final Planning Meeting (26-27 MAR 26)
 - [x] Draft OPORD issued (10 APR 26)
+- [ ] CG operational brief (18 APR 26) — draft to G3 as pre-read before
 - [ ] S3 TF organization estimate (due 18 APR 26)
 - [ ] S1 mission roster locked (due 15 APR 26)
+- [ ] IDT 25 APR 26 — face-to-face TNMAN coordination opportunity
+- [ ] IDT — monthly drill / training & planning day (25 APR 26)
 - [ ] Orders issued to personnel (due 30 APR 26)
 - [ ] TPFDD published (due 30 APR 26)
 - [ ] Route/convoy plans briefed to 3 RGT CDR (due 30 APR 26)

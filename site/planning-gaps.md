@@ -28,16 +28,10 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Orders and Deadlines (OPORD-driven)
 
-- **RGT OPORD 26-05-01 minor typos** — LTC Sheaf revised the OPORD on 13 APR 26, resolving 5 of 6 original items from the [Orders Consistency Review](warno-opord-review.md). Remaining cleanup:
-    - S3 Task 3 / S4 Task 2: "130800R**APR**26" → likely "130800R**MAY**26" (verify with LTC Sheaf)
-    - S1 Task 3: trailing "ca" typo
-    - S3 task numbering: two items numbered "3." in source
-    - ~~Phase II ENDEX~~ — **RESOLVED** (142131RMAY26)
-    - ~~MOB Cell~~ — **RESOLVED** (intentionally omitted — DIV G1 task)
-    - ~~61st MED attachment~~ — **RESOLVED** (S3 Task 3 + S4 Task 2 added)
-    - ~~AO scope~~ — **RESOLVED** (VTS sites dropped)
-    - ~~TNNG LOI~~ — **RESOLVED** (cited)
-- **S3 Task 2 — TF Organization estimate** — **NLT 18 APR 26** (new deadline in revised OPORD). Current [Task Organization](taskorg.md) is a draft with 12 dependencies. This is 5 days away.
+- ~~**RGT OPORD 26-05-01**~~ — **RESOLVED.** Final coordinating draft (131200RAPR26) fixes all typos and submitted to COL Roark / CSM Seals. Only remaining cosmetic: S4 "Tasl" → "Task". [Orders Consistency Review](warno-opord-review.md) is effectively complete.
+- **CG operational brief — 18 APR 26** — LTC Sheaf to brief BG Stewart. Draft must go to G3 BEAVER as pre-read/read-ahead **before** the brief date. This is **5 days away** and requires: TF org estimate, personnel assessment, execution timeline. *Source: [Comms Log](comms.md) 13 APR "Next Steps" email.*
+- **S3 Task 2 — TF Organization estimate** — **NLT 18 APR 26**. Current [Task Organization](taskorg.md) is a draft with 12 dependencies. Feeds directly into the CG brief.
+- **sUAS and SECFOR team composition** — LTC Sheaf needs refined personnel assessment to build teams for 14 MAY execution. If numbers are insufficient, he will request reinforcement from adjacent RGTs. *Source: [Comms Log](comms.md) 13 APR "Next Steps" email.*
 - **S1 Task 1 — Mission roster locked** — NLT 152000RAPR26 (15 APR 26). Currently a draft with open 2/3 response, MRC-4 unknowns, PAO and 61st MED attachment TBD.
 - **S1 Task 3 — RGT Orders issued** — NLT 302000RAPR26 (30 APR 26). Depends on personnel roster lock.
 - **S6 — SOI and Signal Annex** — NLT 302000RAPR26. Blocked on unresolved TACN radios, ATAK training, and Starlink (see [G6 Questions email](comms.md)).

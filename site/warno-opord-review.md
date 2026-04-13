@@ -53,11 +53,15 @@ VTS-T, VTS-S, VTS-M dropped from the AO description. Now reads: "The 26 counties
 
 LTC Sheaf confirmed the 12-17 MAY range is intentional for the RGT OPORD. The 12th is Phase II's start (receipt of tasking / assembly). The main execution day is 14 MAY. The difference from DIV's 13-17 MAY is a 3 RGT internal planning choice to include the staging/assembly day. **No further action required** — noting for the record.
 
-### Typos in the revised draft (OPEN — minor)
+### ~~Typos in the revised draft~~ — RESOLVED (131200RAPR26 final coordinating draft)
 
-- **S3 Task 3 and S4 Task 2:** Both read "NLT 130800R**APR**26" — should likely be "130800R**MAY**26" (13 MAY is ADVON day; 13 APR is past). Flag to LTC Sheaf.
-- **S1 Task 3:** Trailing "ca" at end of sentence ("...order period (13-15 MAY 26).ca"). Remove before final publication.
-- **S3 task numbering:** Two tasks numbered "3." — should be sequential (3. then 4., etc.). The full S3 task set is 1-7 in the revised draft; the markdown transcription corrects the numbering.
+All previously flagged typos have been fixed in the final coordinating draft:
+
+- ~~S3 Task 3 / S4 Task 2 APR→MAY~~ — **FIXED** (now reads "130800RMAY26")
+- ~~S1 Task 3 trailing "ca"~~ — **REMOVED**
+- ~~S3 task numbering~~ — **FIXED** (sequential 1-7)
+- ~~Greeneville spelling~~ — **FIXED** (now "Greeneville")
+- **One remaining:** S4 Task 1 reads "Tasl" instead of "Task" — cosmetic only.
 
 ### New S3 Task 2 deadline (INFORMATIONAL — 18 APR 26)
 
@@ -89,14 +93,10 @@ All points from the 11 APR review remain valid — decisive operation, Phase II 
 
 ---
 
-## Recommendations to LTC Sheaf (Updated)
+## Recommendations to LTC Sheaf (Updated — 13 APR 26)
 
-Of the original six recommendations, five are resolved. Remaining:
+All original recommendations are now **resolved** in the final coordinating draft (131200RAPR26). Only one cosmetic issue remains:
 
-1. **Fix the APR/MAY typo** in S3 Task 3 and S4 Task 2 ("130800RAPR26" → "130800RMAY26").
-2. **Remove the trailing "ca"** from S1 Task 3.
-3. **Fix S3 task numbering** (two items numbered "3.").
-4. **Date range:** No action required — LTC Sheaf's 12-17 MAY choice is documented and understood.
-5. **Greeneville spelling** — still "Greenville" in the header. Fix when convenient.
+1. **S4 Task 1:** "Tasl" → "Task" — typo in the source document.
 
-None of these block the coordinating-draft distribution — they are minor cleanup for the finalized version.
+This review is effectively **complete**. The OPORD has been submitted to COL Roark and CSM Seals for final review. LTC Sheaf will issue a FRAGO once the DIV OPORD is received.

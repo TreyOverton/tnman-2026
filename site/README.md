@@ -49,7 +49,7 @@ Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field 
 | WARNO 26-05-01 issued | 11 FEB 26 | [Source](docs/warno.md) |
 | TNSG prep videoconference | 19 MAR 26 | Pre-FPM coordination |
 | TNMAN Final Planning Meeting | 26-27 MAR 26 | Sidco — [Slides](docs/fpm-slides.md) |
-| Revised draft RGT OPORD 26-05-01 | 13 APR 26 | [Source](docs/opord-rgt.md) |
+| Final coordinating draft RGT OPORD 26-05-01 | 13 APR 26 | [Source](docs/opord-rgt.md) — submitted to COL Roark / CSM Seals |
 | S1 mission roster due | 15 APR 26 | (152000RAPR26) — provide committed personnel roster |
 | Final MSEL Review (DIV) | 30 APR 26 | |
 | RGT Orders / convoy brief / TPFDD / SOI | 30 APR 26 | (302100RAPR26) — multiple S3 / S6 deadlines |
