@@ -5,10 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TabulaKit</title>
   <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="TNMAN 2026">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
   <script>mermaid.initialize({ startOnLoad: false, securityLevel: 'loose', theme: 'dark', themeVariables: { primaryColor: '#2E4057', primaryTextColor: '#ddd', primaryBorderColor: '#3bc0cb', lineColor: '#3bc0cb', secondaryColor: '#333', tertiaryColor: '#222' } });</script>
@@ -23,9 +19,9 @@
       --base-background-color: #222222;
       --base-color: #dddddd;
       --sidebar-background: #2a2a2a;
-      --sidebar-nav-link-color--active: var(--theme-color);
-      --sidebar-name-color: var(--theme-color);
-      --sidebar-nav-link-border-color--active: var(--theme-color);
+      --sidebar-nav-link-color--active: var(--theme-color-teal);
+      --sidebar-name-color: var(--theme-color-teal);
+      --sidebar-nav-link-border-color--active: var(--theme-color-teal);
       --heading-color: var(--theme-color);
       --heading-h2-color: var(--theme-color);
       --blockquote-border-color: var(--theme-color);
@@ -35,7 +31,7 @@
       --sidebar-nav-link-padding: 0.3em 0;
       --sidebar-nav-strong-margin: 1.2em -25px 0.4em 0;
       --sidebar-nav-strong-padding: 0.15em 0 0.4em 0;
-      --sidebar-nav-strong-color: var(--theme-color-teal);
+      --sidebar-nav-strong-color: #999999;
       --sidebar-nav-strong-font-size: 0.75em;
       --sidebar-nav-strong-text-transform: uppercase;
       --link-color: var(--theme-color-teal);
@@ -49,14 +45,14 @@
     .sidebar-nav { padding-bottom: 8rem !important; }
     .sidebar > h1, .sidebar > h1 > a { text-align: left !important; }
     .sidebar > h1 { padding-left: 0; margin-left: 0; }
-    .sidebar > h1 > a { padding: 0 !important; margin: 0 !important; color: var(--theme-color) !important; font-weight: 700 !important; }
+    .sidebar > h1 > a { padding: 0 !important; margin: 0 !important; color: var(--theme-color-teal) !important; font-weight: 700 !important; }
     .sidebar-nav > ul > li > p { margin: 0 !important; }
 
     /* Section headings: non-clickable, uppercase, muted, with spacing */
     .sidebar-nav > ul > li:has(> p > strong) { margin-top: 1.2em !important; }
     .sidebar-nav > ul > li:has(> p > strong):first-child { margin-top: 0 !important; }
     .sidebar-nav > ul > li > p > strong {
-      color: var(--theme-color-teal);
+      color: #999999;
       font-size: 0.7em;
       text-transform: uppercase;
       letter-spacing: 0.1em;
@@ -73,18 +69,18 @@
 
     /* Active nav item styling */
     .sidebar-nav li.active > a {
-      color: var(--theme-color) !important;
+      color: var(--theme-color-teal) !important;
       font-weight: 500;
     }
 
-    /* Tables — desktop */
+    /* Tables */
     table { width: 100%; }
     td, th { vertical-align: top; }
     th { background: #2E4057 !important; color: white !important; }
     .markdown-section table td:first-child,
     .markdown-section table th:first-child { white-space: nowrap; }
 
-    /* Tables — mobile: stack rows into card-like blocks */
+    /* Mobile stacked card tables */
     @media screen and (max-width: 768px) {
       .markdown-section table,
       .markdown-section thead,
@@ -137,20 +133,6 @@
       }
     }
 
-    /* MRC status badges */
-    .mrc {
-      display: inline-block;
-      padding: 2px 10px;
-      border-radius: 3px;
-      font-weight: 700;
-      font-size: 0.85em;
-      white-space: nowrap;
-    }
-    .mrc-1 { background: #2ecc71; color: #000; }
-    .mrc-2 { background: #f1c40f; color: #000; }
-    .mrc-3 { background: #e74c3c; color: #fff; }
-    .mrc-4 { background: #e74c3c; color: #fff; }
-
     /* Headings */
     .markdown-section h1,
     .markdown-section h2,
@@ -164,26 +146,6 @@
     .sidebar::-webkit-scrollbar-track { background: transparent; }
     .sidebar::-webkit-scrollbar-thumb { background: rgba(156, 163, 175, 0.5); border-radius: 3px; }
     .sidebar::-webkit-scrollbar-thumb:hover { background: rgba(156, 163, 175, 0.7); }
-
-    /* Mermaid zoom overlay */
-    .mermaid-overlay {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100vw; height: 100vh;
-      background: rgba(0,0,0,0.85);
-      z-index: 9998;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: zoom-out;
-      padding: 1em;
-      box-sizing: border-box;
-    }
-    .mermaid-overlay svg {
-      max-width: 95vw;
-      max-height: 95vh;
-    }
-    .mermaid { cursor: zoom-in; }
 
     /* Auth gate styles */
     #auth-gate {
@@ -220,6 +182,26 @@
     }
     #sign-in-btn:hover { opacity: 0.85; }
     #sign-in-btn:disabled { background: #666; cursor: wait; }
+
+    /* Mermaid diagram styles */
+    .mermaid-overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: rgba(0,0,0,0.85);
+      z-index: 9998;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: zoom-out;
+      padding: 1em;
+      box-sizing: border-box;
+    }
+    .mermaid-overlay svg {
+      max-width: 95vw;
+      max-height: 95vh;
+    }
+    .mermaid { cursor: zoom-in; }
   </style>
 </head>
 <body>
@@ -275,8 +257,6 @@
 
         var docsifyOpts = config.docsify || {};
 
-        var titlePrefix = config.titlePrefix || config.name || "";
-
         window.$docsify = {
           name: sidebarName,
           repo: false,
@@ -290,12 +270,15 @@
           } : false,
           plugins: [
             function(hook) {
+              // Transform mermaid code blocks into mermaid divs
               hook.afterEach(function(html) {
                 return html.replace(/<pre[^>]*><code[^>]*class="lang-mermaid"[^>]*>([\s\S]*?)<\/code><\/pre>/gi, function(m, code) {
                   return '<div class="mermaid">' + code.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"') + '</div>';
                 });
               });
+
               hook.doneEach(function() {
+                // Render mermaid diagrams
                 if (window.mermaid) {
                   try { mermaid.run(); } catch(e) {}
                 }
@@ -314,11 +297,6 @@
                     document.body.appendChild(overlay);
                   });
                 });
-                var h1 = document.querySelector('.markdown-section h1');
-                var pageName = h1 ? h1.textContent.trim() : "";
-                document.title = titlePrefix && pageName
-                  ? titlePrefix + " :: " + pageName
-                  : (pageName || titlePrefix || "Documentation");
 
                 // Inject data-label attributes for mobile stacked tables
                 var tables = document.querySelectorAll('.markdown-section table');
