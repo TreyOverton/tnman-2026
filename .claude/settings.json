@@ -24,9 +24,7 @@
       "WebSearch",
       "Task",
       "Skill(startup)",
-      "Skill(orient)",
-      "Skill(note)",
-      "Skill(aar)"
+      "Skill(orient)"
     ]
   }
 }
