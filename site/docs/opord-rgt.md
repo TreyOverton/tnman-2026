@@ -1,18 +1,19 @@
-# RGT OPORD 26-05-01 (Final Coordinating Draft)
+# RGT OPORD 26-05-01
 
 > **Source files:**
-> - [RO-26-05-01-final-draft.docx](/docs/source/RO-26-05-01-final-draft.docx) — final coordinating draft (authoritative)
+> - [RO-26-05-01-final.docx](/docs/source/RO-26-05-01-final.docx) — **final issued version** (authoritative)
+> - [RO-26-05-01-final-draft.docx](/docs/source/RO-26-05-01-final-draft.docx) — final coordinating draft
 > - [RO-26-05-01-revised.docx](/docs/source/RO-26-05-01-revised.docx) — prior revision
 > - [RO-26-05-01.docx](/docs/source/RO-26-05-01.docx) — original version
 >
 > This page is a Markdown transcription for in-site reading.
 >
-> **Status:** Final coordinating draft, submitted to COL Roark / CSM Seals for review. LTC Sheaf will issue a FRAGO once the DIV OPORD is received.
+> **Status:** Final, issued. LTC Sheaf will issue a FRAGO once the DIV OPORD is received.
 
 COPY ___ OF ___
 3 RGT, TNSG
 Greeneville, TN
-131200RAPR26
+141600RAPR26
 
 ## Summary
 

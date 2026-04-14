@@ -18,7 +18,8 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | 7 APR 26 | LTC Sheaf → S1: initial 4/3 personnel nominations for TNMAN; HHC and 3/3 offered in full; 2/3 unknown | [Comms Log](comms.md) |
 | 10 APR 26 (102100RAPR26) | Draft RGT OPORD 26-05-01 issued (original version) | [RGT OPORD](docs/opord-rgt.md) |
 | 11 APR 26 | Mission roster outreach emails sent (MAJ Crosby for 3 BN, CPT Borrilez for 2 BN) | [Comms Log](comms.md) |
-| 13 APR 26 (131200RAPR26) | **Final coordinating draft RGT OPORD 26-05-01** — Phase I/II seam fixed, all prior typos resolved (except S4 "Tasl"), submitted to COL Roark / CSM Seals. LTC Sheaf outlines next steps: execution timeline, team composition, CG brief. | [RGT OPORD](docs/opord-rgt.md) · [Comms Log](comms.md) |
+| 13 APR 26 (131200RAPR26) | Final coordinating draft RGT OPORD 26-05-01 — Phase I/II seam fixed, all prior typos resolved (except S4 "Tasl"), submitted to COL Roark / CSM Seals. LTC Sheaf outlines next steps. | [Comms Log](comms.md) |
+| **14 APR 26 (141600RAPR26)** | **RGT OPORD 26-05-01 ISSUED (Final).** Identical content to coordinating draft; DTG updated to 141600R. FRAGO pending once DIV OPORD arrives. | [RGT OPORD](docs/opord-rgt.md) |
 | **14-16 APR 26** | **FPM Videoconference** — LTC Estes coordinating; Tue/Wed/Thu this week. All staff/CDRs invited. | [CG Intent](docs/cg-intent.md) |
 | **18 APR 26** | **S3 Task 2:** Provide initial TF Organization Structure estimate IAW ICS protocols | [OPORD §3 S3](docs/opord-rgt.md) |
 | **18 APR 26** | **Report to DIV / CG operational brief.** DIV OPORD NLT 1000 hrs this date. LTC Sheaf to brief. | [CG Intent](docs/cg-intent.md) · [Comms Log](comms.md) |

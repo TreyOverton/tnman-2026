@@ -85,7 +85,7 @@ Full personnel contact info: [Mission Roster](roster.md) · Full chain of comman
 | Unknown (addressed alongside COL Roark) | MAJ Robert Garner | robert.garner@tnstateguard.org |
 | DIV SGM | SGM Allen Nunley | allen.nunley@tnstateguard.org |
 | Unknown (cc'd) | David Wemyss | david.wemyss@tnstateguard.org |
-| RCSM (unknown regiment) | RCSM John Barton | john.barton@tnstateguard.org |
+| RCSM (1 RGT OPFOR POC) | RCSM John Barton | john.barton@tnstateguard.org — POC for 1 RGT OPFOR role player coordination at Holston |
 
 ## Open Contact-Info Items
 

@@ -6,6 +6,17 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-13 — LTC Sheaf fwd LTC Estes → 1LT Overton (email, Planning Portal + OPFOR POC)
+
+LTC Sheaf forwarded a reply from **LTC Estes (2 RGT CO)** regarding the planning portal. Two items:
+
+1. **LTC Sheaf shared tnman-2026.web.app with LTC Estes** for SA on 3 RGT planning efforts. Credited 1LT Overton for compiling the information. LTC Sheaf also noted he has not yet received a Google Meet link for the 18 APR CG briefing.
+2. **LTC Estes confirms 1 RGT OPFOR**: "1st Regiment volunteered 6 PAX to role play OPFOR at Holston — one less task for you to worry about." **POC for role player coordination is RCSM John Barton** (john.barton@tnstateguard.org), copied on the email.
+
+LTC Sheaf's instruction: "Not going into the OPORD, just put it in OIC Notes."
+
+Source: [3-RGT-TNMAN-26-Planning-Portal-App.eml](/docs/source/emails/3-RGT-TNMAN-26-Planning-Portal-App.eml)
+
 ### 2026-04-13 — LTC Sheaf fwd LTC Estes → COL Roark / MAJ Garner (email, FPM Videoconference + CG's Intent)
 
 LTC Sheaf forwarded an email from **LTC Estes (2 RGT CO)** containing the CG's intent for TNMAN and detailed task assignments from the 31 MAR TNMAN Videoconference. LTC Estes spoke with BG Cox on 13 APR and received guidance. LTC Sheaf marked this "information only" and requested it be added to the planning app.

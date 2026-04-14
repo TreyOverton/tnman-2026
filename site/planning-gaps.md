@@ -28,7 +28,7 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Orders and Deadlines (OPORD-driven)
 
-- ~~**RGT OPORD 26-05-01**~~ — **RESOLVED.** Final coordinating draft (131200RAPR26) fixes all typos and submitted to COL Roark / CSM Seals. Only remaining cosmetic: S4 "Tasl" → "Task". [Orders Consistency Review](warno-opord-review.md) is effectively complete.
+- ~~**RGT OPORD 26-05-01**~~ — **ISSUED** (141600RAPR26). [Orders Consistency Review](warno-opord-review.md) closed. FRAGO pending once DIV OPORD arrives.
 - **CG operational brief — 18 APR 26** — LTC Sheaf to brief BG Stewart. Draft must go to G3 BEAVER as pre-read/read-ahead **before** the brief date. This is **5 days away** and requires: TF org estimate, personnel assessment, execution timeline. *Source: [Comms Log](comms.md) 13 APR "Next Steps" email.*
 - **S3 Task 2 — TF Organization estimate** — **NLT 18 APR 26**. Current [Task Organization](taskorg.md) is a draft with 12 dependencies. Feeds directly into the CG brief.
 - **sUAS and SECFOR team composition** — LTC Sheaf needs refined personnel assessment to build teams for 14 MAY execution. If numbers are insufficient, he will request reinforcement from adjacent RGTs. *Source: [Comms Log](comms.md) 13 APR "Next Steps" email.*
