@@ -72,6 +72,16 @@
           name: sidebarName,
           repo: false,
           loadSidebar: true,
+          // Pin sidebar/navbar resolution to the root copy. Without this,
+          // Docsify walks up from the current route probing for _sidebar.md
+          // at each level. Firebase's SPA rewrite returns index.html for
+          // those 404s, which Docsify then treats as a valid (but broken)
+          // sidebar. Local live-server returns real 404s so this only
+          // surfaces when deployed.
+          alias: Object.assign({
+            '/.*/_sidebar.md': '/_sidebar.md',
+            '/.*/_navbar.md': '/_navbar.md'
+          }, docsifyOpts.alias || {}),
           subMaxLevel: docsifyOpts.subMaxLevel || 3,
           auto2top: true,
           search: docsifyOpts.search ? {
