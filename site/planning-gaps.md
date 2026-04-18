@@ -8,8 +8,11 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Personnel
 
-- **MRC-4 status verification** — 8 Soldiers: CPT McCroskey (HHC), SSG Burns (2 BN), SGT Walker (2 BN), CPT Moore (3 BN), PV1 Gauthier (3 BN), MAJ Bennett (4 BN), 2LT Neisler (4 BN), WO1 Hendon (4 BN). Each must be raised to MRC-1/2 or processed through the MRC-3 deviation. *Source: [Mission Roster](roster.md), [DD 2977 Block 4](docs/dd2977.md).*
-- **PHA currency data** — LTC Sheaf flagged this as a DIV requirement. No source in hand. Chase via S1 medical records. *Source: [Risk Assessment M-4](risk.md).*
+- **MRC-4 status verification** — 7 Soldiers: CPT McCroskey (HHC), SGT Walker (2 BN), CPT Moore (3 BN), PV1 Gauthier (3 BN), MAJ Bennett (4 BN), 2LT Neisler (4 BN), WO1 Hendon (4 BN). Each must be raised to MRC-1/2 or processed through the MRC-3 deviation. (SSG Burns removed — discharged.) *Source: [Mission Roster](roster.md), [DD 2977 Block 4](docs/dd2977.md).*
+- **PHA currency data** — **HARDER BLOCKER.** DIV OPORD 26-05 §4.c.(4) confirms 61st MED BN **will NOT provide PHAs during TNMAN**. Units must verify PHAs are current before orders issue. Chase via S1 medical records. *Source: [Risk Assessment M-4](risk.md), [DIV OPORD §4.c.(4)](docs/opord-div.md).*
+- **IET attendance verification** — DIV OPORD 26-05 §3.j.(11).(d): *"Soldiers who have not attended IET will not be allowed to attend TNMAN."* S1 must verify IET attendance for all mission-roster personnel before orders issue. *Source: [DIV OPORD §3.j](docs/opord-div.md).*
+- **AT-in-lieu approvals** — DIV OPORD 26-05 §3.j.(11).(c): any Soldier doing TNMAN in lieu of AT requires **CG and DCGO approval**. S1 to identify any such Soldiers on the roster and route approvals. *Source: [DIV OPORD §3.j](docs/opord-div.md).*
+- **Unpaid-volunteer status comms** — DIV OPORD 26-05 §4.b.(2): all Volunteers are in unpaid status during TNMAN. Needs to be communicated in S1 orders and Participant Guide so Soldiers coordinate civilian leave/unpaid time. *Source: [DIV OPORD §4.b](docs/opord-div.md).*
 - **2 BN availability confirmation** — outreach email sent to CPT Borrilez 11 APR. Imported 9 personnel assumed until response is in. *Source: [Comms Log](comms.md), [Mission Roster](roster.md) 2nd Battalion note.*
 - **3 BN roster adjustments** — outreach email sent to MAJ Crosby 11 APR for confirmation of adds/removes and status on PV1 Gauthier. *Source: [Comms Log](comms.md).*
 - **PAO representative assignment** — CG intent confirms 1 PAX PAO from DIV Staff, consolidating with TNARNG PAO. LTC Sheaf to contact LTC Epright. *Source: [CG Intent](docs/cg-intent.md), [Mission Roster](roster.md).*
@@ -28,7 +31,9 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Orders and Deadlines (OPORD-driven)
 
-- ~~**RGT OPORD 26-05-01**~~ — **ISSUED** (141600RAPR26). [Orders Consistency Review](warno-opord-review.md) closed. FRAGO pending once DIV OPORD arrives.
+- ~~**RGT OPORD 26-05-01**~~ — **ISSUED** (141600RAPR26).
+- ~~**DIV OPORD 26-05**~~ — **RECEIVED** 17 APR 26 (signed 161200RAPRIL2026). [DIV OPORD page](docs/opord-div.md). Triggered [Orders Consistency Review](warno-opord-review.md) re-open — 15 FRAGO-candidate items identified.
+- **FRAGO to RGT OPORD 26-05-01** — **NEW BLOCKER.** LTC Sheaf plans to issue FRAGO incorporating DIV OPORD guidance. See Consistency Review §D for recommended changes (ICP naming, 6-hr establishment clock, 1 RGT billeting question, CCIRs, reports NLT, LNO integration, etc.).
 - **CG operational brief — 18 APR 26** — LTC Sheaf to brief BG Stewart. Draft must go to G3 BEAVER as pre-read/read-ahead **before** the brief date. This is **5 days away** and requires: TF org estimate, personnel assessment, execution timeline. *Source: [Comms Log](comms.md) 13 APR "Next Steps" email.*
 - **S3 Task 2 — TF Organization estimate** — **NLT 18 APR 26**. Current [Task Organization](taskorg.md) is a draft with 12 dependencies. Feeds directly into the CG brief.
 - **sUAS and SECFOR team composition** — LTC Sheaf needs refined personnel assessment to build teams for 14 MAY execution. If numbers are insufficient, he will request reinforcement from adjacent RGTs. *Source: [Comms Log](comms.md) 13 APR "Next Steps" email.*
@@ -42,14 +47,20 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Legal
 
-- **JAG consultation** — [JAG Pre-Brief](docs/jag-brief.md) prepared but not yet shared with JAG. Must complete before the DD 2977 can cite written ROE. Drives O-7 and L-1 residuals.
-- **ROE document** — written against TN state law (SAD authority), must name TNSG as unarmed presence-only force, covers fence-line civilian interaction. Blocks SECFOR line tasks.
+- **JAG consultation** — [JAG Pre-Brief](docs/jag-brief.md) prepared but not yet shared with JAG. DIV OPORD §3.i.6.(h) names **COL Williams (PMO)** as the JAG for 3 RGT (Legal review of RUF + UAS policy). This is the addressee. Drives O-7 and L-1 residuals.
+- **ROE document** — written against TN state law (SAD authority), must name TNSG as unarmed presence-only force, covers fence-line civilian interaction. Blocks SECFOR line tasks. DIV OPORD assigns the Legal review to COL Williams.
+
+### Coordination with DIV (newly surfaced from DIV OPORD)
+
+- ~~**ICP naming discrepancy**~~ — **RESOLVED** 18 APR: all three names in play ("Mt. Carmel Armory" / "US Army Reserve Center, Mt Carmel" / "Kingsport Readiness Center") refer to the same facility. Canonical form: **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645**. Cosmetic RGT OPORD address fix queued for FRAGO. *Source: [Consistency Review B1](warno-opord-review.md).*
+- **1 RGT OPFOR billeting at ICP** — DIV OPORD tasks 3 RGT to provide a sleeping area for 1 RGT SECFOR (likely OPFOR) personnel; unclear whether this overrides CG's dawn-to-dusk / RON-at-home policy or is a narrow exception. Requires DIV G3 / CG clarification. *Source: [Consistency Review B3](warno-opord-review.md).*
+- **RFF/RFS submission to DIV** — LTC Sheaf drafted the [RFF / RFS](docs/rff-rfs.md) 17-18 APR. Needs staff input, finalization, and submission to DIV G3 (recommend NLT 30 APR for MSEL alignment or 02 MAY CG brief). *Source: [RFF / RFS](docs/rff-rfs.md).*
 
 ## High — Next 1-2 Weeks
 
 ### Division / Higher HQ
 
-- **Division OPORD 26-05** — **due NLT 18 APR 1000R** per CG intent. This is the document we've been waiting for. *Source: [CG Intent](docs/cg-intent.md).*
+- ~~**Division OPORD 26-05**~~ — **RECEIVED** 17 APR 26 (signed 161200RAPRIL2026, 2 days ahead of CG deadline). *Source: [DIV OPORD](docs/opord-div.md).*
 - **FPM Videoconference this week (14-16 APR)** — LTC Estes coordinating. All staff/CDRs invited. Confirm attendance. *Source: [CG Intent](docs/cg-intent.md).*
 - **CG + DIV staff brief on 02 MAY** — second briefing event, pre-TNMAN. *Source: [CG Intent](docs/cg-intent.md).*
 - **Contact info for LTC Epright (DIV PAO)** and **G3 BEAVER** (full name and rank). *Source: [Key Contacts](contacts.md).*
@@ -70,7 +81,7 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 ### Coordination
 
 - **HAAP site orientation** — coordinate a pre-mission perimeter walk-through with Mr. Tony Armstrong (HAAP POC). *Source: [Key Contacts](contacts.md).*
-- **ICP location recon** — scout the actual ICP site at US Army Reserve Center, Mt Carmel, to confirm parking, setup space, and power.
+- **ICP location recon** — scout the actual ICP site at Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645, to confirm parking, setup space, and power.
 - **MAJ Callison / MAJ Crandall (TNNG planners)** — S3 Task 4 requires 1LT Overton / LTC Sheaf to contact and coordinate with both. Not yet initiated.
 
 ## Medium — Before Exercise Execution

@@ -3,13 +3,15 @@
 > **Source:** Forwarded email from LTC Estes (2 RGT CO) to COL Roark / MAJ Garner, 13 APR 26. Originally from BG Stewart's 31 MAR TNMAN Videoconference. [Source email](/docs/source/emails/TNMAN26-FPM-Videoconference.eml)
 >
 > LTC Estes spoke with BG Cox on 13 APR and received guidance on how TNSG will proceed for the next 30 days.
+>
+> **Update 17 APR 26:** [DIV OPORD 26-05](opord-div.md) received (signed 161200RAPRIL2026, 2 days ahead of the CG-stated deadline). The OPORD confirms and codifies most of this CG Intent; differences are flagged inline below.
 
 ## Key Dates from LTC Estes
 
 | Date | Event |
 |------|-------|
 | **14-16 APR 26 (this week)** | FPM Videoconference — LTC Estes setting up; Tue/Wed/Thu availability requested from all commanders and staff |
-| **18 APR 26** | Report to DIV; DIV OPORD NLT 1000 hrs this date |
+| **18 APR 26** | Report to DIV; ~~DIV OPORD NLT 1000 hrs this date~~ (**received 17 APR, 2 days early**) |
 | **02 MAY 26** | Brief CG and DIV staff prior to TNMAN |
 | **11-12 MAY 26** | JBAT training and exercise, Nashville (DIV ENG) |
 | **12-13 MAY 26** | Orthomosaic Mapping mission, Fall Creek Falls (2 RGT) |
@@ -86,13 +88,25 @@ Establishing an ICP in Kingsport, TN with HF and TACN, providing ground and air 
 
 ## Implications for 3 RGT Planning
 
-1. **61st MED BN is 3 personnel, not 2** — from 31st MED Co specifically, Green/Yellow tab. Update roster and DD 2977.
+1. **61st MED BN is 3 personnel, not 2** — from 31st MED Co specifically, Green Tabs (DIV OPORD says "Green Tabs"). Update roster and DD 2977.
 2. **2 LNOs incoming** — one from 2 RGT, one from 4 RGT. These need ICP task org slots.
-3. **2 DIV LNOs to 3 RGT TF** — additional support from DIV staff.
-4. **1 RGT providing 6 OPFOR** at Holston, 13-15 MAY — coordinate with HAAP POC.
-5. **DIV OPORD due NLT 18 APR 1000R** — the document we've been waiting for has a deadline.
-6. **DIV Legal providing RUF and UAS legal review** — our [JAG Pre-Brief](jag-brief.md) can reference this as incoming DIV support.
+3. **2 DIV LNOs to 3 RGT TF** — DIV OPORD confirms these are **PMO LNOs** (plus 2 more PMO LNOs go to the JOC).
+4. **1 RGT providing 6 OPFOR** at Holston — DIV OPORD attaches them to **COL Roark (ICP Commander)**, POC Mr. Tony Armstrong.
+5. ~~**DIV OPORD due NLT 18 APR 1000R**~~ — **Received 17 APR**, signed 161200RAPRIL2026. [DIV OPORD page](opord-div.md).
+6. **DIV Legal providing RUF and UAS legal review** — DIV OPORD names **COL Williams (PMO)** as the JAG for 3 RGT.
 7. **PAO from DIV** — 1 PAX assigned, consolidating with TNARNG PAO.
 8. **Daily COMMEX** — 1 HF/TACN radio check per day, 13-15 May. S6 planning dependency.
-9. **ICP location**: CG says "Kingsport Readiness Center" — OPORD says "US Army Reserve Center, Mt Carmel." Likely the same facility (Mt Carmel is adjacent to Kingsport); confirm with LTC Sheaf.
+9. **ICP location naming** — CG Intent "Kingsport Readiness Center", DIV OPORD "Mt. Carmel Armory", and RGT OPORD "US Army Reserve Center, Mt Carmel" all refer to the same facility: **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645** (a TN National Guard home station up US-11W from HAAP). Canonical form resolved 18 APR.
 10. **CG brief on 02 MAY** — a second briefing event beyond the 18 APR report.
+11. **New items from the DIV OPORD itself:**
+    - **6-hour ICP establishment window** from notification.
+    - 3 RGT to **provide sleeping area for 1 RGT SECFOR/OPFOR personnel** at the ICP — tension with CG dawn-to-dusk policy; clarification required. *([Consistency Review B3](../warno-opord-review.md).)*
+    - **MRC-3 Armory-only across all 3 TNMAN missions**; MRC-2 field use requires per-individual GO-level approval.
+    - **61st will NOT provide PHAs during TNMAN** — PHAs must be current in advance.
+    - **Unpaid status for all Volunteers during TNMAN.**
+    - **AT in-lieu requires CG and DCGO approval.**
+    - **IET attendance required** — no TNMAN attendance without IET.
+    - **2-hour NLT** for unit closure + sensitive-item reports after movement to/from mission site.
+    - **DA Form 7566 Composite Risk Management worksheet** required per training event — aligns at sub-unit level with our RGT-level [DD 2977](dd2977.md).
+    - DIV CCIRs (FFIR, PIR, EEFI) — need to be inherited/augmented in the 3 RGT FRAGO.
+12. **3 RGT tasked to "provide RFFs to DIV Staff"** — [RFF/RFS draft](rff-rfs.md) in hand as of 18 APR; needs staff input and submission to DIV.

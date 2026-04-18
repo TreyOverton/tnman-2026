@@ -1,102 +1,216 @@
-# Orders Consistency Review — DIV WARNO / RGT WARNO / Draft RGT OPORD
+# Orders Consistency Review — DIV WARNO / DIV OPORD / RGT WARNO / RGT OPORD
 
 > **Prepared for:** LTC Sheaf, S3 3 RGT
 > **Prepared by:** 1LT Overton, ASST S3 3 RGT
-> **Date:** 13 APR 26 (updated from 11 APR original)
-> **Status:** Reference document — comparison of three orders for internal planning review. Updated to reflect LTC Sheaf's revised coordinating draft of 132100RAPR26.
+> **Date:** 18 APR 26 (re-opened after DIV OPORD received 17 APR)
+> **Status:** **Re-opened.** DIV OPORD 26-05 received 17 APR 26 (signed 161200RAPRIL2026 — 2 days ahead of the CG-stated NLT). The prior review (closed 14 APR after RGT OPORD issue) is superseded below. A FRAGO from LTC Sheaf will follow.
 
 ## Documents Compared
 
 | Doc | DTG | Issuer | Source |
 |-----|-----|--------|--------|
 | **[DIV WARNO (WO 1 to DIV OPORD 26-05)](docs/warno-div.md)** | 111100RFEBRUARY2026 | BG Stewart (CG), G3 BEAVER | [docx](/docs/source/WO1-TO-DIV-OPORD-26-05-TNMAN-26.docx) |
-| **[RGT WARNO 26-05-01](docs/warno.md)** | 112100RFEB26 (~10 hrs after DIV WARNO) | COL Roark, S3 Sheaf | [docx](/docs/source/RGT-WARNO-26-05-01.docx) |
-| **[Draft RGT OPORD 26-05-01](docs/opord-rgt.md)** | **132100RAPR26 (revised draft)** | COL Roark, S3 Sheaf | [revised docx](/docs/source/RO-26-05-01-revised.docx) · [original docx](/docs/source/RO-26-05-01.docx) |
+| **[DIV OPORD 26-05](docs/opord-div.md)** | **161200RAPRIL2026** | BG Stewart (CG), G3 BEAVER | [pdf](/docs/source/div-opord-26-05/div-opord-26-05.pdf) |
+| **[RGT WARNO 26-05-01](docs/warno.md)** | 112100RFEB26 | COL Roark, S3 Sheaf | [docx](/docs/source/RGT-WARNO-26-05-01.docx) |
+| **[RGT OPORD 26-05-01](docs/opord-rgt.md)** | 141600RAPR26 (final, issued) | COL Roark, S3 Sheaf | [docx](/docs/source/RO-26-05-01-final.docx) |
 
-**Missing:** Division OPORD 26-05 has not been received; only the DIV WARNO is in hand. Several DIV-level details (annexes, specific dates, communication requirements) are still TBD pending that document.
+Supporting new materials issued alongside the DIV OPORD receipt:
 
----
-
-## Items Resolved by the 13 APR Revision
-
-LTC Sheaf addressed five of the six original recommendations. Each item below is now **closed**.
-
-### ~~1. Phase II end-time~~ — RESOLVED
-
-LTC Sheaf revised Phase II ENDEX from 132131RMAY26 to **142131RMAY26 (EENT)**. Phase II now runs 12-14 MAY. The 15 MAY half-day/AAR falls under Phase III (Recovery and AAR), which begins NET 142131RMAY26. This is internally consistent with the storyboard (13 ADVON, 14 main day, 15 AAR) and is LTC Sheaf's deliberate phasing decision — the primary execution occurs on 14 MAY, and post-execution activities transition to Phase III.
-
-### ~~3. MOB Cell task~~ — RESOLVED (intentionally omitted)
-
-LTC Sheaf confirmed that the Sidco MOB Cell task from the DIV WARNO is a **DIV G1 responsibility**, not an RGT S1 task. 3 RGT will NOT provide 2 PAX to Sidco. This was not an oversight in the original draft — it was a correct omission. Our earlier flag was incorrect.
-
-### ~~4. Medical attachment (61st MED BN)~~ — RESOLVED
-
-The revised OPORD adds **S3 Task 3** and **S4 Task 2** to coordinate receipt of 61st MED BN medical augmentation. This addresses the gap we flagged. *(Note: the date in both tasks reads "130800RAPR26" which is likely a typo for "130800RMAY26" — see "Remaining Items" below.)*
-
-### ~~5. AO scope~~ — RESOLVED
-
-VTS-T, VTS-S, VTS-M dropped from the AO description. Now reads: "The 26 counties that comprise TEMA East Region and Home Station / Drill Locations." This is appropriately scoped for the HAAP / Mt Carmel mission.
-
-### ~~6. TNNG LOI reference~~ — RESOLVED
-
-"TNNG Letter of Instruction, dtd 11 DEC 24" added to the OPORD references. LTC Sheaf has requested a copy from MAJ Callison.
+- [RFF / RFS TNMAN-26](docs/rff-rfs.md) (LTC Sheaf, 17-18 APR 26) — 3 RGT's response to the DIV tasking to "Provide DIV Staff with RFFs over and above organic capabilities."
+- [Operational / NAI Graphics](docs/ops-graphics.md) (LTC Sheaf, 17 APR 26) — draft OPS/INTEL overlay for S2 refinement.
 
 ---
 
-## Remaining Items
+## Summary — 18 APR Review Findings
 
-### 2. Mission-section date range (OPEN — LTC Sheaf's deliberate choice)
+RGT OPORD 26-05-01 is **broadly consistent** with DIV OPORD 26-05. The RGT OPORD anticipated most of the DIV-level guidance, and all prior inconsistencies remain resolved. The new findings below are **delta items from the DIV OPORD** that were not visible on 14 APR when the RGT OPORD issued, and they are candidates for inclusion in LTC Sheaf's FRAGO.
 
-- **DIV WARNO §2 Mission:** "TNMAN 13-17 May 2026"
-- **RGT WARNO §2 Mission:** "13-17 MAY 26"
-- **Revised RGT OPORD §2 Mission:** "**12-17 MAY 26**"
+### Status Key
 
-LTC Sheaf confirmed the 12-17 MAY range is intentional for the RGT OPORD. The 12th is Phase II's start (receipt of tasking / assembly). The main execution day is 14 MAY. The difference from DIV's 13-17 MAY is a 3 RGT internal planning choice to include the staging/assembly day. **No further action required** — noting for the record.
-
-### ~~Typos in the revised draft~~ — RESOLVED (131200RAPR26 final coordinating draft)
-
-All previously flagged typos have been fixed in the final coordinating draft:
-
-- ~~S3 Task 3 / S4 Task 2 APR→MAY~~ — **FIXED** (now reads "130800RMAY26")
-- ~~S1 Task 3 trailing "ca"~~ — **REMOVED**
-- ~~S3 task numbering~~ — **FIXED** (sequential 1-7)
-- ~~Greeneville spelling~~ — **FIXED** (now "Greeneville")
-- **One remaining:** S4 Task 1 reads "Tasl" instead of "Task" — cosmetic only.
-
-### New S3 Task 2 deadline (INFORMATIONAL — 18 APR 26)
-
-S3 Task 2 now reads: "Provide initial estimate of Task Force Organization Structure IAW ICS protocols IOT facilitate troop-to-task planning and coordination **NLT 18 APR 26**." This is a new deadline. Current [Task Organization](taskorg.md) is in draft form with 12 dependencies — this deadline drives the resolution of several of them (IC/TF Commander, Safety Officer, Section Chiefs).
+- **CLOSED** — resolved in the 13-14 APR revisions; still correct against the DIV OPORD.
+- **FRAGO** — new or changed DIV guidance; should be incorporated in the FRAGO.
+- **OPEN** — question or inconsistency that needs a decision before FRAGO.
 
 ---
 
-## Previously Noted Items (Still Valid)
+## A. Items Carried From the Original Review — Still Closed
 
-### DIV WARNO 3 RGT SECFOR specifics not carried into RGT WARNO
-
-The RGT WARNO still lists subordinate tasks as "TBD." The revised OPORD correctly translates DIV guidance into specific BN tasks. No OPORD action required — noting for RGT WARNO lessons learned.
-
-### Reference list divergence
-
-The revised OPORD now includes the TNNG LOI (newly cited). The DIV WARNO has a more extensive reference list (AR 350-1, FM 5-0, ADPs, STP 21-1-SMCT, VTS SOPs). Subordinate orders routinely inherit references from higher, so this is acceptable.
-
----
-
-## Things That Look Consistent (good work)
-
-All points from the 11 APR review remain valid — decisive operation, Phase II 120800RMAY26 NLT, S6 Signal Annex commitment to 302000RAPR26, FOME/POS introduction, Encl A cross-reference.
-
-**New positives in the revised draft:**
-
-- Phase I/II/III transitions are now internally consistent (Phase I → Phase II at 120800RMAY26; Phase II → Phase III at 142131RMAY26; Phase III initial actions NLT 152131RMAY26).
-- 61st MED BN coordination is now explicitly tasked to both S3 and S4.
-- S3 Task 2 deadline (18 APR) provides a concrete planning milestone.
+| # | Item | Status |
+|---|------|--------|
+| A1 | Phase II end-time 142131RMAY26 (EENT) | **CLOSED** — consistent with DIV scheme 13-17 MAY window. |
+| A2 | 3 RGT mission date range 12-17 MAY vs DIV 13-17 MAY | **CLOSED** — 3 RGT's inclusion of 12 MAY staging is an internal planning choice; no DIV conflict. |
+| A3 | MOB Cell is a DIV G1 task, not RGT S1 | **CLOSED** — DIV OPORD HHC G1 confirms "on-site Mob Cell to develop Individual Orders Production" at DIV level. Correctly omitted from RGT OPORD. |
+| A4 | 61st MED BN coordination tasked S3 Task 3 + S4 Task 2 | **CLOSED** — matches DIV OPORD (3 Green Tabs from 31st MED Co to 3 RGT for SECFOR). |
+| A5 | AO scoped to TEMA East Region + Home Station | **CLOSED** — DIV AO is "Multiple Areas across TN"; RGT AO scope is appropriately tighter. |
+| A6 | TNNG LOI (11 DEC 24) in references | **CLOSED** — DIV OPORD references list is lighter than RGT's; subordinate orders appropriately inherit. |
+| A7 | Typos — "Tasl" in S4 Task 1 | **CLOSED** — cosmetic only; can be swept in FRAGO. |
 
 ---
 
-## Status — COMPLETE (14 APR 26)
+## B. New DIV-Derived Items — FRAGO Candidates
 
-The RGT OPORD 26-05-01 was **issued final** at 141600RAPR26. All original recommendations from this review were resolved across the draft revisions. One cosmetic issue remains in the issued version:
+### B1. ICP naming — RESOLVED (canonical: Armed Forces Reserve Center)
 
-1. **S4 Task 1:** "Tasl" → "Task" — typo in the source document. Does not affect execution.
+Three names in use across the orders all refer to the **same facility**:
 
-This review is **closed**. LTC Sheaf will issue a FRAGO once the DIV OPORD is received.
+- **DIV OPORD:** "Mt. Carmel Armory" (colloquial; not the official name)
+- **RGT OPORD:** "US Army Reserve Center, 399 US-11W Scenic, Mt Carmel, TN 37645" (address missing the "A" prefix; "US Army Reserve Center" is not the official name)
+- **CG Intent** (13 APR via LTC Estes): "Kingsport Readiness Center" (colloquial; Mt Carmel is adjacent to Kingsport)
+
+**Canonical form (confirmed 18 APR 26 by 1LT Overton):**
+
+> **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645**
+
+The facility is a TN National Guard home station that also houses US Army National Guard Recruiting. It sits a short distance up US-11W from HAAP. "Mt Carmel Armory" is the common informal reference but is not the official name.
+
+**FRAGO action (cosmetic):** Update the RGT OPORD ICP line to the canonical form above. Leave DIV OPORD wording intact in the DIV-OPORD transcription; cross-reference the canonical form in 3 RGT products ([Back-Brief](docs/back-brief.md), [DD 2977](docs/dd2977.md), [Mission Overview](README.md)).
+
+### B2. **6-hour ICP establishment window** — FRAGO
+
+- **DIV OPORD:** "Establish ICP at the Mt. Carmel Armory **within 6 hrs of notification**."
+- **RGT OPORD:** Does not cite a specific establishment window; ICP assembly NLT is 130519RMAY26 (BMNT).
+
+A 6-hour clock is a concrete planning factor — drives ADVON composition, load plan, and equipment pre-staging. Should be called out in the FRAGO and translated into an S3/S4 sub-task (equipment marshaling by 6 hours before expected notification).
+
+### B3. "Provide sleeping area for 1st Regt SECFOR personnel" at ICP — OPEN (tension with CG policy)
+
+- **DIV OPORD §3.i.4.(i):** "Provide sleeping area for 1st Regt SECFOR personnel."
+- **CG standing policy:** Dawn-to-dusk + RON at home (or Soldier-funded hotel). **No billeting at the ICP.**
+- **1 RGT tasking in DIV OPORD §3.i.2.(a):** 6 personnel as **OPFOR** (not SECFOR). The DIV sub-tasking language appears to have "SECFOR" where "OPFOR" was intended.
+
+Two issues to resolve before FRAGO:
+
+1. **Who are these personnel?** If they are the 1 RGT OPFOR team (6 pax), they are from 1 RGT and based in Middle TN; billeting need is plausible because the ICP / HAAP is in East TN.
+2. **Can 3 RGT billet them at the ICP?** CG's dawn-to-dusk/RON-at-home policy was written for TNSG personnel. The DIV OPORD tasks 3 RGT (TNSG) to provide the sleeping area, so this is either a deliberate CG exception for the inter-regimental OPFOR support or it is in tension with the standing policy. **Recommend LTC Sheaf request clarification from DIV G3 before investing in billeting infrastructure.**
+
+If confirmed, the FRAGO should add an HHC task to establish billeting capacity for 6-8 pax at the Mt. Carmel Armory, and the [DD Form 2977](docs/dd2977.md) Block 3 "perimeter-only / RON at home" language will need a narrow carve-out.
+
+### B4. MRC policy clarified — DIV OPORD differs slightly from RGT internal policy — FRAGO
+
+- **DIV OPORD §4.c.(2):**
+  - MRC 1 — in the field
+  - MRC 2 — Armory (ICP) and Field CP; in field only with **GO-level approval** of risk mitigation plan per individual
+  - MRC 3 — **Armory only** (all 3 missions)
+- **RGT DD 2977 (current):** MRC-3 is restricted to single-day participation on 14 MAY.
+
+DIV's language is slightly more permissive for MRC-3 (Armory only, no day restriction). The single-day restriction in the RGT DD 2977 is a **conservative, S3-added control**, not a DIV mandate. **Recommend keeping the RGT-level MRC-3 single-day restriction** (tighter than DIV) and citing DIV §4.c.(2) as the baseline. FRAGO to update DD 2977 Block 4 narrative.
+
+### B5. PHA responsibility — FRAGO
+
+- **DIV OPORD §4.c.(4):** "**61st will NOT provide PHAs during TNMAN.**"
+- Implication: units must ensure PHAs are current **before** the exercise. The open item on Planning Gaps ("PHA currency data") becomes a harder blocker.
+
+Update [DD 2977](docs/dd2977.md) Block 4 and [Planning Gaps](planning-gaps.md) to mark PHA-currency verification as a pre-execution gate rather than an on-site provision.
+
+### B6. Unpaid-volunteer status — FRAGO
+
+- **DIV OPORD §4.b.(2):** "All Volunteers will be in an unpaid status during TNMAN."
+
+This should be surfaced in the S1 orders process and reflected in the [Mission Roster](roster.md) / [Participant Guide](docs/participant-guide.md). 4 BN's employment-coordination concern (CPT Borrilez comment on 2 BN truck drivers) is reinforced — Soldiers must take leave without pay if employed; civilian-employment coordination under S1 Task 3 is even more important.
+
+### B7. AT-vs-TNMAN approval authority — FRAGO
+
+- **DIV OPORD §3.j.(11).(c):** "AT is still the top priority. **Only by approval of CG and DCGO** can a Soldier do TNMAN in lieu of AT."
+
+Not currently addressed in the RGT OPORD or Mission Roster. Any Soldier whose TNMAN participation is in lieu of AT needs a CG/DCGO approval on file. Add to S1 Task 1 verification list.
+
+### B8. IET requirement — FRAGO / personnel screen
+
+- **DIV OPORD §3.j.(11).(d):** "Soldiers who have not attended IET will not be allowed to attend TNMAN."
+
+S1 must verify IET attendance for all mission-roster personnel before issuing orders. Add to [Mission Roster](roster.md) open items.
+
+### B9. CCIRs — FRAGO
+
+- **DIV OPORD §3.j.(2):** Establishes DIV FFIR, PIR, EEFI (see [Back-Brief §9](docs/back-brief.md)).
+- **RGT OPORD:** No §3 Coordinating Instructions CCIR section at this level.
+
+3 RGT should inherit DIV CCIRs and add 3-RGT-specific items in the FRAGO. Suggested additions:
+- FFIR: IED/threat-like activity at HAAP perimeter; loss of ICP connectivity; PMO/LE arrest of an exerciser.
+- PIR: Real-world weather severe enough to trigger red-weather fallback; real-world traffic incident affecting MSR; HAAP real-event notification.
+- EEFI: ICP exact location beyond "Mt Carmel Armory" (per OPSEC); exerciser home addresses.
+
+### B10. DA Form 7566 Composite Risk Management worksheets — FRAGO
+
+- **DIV OPORD §3.j.(11).(b):** "Leaders will ensure **DA Form 7566** worksheets are completed for each training event, on-hand during training, and signed by the appropriate approval authority."
+
+3 RGT uses [DD Form 2977](docs/dd2977.md) (deliberate risk assessment). DA 7566 is specifically the Composite Risk Management worksheet used at lower-echelon / per-event level. Clarify whether DIV intends 7566 at the RGT level or only for unit-level sub-events (convoy, UAS flight, COMMEX). **Recommend: DD 2977 at RGT (already in progress); BNs produce DA 7566 for each of their movements/events.**
+
+### B11. Closure & sensitive-item reports — FRAGO
+
+- **DIV OPORD §3.j.(11).(a):** Units submit closure and sensitive item reports for each Main Body movement **NLT 2 hours following arrival** to G3 per DIV TACSOP.
+
+RGT OPORD says "Units BPT to submit Unit Closing Reports upon return to Home Station" — aligned in spirit but lacks the 2-hour standard and arrival-at-mission-site leg. FRAGO should tighten to DIV language and specify the route: Home Station → RSA/ICP **and** ICP → Home Station (both directions, 2-hour NLT, per TACSOP).
+
+### B12. 2nd Regiment is in Direct Support to 3rd Regiment — FRAGO
+
+- **DIV OPORD §3.i.3.(d):** "Direct support to 3rd Regiment."
+- Plus 2 RGT LNO to 3 RGT ICP and BPT support additional taskers.
+- **RGT OPORD:** Mentions 2 MP BN as Phase II supporting unit but doesn't reflect the 2 **RGT** Direct Support relationship.
+
+The "2 MP BN" in the RGT OPORD refers to 3 RGT's 2nd **Battalion** (2 MP BN / 2/3). 2 **RGT** (separate regiment) providing direct support is new — these are different units. FRAGO should clarify that 2 RGT (LTC Estes' regiment) is a DS provider, distinct from 3 RGT's internal 2/3 BN.
+
+### B13. 4th Regiment Direct Support — same issue — FRAGO
+
+Same as B12 but for 4 RGT (separate regiment providing DS and LNO) vs 4 MP BN (3 RGT's 4/3 BN). FRAGO should distinguish.
+
+### B14. DIV COMMEX dates in 1 RGT sub-task — informational
+
+- **DIV OPORD §3.i.2.(b):** 1 RGT participates in DIV HF/TACN COMMEX "13-**25** May 26 (1 per day)."
+- All other units list 13-15 MAY.
+
+Likely a typo in the DIV OPORD (13-25 vs 13-15). Flag to DIV G3 for awareness. No 3 RGT action unless 1 RGT intends an extended COMMEX.
+
+### B15. RFF/RFS now fulfils 3 RGT's "Provide DIV Staff with RFFs" tasking — FRAGO
+
+- **DIV OPORD §3.i.4.(d):** "Provide DIV Staff with RFFs over and above skills, capabilities, and capacities available."
+- **RGT OPORD:** Does not explicitly tie a staff task to this DIV instruction.
+- **Action already under way:** LTC Sheaf's 17-18 APR [RFF/RFS draft](docs/rff-rfs.md).
+
+FRAGO should add S3 Task to finalize and submit the RFF/RFS package to DIV with a specific NLT (recommend alignment with 30 APR MSEL review or the 02 MAY CG brief).
+
+### B16. PMO LNO — 2 LNOs to 3 Reg TF — FRAGO task-org implication
+
+- **DIV OPORD §3.i.6.(h):** PMO provides "LNO Support (2 to JOC, 2 to 3d Reg TF)."
+- **RGT OPORD:** Task organization silent on incoming LNOs.
+
+[Task Organization](taskorg.md) already lists 2 DIV LNOs as attached. FRAGO should task S3 to integrate 2 DIV PMO LNOs + 2 RGT LNO + 4 RGT LNO into the TF org by name (5 total incoming LNOs).
+
+### B17. Cyber Response Team — 5 pax to ARNG J6, ORNL, Y-12 — informational
+
+- **DIV OPORD §3.i.6.(f):** G6 provides a Cyber Response Team of 5 pax.
+- **Effect on 3 RGT:** None direct; ensures Cyber TTX runs on the 13-15 MAY COMMEX schedule.
+
+### B18. PMO physical security to JBAT — informational
+
+- DIV OPORD tasks PMO for 2 pax physical security to JBAT. No 3 RGT action.
+
+### B19. InspectX training 13 MAY — informational
+
+- **DIV OPORD §3.i.6.(g):** EN DET conducts user training 13 MAY on InspectX software (**14 State Guard personnel**) and practical exercise 14 MAY at two bridges within an hour of Nashville.
+- **Effect on 3 RGT:** None direct. JBAT timeline relevant for mission-wide deconfliction.
+
+---
+
+## C. Still-Outstanding Items (Blockers to FRAGO)
+
+1. **1 RGT billeting** (B3) — needs DIV G3 / CG clarification regarding policy exception.
+2. **Part 107 sUAS** — 3 RGT requested 3 in the RFF; only 4 BN's named pilot (1) is currently inside the regiment. FRAGO must decide: ask DIV for the other 2 or cap the sUAS mission at 1 pilot.
+3. **TACN/HF radio sourcing** — still open from LTC Smith's 2 APR G6 Questions email; RFF/RFS re-surfaces the requirement to DIV.
+
+---
+
+## D. Recommendations for LTC Sheaf's FRAGO
+
+1. Replace the RGT OPORD ICP address with the canonical **"Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645"** (see B1).
+2. Add the 6-hour ICP establishment clock to Phase II tasks (HHC / S3 / S4).
+3. Address the 1 RGT OPFOR billeting question in a new HHC sub-task (conditional on DIV confirmation).
+4. Import DIV CCIRs (FFIR, PIR, EEFI) into §3 and add 3 RGT-specific additions.
+5. Update S4 language to reference DA Form 7566 for sub-unit events.
+6. Tighten unit closure/sensitive-item reports to 2-hour NLT per DIV TACSOP.
+7. Distinguish "2 RGT / 4 RGT" (adjacent regiments in DS) from "2/3 BN / 4/3 BN" (internal battalions) in distribution and task language.
+8. Add an S3 task to finalize the RFF/RFS package and submit to DIV G3 NLT 30 APR 26.
+9. Update DD 2977 for: PHA-currency gate, unpaid-volunteer status, MRC-3 Armory-only baseline, AT-substitution CG/DCGO approval, IET requirement.
+10. Sweep the residual "Tasl" typo in S4 Task 1.
+
+**This review remains OPEN pending the FRAGO.**

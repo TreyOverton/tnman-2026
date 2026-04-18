@@ -2,7 +2,7 @@
 
 **Organization:** 3rd Regiment, Tennessee State Guard
 **Exercise window:** 11-17 MAY 2026 (3 RGT execution window 13-15 MAY)
-**3 RGT primary sites:** Holston Army Ammunition Plant, Kingsport TN · Resource Staging Area / ICP at US Army Reserve Center, 399 US-11W Scenic, Mt Carmel, TN 37645
+**3 RGT primary sites:** Holston Army Ammunition Plant, 4509 W Stone Dr, Kingsport, TN 37660 · Resource Staging Area / ICP at Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645 *(also referenced as "Mt. Carmel Armory" in DIV OPORD and "Kingsport Readiness Center" in CG Intent — same facility)*
 
 *Area of Operations map and detailed situational picture: [Situational Awareness Brief](docs/sabrief.md).*
 
@@ -20,7 +20,7 @@ Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field 
 
 - **SECFOR** — approx. 20 Pax, **HAAP perimeter-only** area security, dismounted and aerial patrols, TCPs, and surveillance of the maritime domain (Holston River). No TNSG personnel enter the HAAP premises; the ICP is sited outside the HAAP perimeter as well.
 - **UAS / sUAS** — 4 Pax, reconnaissance and detection at HAAP; requires FAA Part 107 and TDOT coordination for any Caney Fork bridge-assessment taskings
-- **ICP Support** — TBD Pax, US Army Reserve Center, Mt Carmel TN
+- **ICP Support** — TBD Pax, Armed Forces Reserve Center, Mt Carmel TN
 - **Comms Support** — TBD Pax, TACN radio, HF / VHF, and contribution to the regimental signal annex
 
 **Priority of Support** for Phase II (per draft OPORD 26-05-01): 3 MP BN is the Focus of Main Effort and holds Priority of Support, followed by HHC 3 RGT, 2 MP BN, and 4 MP BN. See [RGT OPORD 26-05-01](docs/opord-rgt.md) for full subordinate tasks.
@@ -35,12 +35,13 @@ Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field 
 
 | Area | Status | Last Updated |
 |------|--------|-------------|
-| Personnel | Draft roster at **39** (HHC 11 / 2BN 8 / 3BN 13 / 4BN 7); SSG Burns removed (discharged); 2BN availability pending CPT Borrilez; PAO and 61st MED attachments TBD | 13 APR 26 |
-| Timeline | See [Timeline](timeline.md) — OPORD revised 13 APR; TF org estimate due **18 APR**; MSEL final review 30 APR | 13 APR 26 |
-| Logistics | S4 feeding/transport plan not yet begun; billeting is self-arranged per CG policy; 1LT Overton hosting option available for distant travelers | 13 APR 26 |
-| Communications | TACN radios, ATAK training, and Starlink for ICP all open with G6 ([G6 Questions email](comms.md)) | 13 APR 26 |
+| **Orders** | DIV OPORD 26-05 **received 17 APR** (signed 16 APR, 2 days early); [Consistency Review](warno-opord-review.md) re-opened with 15 FRAGO candidates; [RGT OPORD FRAGO](docs/opord-rgt.md) pending | 18 APR 26 |
+| Personnel | Draft roster at **39** (HHC 11 / 2BN 8 / 3BN 13 / 4BN 7); SSG Burns removed (discharged); 2BN availability pending CPT Borrilez; new blockers: PHA currency verification, IET attendance, AT-in-lieu CG/DCGO approvals | 18 APR 26 |
+| Timeline | See [Timeline](timeline.md) — TF org estimate due **18 APR**; CG operational brief **18 APR**; MSEL final review 30 APR | 18 APR 26 |
+| Logistics | S4 feeding/transport plan not yet begun; billeting is self-arranged per CG policy; **open question**: DIV OPORD tasks 3 RGT to provide sleeping area for 1 RGT OPFOR at ICP (tension with CG RON-at-home policy) | 18 APR 26 |
+| Communications | TACN radios, ATAK training, and Starlink for ICP all open with G6 ([G6 Questions email](comms.md)); [RFF/RFS](docs/rff-rfs.md) now formalizes the request to DIV | 18 APR 26 |
 | Risk | Risk register complete; DD Form 2977 drafted; overall residual **Moderate** — see [Risk Assessment](risk.md) and [DD Form 2977](docs/dd2977.md) | 13 APR 26 |
-| Legal / JAG | JAG pre-brief prepared ([JAG Pre-Brief](docs/jag-brief.md)) but not yet consulted | 13 APR 26 |
+| Legal / JAG | JAG pre-brief prepared ([JAG Pre-Brief](docs/jag-brief.md)); DIV OPORD names **COL Williams (PMO)** as the JAG for 3 RGT RUF + UAS review | 18 APR 26 |
 
 ## Key Dates
 
@@ -50,6 +51,7 @@ Per LTC Sheaf's 26 MAR rapid feasibility assessment, 3 RGT is expected to field 
 | TNSG prep videoconference | 19 MAR 26 | Pre-FPM coordination |
 | TNMAN Final Planning Meeting | 26-27 MAR 26 | Sidco — [Slides](docs/fpm-slides.md) |
 | **RGT OPORD 26-05-01 (Final)** | 14 APR 26 | [Source](docs/opord-rgt.md) — issued 141600RAPR26 |
+| **DIV OPORD 26-05 (Received)** | 16 APR 26 | [Source](docs/opord-div.md) — signed 161200RAPRIL2026; FRAGO to follow |
 | S1 mission roster due | 15 APR 26 | (152000RAPR26) — provide committed personnel roster |
 | Final MSEL Review (DIV) | 30 APR 26 | |
 | RGT Orders / convoy brief / TPFDD / SOI | 30 APR 26 | (302100RAPR26) — multiple S3 / S6 deadlines |

@@ -63,7 +63,7 @@ See [Risk Assessment](../risk.md) for the full register and [DD Form 2977](dd297
 ## Outstanding SA Items
 
 - **NAI identification** — **1SG Snow (HHC S2 NCO) has been tasked** by LTC Sheaf (11 APR) to review the imagery, identify potential NAIs, and develop this brief further with weather, critical points, and NAIs. See [Comms Log](../comms.md) entry.
-- **Labeled map overlay** — this image is unannotated. Recommend adding labels for proposed SECFOR positions, TCPs, ICP/RSA location (US Army Reserve Center, Mt Carmel TN), sUAS operating boxes, and the Holston River surveillance sector once those are planned.
+- **Labeled map overlay** — this image is unannotated. Recommend adding labels for proposed SECFOR positions, TCPs, ICP/RSA location (Armed Forces Reserve Center, Mt Carmel TN), sUAS operating boxes, and the Holston River surveillance sector once those are planned.
 - **Ingress route graphics** — convoy routes from home stations to the RSA/ICP, with travel time estimates for the dawn-to-dusk / RON-at-home cycle.
 - **HAAP perimeter clear-zone map** — to be requested from HAAP POC during site orientation. Confirms exactly where 3 RGT can and cannot position.
 - **IPB / threat brief** — the RGT OPORD currently says "Enemy Forces: UNK." 1SG Snow to coordinate with DIV G2 for a baseline Intelligence Preparation of the Battlefield (IPB) and scenario-specific threat inputs per OPORD S2 Task 1.
