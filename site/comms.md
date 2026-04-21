@@ -6,6 +6,48 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-21 — LTC Sheaf → COL Roark / CSM Seals / LTC Smith (email, RGT OPORD 26-04 for IDT 25 APR)
+
+LTC Sheaf issued [RGT OPORD 26-04](docs/opord-idt-26-04.md) (DTG 211600RAPR26) for the 25 APR IDT, with [Enclosure A — Unit Training Schedule](docs/source/RO-26-04-ENCL-A-Training-Schedule.doc). Three notable points:
+
+- **TNMAN-26 Ops Brief 1300-1500** at HHC 3 RGT — LTC Sheaf will brief the regimental TNMAN plan. Must project `.pptx`, `.docx`, and `.xlsx` documents.
+- **LTC Estes expected to visit in person** for the TNMAN Ops Brief.
+- **FRAGO 26-05-01.1 (TNMAN) in draft**, expected NLT Friday 24 APR. Will incorporate NAIs, TPFDD, and RFF into the TNMAN OPORD.
+
+Source: [RGT-OPORD-26-04-for-IDT-25APR.eml](/docs/source/emails/RGT-OPORD-26-04-for-IDT-25APR.eml)
+
+### 2026-04-20 22:58 — LTC Sheaf → LTC Smith / 1LT Overton (email, updated NAI / RFF / TPFDD)
+
+LTC Sheaf delivered three documents:
+
+- **[OPS - NAI Graphics.pptx](/docs/source/OPS-NAI-Graphics.pptx)** — 10 NAIs defined, SECFOR patrol zones (N/S/W + screens + QRF), sUAS NO-GO Line, TNNG/TNSG boundary. Updated after call with Mr. Armstrong (HAAP POC).
+- **[RFF - RFS TNMAN-26.docx](/docs/source/RFF-RFS-TNMAN-26.docx)** — formal Request for Forces / Request for Support. 85 SECFOR PAX across 15 × 5-PAX teams, plus LNOs, OPFOR, radio teams, medics, JAG, PAO.
+- **[TPFDD - Ops Sequence.xlsx](/docs/source/TPFDD-Ops-Sequence.xlsx)** — hour-by-hour personnel sequencing 13-17 MAY. Peak **124 PAX on 14 MAY**.
+
+LTC Sheaf noted he was in "TNMAN-26 suppressive fire" and acknowledged the IDT OPORD and UTS were not yet complete (issued next day). Full summary: [Ops / NAI Graphics](docs/ops-nai.md).
+
+Source: [Updated-NAI-RFF-TPFDD-Documents.eml](/docs/source/emails/Updated-NAI-RFF-TPFDD-Documents.eml)
+
+### 2026-04-20 23:02 — LTC Sheaf → 1LT Overton (email, LTC Estes TNMAN calendar)
+
+LTC Sheaf forwarded a **TNSG TNMAN synch matrix** from LTC Estes (TNMAN Project Officer) covering 11-17 MAY with all RGTs/G6/DIV ENG on a single page. Key point for 3 RGT: Travel to Mt Carmel 13 MAY; Site Defense 14 MAY; AAR and Travel Home 15 MAY. Full matrix: [Ops / NAI Graphics § DIV Synch Matrix](docs/ops-nai.md).
+
+Source: [TNSG-TNMAN-Calendar-Overview.eml](/docs/source/emails/TNSG-TNMAN-Calendar-Overview.eml) · [TNSG-TNMAN-Calendar-20APR26.xlsx](/docs/source/TNSG-TNMAN-Calendar-20APR26.xlsx)
+
+### 2026-04-20 16:45 — LTC Sheaf → COL Roark / CSM Seals / LTC Smith / LTC Estes / SGM Nunley (email, updated NAI/sUAS graphics)
+
+First version of the updated NAI/SECFOR/sUAS graphics after LTC Sheaf's call with Mr. Armstrong. Preceded the 22:58 packaged update. Mr. Armstrong was cc'd (tony.a.armstrong.civ@army.mil). LTC Sheaf noted he would "create a form of an execution matrix next to illustrate TPFDD information and Operations Sequencing" — which he delivered in the 22:58 email.
+
+Source: [Updated-NAI-OPS-sUAS-Graphics.eml](/docs/source/emails/Updated-NAI-OPS-sUAS-Graphics.eml)
+
+### 2026-04-19 — 1LT Riley → MAJ Crosby (email, new 4 BN Part 107 pilot)
+
+1LT Michael Riley (3 BN XO) reported that **LT Sam Hoskins (3 RGT / 4 BN)**, a certificated fixed-wing pilot, earned his FAA Part 107 certificate after completing training and testing. Cc'd: CSM Rutherford, SFC Ferguson, CPT Borrilez, LTC Sheaf, 1LT Overton, LTC Smith, 2LT Garrison.
+
+**Impact:** Closes the "named 4 BN Part 107 UAS pilot" gap. 3 RGT now has **3 certified Part 107 pilots**: CPT Widner (4 BN XO), 1LT Riley (3 BN XO, who sent this email), and LT Hoskins.
+
+Source: [3RGT-4BN-New-Part-107-Drone-Pilot.eml](/docs/source/emails/3RGT-4BN-New-Part-107-Drone-Pilot.eml)
+
 ### 2026-04-13 — LTC Sheaf fwd LTC Estes → 1LT Overton (email, Planning Portal + OPFOR POC)
 
 LTC Sheaf forwarded a reply from **LTC Estes (2 RGT CO)** regarding the planning portal. Two items:

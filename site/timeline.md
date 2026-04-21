@@ -25,7 +25,12 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | **18 APR 26** | **Report to DIV / CG operational brief.** DIV OPORD NLT 1000 hrs this date. LTC Sheaf to brief. | [CG Intent](docs/cg-intent.md) · [Comms Log](comms.md) |
 | **02 MAY 26** | **Brief CG and DIV staff** prior to TNMAN execution. | [CG Intent](docs/cg-intent.md) |
 | **15 APR 26 (152000RAPR26)** | **S1 Task 1/2:** Provide committed-personnel roster; coordinate personnel reporting with DIV G1 | [OPORD §3 S1](docs/opord-rgt.md) |
-| **25 APR 26** | **IDT (monthly drill)** — training and planning day; RGT WARNO 26-04 covers this. Not part of TNMAN exercise, but relevant for face-to-face TNMAN coordination. | [Comms Log](comms.md) |
+| 19 APR 26 | **LT Sam Hoskins (4 BN) earned FAA Part 107 certification** — closes the "named 4 BN UAS pilot" gap. 3 RGT now has 3 certified pilots (Widner, Riley, Hoskins). | [Comms Log](comms.md) |
+| 20 APR 26 | **NAI graphics, TPFDD, and RFF issued** by LTC Sheaf after call with Mr. Armstrong (HAAP POC). 10 NAIs (3001-3010); 124 PAX peak on 14 MAY; RFF submitted to DIV for adjacent-RGT reinforcement. | [Ops / NAI](docs/ops-nai.md) |
+| 20 APR 26 | **LTC Estes (TNMAN Project Officer) DIV synch matrix released** — 2/3/4 RGT + G6 + DIV ENG schedule 11-17 MAY. | [Ops / NAI](docs/ops-nai.md) |
+| **21 APR 26 (211600RAPR26)** | **RGT OPORD 26-04 issued** — IDT 25 APR 26. Contains TNMAN Ops Brief 1300-1500. | [IDT OPORD](docs/opord-idt-26-04.md) |
+| **24 APR 26** | **FRAGO 26-05-01.1 (TNMAN) expected NLT** — in draft per LTC Sheaf 21 APR email. Will incorporate NAIs, TPFDD, RFF into the TNMAN OPORD. | [Comms Log](comms.md) |
+| **25 APR 26 (0800-1630)** | **IDT monthly drill** at HHC 3 RGT (Afton, TN). TNMAN Ops Brief 1300-1500. LTC Estes expected to visit in person. | [IDT OPORD](docs/opord-idt-26-04.md) |
 | **30 APR 26 (302000RAPR26)** | **S1 Task 3:** Issue Regimental Orders to participating personnel (enables civilian-employment coordination for 13-15 MAY) | [OPORD §3 S1](docs/opord-rgt.md) |
 | **30 APR 26 (302000RAPR26)** | **S6 Task 1/2:** Receive SOI with callsigns; publish Signal Annex with HF/VHF frequencies | [OPORD §3 S6](docs/opord-rgt.md) |
 | **30 APR 26 (302100RAPR26)** | **All BN and HHC:** Brief 3 RGT CDR on route/convoy plans | [OPORD §3](docs/opord-rgt.md) |

@@ -15,7 +15,9 @@ Key internal and external contacts for TNMAN 26 planning and execution. Draft.
 | 2 BN CO | CPT | Borrilez, Michael S | 916-220-0262 | michael.borrilez@tnstateguard.org |
 | 3 BN CO (FOME) | MAJ | Crosby, Lyle A | 865-314-0407 | lyle.crosby@tnstateguard.org |
 | 4 BN CO | CPT | Haddix, Terrence S | 623-466-4526 | terrence.haddix@tnstateguard.org |
-| 4 BN XO | CPT | Widner, Matthew W | 865-824-8693 | matthew.widner@tnstateguard.org |
+| 4 BN XO (Part 107 UAS Pilot) | CPT | Widner, Matthew W | 865-824-8693 | matthew.widner@tnstateguard.org |
+| 3 BN XO (Part 107 UAS Pilot) | 1LT | Riley, Michael W | 423-291-0365 | michael.riley@tnstateguard.org |
+| 4 BN (Part 107 UAS Pilot, cert 19 APR 26) | LT | Hoskins, Sam | TBD | TBD |
 
 Full personnel contact info: [Mission Roster](roster.md) · Full chain of command: [Chain of Command](coc.md)
 
@@ -58,7 +60,7 @@ Full personnel contact info: [Mission Roster](roster.md) · Full chain of comman
 
 | Role | Name | Contact |
 |------|------|---------|
-| HAAP POC | Mr. Tony Armstrong | 423-341-5840 |
+| HAAP POC | Mr. Tony Armstrong | 423-341-5840 · tony.a.armstrong.civ@army.mil |
 
 ## Cyber Working Group (14 MAY scenario)
 

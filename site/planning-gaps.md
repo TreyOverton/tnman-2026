@@ -23,7 +23,7 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 - **Planning Section Chief designation**.
 - **Support Section Chief designation** — likely one of the BN S4s dual-hatted (2LT Garrison or 2LT Neisler).
 - **Staging Area Manager designation**.
-- **Named 4 BN Part 107 UAS pilot** — tasked to 4 BN by the OPORD. *Source: [OPORD §3 4 BN Task 2](docs/opord-rgt.md).*
+- ~~**Named 4 BN Part 107 UAS pilot**~~ — **RESOLVED.** 3 RGT now has **3 certified Part 107 pilots**: CPT Widner (4 BN XO), 1LT Riley (3 BN XO), LT Hoskins (4 BN, cert 19 APR 26).
 - **3 BN CSM vacancy** — confirm interim or acting. *Source: [Mission Roster Open Items](roster.md).*
 
 ### Orders and Deadlines (OPORD-driven)
@@ -31,7 +31,8 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 - ~~**RGT OPORD 26-05-01**~~ — **ISSUED** (141600RAPR26). [Orders Consistency Review](warno-opord-review.md) closed. FRAGO pending once DIV OPORD arrives.
 - **CG operational brief — 18 APR 26** — LTC Sheaf to brief BG Stewart. Draft must go to G3 BEAVER as pre-read/read-ahead **before** the brief date. This is **5 days away** and requires: TF org estimate, personnel assessment, execution timeline. *Source: [Comms Log](comms.md) 13 APR "Next Steps" email.*
 - **S3 Task 2 — TF Organization estimate** — **NLT 18 APR 26**. Current [Task Organization](taskorg.md) is a draft with 12 dependencies. Feeds directly into the CG brief.
-- **sUAS and SECFOR team composition** — LTC Sheaf needs refined personnel assessment to build teams for 14 MAY execution. If numbers are insufficient, he will request reinforcement from adjacent RGTs. *Source: [Comms Log](comms.md) 13 APR "Next Steps" email.*
+- ~~**sUAS and SECFOR team composition**~~ — **RESOLVED** (in aggregate). [Ops / NAI](docs/ops-nai.md) now defines 15 × 5-PAX SECFOR teams (screens + N/S/W patrols + QRF), 3 sUAS operators, and the full 124-PAX TPFDD. **[RFF-RFS TNMAN-26](/docs/source/RFF-RFS-TNMAN-26.docx)** formally requests the adjacent-RGT reinforcement from DIV.
+- **RFF status** — Submitted 20 APR. Awaiting DIV sourcing decision on 85 SECFOR PAX, 2+2 LNOs, 3 medics, JAG, PAO, radio teams.
 - **S1 Task 1 — Mission roster locked** — NLT 152000RAPR26 (15 APR 26). Currently a draft with open 2/3 response, MRC-4 unknowns, PAO and 61st MED attachment TBD.
 - **S1 Task 3 — RGT Orders issued** — NLT 302000RAPR26 (30 APR 26). Depends on personnel roster lock.
 - **S6 — SOI and Signal Annex** — NLT 302000RAPR26. Blocked on unresolved TACN radios, ATAK training, and Starlink (see [G6 Questions email](comms.md)).

@@ -22,12 +22,15 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | [RGT WARNO 26-05-01](warno.md) | Final | 11 FEB 26 | [docx](/docs/source/RGT-WARNO-26-05-01.docx) | Signed COL Roark, S3 Sheaf. Advance notice of TNMAN and May IDT. |
 | [RGT OPORD 26-05-01](opord-rgt.md) | **Final** | 14 APR 26 | [final docx](/docs/source/RO-26-05-01-final.docx) · [prior versions](/docs/source/) | Issued 141600RAPR26. All [consistency review](../warno-opord-review.md) items resolved (one cosmetic "Tasl" typo remains). LTC Sheaf will FRAGO once DIV OPORD arrives. |
 | [OPORD Encl A — HDWG Storyboard](opord-encl-a.md) | Received | Pre-OPORD | [pptx](/docs/source/ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx) | HDWG storyboard referenced as Enclosure A of the RGT OPORD. |
+| [RGT OPORD 26-04 (IDT 25 APR)](opord-idt-26-04.md) | Final | 21 APR 26 | [docx](/docs/source/RO-26-04.docx) · [Encl A](/docs/source/RO-26-04-ENCL-A-Training-Schedule.doc) | IDT order — not a TNMAN document, but includes the 25 APR TNMAN Ops Brief (1300-1500). |
+| FRAGO 26-05-01.1 (TNMAN) | **In draft** | Expected NLT 24 APR 26 | — | Per LTC Sheaf 21 APR email. Will incorporate NAIs, TPFDD, and RFF into the TNMAN OPORD. |
 
 ## Staff Products
 
 | Doc | Status | Notes |
 |-----|--------|-------|
-| [Situational Awareness Brief](sabrief.md) | Draft | AO satellite view, key terrain, sUAS employment posture, scenario summary, weather outlook, friendly picture. 1SG Snow tasked with NAI identification and further development. |
+| [Situational Awareness Brief](sabrief.md) | Draft | AO satellite view, 10 NAIs (3001-3010), sUAS employment posture, scenario summary, weather outlook, friendly picture. |
+| [Ops / NAI Graphics & TPFDD](ops-nai.md) | Draft | Detailed operations picture: 10 NAIs, SECFOR zones, NO-GO Line, TNNG/TNSG boundary, 124-PAX TPFDD, RFF summary, DIV synch matrix. |
 | [DD Form 2977 — Deliberate Risk Assessment](dd2977.md) | Draft | Overall residual risk: **Moderate**. Medical-readiness deviation addendum for MRC-2/3/4 personnel. Routing: BG Cox (medical concurrence) → COL Roark (final approval). 7 MRC-4 statuses must be resolved before 30 APR. |
 
 ## Related (Outside Documents Section)

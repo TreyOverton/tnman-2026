@@ -34,3 +34,8 @@ Key emails are archived in `/docs/source/emails/` and logged in the [Comms Log](
 | 13 APR 26 | Revised draft RGT OPORD | LTC Sheaf → 1LT Overton | [eml](/docs/source/emails/Initial-Coordinating-Draft-RGT-OPORD-26-05-01.eml) |
 | 13 APR 26 | Final coordinating drafts to CDR | LTC Sheaf → COL Roark / CSM Seals | [eml](/docs/source/emails/Final-Coordinating-Drafts-TNMAN-26-OPORD-WARNO-26-04.eml) |
 | 13 APR 26 | TNMAN-26 Next Steps + final OPORD | LTC Sheaf → 1LT Overton | [eml](/docs/source/emails/TNMAN-26-Next-Steps.eml) |
+| 19 APR 26 | New 4 BN Part 107 drone pilot (LT Hoskins) | 1LT Riley → MAJ Crosby | [eml](/docs/source/emails/3RGT-4BN-New-Part-107-Drone-Pilot.eml) |
+| 20 APR 26 16:45 | Updated NAI / sUAS graphics | LTC Sheaf → COL Roark et al. | [eml](/docs/source/emails/Updated-NAI-OPS-sUAS-Graphics.eml) |
+| 20 APR 26 22:58 | Updated NAI / RFF / TPFDD documents | LTC Sheaf → LTC Smith / 1LT Overton | [eml](/docs/source/emails/Updated-NAI-RFF-TPFDD-Documents.eml) |
+| 20 APR 26 23:02 | TNSG TNMAN Calendar (LTC Estes synch matrix) | LTC Sheaf → 1LT Overton | [eml](/docs/source/emails/TNSG-TNMAN-Calendar-Overview.eml) |
+| 21 APR 26 | RGT OPORD 26-04 for IDT 25 APR + Encl A | LTC Sheaf → COL Roark / CSM Seals / LTC Smith | [eml](/docs/source/emails/RGT-OPORD-26-04-for-IDT-25APR.eml) |

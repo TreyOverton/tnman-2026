@@ -18,6 +18,8 @@
 - [RGT WARNO](docs/warno.md)
 - [RGT OPORD](docs/opord-rgt.md)
 - [OPORD Encl A — Storyboard](docs/opord-encl-a.md)
+- [IDT OPORD (26-04)](docs/opord-idt-26-04.md)
+- [Ops / NAI Graphics & TPFDD](docs/ops-nai.md)
 - [DD Form 2977](docs/dd2977.md)
 - [CG's Intent](docs/cg-intent.md)
 

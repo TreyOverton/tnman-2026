@@ -11,8 +11,8 @@ Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — name
 | Regimental HQ | 11 | 5 | 5 | 0 | 1 |
 | 2nd Battalion | 8 | 3 | 3 | 1 | 1 |
 | 3rd Battalion | 13 | 8 | 1 | 2 | 2 |
-| 4th Battalion | 7 | 2 | 1 | 1 | 3 |
-| **Total (draft)** | **39** | **18** | **10** | **4** | **7** |
+| 4th Battalion | 8 | 3 | 1 | 1 | 3 |
+| **Total (draft)** | **40** | **19** | **10** | **4** | **7** |
 
 **Legend:** <span class="mrc mrc-1">MRC-1</span> fully available &nbsp; <span class="mrc mrc-2">MRC-2</span> partial &nbsp; <span class="mrc mrc-3">MRC-3</span> limited &nbsp; <span class="mrc mrc-4">MRC-4</span> unknown / unverified (treated as red for safety)
 
@@ -66,7 +66,7 @@ Not counted in the totals above until confirmed. See Open Items.
 |------|------|----------|-----|--------------|
 | MAJ | Crosby, Lyle A | BN CO | <span class="mrc mrc-3">MRC-3</span> | 865-314-0407<br>lyle.crosby@tnstateguard.org<br>4521 Merrywood Ave, Kingsport, TN 37664 |
 | CPT | Moore, Leonard L | S6 C&E Officer | <span class="mrc mrc-4">MRC-4</span> | 239-877-6659<br>leonard.moore@tnstateguard.org<br>503 Phillips St, Rogersville, TN 37857 |
-| 1LT | Riley, Michael W | BN XO | <span class="mrc mrc-1">MRC-1</span> | 423-291-0365<br>michael.riley@tnstateguard.org<br>214 Arrowhead Pvt Dr, Mountain City, TN 37683 |
+| 1LT | Riley, Michael W | BN XO · FAA Part 107 UAS Pilot | <span class="mrc mrc-1">MRC-1</span> | 423-291-0365<br>michael.riley@tnstateguard.org<br>214 Arrowhead Pvt Dr, Mountain City, TN 37683 |
 | SFC | Ferguson, Joshua P | HQ Co 1SG | <span class="mrc mrc-1">MRC-1</span> | 423-278-8869<br>joshua.ferguson@tnstateguard.org<br>240 Plates Ln, Greeneville, TN 37745 |
 | SFC | Sturgill, DeWayne D | S3 Ops NCO | <span class="mrc mrc-2">MRC-2</span> | 423-212-0335<br>dewayne.sturgill@tnstateguard.org<br>408 Droke Ln, Blountville, TN 37617 |
 | SSG | Singh, Krishna | BN S6 | <span class="mrc mrc-1">MRC-1</span> | 423-552-2215<br>krishna.singh@tnstateguard.org<br>154 Stage Rd, Jonesborough, TN 37659 |
@@ -85,7 +85,8 @@ Not counted in the totals above until confirmed. See Open Items.
 | Rank | Name | Position | MRC | Contact Info |
 |------|------|----------|-----|--------------|
 | CPT | Haddix, Terrence S | BN CMDR | <span class="mrc mrc-2">MRC-2</span> | 623-466-4526<br>terrence.haddix@tnstateguard.org<br>1525 Greytown Way Apt 403, Knoxville, TN 37932 |
-| CPT | Widner, Matthew W | BN XO | <span class="mrc mrc-1">MRC-1</span> | 865-824-8693<br>matthew.widner@tnstateguard.org<br>105 Colgate Rd, Oak Ridge, TN 37830 |
+| CPT | Widner, Matthew W | BN XO · FAA Part 107 UAS Pilot | <span class="mrc mrc-1">MRC-1</span> | 865-824-8693<br>matthew.widner@tnstateguard.org<br>105 Colgate Rd, Oak Ridge, TN 37830 |
+| LT | Hoskins, Sam | FAA Part 107 UAS Pilot (fixed-wing) — cert 19 APR 26 | <span class="mrc mrc-1">MRC-1</span> | (contact TBD) |
 | MAJ | Bennett, Richard A | Chaplain | <span class="mrc mrc-4">MRC-4</span> | 336-428-6994<br>richard.bennett@tnstateguard.org<br>124 Rillwood Ln, Maryville, TN 37801 |
 | 2LT | Neisler, Mark S | BN S4 | <span class="mrc mrc-4">MRC-4</span> | 517-940-2935<br>mark.neisler@tnstateguard.org<br>2114 Mystic Ridge Rd, Knoxville, TN 37922 |
 | WO1 | Hendon, Shaleigh D | BN S1 NCO | <span class="mrc mrc-4">MRC-4</span> | 865-260-9828<br>shaleigh.hendon@tnstateguard.org<br>2335 Grove St, Maryville, TN 37804 |

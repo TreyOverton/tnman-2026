@@ -48,7 +48,7 @@ graph TD
 |------|----------|-------|
 | **Operations Section Chief** | **LTC Sheaf (RGT S3)** — primary. **1LT Overton (ASST S3)** — alternate / battle captain. | LTC Sheaf is MRC-2; role-limited to ICP-interior by DD 2977. If LTC Sheaf is TF XO or LNO instead, 1LT Overton assumes Ops Section Chief. |
 | **Staging Area Manager** | **TBD — HHC to provide** | No named Staging Area Manager. Needs an officer or senior NCO from HHC or an available BN. Candidate: **SFC Bradley** (HHC Rec NCO, MRC-1) if no higher-priority tasking. |
-| **Air Operations Branch (4 / 3)** | **Branch Chief: CPT Widner (4 BN XO)**<br>**Part 107 UAS Pilot: TBD — 4 BN to name** | 4 BN is tasked to provide the FAA Part 107 certified pilot per the OPORD. CPT Widner is currently the best-known air-ops-adjacent leader at 4 BN. Need the named pilot before 30 APR. |
+| **Air Operations Branch (4 / 3)** | **Branch Chief: CPT Widner (4 BN XO, Part 107)**<br>**Part 107 Pilots: 1LT Riley (3 BN XO), LT Hoskins (4 BN)** | 3 certified pilots on roster. [Ops / NAI](../docs/ops-nai.md) TPFDD shows 5 sUAS positions on 14-15 MAY; RFF requests 3 operators total (some from adjacent RGTs). |
 | **SECFOR Task Force (3 / 3)** | **TF Chief: 1LT Riley (3 BN XO)**<br>**Acting BN 1SG: SFC Ferguson**<br>**Assisting NCO: SFC Sturgill (S3 Ops NCO)** | 3 BN is the Focus of Main Effort (FOME). If MAJ Crosby is TF Commander, 1LT Riley runs the SECFOR TF day-to-day. If COL Roark is TF Commander, MAJ Crosby runs SECFOR with 1LT Riley as his deputy. |
 
 ### SECFOR TF Subordinate Composition (Draft)

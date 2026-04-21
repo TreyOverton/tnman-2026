@@ -1,0 +1,137 @@
+Delivered-To: aaron.overton@tnstateguard.org
+Received: by 2002:a05:7022:e0d:b0:12c:43be:2420 with SMTP id dx13csp1169761dlb;
+        Sun, 19 Apr 2026 06:39:13 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AFNElJ9wT9pCTI9waFxO4GaLVM7iWEyEUHujdXt9uRBHdCxkdWHasUsdPUGsCNRoOoNFEdLl5o5y1GOScuNc42DT@tnstateguard.org
+X-Received: by 2002:a17:906:4fc5:b0:b97:9636:5aac with SMTP id a640c23a62f3a-ba418e8affemr509904666b.13.1776605953480;
+        Sun, 19 Apr 2026 06:39:13 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1776605953; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=XNX2AJE+eHRrF8TdY5C6aSJ2eba8XSx3WYWSxqTrU8tjH2Maiuif2nDrtH6cW2q8Hu
+         QXaheEfzbL918MqXQHsYAVDqkDitPunMtyEz68JaOrzosxoTvVPUiJBtMlPqZTlK4yAH
+         w/JWAF99cPuI6gx4370d/VjiHcow4x84ebcle33uNSxEQ9njNNBlE2ekxND4mbeCV64u
+         j8hBlVdViuEoDvSN6uFa+taYa1ZZ+lclTExdR8QSzode1zLN7923n0oh7tge2tMMfQJ5
+         4OEhrxxmxPYYHY7x1zNZBrt6hBJcc2W8q7WD/H14mlVfMsnlZsdLgTvX0KS/PdI6tKrq
+         3Rhg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=+pX1lspp7dtuYN1Ds8PnEYxbD8MzqIFagCw4H172TGA=;
+        fh=8BVcNd167F8XgbZTdpFbMAOxqk3YphjvG1HGAyDKzDc=;
+        b=cj84OhMg4OQijCJC3Ihnu2eEM6kei1t3T4ufZxegrbAzLpH4Jf6w0z6D43H2WPY1+V
+         x1UTAORYGE5p1ozEIsev4L6+alKLV8oZgMMIC/3WBgW2EiRG4dKdOaWYTjUBUncIYKH2
+         oICTQ9DyLPIZU8u5b8fIx+AJuLOkw5Ro5vG7DuHgVKQX2venBpD7PmyiBeEnaF2uDTmC
+         YgYxZW+SwULNkLR2XjhSRX4GR4ICKExzFJxg9RV3mCIvSlqQs3K8GkCXKZlO+NsVSQ9P
+         IqSXRvACdBtndHMTkOVr99u7l8siLiXflgtBVvTDTa+rqiwTRXT+GAwVG8lUx7kvsLQu
+         iO6Q==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=FkjR2ux3;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of michael.riley@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=michael.riley@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+Return-Path: <michael.riley@tnstateguard.org>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a640c23a62f3a-ba44e570387sor68103066b.0.2026.04.19.06.39.13
+        for <aaron.overton@tnstateguard.org>
+        (Google Transport Security);
+        Sun, 19 Apr 2026 06:39:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of michael.riley@tnstateguard.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=FkjR2ux3;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of michael.riley@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=michael.riley@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+ARC-Seal: i=1; a=rsa-sha256; t=1776605953; cv=none;
+        d=google.com; s=arc-20240605;
+        b=jieJkUAA2cQ/QBYiSEbeooB79TIkrmtPcQGRo+GxxPrw2phhjEi4CkTZAhXkgsg1Ve
+         uKQDvJ8q5o8SpBPhlefMEq7P5v5r+8oPE0rD854/VvUzoxdCsB+i9K3tji8p+czUa0dB
+         /wYrezcU3DKVWxBS60pMQeb0wsLTBin64pL9AOgS4wQcEHgdy+0QeXwyscbu11wMSlgT
+         a+AofaEqREgwacyyaX5t0kuTf1R72N5VNrXrW2+FGjqVwJogx6lL20dFoEQlXDERHJ43
+         By+o+hJWzYEGxgORjzyb4UrQ67Vzw7DY1fAlIb/2JX2k7lJw+T2D1LrPG9UQE3cvxX0O
+         tkzg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=+pX1lspp7dtuYN1Ds8PnEYxbD8MzqIFagCw4H172TGA=;
+        fh=8BVcNd167F8XgbZTdpFbMAOxqk3YphjvG1HGAyDKzDc=;
+        b=eGdwyKalzmrMc6mQUqOoFzaWDYcEhQQbhQNrc3poIIDP4YtgNN+1z9hjHQ5skp76gJ
+         mjl/OxJoNSLfT/JYwWCVox9TB8u/sAcNXosg1J+NDyp+ixXpLlEOE5PdVDBQtoTmCB7u
+         OCT/H8lvZRpbKeMgCtov6/alh2uFNEld50jR8XemXmmxsHE1lN5DPsrPrCgInckmR2BZ
+         agOy8V1hymQMQ2sGrZehdwhE/khPR/oiiVkPmVqk2BeB5c/GHX95slc0ElGvRUa6KJQZ
+         pid34NEpI40rqWwGPdQWg4PvLxCCIPPOb3f4WvzGMKiN1sfZJklSVlGubWdLgVZ9SC8e
+         9NpQ==;
+        darn=tnstateguard.org
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tnstateguard-org.20251104.gappssmtp.com; s=20251104; t=1776605953; x=1777210753; darn=tnstateguard.org;
+        h=cc:to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=+pX1lspp7dtuYN1Ds8PnEYxbD8MzqIFagCw4H172TGA=;
+        b=FkjR2ux36L7n62jdfHe2+q+tzdQfCVIU3PeD+61hbMd4DCFlxEsqpKJ9pZdMc78CoB
+         EFG4zEoEd5n6G2vnvwYk9/cWO7Uu5QLv3YLsFBFLLAtDXseofkvkZm3SO03SgqOENCDi
+         GELTG34dIxUK/AQ9lynvjCvjGlXyOg3P5b1Fg6rU4jXNxW8FzuKEUF5ET6g/n0yEbB4n
+         H/MU+d9yoPgxYtrRWLooP1rXjH0cMYUtQjGM3lxEiTuVEsA3tlafqwv4UQzbn/d1PjEF
+         QAZIKkYRmMna13NXT7NGpt3RTLIYQYLQXjQAl3mTpEvzxLjEDDfwmSmOGRGbnKg50RW8
+         s7xA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1776605953; x=1777210753;
+        h=cc:to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=+pX1lspp7dtuYN1Ds8PnEYxbD8MzqIFagCw4H172TGA=;
+        b=NuStEhTvsJwSTQBg1tSvxVBg65WX8NkXwpjNiDLgMfzitnv7YYrZa3BTfZ85k0E1ha
+         ojw3lnpD5Kb3m/gJkLBX9OLUt5DM95eo8u8pUipq/lVhqlG44wfotQRaJshWbSnv/Emc
+         XbAOjCWXIJcngH4CGiCkW4/FiG9lqKyzr/OHH9apOwD94utTTzObKp6hlABExStQpEHX
+         gNivUPZSiGQahX6NBH+88I7fdvl9Mypq4FqNW9m+N8THaAHBekicGKA5JI/v9I+/F5y9
+         b/Z9iZIGwY76GAddnZfox3rdZcvh52beBh80VkZa8ObClsE02h/XCnzsXm/dAo9d4zim
+         hklw==
+X-Forwarded-Encrypted: i=1; AFNElJ+PrsX8YvykZX2ddZtfhEYpnLg1tQ2jFLZQvoZ+llyom9os1+FfzlZyIncDZzClDlNkvMt3yIheW5XMcOWx@tnstateguard.org
+X-Gm-Message-State: AOJu0YyNNAHpGsfI6HZcR71N/OHi1aB+9YqHzzrZuwguQ2wbxA1o/X8v
+	3gQ+hQK4F/FtgP6w8OqNQ4ksivKkDMNGUWzzzNjnpQ1N4P+An4fGeHza5v0xRIPgarBqJ+jR+vL
+	tvau5Tv70/1yikp7J5Phm0AQaFA0VBbGTqwd1gxuxlNaw
+X-Gm-Gg: AeBDiet01CAA94D6Uy2hfK4am2M7L0YhRVZrmwdPXi+wBQzU6rEPfgzT/emWxVymZ6u
+	s6sTJMKjWGaL36bVekg8YBUQyOiSEawm2TPQhIdO6fPBMpff4bcixt2efqRAmAJYYgZQ7q8Kp8j
+	bVdU2inz1V+sEZabPn4qrxe/0824tNsMsGDM/fepp751Np4hDkd4+MLuPHoh8IYqCwtwoOiOEvX
+	ID6pktKx/ntGU1ccXG6GT+J6LQvwmRe9fIDc+AB9opkbVbvs9vAR6rp7obMMjzhsWQzCX/R1fjF
+	fioqPuQQFHle+oteKyA=
+X-Received: by 2002:a17:906:f8db:b0:ba7:4cd9:ca18 with SMTP id
+ a640c23a62f3a-ba74cd9ed87mr23730766b.4.1776605952680; Sun, 19 Apr 2026
+ 06:39:12 -0700 (PDT)
+MIME-Version: 1.0
+From: "Riley, Michael" <michael.riley@tnstateguard.org>
+Date: Sun, 19 Apr 2026 08:39:01 -0500
+X-Gm-Features: AQROBzAvmoWYfMThhi_NfpwEdeTwstiL-bKkxDbtdJK1C4Vy0iBi2Fj4k45Qnc0
+Message-ID: <CAD1wUEPgo3y7Z2-XHMV2ZKu=eF0CYQSYJiDgUDx-R2_F2M9b1w@mail.gmail.com>
+Subject: 3RGT, 4BN new part 107 drone pilot
+To: Lyle Crosby <lyle.crosby@tnstateguard.org>
+Cc: Michael Rutherford <michael.rutherford@tnstateguard.org>, 
+	Joshua Ferguson <joshua.ferguson@tnstateguard.org>, 
+	Michael Borrilez <michael.borrilez@tnstateguard.org>, 
+	John Sheaf <john.sheaf@tnstateguard.org>, 
+	Aaron Overton <aaron.overton@tnstateguard.org>, Scott Smith <scott.smith@tnstateguard.org>, 
+	Aaron Garrison <aaron.e.garrison@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000b73663064fd04e38"
+
+--000000000000b73663064fd04e38
+Content-Type: text/plain; charset="UTF-8"
+
+Good morning Major,
+
+LT Sam Hoskins(3RGT, 4BN), a certificated fixed wing pilot, earned his part
+107 certificate this morning after completing the FAA training and testing
+last night.
+
+Michael W. Riley
+LT, TNSG, 3RGT, 3BN, XO
+(423) 291-0365
+
+--000000000000b73663064fd04e38
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Good morning Major,</div><div dir=3D"auto"><br></div><div=
+ dir=3D"auto">LT Sam Hoskins(3RGT, 4BN), a certificated fixed wing pilot, e=
+arned his part 107 certificate this morning after completing the FAA traini=
+ng and testing last night.</div><div dir=3D"auto"><br clear=3D"all"><div di=
+r=3D"auto"><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gma=
+il_signature">Michael W. Riley<br>LT, TNSG, 3RGT, 3BN, XO<br>(423) 291-0365=
+</div></div></div>
+
+--000000000000b73663064fd04e38--
