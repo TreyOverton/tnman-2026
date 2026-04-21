@@ -13,7 +13,7 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | Doc | Status | Issued | Source file | Notes |
 |-----|--------|--------|-------------|-------|
 | [Division WARNO (WO 1 to DIV OPORD 26-05)](warno-div.md) | Received | 11 FEB 26 | [docx](/docs/source/WO1-TO-DIV-OPORD-26-05-TNMAN-26.docx) | The order that initiated 3 RGT planning. Signed BG Stewart (CG), G3 BEAVER. |
-| **Division OPORD 26-05** | **Not yet received** | — | — | Expected from DIV G3. Several DIV-level details remain TBD until it arrives. |
+| [Division OPORD 26-05](opord-div.md) | **Received** | 16 APR 26 (161200RAPRIL2026) | [pdf](/docs/source/div-opord-26-05/div-opord-26-05.pdf) · [draft2 docx](/docs/source/div-opord-26-05/div-opord-26-05-draft2.docx) | Signed BG Stewart, G3 BEAVER. Issued 2 days ahead of CG-stated deadline. Triggers FRAGO to [RGT OPORD 26-05-01](opord-rgt.md). |
 
 ## 3 RGT Orders
 
@@ -30,7 +30,10 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | Doc | Status | Notes |
 |-----|--------|-------|
 | [Situational Awareness Brief](sabrief.md) | Draft | AO satellite view, 10 NAIs (3001-3010), sUAS employment posture, scenario summary, weather outlook, friendly picture. |
-| [Ops / NAI Graphics & TPFDD](ops-nai.md) | Draft | Detailed operations picture: 10 NAIs, SECFOR zones, NO-GO Line, TNNG/TNSG boundary, 124-PAX TPFDD, RFF summary, DIV synch matrix. |
+| [Operational / NAI Graphics](ops-graphics.md) | Draft | NAI overlay (3001-3010) on HAAP satellite imagery; TNNG/TNSG boundary along US-11W. Initial version 17 APR; **updated 20 APR after LTC Sheaf call with Mr. Armstrong** — NO-GO Line, 15 × 5-PAX SECFOR teams (N/S/W + screens + QRF), full TPFDD (124 PAX peak), DIV synch matrix. |
+| [RFF / RFS](rff-rfs.md) | Draft | 3 RGT request for forces/support — SECFOR (17), OPFOR, LNOs, TACN/HF teams, Part 107 sUAS, medical, JAG, PAO. Issued by LTC Sheaf 17-18 APR 26. |
+| [Orders Back-Brief](back-brief.md) | Draft | Summary of 3 RGT expectations across DIV OPORD / CG Intent / RGT OPORD. Read-ahead for the 18 APR CG Operational Brief. |
+| [Execution Matrix](execution-matrix.md) | Draft | Blue-force playbook for the 13-15 MAY exercise window — swim-laned by ICP C2 / SECFOR / UAS / Comms / Exercise Control / Sustainment. First-pass planning tool for the ICP. |
 | [DD Form 2977 — Deliberate Risk Assessment](dd2977.md) | Draft | Overall residual risk: **Moderate**. Medical-readiness deviation addendum for MRC-2/3/4 personnel. Routing: BG Cox (medical concurrence) → COL Roark (final approval). 7 MRC-4 statuses must be resolved before 30 APR. |
 
 ## Related (Outside Documents Section)
@@ -42,6 +45,6 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | [Risk Assessment](../risk.md) | Draft | Planning | Full hazard register. Overall residual risk: **Moderate** (O-7 ROE and L-1 Title 10/SAD seam pending JAG). |
 | [Timeline](../timeline.md) | Live | Operations | Phase I / II / III timeline updated to revised OPORD (Phase II ENDEX 142131RMAY26). |
 | [Comms Log](../comms.md) | Live | OIC Notes | Reverse-chronological record of significant comms and decisions. |
-| [Orders Consistency Review](../warno-opord-review.md) | Reference | OIC Notes | 5 of 6 original items resolved in 13 APR revision; minor typos remain. |
+| [Orders Consistency Review](../warno-opord-review.md) | Reference | OIC Notes | DIV OPORD received 17 APR — review re-opened to cross-check RGT OPORD against DIV tasking. |
 | [JAG Pre-Brief](jag-brief.md) | Draft | OIC Notes | Title 10/SAD seam, SECFOR ROE, UAS legal bases. **Not yet shared with JAG.** |
 | [Reference Index](../reference-index.md) | Live | Reference | Index of external/received reference materials and archived source emails. |

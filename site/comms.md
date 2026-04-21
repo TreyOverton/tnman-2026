@@ -24,13 +24,13 @@ LTC Sheaf delivered three documents:
 - **[RFF - RFS TNMAN-26.docx](/docs/source/RFF-RFS-TNMAN-26.docx)** — formal Request for Forces / Request for Support. 85 SECFOR PAX across 15 × 5-PAX teams, plus LNOs, OPFOR, radio teams, medics, JAG, PAO.
 - **[TPFDD - Ops Sequence.xlsx](/docs/source/TPFDD-Ops-Sequence.xlsx)** — hour-by-hour personnel sequencing 13-17 MAY. Peak **124 PAX on 14 MAY**.
 
-LTC Sheaf noted he was in "TNMAN-26 suppressive fire" and acknowledged the IDT OPORD and UTS were not yet complete (issued next day). Full summary: [Ops / NAI Graphics](docs/ops-nai.md).
+LTC Sheaf noted he was in "TNMAN-26 suppressive fire" and acknowledged the IDT OPORD and UTS were not yet complete (issued next day). Full summary: [Ops / NAI Graphics](docs/ops-graphics.md).
 
 Source: [Updated-NAI-RFF-TPFDD-Documents.eml](/docs/source/emails/Updated-NAI-RFF-TPFDD-Documents.eml)
 
 ### 2026-04-20 23:02 — LTC Sheaf → 1LT Overton (email, LTC Estes TNMAN calendar)
 
-LTC Sheaf forwarded a **TNSG TNMAN synch matrix** from LTC Estes (TNMAN Project Officer) covering 11-17 MAY with all RGTs/G6/DIV ENG on a single page. Key point for 3 RGT: Travel to Mt Carmel 13 MAY; Site Defense 14 MAY; AAR and Travel Home 15 MAY. Full matrix: [Ops / NAI Graphics § DIV Synch Matrix](docs/ops-nai.md).
+LTC Sheaf forwarded a **TNSG TNMAN synch matrix** from LTC Estes (TNMAN Project Officer) covering 11-17 MAY with all RGTs/G6/DIV ENG on a single page. Key point for 3 RGT: Travel to Mt Carmel 13 MAY; Site Defense 14 MAY; AAR and Travel Home 15 MAY. Full matrix: [Ops / NAI Graphics § DIV Synch Matrix](docs/ops-graphics.md).
 
 Source: [TNSG-TNMAN-Calendar-Overview.eml](/docs/source/emails/TNSG-TNMAN-Calendar-Overview.eml) · [TNSG-TNMAN-Calendar-20APR26.xlsx](/docs/source/TNSG-TNMAN-Calendar-20APR26.xlsx)
 
@@ -47,6 +47,90 @@ Source: [Updated-NAI-OPS-sUAS-Graphics.eml](/docs/source/emails/Updated-NAI-OPS-
 **Impact:** Closes the "named 4 BN Part 107 UAS pilot" gap. 3 RGT now has **3 certified Part 107 pilots**: CPT Widner (4 BN XO), 1LT Riley (3 BN XO, who sent this email), and LT Hoskins.
 
 Source: [3RGT-4BN-New-Part-107-Drone-Pilot.eml](/docs/source/emails/3RGT-4BN-New-Part-107-Drone-Pilot.eml)
+
+### 2026-04-18 — 1LT Overton — Exercise Execution Matrix drafted (for LTC Sheaf review)
+
+Drafted a first-pass [Exercise Execution Matrix](docs/execution-matrix.md) in response to LTC Sheaf's stated need for a tactical-level, ICP-facing playbook of intended events for the exercise window (13-15 MAY). LTC Sheaf's description: "0930 — Dispatch UAS section squad to surveil riverbanks..." — i.e., the guide the ICP follows to make sure the exercise hits all the desired situations.
+
+**Terminology clarification:** The formal name for this product is an **Exercise Execution Matrix** (or **Synchronization Matrix** in military doctrine). It is distinct from the **MSEL (Master Scenario Events List)**, which is the *controller's* inject list and is a DIV product (Final MSEL Review 30 APR 26). The Execution Matrix is blue-force-facing; the MSEL is the controller's script.
+
+**Draft content:**
+- Summary timeline (mermaid `timeline` diagram — milestone view across 13-15 MAY)
+- Three per-day execution matrices (tables), swim-laned by **ICP C2 / SECFOR / UAS / Comms / Exercise Control / Sustainment**
+- 14 MAY main-day **gantt chart** (mermaid) showing parallel activities and inject windows
+- Assumptions and gaps called out — key note: DIV MSEL supersedes the "{inject}" entries once issued
+
+**Draft is pre-decisional.** Ready for LTC Sheaf to strike through, rewrite, or re-time. NAIs reference the [Operational / NAI Graphics](docs/ops-graphics.md) labels (3001 ICP through 3010 US-11W).
+
+
+
+Resolved the three-way naming question flagged in the 18 APR Consistency Review (B1). All three references in the orders — "Mt. Carmel Armory" (DIV OPORD 26-05), "US Army Reserve Center, 399 US-11W Scenic" (RGT OPORD 26-05-01), and "Kingsport Readiness Center" (CG Intent / LTC Estes) — refer to the **same facility**.
+
+**Canonical name and address:**
+
+> **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645**
+
+The facility is a TN National Guard home station that also houses US Army National Guard Recruiting; it sits a short distance up US-11W from HAAP. "Mt Carmel Armory" is the common informal reference but is not the official name.
+
+**Site updates:**
+- [Consistency Review B1](warno-opord-review.md) — closed with canonical form.
+- [Planning Gaps](planning-gaps.md) — ICP naming line resolved.
+- [Mission Overview](README.md), [Back-Brief](docs/back-brief.md), [DD 2977](docs/dd2977.md), [Timeline](timeline.md), [Ops Graphics](docs/ops-graphics.md), [SA Brief](docs/sabrief.md) — canonical form applied.
+- [CG Intent](docs/cg-intent.md), [DIV OPORD](docs/opord-div.md), [RGT OPORD](docs/opord-rgt.md) transcriptions — original source wording preserved; cross-reference added.
+
+**Still cosmetic for the FRAGO:** RGT OPORD 26-05-01 text uses *"US Army Reserve Center, 399 US-11W Scenic, Mt Carmel, TN 37645"* throughout. The "A" street-number suffix is missing and the official facility name is "Armed Forces Reserve Center."
+
+### 2026-04-18 — LTC Sheaf → ALCON (email, updated RFF / RFS — adds Part 107 sUAS operators)
+
+LTC Sheaf sent a **corrected RFF/RFS document** (0718R) adding the FAA 14 CFR Part 107 sUAS Operators line that was missed in the 17 APR 23:22R version. 3 operators requested.
+
+The final 3 RGT RFF/RFS now requests:
+
+- **SECFOR:** 12 foot patrol + 3 screen + 2 QRF (17 pax total)
+- **OPFOR:** 1 team of 6-8 pax *(matched by 1 RGT per DIV OPORD)*
+- **LNOs:** 1 × 2 RGT, 1 × 4 RGT, 2 × DIV PMO *(all matched by DIV OPORD)*
+- **TACN Radio Team:** 3 pax + 3 radios *(gap — open G6 item)*
+- **HF Radio Team:** 3 pax + 2 radios *(gap — open G6 item)*
+- **Part 107 sUAS Operators:** 3 *(RGT OPORD tasks 4 BN for 1; gap for other 2)*
+- **Field Medical (RFS):** 3 × 68W *(matched by 61st MED BN / 31st MED Co per DIV OPORD)*
+- **JAG (RFS):** 1 *(matched — COL Williams per DIV OPORD)*
+- **PAO (RFS):** 1 *(matched — DIV PMO per DIV OPORD)*
+
+Site updates: [RFF / RFS](docs/rff-rfs.md) page added. Source: [2026-04-18_SHEAF_ops-intel-graphics-rff-rfs.eml](/docs/source/emails/2026-04-18_SHEAF_ops-intel-graphics-rff-rfs.eml).
+
+### 2026-04-17 — LTC Sheaf → 1LT Overton (email, DIV OPORD 26-05 + back-brief request)
+
+LTC Sheaf forwarded the **DIV OPORD 26-05 (TNMAN 2026)** for inclusion in the planning portal. Two documents attached: the **signed PDF** (dated 161200RAPRIL2026 — issued 2 days ahead of the CG-stated NLT 1000 hrs 18 APR 26) and a **Draft 2 DOCX** working copy.
+
+LTC Sheaf's instruction: "I'd like to do an Orders Consistency Review and construct an 'Orders Brief-back' (Summary) of the expectations for 3 RGT."
+
+Two additional items LTC Sheaf mentioned:
+
+1. He reached out to the BN CDRs in response to 1LT Overton's concern about "gouge getting down to the lowest level" — worried about any "Ferguson Effect" dynamic.
+2. He will forward a message from COL Roark (originated from CSM Barton, 1 RGT) for inclusion into the OIC Notes — **not yet received**.
+
+**Actions taken on the portal:**
+
+- [DIV OPORD 26-05](docs/opord-div.md) page created; source PDF + Draft 2 DOCX stored at `/docs/source/div-opord-26-05/`.
+- [Orders Back-Brief](docs/back-brief.md) skeleton created — to be refined into the 18 APR CG brief pre-read.
+- [Orders Consistency Review](warno-opord-review.md) **re-opened** — 15 FRAGO-candidate items identified (ICP naming, 6-hr establishment clock, 1 RGT billeting question, MRC clarification, CCIRs, DA 7566, reports NLT, LNO integration, PHA gate, IET requirement, AT-in-lieu CG/DCGO approval, unpaid status, RFF submission task, 2 RGT / 4 RGT DS relationship, 1 RGT COMMEX 13-25 MAY typo, sweep residual "Tasl" typo).
+- [Planning Gaps](planning-gaps.md) updated — DIV OPORD marked received; new blockers added for PHA verification, IET verification, AT-in-lieu approvals, unpaid-volunteer comms, ICP naming, 1 RGT billeting, RFF/RFS submission.
+
+Source: [2026-04-17_SHEAF_div-opord-for-documentation.eml](/docs/source/emails/2026-04-17_SHEAF_div-opord-for-documentation.eml) · [DIV OPORD PDF](/docs/source/div-opord-26-05/div-opord-26-05.pdf).
+
+### 2026-04-17 — LTC Sheaf → ALCON (email, DRAFT Ops/Intel Graphics + RFF/RFS)
+
+LTC Sheaf distributed two 3-RGT-staff-level products at 2322R to COL Roark, CSM Seals, LTC Smith (Scott Smith), 1LT Overton — with LTC Smith (Scott), CSM Rutherford, CPT Borrilez, MAJ Crosby, CPT Haddix, CW4 Simpson, 1LT Fielitz-Scarbrough, SFC Bradley on Cc.
+
+LTC Sheaf's framing: *"FYI / SA, here is something to consider. This is an OPS / INTEL Graphic for use during the exercise. S2 can refine as needed. Additionally, this is the RFF / RFS requirements which I have 'intuited' up to this point. Feel free to add, subtract, and otherwise edit either of these documents as you see fit."*
+
+**Ops/Intel Graphic** — NAI overlay on HAAP satellite imagery identifying 10 NAIs (3001 ICP, 3002 Main Gate, 3003 Critical Infra 1, 3004 Railway/Pipeline, 3005 Critical Infra 2, 3006 Railway/ASP, 3007 Waterway, 3008 Bridge, 3009 Railway Switch, 3010 US-11W) and the TNNG/TNSG boundary along US-11W with Screen + 3 Patrol positions. New page: [Operational / NAI Graphics](docs/ops-graphics.md).
+
+**RFF/RFS** — 3 RGT draft request for forces and support to DIV. (Updated 18 APR with Part 107 sUAS operators — see above.) New page: [RFF / RFS](docs/rff-rfs.md).
+
+The Ops/Intel Graphic complements 1SG Snow's standing NAI-identification tasking from 11 APR and is the S2 base layer for future SA brief refinement.
+
+Source: [2026-04-18_SHEAF_ops-intel-graphics-rff-rfs.eml](/docs/source/emails/2026-04-18_SHEAF_ops-intel-graphics-rff-rfs.eml).
 
 ### 2026-04-13 — LTC Sheaf fwd LTC Estes → 1LT Overton (email, Planning Portal + OPFOR POC)
 

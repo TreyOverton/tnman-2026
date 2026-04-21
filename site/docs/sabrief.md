@@ -30,7 +30,7 @@
 
 ## Named Areas of Interest (NAIs)
 
-10 NAIs identified after LTC Sheaf's 20 APR call with Mr. Armstrong. Full graphics in the [Ops / NAI Graphics](ops-nai.md) reference.
+10 NAIs identified — initial version 17 APR, updated 20 APR after LTC Sheaf call with Mr. Armstrong. Full graphics in the [Operational / NAI Graphics](ops-graphics.md) reference.
 
 | NAI | Function |
 |-----|----------|
@@ -81,8 +81,8 @@ See [Risk Assessment](../risk.md) for the full register and [DD Form 2977](dd297
 
 ## Outstanding SA Items
 
-- ~~**NAI identification**~~ — **RESOLVED.** LTC Sheaf identified 10 NAIs (3001-3010) on 20 APR after call with Mr. Armstrong. See [Ops / NAI Graphics](ops-nai.md).
-- **Labeled map overlay** — the satellite view in this brief is still unannotated. The [Ops / NAI Graphics](ops-nai.md) PPTX has the labeled version; recommend extracting a labeled image and inline it here too.
+- ~~**NAI identification**~~ — **RESOLVED.** LTC Sheaf issued initial NAI Graphics on 17 APR (10 NAIs, 3001-3010) and an updated version on 20 APR after a call with Mr. Armstrong. See [Operational / NAI Graphics](ops-graphics.md).
+- **Labeled map overlay** — the satellite view in this brief is still unannotated. The [Operational / NAI Graphics](ops-graphics.md) page has the labeled versions (SECFOR zones, NO-GO Line, TNNG/TNSG boundary); recommend extracting a labeled image and inlining it here too.
 - **Ingress route graphics** — convoy routes from home stations to the RSA/ICP, with travel time estimates for the dawn-to-dusk / RON-at-home cycle.
 - **HAAP perimeter clear-zone map** — to be requested from HAAP POC during site orientation. Confirms exactly where 3 RGT can and cannot position.
 - **IPB / threat brief** — the RGT OPORD currently says "Enemy Forces: UNK." 1SG Snow to coordinate with DIV G2 for a baseline Intelligence Preparation of the Battlefield (IPB) and scenario-specific threat inputs per OPORD S2 Task 1.

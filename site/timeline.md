@@ -21,13 +21,17 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | 13 APR 26 (131200RAPR26) | Final coordinating draft RGT OPORD 26-05-01 — Phase I/II seam fixed, all prior typos resolved (except S4 "Tasl"), submitted to COL Roark / CSM Seals. LTC Sheaf outlines next steps. | [Comms Log](comms.md) |
 | **14 APR 26 (141600RAPR26)** | **RGT OPORD 26-05-01 ISSUED (Final).** Identical content to coordinating draft; DTG updated to 141600R. FRAGO pending once DIV OPORD arrives. | [RGT OPORD](docs/opord-rgt.md) |
 | **14-16 APR 26** | **FPM Videoconference** — LTC Estes coordinating; Tue/Wed/Thu this week. All staff/CDRs invited. | [CG Intent](docs/cg-intent.md) |
+| **16 APR 26 (161200RAPRIL2026)** | **DIV OPORD 26-05 signed** by BG Stewart (2 days ahead of CG deadline). | [DIV OPORD](docs/opord-div.md) |
+| **17 APR 26** | **DIV OPORD 26-05 forwarded to 3 RGT planning portal** by LTC Sheaf. Back-brief requested; [Consistency Review](warno-opord-review.md) re-opened. | [Comms Log](comms.md) |
+| **17 APR 26** | **3 RGT RFF/RFS + Ops/Intel NAI Graphics issued** (LTC Sheaf draft to COL Roark, CSM Seals, LTC Smith, 1LT Overton + 9 on Cc). | [RFF/RFS](docs/rff-rfs.md) · [NAI Graphics](docs/ops-graphics.md) |
+| **18 APR 26** | **RFF/RFS updated** to add Part 107 sUAS operators. | [Comms Log](comms.md) |
 | **18 APR 26** | **S3 Task 2:** Provide initial TF Organization Structure estimate IAW ICS protocols | [OPORD §3 S3](docs/opord-rgt.md) |
-| **18 APR 26** | **Report to DIV / CG operational brief.** DIV OPORD NLT 1000 hrs this date. LTC Sheaf to brief. | [CG Intent](docs/cg-intent.md) · [Comms Log](comms.md) |
+| **18 APR 26** | **Report to DIV / CG operational brief.** ~~DIV OPORD NLT 1000 hrs this date~~ (received 17 APR). LTC Sheaf to brief. | [CG Intent](docs/cg-intent.md) · [Comms Log](comms.md) |
 | **02 MAY 26** | **Brief CG and DIV staff** prior to TNMAN execution. | [CG Intent](docs/cg-intent.md) |
 | **15 APR 26 (152000RAPR26)** | **S1 Task 1/2:** Provide committed-personnel roster; coordinate personnel reporting with DIV G1 | [OPORD §3 S1](docs/opord-rgt.md) |
 | 19 APR 26 | **LT Sam Hoskins (4 BN) earned FAA Part 107 certification** — closes the "named 4 BN UAS pilot" gap. 3 RGT now has 3 certified pilots (Widner, Riley, Hoskins). | [Comms Log](comms.md) |
-| 20 APR 26 | **NAI graphics, TPFDD, and RFF issued** by LTC Sheaf after call with Mr. Armstrong (HAAP POC). 10 NAIs (3001-3010); 124 PAX peak on 14 MAY; RFF submitted to DIV for adjacent-RGT reinforcement. | [Ops / NAI](docs/ops-nai.md) |
-| 20 APR 26 | **LTC Estes (TNMAN Project Officer) DIV synch matrix released** — 2/3/4 RGT + G6 + DIV ENG schedule 11-17 MAY. | [Ops / NAI](docs/ops-nai.md) |
+| 20 APR 26 | **NAI graphics, TPFDD, and RFF issued** by LTC Sheaf after call with Mr. Armstrong (HAAP POC). 10 NAIs (3001-3010); 124 PAX peak on 14 MAY; RFF submitted to DIV for adjacent-RGT reinforcement. | [Operational / NAI Graphics](docs/ops-graphics.md) |
+| 20 APR 26 | **LTC Estes (TNMAN Project Officer) DIV synch matrix released** — 2/3/4 RGT + G6 + DIV ENG schedule 11-17 MAY. | [Operational / NAI Graphics](docs/ops-graphics.md) |
 | **21 APR 26 (211600RAPR26)** | **RGT OPORD 26-04 issued** — IDT 25 APR 26. Contains TNMAN Ops Brief 1300-1500. | [IDT OPORD](docs/opord-idt-26-04.md) |
 | **24 APR 26** | **FRAGO 26-05-01.1 (TNMAN) expected NLT** — in draft per LTC Sheaf 21 APR email. Will incorporate NAIs, TPFDD, RFF into the TNMAN OPORD. | [Comms Log](comms.md) |
 | **25 APR 26 (0800-1630)** | **IDT monthly drill** at HHC 3 RGT (Afton, TN). TNMAN Ops Brief 1300-1500. LTC Estes expected to visit in person. | [IDT OPORD](docs/opord-idt-26-04.md) |
@@ -54,7 +58,7 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 
 | Date | Event | Source |
 |------|-------|--------|
-| 13 MAY 26 (D+2, WED) | **ADVON / Establish ICP** at US Army Reserve Center, Mt Carmel. JBAT TTX (location TBD) | [Encl A Storyboard](docs/opord-encl-a.md), [FPM](docs/fpm-slides.md) |
+| 13 MAY 26 (D+2, WED) | **ADVON / Establish ICP** at Armed Forces Reserve Center, Mt Carmel. JBAT TTX (location TBD) | [Encl A Storyboard](docs/opord-encl-a.md), [FPM](docs/fpm-slides.md) |
 | **13 MAY 26 (130519RMAY26 BMNT)** | **NLT:** All TNSG personnel, resources, and capabilities assembled at ICP / RSA | [OPORD §3](docs/opord-rgt.md) |
 | **14 MAY 26 (142131RMAY26 EENT)** | **NLT ENDEX** — Phase II notification to demobilize. 15 MAY half-day/AAR is Phase III. | [OPORD §3](docs/opord-rgt.md) |
 | 14 MAY 26 (D+3, THU) | **Main day.** Scenario: simultaneous **kinetic attack on Holston AAP** + **cyber attack on ORNL Eagle-I**. TNNG focuses on HD while TEMA fills capability gaps. Holston requires security D+3 through D+5. JBAT request for I-40 Caney Fork bridge assessments D+3 through D+4. Air NG EOC activations D+3 through D+5 | [Encl A](docs/opord-encl-a.md), [FPM](docs/fpm-slides.md), [Cyber WG](docs/cyber-wg.md) |
@@ -83,8 +87,11 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 - [x] WARNO issued (11 FEB 26)
 - [x] Final Planning Meeting (26-27 MAR 26)
 - [x] Draft OPORD issued (10 APR 26)
+- [x] DIV OPORD 26-05 received (17 APR 26 — signed 16 APR, 2 days early)
+- [x] RFF/RFS drafted + Ops/Intel NAI Graphics issued (17-18 APR 26)
 - [ ] FPM Videoconference (14-16 APR 26) — this week
-- [ ] Report to DIV / CG brief (18 APR 26) — DIV OPORD due NLT 1000 same day
+- [ ] Report to DIV / CG brief (18 APR 26)
+- [ ] FRAGO to RGT OPORD 26-05-01 (post-DIV-OPORD)
 - [ ] CG + DIV staff brief (02 MAY 26)
 - [ ] S3 TF organization estimate (due 18 APR 26)
 - [ ] S1 mission roster locked (due 15 APR 26)
