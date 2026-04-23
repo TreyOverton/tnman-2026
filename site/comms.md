@@ -6,6 +6,20 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-22 — LTC Sheaf → 1LT Overton (text, ICP task-org designations)
+
+LTC Sheaf confirmed a batch of ICP / TF billets and two absences. Captured in [Task Organization](taskorg.md), [Chain of Command](coc.md), and [Mission Roster](roster.md).
+
+- **Incident Commander:** COL Roark
+- **Staging Area Manager:** SFC Bradley
+- **SECFOR TF Commander:** MAJ Crosby
+- **Situation Unit Leader:** 1SG Snow
+- **Resource Unit Leader:** 1LT Fielitz-Scarbrough
+- **Air Ops Branch Chief:** *not* 4 BN — now open, likely DIV / adjacent-RGT assignment
+- **Not attending TNMAN-26:** 1LT Riley (3 BN XO · Part 107 pilot), SFC Ferguson (3 BN HQ Co 1SG)
+
+Roster drops from 40 → 38 PAX (MRC-1 from 19 → 17). Closes several prior Task-Org blockers (IC, Staging Area Mgr, SECFOR TF CDR, Situation / Resource Unit Leaders); opens one new one (Air Ops Branch Chief, since 4 BN won't fill).
+
 ### 2026-04-22 09:45 — LTC Sheaf → BN CDRs + staff (ALCON email, IDT OPORD + TNMAN FRAGO w/ enclosures)
 
 LTC Sheaf distributed to full ALCON (2/3/4 BN CDRs, CW4 Simpson, CPT Ferguson, CPT Haddix, CPT Widner, MAJ Whalen; cc command staff incl. 1LT Overton): [RO 26-04](docs/opord-idt-26-04.md) + Encl A (IDT 25 APR), and **[FRAGO 26-05-01.1](docs/frago-26-05-01-1.md)** with its three enclosures (updated [NAI Graphics](docs/ops-graphics.md), [RFF/RFS](docs/rff-rfs.md), TPFDD). This is the public release of the FRAGO (staff review was 21 APR).

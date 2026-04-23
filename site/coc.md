@@ -57,6 +57,8 @@
 
 **Vacancy:** 3 BN CSM (CSM Rutherford moved to HHC as S6 NCO per LTC Smith 2 APR email). Acting or interim to be confirmed with MAJ Crosby.
 
+**Not attending TNMAN-26 (per LTC Sheaf text 22 APR 26):** 1LT Riley (BN XO) · SFC Ferguson (HQ Co 1SG). Both remain in the 3 BN chain of command; they are removed from the [Mission Roster](roster.md) for this exercise. **MAJ Crosby is designated SECFOR TF Commander** in the [Task Organization](taskorg.md).
+
 ## 4th Battalion, 3 RGT
 
 | Role | Rank | Name | Contact |

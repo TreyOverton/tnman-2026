@@ -10,9 +10,9 @@ Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — name
 |------|------:|------:|------:|------:|------:|
 | Regimental HQ | 11 | 5 | 5 | 0 | 1 |
 | 2nd Battalion | 8 | 3 | 3 | 1 | 1 |
-| 3rd Battalion | 13 | 8 | 1 | 2 | 2 |
+| 3rd Battalion | 11 | 6 | 1 | 2 | 2 |
 | 4th Battalion | 8 | 3 | 1 | 1 | 3 |
-| **Total (draft)** | **40** | **19** | **10** | **4** | **7** |
+| **Total (draft)** | **38** | **17** | **10** | **4** | **7** |
 
 **Legend:** <span class="mrc mrc-1">MRC-1</span> fully available &nbsp; <span class="mrc mrc-2">MRC-2</span> partial &nbsp; <span class="mrc mrc-3">MRC-3</span> limited &nbsp; <span class="mrc mrc-4">MRC-4</span> unknown / unverified (treated as red for safety)
 
@@ -66,8 +66,6 @@ Not counted in the totals above until confirmed. See Open Items.
 |------|------|----------|-----|--------------|
 | MAJ | Crosby, Lyle A | BN CO | <span class="mrc mrc-3">MRC-3</span> | 865-314-0407<br>lyle.crosby@tnstateguard.org<br>4521 Merrywood Ave, Kingsport, TN 37664 |
 | CPT | Moore, Leonard L | S6 C&E Officer | <span class="mrc mrc-4">MRC-4</span> | 239-877-6659<br>leonard.moore@tnstateguard.org<br>503 Phillips St, Rogersville, TN 37857 |
-| 1LT | Riley, Michael W | BN XO · FAA Part 107 UAS Pilot | <span class="mrc mrc-1">MRC-1</span> | 423-291-0365<br>michael.riley@tnstateguard.org<br>214 Arrowhead Pvt Dr, Mountain City, TN 37683 |
-| SFC | Ferguson, Joshua P | HQ Co 1SG | <span class="mrc mrc-1">MRC-1</span> | 423-278-8869<br>joshua.ferguson@tnstateguard.org<br>240 Plates Ln, Greeneville, TN 37745 |
 | SFC | Sturgill, DeWayne D | S3 Ops NCO | <span class="mrc mrc-2">MRC-2</span> | 423-212-0335<br>dewayne.sturgill@tnstateguard.org<br>408 Droke Ln, Blountville, TN 37617 |
 | SSG | Singh, Krishna | BN S6 | <span class="mrc mrc-1">MRC-1</span> | 423-552-2215<br>krishna.singh@tnstateguard.org<br>154 Stage Rd, Jonesborough, TN 37659 |
 | 2LT | Garrison, Aaron E | BN S4 | <span class="mrc mrc-1">MRC-1</span> | 931-510-5485<br>aaron.garrison@tnstateguard.org<br>385 Poplar Ridge Rd, Piney Flats, TN 37686 |
@@ -103,6 +101,7 @@ Not counted in the totals above until confirmed. See Open Items.
 - **2/3 availability** — 2BN roster imported from the [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point. LTC Sheaf is unsure of 2/3 posture; follow-up pending with 2BN leadership (CPT Borrilez).
 - **PHA tracking** — Sheaf asked whether most-recent PHA dates could be included. PHA data is not in the alert rosters. Need a data source (S1 medical records?) — deferred pending confirmation from CPT Meager's replacement.
 - **Departures** — CPT Meager (HHC, moved to Texas), CPT Sutton and CW2 Hickman (HHC, now IRR), 2LT Zeinali and PV2 Crosby Caleb (3/3, inactive 2+ years), PV2 Danger (3/3, now IRR/PFC), PV1 Tobin (3/3, IRR or out), **SSG Burns (2 BN, discharged per CPT Borrilez 11 APR)**, MSG Klaus (2 BN, discharged — was never on mission roster). Removed from roster.
+- **Not attending TNMAN-26** — **1LT Riley (3 BN XO · FAA Part 107 UAS Pilot)** and **SFC Ferguson (3 BN HQ Co 1SG)** will not be present for the exercise (LTC Sheaf text, 22 APR 26). Both remain in the 3 BN [chain of command](coc.md); removed from this mission-specific roster and from PAX totals. Second-order impacts: [Task Org](taskorg.md) Air Ops / SECFOR TF subordinate slots (Riley was a Part 107 pilot candidate; Ferguson was Acting BN 1SG in SECFOR TF).
 - **MRC-4 (unknown) personnel** — Bennett, Neisler, Hendon (4/3), McCroskey (HHC), Moore, Gauthier (3/3), Burns, Walker (2/3) shown as MRC-4 pending verification.
 - **Rank discrepancy — Hendon (4/3)** — 4BN Feb 2026 PDF lists SSG/WOC; regimental Mar 2026 PDF and Sheaf's email list WO1. Using **WO1**.
 - **Rank discrepancy — Miles (4/3)** — 4BN Feb 2026 PDF lists SGT; regimental Mar 2026 PDF and Sheaf's email list SSG. Using **SSG**.
