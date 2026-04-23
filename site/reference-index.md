@@ -8,6 +8,8 @@ External reference materials, higher-HQ planning products, and informational res
 |-----|--------|--------|-------------|-------|
 | [FPM Slides (26-27 MAR 26)](docs/fpm-slides.md) | Received | TNNG / TEMA FPM | [pdf](/docs/source/TNMAN-26-FPM-CAO-23MAR26.pdf) | TNMAN/TNCAT 26 Final Planning Meeting brief. CAO 23 MAR 26. Forwarded to TNSG by LTC Estes on 26 MAR. Key source for the division-level scenario, objectives, and timeline. |
 | [Cyber WG Slides](docs/cyber-wg.md) | Received | TNNG / TEMA Cyber WG | [pptx](/docs/source/TNMAN-26-Cyber-Slides.pptx) | ORNL / UTK / TEMA / TNARNG / TNSG cyber track for the 14 MAY inject. POC list, scenario timeline, objectives. |
+| [HD Working Group Slide](docs/hdwg-slide.md) | Received | TNNG HD WG | [pptx](/docs/source/HD-WG-TNMAN-26-Working-Group-Slide.pptx) | Early-draft slide forwarded by LTC Sheaf 15 APR. 14 MAY inject timeline (waterway breach 1200, entry-control 1300, drone approval 1430) still useful. 10-SG-PAX estimate obsolete. |
+| [FRAGORD 3 (JFHQ-TN OPORD 25-18)](docs/fragord-3-jfhq.md) | Received | JFHQ-TN (MG Ross / J3 Lowrance) | [docx](/docs/source/FRAGORD-3-JFHQ-TN-OPORD-25-18.docx) | TNARNG FRAGORD. 278th ACR provides Mt Carmel Armory as RON + ICP for 50 PAX 11-17 MAY. 30th TC provides 6 White Cell PAX. |
 | [ICP Organization Reference](icp-org-reference.md) | Received | LTC Sheaf | [pptx](/docs/source/ICP-Organization.pptx) | ICS-structured ICP task org template mapping S1–S6 to ICS positions. Used as the basis for the [Task Organization](taskorg.md) draft. |
 
 ## Informational Pages
@@ -32,6 +34,7 @@ Key emails are archived in `/docs/source/emails/` and logged in the [Comms Log](
 | 11 APR 26 | Imagery for TNMAN-26 | LTC Sheaf → 1SG Snow | [eml](/docs/source/emails/Imagery-for-TNMAN-26.eml) |
 | 11 APR 26 | 2BN Roster Review Response | CPT Borrilez → 1LT Overton | [eml](/docs/source/emails/TNMAN-2026-2BN-Roster-Review-Response.eml) |
 | 13 APR 26 | Revised draft RGT OPORD | LTC Sheaf → 1LT Overton | [eml](/docs/source/emails/Initial-Coordinating-Draft-RGT-OPORD-26-05-01.eml) |
+| 15 APR 26 | Additional documents — FRAGORD 3 + HD WG Slide | LTC Sheaf → 1LT Overton | [eml](/docs/source/emails/Additional-Documents-for-OIC-Notes.eml) |
 | 13 APR 26 | Final coordinating drafts to CDR | LTC Sheaf → COL Roark / CSM Seals | [eml](/docs/source/emails/Final-Coordinating-Drafts-TNMAN-26-OPORD-WARNO-26-04.eml) |
 | 13 APR 26 | TNMAN-26 Next Steps + final OPORD | LTC Sheaf → 1LT Overton | [eml](/docs/source/emails/TNMAN-26-Next-Steps.eml) |
 | 19 APR 26 | New 4 BN Part 107 drone pilot (LT Hoskins) | 1LT Riley → MAJ Crosby | [eml](/docs/source/emails/3RGT-4BN-New-Part-107-Drone-Pilot.eml) |

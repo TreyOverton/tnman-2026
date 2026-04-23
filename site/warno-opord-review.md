@@ -72,11 +72,12 @@ The facility is a TN National Guard home station that also houses US Army Nation
 
 A 6-hour clock is a concrete planning factor — drives ADVON composition, load plan, and equipment pre-staging. Should be called out in the FRAGO and translated into an S3/S4 sub-task (equipment marshaling by 6 hours before expected notification).
 
-### B3. "Provide sleeping area for 1st Regt SECFOR personnel" at ICP — OPEN (tension with CG policy)
+### B3. "Provide sleeping area for 1st Regt SECFOR personnel" at ICP — PARTIALLY CLARIFIED (23 APR)
 
 - **DIV OPORD §3.i.4.(i):** "Provide sleeping area for 1st Regt SECFOR personnel."
 - **CG standing policy:** Dawn-to-dusk + RON at home (or Soldier-funded hotel). **No billeting at the ICP.**
 - **1 RGT tasking in DIV OPORD §3.i.2.(a):** 6 personnel as **OPFOR** (not SECFOR). The DIV sub-tasking language appears to have "SECFOR" where "OPFOR" was intended.
+- **[FRAGORD 3 to JFHQ-TN OPORD 25-18](../docs/fragord-3-jfhq.md)** (15 APR, processed 23 APR): Tasks **278th ACR** to provide **Mt Carmel Armory** space for **50 individuals** as **RON and ICP** 11-17 MAY. This independently confirms that the Armory is authorized for RON use; 278th ACR is the facility-providing unit, and 3 RGT manages SG use of the space. The CG dawn-to-dusk policy for TNSG personnel still governs TNSG RON decisions.
 
 Two issues to resolve before FRAGO:
 

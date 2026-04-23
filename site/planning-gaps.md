@@ -54,7 +54,7 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 ### Coordination with DIV (newly surfaced from DIV OPORD)
 
 - ~~**ICP naming discrepancy**~~ — **RESOLVED** 18 APR: all three names in play ("Mt. Carmel Armory" / "US Army Reserve Center, Mt Carmel" / "Kingsport Readiness Center") refer to the same facility. Canonical form: **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645**. Cosmetic RGT OPORD address fix queued for FRAGO. *Source: [Consistency Review B1](warno-opord-review.md).*
-- **1 RGT OPFOR billeting at ICP** — DIV OPORD tasks 3 RGT to provide a sleeping area for 1 RGT SECFOR (likely OPFOR) personnel; unclear whether this overrides CG's dawn-to-dusk / RON-at-home policy or is a narrow exception. Requires DIV G3 / CG clarification. *Source: [Consistency Review B3](warno-opord-review.md).*
+- **1 RGT OPFOR billeting at ICP** — DIV OPORD tasks 3 RGT to provide a sleeping area for 1 RGT SECFOR (likely OPFOR) personnel. **Partial clarification 23 APR:** [FRAGORD 3 to JFHQ-TN OPORD 25-18](docs/fragord-3-jfhq.md) tasks **278th ACR** to provide **Mt Carmel Armory** space for 50 PAX as RON + ICP 11-17 MAY. 278th ACR is the facility provider; 3 RGT manages SG use of the space. CG dawn-to-dusk/RON-at-home policy still governs TNSG, but the Armory facility is explicitly authorized for RON by TNARNG for other personnel. *Source: [FRAGORD 3](docs/fragord-3-jfhq.md), [Consistency Review B3](warno-opord-review.md).*
 - **RFF/RFS submission to DIV** — LTC Sheaf drafted the [RFF / RFS](docs/rff-rfs.md) 17-18 APR. Needs staff input, finalization, and submission to DIV G3 (recommend NLT 30 APR for MSEL alignment or 02 MAY CG brief). *Source: [RFF / RFS](docs/rff-rfs.md).*
 
 ## High — Next 1-2 Weeks

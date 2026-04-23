@@ -14,6 +14,8 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 |-----|--------|--------|-------------|-------|
 | [Division WARNO (WO 1 to DIV OPORD 26-05)](warno-div.md) | Received | 11 FEB 26 | [docx](/docs/source/WO1-TO-DIV-OPORD-26-05-TNMAN-26.docx) | The order that initiated 3 RGT planning. Signed BG Stewart (CG), G3 BEAVER. |
 | [Division OPORD 26-05](opord-div.md) | **Received** | 16 APR 26 (161200RAPRIL2026) | [pdf](/docs/source/div-opord-26-05/div-opord-26-05.pdf) · [draft2 docx](/docs/source/div-opord-26-05/div-opord-26-05-draft2.docx) | Signed BG Stewart, G3 BEAVER. Issued 2 days ahead of CG-stated deadline. Triggers FRAGO to [RGT OPORD 26-05-01](opord-rgt.md). |
+| [FRAGORD 3 to JFHQ-TN OPORD 25-18](fragord-3-jfhq.md) | Received | 15 APR 26 (delivered) | [docx](/docs/source/FRAGORD-3-JFHQ-TN-OPORD-25-18.docx) | TNARNG FRAGORD (MG Ross / J3 Lowrance). Tasks 278th ACR to provide Mt Carmel Armory as RON + ICP for 50 PAX 11-17 MAY; tasks 30th TC 6 PAX to White Cell at JFHQ. Time zone Sierra. |
+| [HD Working Group Slide](hdwg-slide.md) | Received | 15 APR 26 (delivered) | [pptx](/docs/source/HD-WG-TNMAN-26-Working-Group-Slide.pptx) | Early planning slide. 10-SG-PAX estimate obsolete (now 124); inject timeline for 13-14 MAY still useful. |
 
 ## 3 RGT Orders
 

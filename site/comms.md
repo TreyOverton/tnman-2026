@@ -6,6 +6,15 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-23 — 1LT Overton (processing note: 15 APR email caught up)
+
+Processed an email from LTC Sheaf dated **15 APR 26 15:43** that had not previously been archived. The email forwarded two TNARNG-level documents LTC Sheaf had just received:
+
+- **[FRAGORD 3 to JFHQ-TN OPORD 25-18 (TNMAN 26)](docs/fragord-3-jfhq.md)** — TNARNG FRAGORD from MG Ross / J3 Lowrance. Key content: **278th ACR tasked to provide space for 50 individuals at Mt Carmel Armory for RON + ICP 11-17 MAY** (supports JTF Security and COMMS Ops). Confirms 278th ACR as facility provider and explicitly authorizes RON at the Armory — relevant to the [DIV OPORD §B3 1 RGT billeting question](warno-opord-review.md) in the [Consistency Review](warno-opord-review.md).
+- **[HD Working Group Slide](docs/hdwg-slide.md)** — early planning slide. 10-SG-PAX estimate is obsolete (we're at 124 PAX now), but the **14 MAY inject timeline** on slide 3 (waterway breach 1200, entry-control test 1300, drone approval test 1430) is useful input for the [Execution Matrix](docs/execution-matrix.md) and the 25 APR TNMAN Ops Brief.
+
+Source: [Additional-Documents-for-OIC-Notes.eml](/docs/source/emails/Additional-Documents-for-OIC-Notes.eml)
+
 ### 2026-04-22 21:23 — LTC Sheaf → 1LT Overton (email, Phon Con notes — Armstrong + Estes)
 
 LTC Sheaf forwarded notes from two phone conversations. **High-impact operational constraints from Mr. Armstrong** and a CG brief time update from LTC Estes.
