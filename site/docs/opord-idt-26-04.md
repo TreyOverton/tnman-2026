@@ -52,5 +52,5 @@
 ## Related
 
 - [RGT OPORD 26-05-01 (TNMAN)](opord-rgt.md) — the TNMAN OPORD that drives the Ops Brief agenda item
-- FRAGO 26-05-01.1 — in draft per LTC Sheaf 21 APR email, expected NLT 24 APR
+- [FRAGO 26-05-01.1 (TNMAN)](frago-26-05-01-1.md) — **issued 21 APR 26**, distributed ALCON 22 APR
 - LT Estes expected to visit for the TNMAN Ops Brief (per LTC Sheaf 21 APR email)

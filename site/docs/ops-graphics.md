@@ -4,12 +4,12 @@
 > - [ops-nai-graphics.pptx](/docs/source/ops-graphics/ops-nai-graphics.pptx)
 > - [base-map.jpeg](/docs/source/ops-graphics/base-map.jpeg)
 >
-> **Source files (20 APR update — after LTC Sheaf call with Mr. Armstrong):**
-> - [OPS - NAI Graphics.pptx](/docs/source/OPS-NAI-Graphics.pptx) — updated SECFOR / sUAS overlays with NO-GO Line
-> - [TPFDD - Ops Sequence.xlsx](/docs/source/TPFDD-Ops-Sequence.xlsx) — hour-by-hour personnel sequencing 13-17 MAY
-> - [TNSG TNMAN Calendar (LTC Estes 20 APR 26).xlsx](/docs/source/TNSG-TNMAN-Calendar-20APR26.xlsx) — DIV synch matrix
+> **Source files (current — 21 APR 26, Enclosure A to [FRAGO 26-05-01.1](frago-26-05-01-1.md)):**
+> - [OPS-NAI-Graphics.pptx](/docs/source/OPS-NAI-Graphics.pptx) — SECFOR / sUAS overlays with NO-GO Line; minor position-label refinement vs. 20 APR
+> - [TPFDD-Ops-Sequence.xlsx](/docs/source/TPFDD-Ops-Sequence.xlsx) — hour-by-hour personnel sequencing 13-17 MAY, **now includes preliminary scenario event row** (see [FRAGO page](frago-26-05-01-1.md#editors-notes))
+> - [TNSG-TNMAN-Calendar-20APR26.xlsx](/docs/source/TNSG-TNMAN-Calendar-20APR26.xlsx) — DIV synch matrix
 >
-> **Status:** Draft — initial overlay distributed by LTC Sheaf 17 APR 26 to COL Roark, CSM Seals, LTC Smith, 1LT Overton (cc: LTC Smith Scott, CSM Rutherford, CPT Borrilez, MAJ Crosby, CPT Haddix, CW4 Simpson, 1LT Fielitz-Scarbrough, SFC Bradley). Updated 20 APR 26 with NO-GO Line, expanded SECFOR posture, TPFDD, and DIV synch matrix after LTC Sheaf call with Mr. Armstrong (HAAP POC). Complements 1SG Snow's S2 NAI-identification tasking (11 APR).
+> **Status:** **Enclosure A to FRAGO 26-05-01.1.** Initial overlay distributed by LTC Sheaf 17 APR 26 to COL Roark, CSM Seals, LTC Smith, 1LT Overton (cc: LTC Smith Scott, CSM Rutherford, CPT Borrilez, MAJ Crosby, CPT Haddix, CW4 Simpson, 1LT Fielitz-Scarbrough, SFC Bradley). Updated 20 APR 26 after LTC Sheaf call with Mr. Armstrong (HAAP POC); 21 APR 26 re-issued with FRAGO.
 
 ## Purpose
 

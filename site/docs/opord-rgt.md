@@ -8,7 +8,7 @@
 >
 > This page is a Markdown transcription for in-site reading.
 >
-> **Status:** Final, issued. FRAGO pending post-DIV-OPORD — see [Orders Consistency Review](../warno-opord-review.md).
+> **Status:** Final, issued. **[FRAGO 26-05-01.1](frago-26-05-01-1.md) issued 21 APR 26** — adds TAK/TACN VTC, 2 MAY CG confirmation brief, 5-7 MAY Leader's Recon; does not yet address all [consistency-review](../warno-opord-review.md) items (expect a follow-on FRAGO).
 >
 > **Editor's note (18 APR):** The ICP facility is referenced throughout this OPORD as *"US Army Reserve Center, 399 US-11W Scenic, Mt Carmel, TN 37645"*. The official name and address is **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645**. Use the official form in new 3 RGT products; the FRAGO will correct the OPORD wording. This is the same facility referred to as "Mt. Carmel Armory" in DIV OPORD 26-05 and "Kingsport Readiness Center" in CG's Intent.
 

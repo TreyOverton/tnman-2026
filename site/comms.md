@@ -6,6 +6,24 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-22 09:45 — LTC Sheaf → BN CDRs + staff (ALCON email, IDT OPORD + TNMAN FRAGO w/ enclosures)
+
+LTC Sheaf distributed to full ALCON (2/3/4 BN CDRs, CW4 Simpson, CPT Ferguson, CPT Haddix, CPT Widner, MAJ Whalen; cc command staff incl. 1LT Overton): [RO 26-04](docs/opord-idt-26-04.md) + Encl A (IDT 25 APR), and **[FRAGO 26-05-01.1](docs/frago-26-05-01-1.md)** with its three enclosures (updated [NAI Graphics](docs/ops-graphics.md), [RFF/RFS](docs/rff-rfs.md), TPFDD). This is the public release of the FRAGO (staff review was 21 APR).
+
+Source: [APR-IDT-OPORD-TNMAN-FRAGO-wEnclosures.eml](/docs/source/emails/APR-IDT-OPORD-TNMAN-FRAGO-wEnclosures.eml)
+
+### 2026-04-21 22:28 — LTC Sheaf → COL Roark / CSM Seals / LTC Smith (email, FRAGO 26-05-01.1 staff review)
+
+Staff distribution of **[RGT FRAGO 26-05-01.1 (TNMAN)](docs/frago-26-05-01-1.md)** (DTG 212130RAPR26) for review, comment, and edit before ALCON release. LTC Sheaf framed it as "a couple of added tasks as well as the three enclosures" (updated [NAI Graphics](docs/ops-graphics.md), [RFF/RFS](docs/rff-rfs.md), TPFDD). Key FRAGO content:
+
+- Names the operation **"Mt. Carmel Site Defense"**.
+- **S3 Task 1 / S6 Task 1** — TAK/TACN Videoconference **221900RAPR26** (Google Meet, CW4 Simpson POC). *Note: today is 22 APR — this is tonight.*
+- **S3 Task 2** — Confirmation brief to DIV CG **O/A 2 MAY 26**; coordinated by LTC Estes.
+- **S3 Task 3** — Leader's Recon to Mt Carmel (399 US-11W N) **5-7 MAY 26**.
+- All other paragraphs N/C.
+
+Source: [RGT-FRAGO-26-05-01-1.eml](/docs/source/emails/RGT-FRAGO-26-05-01-1.eml) · [docx](/docs/source/RGT-FRAGO-26-05-01-1.docx)
+
 ### 2026-04-21 — LTC Sheaf → COL Roark / CSM Seals / LTC Smith (email, RGT OPORD 26-04 for IDT 25 APR)
 
 LTC Sheaf issued [RGT OPORD 26-04](docs/opord-idt-26-04.md) (DTG 211600RAPR26) for the 25 APR IDT, with [Enclosure A — Unit Training Schedule](docs/source/RO-26-04-ENCL-A-Training-Schedule.doc). Three notable points:

@@ -23,7 +23,7 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | [RGT OPORD 26-05-01](opord-rgt.md) | **Final** | 14 APR 26 | [final docx](/docs/source/RO-26-05-01-final.docx) · [prior versions](/docs/source/) | Issued 141600RAPR26. All [consistency review](../warno-opord-review.md) items resolved (one cosmetic "Tasl" typo remains). LTC Sheaf will FRAGO once DIV OPORD arrives. |
 | [OPORD Encl A — HDWG Storyboard](opord-encl-a.md) | Received | Pre-OPORD | [pptx](/docs/source/ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx) | HDWG storyboard referenced as Enclosure A of the RGT OPORD. |
 | [RGT OPORD 26-04 (IDT 25 APR)](opord-idt-26-04.md) | Final | 21 APR 26 | [docx](/docs/source/RO-26-04.docx) · [Encl A](/docs/source/RO-26-04-ENCL-A-Training-Schedule.doc) | IDT order — not a TNMAN document, but includes the 25 APR TNMAN Ops Brief (1300-1500). |
-| FRAGO 26-05-01.1 (TNMAN) | **In draft** | Expected NLT 24 APR 26 | — | Per LTC Sheaf 21 APR email. Will incorporate NAIs, TPFDD, and RFF into the TNMAN OPORD. |
+| [FRAGO 26-05-01.1 (TNMAN)](frago-26-05-01-1.md) | **Final** | 21 APR 26 (212130RAPR26) | [docx](/docs/source/RGT-FRAGO-26-05-01-1.docx) · [22 APR ALCON email](/docs/source/emails/APR-IDT-OPORD-TNMAN-FRAGO-wEnclosures.eml) | Names the op "**Mt. Carmel Site Defense**". Adds 3 S3 tasks (TAK/TACN VTC 22 APR 1900R, CG confirmation brief O/A 2 MAY, Leader's Recon 5-7 MAY) and 1 S6 task. Enclosures A/B/C = updated NAI Graphics / RFF-RFS / TPFDD. |
 
 ## Staff Products
 
