@@ -47,6 +47,8 @@
 
 SECFOR patrols operate in **North**, **South**, and **West** zones outside the HAAP perimeter, with **Screen** positions forward and a **Reserve / QRF** held back. A **NO-GO Line** along the HAAP perimeter is absolute — no TNSG personnel or sUAS cross it. A **TNNG / TNSG 3/3 boundary** divides responsibility between National Guard elements and 3 RGT.
 
+Per Mr. Armstrong (HAAP POC, 20 APR phone call), the **physical** SECFOR footprint is further constrained: only patrols **outside the perimeter fencing and parallel to the southernmost side of US 11W** are physically walked; the rest of the N/S/W zoning is **notional only** (tabletop). OPFOR activity (1 RGT) is non-confrontational and confined to the **main gate**. See [Operational / NAI Graphics — Mr. Armstrong guidance](ops-graphics.md) for details.
+
 ## sUAS Employment Posture
 
 Per LTC Sheaf (11 APR email to 1SG Snow): 3 RGT will **NOT** take imagery or video of anything within the HAAP perimeter fence line. The primary purpose of sUAS during the exercise is to **test the installation's drone detection system**. No imagery product is generated. This simplifies the legal picture under TCA 39-13-609 (see [Risk Assessment L-2](../risk.md)) and means the JAG consultation on UAS collection/retention/dissemination can focus on the detection-test protocol rather than imagery handling.

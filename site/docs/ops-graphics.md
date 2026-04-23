@@ -44,6 +44,15 @@ Operational / intelligence graphic for use during TNMAN-26 execution at Holston 
 - **Perimeter-only constraint** still governs: no TNSG personnel enter HAAP premises. NAI 3001 (ICP) sits outside the perimeter at the **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645** (referred to in DIV OPORD as "Mt. Carmel Armory" and in RGT OPORD as "US Army Reserve Center, Mt Carmel" — same facility).
 - sUAS reconnaissance at HAAP (per [Imagery guidance 11 APR](../comms.md)) does **not** generate retained imagery — the sUAS mission tests the installation's drone detection system. NAIs inform sUAS patrol patterns but no NAI imagery products are produced.
 
+### Mr. Armstrong guidance (20 APR phone call — see [Comms Log](../comms.md))
+
+The HAAP POC added constraints that **physically tighten** the SECFOR / sUAS / OPFOR footprint beyond the graphics alone:
+
+- **sUAS: do not fly past the "No Go" line.** Detection of intrusion is Mr. Armstrong's chief training objective.
+- **SECFOR (physical):** only patrols **outside the perimeter fencing AND parallel to the southernmost side of US 11W** (i.e., along the HAAP-facing edge of the road). This narrows the physical footprint compared to the 15-team N/S/W zoning shown in the TPFDD.
+- **SECFOR (notional):** all interior patrols and screens — the N/S/W zoning and interior screen positions in the graphic and TPFDD — are **tabletop only**, not physically walked.
+- **OPFOR:** non-confrontational, confined to the **main gate only**. Main-gate staff will be aware the exercise is occurring but will not know when or where.
+
 ## Open Items
 
 - **S2 refinement** — LTC Sheaf explicitly invited S2 refinement. 1SG Snow (HHC S2 NCO) is tasked to develop the SA brief and further NAI work. [SA Brief](sabrief.md) is the parent product.

@@ -27,7 +27,7 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | **18 APR 26** | **RFF/RFS updated** to add Part 107 sUAS operators. | [Comms Log](comms.md) |
 | **18 APR 26** | **S3 Task 2:** Provide initial TF Organization Structure estimate IAW ICS protocols | [OPORD §3 S3](docs/opord-rgt.md) |
 | **18 APR 26** | **Report to DIV / CG operational brief.** ~~DIV OPORD NLT 1000 hrs this date~~ (received 17 APR). LTC Sheaf to brief. | [CG Intent](docs/cg-intent.md) · [Comms Log](comms.md) |
-| **02 MAY 26** | **Brief CG and DIV staff** prior to TNMAN execution. | [CG Intent](docs/cg-intent.md) |
+| **02 MAY 26 (tentative 1000R)** | **Confirmation brief to CG** prior to TNMAN execution. Time TBD per LTC Estes 20 APR phone call; tentative 1000R (local). LTC Estes coordinating. | [CG Intent](docs/cg-intent.md) · [FRAGO 26-05-01.1](docs/frago-26-05-01-1.md) · [Comms Log](comms.md) |
 | **15 APR 26 (152000RAPR26)** | **S1 Task 1/2:** Provide committed-personnel roster; coordinate personnel reporting with DIV G1 | [OPORD §3 S1](docs/opord-rgt.md) |
 | 19 APR 26 | **LT Sam Hoskins (4 BN) earned FAA Part 107 certification** — closes the "named 4 BN UAS pilot" gap. 3 RGT now has 3 certified pilots (Widner, Riley, Hoskins). | [Comms Log](comms.md) |
 | 20 APR 26 | **NAI graphics, TPFDD, and RFF issued** by LTC Sheaf after call with Mr. Armstrong (HAAP POC). 10 NAIs (3001-3010); 124 PAX peak on 14 MAY; RFF submitted to DIV for adjacent-RGT reinforcement. | [Operational / NAI Graphics](docs/ops-graphics.md) |

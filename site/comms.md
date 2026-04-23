@@ -6,6 +6,26 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-22 21:23 — LTC Sheaf → 1LT Overton (email, Phon Con notes — Armstrong + Estes)
+
+LTC Sheaf forwarded notes from two phone conversations. **High-impact operational constraints from Mr. Armstrong** and a CG brief time update from LTC Estes.
+
+**(1) Mr. Armstrong (HAAP POC) — 201151RAPR26 (20 APR, 1151R)**
+
+- **sUAS detection is Mr. Armstrong's chief training objective.** Do not fly past the **"No Go" line** as depicted on the [NAI - Ops Graphics](docs/ops-graphics.md).
+- **OPFOR is to be non-confrontational and at the main gate only.** The main-gate staff will be aware the exercise will occur, but the personnel do not know where or when.
+- **SECFOR patrolling will only physically occur outside the perimeter fencing AND parallel to the southernmost side of US 11W.**
+- **SECFOR patrols and screens on the interior of the facility will be notional only** — tabletop, not physically walked.
+
+**(2) LTC Estes — 202008RAPR26 (20 APR, 2008R)**
+
+- Reviewed the NAI - Ops Graphics, [RFF / RFS](docs/rff-rfs.md), and TPFDD - Op Synch documents.
+- **Confirmation brief to the CG on 2 MAY 26** — time TBD but may be **1000R (local)**.
+
+Updates applied: [Ops Graphics](docs/ops-graphics.md) (physical-vs-notional SECFOR employment, OPFOR constraints); [SA Brief](docs/sabrief.md) (Armstrong constraints reflected in AO picture); [Timeline](timeline.md) (CG brief 2 MAY tentative 1000R); [Risk Assessment](risk.md) (O-4 SECFOR employment footprint tightened).
+
+Source: [Phon-Con-Notes-Armstrong-Estes.eml](/docs/source/emails/Phon-Con-Notes-Armstrong-Estes.eml)
+
 ### 2026-04-22 — LTC Sheaf → 1LT Overton (text, ICP task-org designations)
 
 LTC Sheaf confirmed a batch of ICP / TF billets and two absences. Captured in [Task Organization](taskorg.md), [Chain of Command](coc.md), and [Mission Roster](roster.md).

@@ -1,0 +1,171 @@
+Delivered-To: aaron.overton@tnstateguard.org
+Received: by 2002:a05:7022:e0d:b0:12c:43be:2420 with SMTP id dx13csp3327381dlb;
+        Wed, 22 Apr 2026 18:23:42 -0700 (PDT)
+X-Received: by 2002:a05:6402:46cf:b0:673:1d30:29b4 with SMTP id 4fb4d7f45d1cf-6731d302a0emr8942912a12.23.1776907421716;
+        Wed, 22 Apr 2026 18:23:41 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1776907421; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=XcrCEHDRK/AT2hSKGeGpQOtblziXiUNjbkUcdsjrSf1J6uKKvfGWH2urDeuRqeV1V1
+         qfC2nqQzCnQl4bVnRNieKSlJzExBi9u9rwQiEGy9S9FlrW8kOa0s1Artn5HfjUA0TdSF
+         KuxPg5JHXT9coQYKSDVhq7y+CPSlFqPkmnIbLgzMLjY9/XFRqSkpg27zfI7T0Hk4GRhd
+         9IIEYVlDW/s9D+Lquu5pcs2aQK+KXYpvp+HzQLRClT8T/cj4SgqeqmH72AyuSslzts0z
+         kqDQZfJJYmHjK0mJJA21ZYdYuZgyok4Oba0NVVf0sv9lY7zFUd7lGxb86FgAYA9AadSb
+         2Okw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=KL74tkAOqXAjg+Iaoym9nw8GSuhzJJyM/rm1jfPxcr0=;
+        fh=FR0G+kB/07R7T4fQzxLBArD1g9i7/GG+OeyaHGeRQVA=;
+        b=CheE+HyN7SJxIMK0z3ffo4HVuKfpZeWCrg/SgdqD4y57cnrU3sx47ghyxLrb+qUmmP
+         mkno2cebz7DS7s51t8J8Pqb+ZZQKbUmZhfYqGq+2Lc8Fm2SYubcyTweIVzuVgnvbUBSL
+         J/zWM7Tf4PLbmWMiZtW7nwbx0fq2ZUZlDdX9qFlrWQn7/gG6e7zQ9/rN8Gg1W7wJziUX
+         kN+Rg+QTMqRqsyMlxQ5Ez6w0jcNHNgL0t54T3GEb7kEbJniAEXtobPN9j5lBWrq3AvuB
+         YGWE0FwfrOQ1xVMs3YROCrdC7Ybui6iSXsGYEsZLhOsbGXBCjvPgyBOigiFSxtPp6Chn
+         G7Ug==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=PVZoLJtw;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=john.sheaf@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+Return-Path: <john.sheaf@tnstateguard.org>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 4fb4d7f45d1cf-672c4d6879dsor3315442a12.9.2026.04.22.18.23.41
+        for <aaron.overton@tnstateguard.org>
+        (Google Transport Security);
+        Wed, 22 Apr 2026 18:23:41 -0700 (PDT)
+Received-SPF: pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=PVZoLJtw;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=john.sheaf@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+ARC-Seal: i=1; a=rsa-sha256; t=1776907421; cv=none;
+        d=google.com; s=arc-20240605;
+        b=hd+/fc9kg9yGLJiVoKwomk6eT3rihuX24vkiEkl0I0/DkSXZEGtMSt0nmtb6iPUdUB
+         ovbsrsHcbUp58lNs5jZJwiBRAqOdEwI3hLa3CcqyZzjtZDNkj4GcGrFU+j5holq4gHh5
+         qj2C5c/WV55aYUWwIj0HSbnokJC2POOj+bSpAiH2/pY9YpXwYjynxKTrVTiZSKVnSD12
+         /60YF7A2e1ol5JwbAZZkaRPQ7MwYRNpwdBKWkdrzNmREDUoHSkD1d4FNSJeJV/SESKDg
+         Ef3ZZosDiHiBFzvQJ3fiTnsRhAKxaze+QothXoKSsheny0HoCSVbTmtL9WH4JjZN59Fu
+         scUQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=KL74tkAOqXAjg+Iaoym9nw8GSuhzJJyM/rm1jfPxcr0=;
+        fh=FR0G+kB/07R7T4fQzxLBArD1g9i7/GG+OeyaHGeRQVA=;
+        b=AMaUIJ15iLMHvHSKMithl9bIwDnr7vQw6zKcnhDea/K9ygo1WF/0CneZ6Ns8z2jzGk
+         nhebXn1rpx7Mft5Oo4YzjedFnRkimi6+AuCMxDlf+nDFqAHO9opJVLSOT8qwZ4+kkwq2
+         7Y3UEWc8bg8umOLERbeAC//FruFfcuerAbK0GiYw/mf+14YrRx7UMt8CMYzbQq+LS8VQ
+         hfSPF7RwPH+ki8ek4uzGXHcF8J3byoGXz2Tr/VgT6JXJTK4NbrKfd5AaCPWLXBr84AYt
+         PRZGvm53Q5SLn6ONFVefgyh4fURGoWPKSULxE6LWHN/PXy3Qt7ZTEFyS863QiZ3ysCwX
+         /GiQ==;
+        darn=tnstateguard.org
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tnstateguard-org.20251104.gappssmtp.com; s=20251104; t=1776907421; x=1777512221; darn=tnstateguard.org;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=KL74tkAOqXAjg+Iaoym9nw8GSuhzJJyM/rm1jfPxcr0=;
+        b=PVZoLJtweQWAemStVP8UWwkA9O18yjt+qp4tUo4SzBIT1UrO7l+7z+ugNBh7yTptPy
+         Lm7mMWO/+CdAMqB7d0S4y1FbwqueLX3FqUoPPTx6yJCKMC7htbLt4jlpiJAI7vklzK9Z
+         yldWgap/G1ZTW4IU8fmE72d+Lf728jh+siqTsshI/1CKw+ZFDp4co2SPEBeXgFSgSabY
+         HnVF3jN2LNe6xFeCpQ7Dd5wEcSw+sLJ5Ymm5HYQAyYclyIq9seKpjaa9L3wvZD0tjOF+
+         cPshsTQFSodsce6D/5oaTuP2UZ4OgnneCgifHGEzKAVDMsVg7AQGFABLBzNDg6+bg16F
+         t6kQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1776907421; x=1777512221;
+        h=to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=KL74tkAOqXAjg+Iaoym9nw8GSuhzJJyM/rm1jfPxcr0=;
+        b=TyuXsPnUh7lrkPBQzPhmAkWcc1wO0UkyQEnU8bi4R/ky/AGbE5jdx2LIj8ZQHGTqAh
+         UqhY7RC5e2PdQTGdT29c+6d/aLj3jBgdNTUFDZPnVXXKf7Ve1jD3nBTw4y4vFR4bbEAB
+         rHnFe9Z1fZamf356bfPTTNInDco10j418VKvhjqKqaojQwBAsw72U0JUYo8gwLSVZymf
+         WPMfngE476n6WDn7dLQvk07IMnEWVBL55v/WDZSmnN5c3aOxSBNGgcJkiGaU887UTiSx
+         34mlMz6S0Sy6J5NdPn2dopblAmDIY6MkiXW468p0hHihZ9f/69iB7aNR/T1t/OP3VSKe
+         UJRg==
+X-Gm-Message-State: AOJu0YwSwDBYRbbR2lLuW/obgZHs46XbaXA5H5swCiLwAV28qSLdp2Ys
+	oYiPm4H9ZzSr7j34tn1HVeTTboC1/v2fn7wOHRJetih6x6gZgSdjyRoQDBQ91LMnhl88dNufXi3
+	Rb9kgVCtymGDGYcdxo9vtZ1SHFRrWxfGaaOV8XB+lSyD4AUyyZyDtwM0FgAPN
+X-Gm-Gg: AeBDieu6q/+2xmF+krctmLwsggDfdRMHClQD/UYI5kVGnMV+R5hmHLoMAhmnx+YYZ6h
+	pQgUZuWvmgJEe827DaTxkj+Qjl4B0euUENBSs7GTyAuRtihHJH2MYpyCWakaOxpzwC3kVg0tqZo
+	NrkjlxcDL4SgWaMwm0OF1/ix4Kolsl8hxIMVL8f8dhgYGS6IdUXRrgNuIrhfRwNuT5r+pdNwqvo
+	X6xQJJmPeAGEdezrA038qrOLG+XNw1fHykjigJLyYRz3zR3YRb/KLJTi2WI9eQXn7cDU7minFrw
+	Pcj+D4hbN2wv/G7sFJm7moGfLK8=
+X-Received: by 2002:a05:6402:4308:b0:670:8bc0:8555 with SMTP id
+ 4fb4d7f45d1cf-672bfc15a86mr12076257a12.0.1776907420648; Wed, 22 Apr 2026
+ 18:23:40 -0700 (PDT)
+MIME-Version: 1.0
+From: "Sheaf, John" <john.sheaf@tnstateguard.org>
+Date: Wed, 22 Apr 2026 21:23:29 -0400
+X-Gm-Features: AQROBzDSRVl15B1Q62bt5MBlSF--5RcaOSfDP3sRMeE9FmJ48mXdL4nOOYfxpfY
+Message-ID: <CADnmdSN9jxo4xFLxz+cKzMFkRk4baZqn7p1Y5-YYnzL-j32ViA@mail.gmail.com>
+Subject: Phon Con Notes
+To: Aaron Overton <aaron.overton@tnstateguard.org>
+Content-Type: multipart/alternative; boundary="0000000000009b52200650167fae"
+
+--0000000000009b52200650167fae
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+1 LT Overton;
+
+Here are some comments from two phone conversations as indicated below:
+
+(1) Mr. Armstrong (HAAP POC) 201151RAPR26.
+
+- sUAS detection is his chief training objective. Do not fly farther than
+the "No Go" line as depicted on the NAI - Ops Graphics.
+- The OPFOR is to be non-confrontational and at the main gate only. While
+the staff at the main gate will be aware that an exercise will occur, the
+personnel do not know where or when the exercise will happen.
+- SECFOR patrolling will only physically occur outside of the perimeter
+fencing and parallel to the southernmost side of US 11W.
+- SECFOR patrols and screens on the interior of the facility will be
+notional only.
+
+(2) LTC Estes 202008RAPR26.
+
+- Reviewed the NAI - Ops Graphics, RFF / RFS, and the TPFDD - Op Synch
+documents.
+- There will be a confirmation brief to the CG on 2 MAY 26, time TBD but
+may be 1000 Hrs (local time).
+
+Thanks for all that you are doing, Trey. I couldn't have done this at all
+without you. Best regards to your wife / family, as this stuff has taken
+you away from them. =F0=9F=91=8D
+--=20
+V/R
+
+JOHN T. SHEAF
+LTC, TNSG
+S3, 3 RGT
+717.673.6177
+john.sheaf@tnstateguard.org
+
+--0000000000009b52200650167fae
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>1 LT Overton;</div><div><br></div><div>Here are some =
+comments from two phone conversations as indicated below:</div><div><br></d=
+iv><div>(1) Mr. Armstrong (HAAP POC) 201151RAPR26.</div><div><br></div><div=
+>- sUAS detection is his chief training objective. Do not fly farther than =
+the &quot;No Go&quot; line as depicted on the NAI - Ops Graphics.</div><div=
+>- The OPFOR is to be non-confrontational and at the main gate only. While =
+the staff at the main gate will be aware that an exercise will occur, the p=
+ersonnel do not know where or when the exercise will happen.=C2=A0</div><di=
+v>- SECFOR patrolling will only physically occur outside of the perimeter f=
+encing and parallel=C2=A0to the southernmost side of US 11W.=C2=A0</div><di=
+v>- SECFOR patrols and screens on the interior of the facility will be noti=
+onal only.</div><div><br></div><div>(2) LTC Estes 202008RAPR26.</div><div><=
+br></div><div>- Reviewed the NAI - Ops Graphics, RFF / RFS, and the TPFDD -=
+ Op Synch documents.</div><div>- There will be a confirmation brief to the =
+CG on 2 MAY 26, time TBD but may be 1000 Hrs (local time).</div><div><br></=
+div><div>Thanks for all that you are doing, Trey. I couldn&#39;t have done =
+this at all without you. Best regards to your wife / family, as this stuff =
+has taken you away from them.=C2=A0=F0=9F=91=8D</div><span class=3D"gmail_s=
+ignature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_signature" d=
+ata-smartmail=3D"gmail_signature"><div dir=3D"ltr">V/R<div><br></div><div>J=
+OHN T. SHEAF</div><div>LTC, TNSG</div><div>S3, 3 RGT</div><div>717.673.6177=
+</div><div><a href=3D"mailto:john.sheaf@tnstateguard.org" target=3D"_blank"=
+>john.sheaf@tnstateguard.org</a></div></div></div></div>
+
+--0000000000009b52200650167fae--
