@@ -7,6 +7,36 @@
 > **Purpose:** High-level SITREP on 3 RGT's TNMAN-26 planning and execution posture. Depth of detail is tuned to what each visitor controls or cares about; LTC Sheaf expands as the conversation invites. Pre-decisional — strike, rewrite, or redirect as needed.
 >
 > **Planning portal:** https://tnman-2026.web.app (domain auth, tnstateguard.org accounts).
+>
+> **One-page printable:** [SITREP — 25 APR (print view)](sitrep-25apr-print.md) — condensed for handoff or reference.
+
+## Decisions Needed Today
+
+A short list of things we want to leave the drill with, if the conversation permits. **Give** = we present information; **Get** = we need a decision or commitment.
+
+### From BG Cox
+
+| # | Item | Give | Get |
+|---|------|------|-----|
+| 1 | **MRC-3 deviation concurrence** | DD 2977 Block 4: 4 MRC-3 Soldiers proposed for single-day 14 MAY participation with full mitigation (ICP-interior, battle buddy, med check-ins). | Verbal concurrence to proceed with signature routing; any additional controls BG Cox wants added. |
+| 2 | **31st MED Co attachment** | CG Intent calls for 3 Green/Yellow tab medics; we have no names / ranks / MRC yet. | Named roster (ideally 3 × Green tab MRC-1); written attachment tasking to 3 RGT. |
+| 3 | **PHA currency mechanism** | DIV OPORD §4.c.(4) rules out on-site PHAs; 7 MRC-4 Soldiers + 30+ others need PHA verification before 30 APR. | Preferred verification path (SIDPERS pull, unit self-attestation, etc.) and any 61st MED BN support. |
+| 4 | **AT-in-lieu approvals** (if we surface candidates) | DIV OPORD §3.j requires CG + DCGO signatures for any Soldier doing TNMAN in lieu of AT. | BG Cox's posture on signing these quickly when S1 routes names. |
+
+### From LTC Estes
+
+| # | Item | Give | Get |
+|---|------|------|-----|
+| 1 | **RFF / RFS sourcing** | Submitted 17-18 APR: 85 SECFOR PAX, 4 LNOs, TACN/HF teams, 3 sUAS RPICs, 3 medics, JAG, PAO. | DIV sourcing status — who's on, who's not; where we need to fill from adjacent RGTs or fall back. |
+| 2 | **2 MAY CG confirmation brief** | FRAGO 26-05-01.1 S3 Task 2 assigns LTC Sheaf the brief; tentative 1000R per LTC Estes 20 APR call. | Confirmed time, format (slides vs. conversation, in-person vs. VTC), and pre-read expectation. |
+| 3 | **1 RGT OPFOR billeting scope** | DIV OPORD tasks 3 RGT to provide sleeping area; JFHQ-TN FRAGORD 3 tasks 278th ACR to provide 50-PAX space at Mt Carmel Armory. | Whether the Armory RON is strictly for 1 RGT OPFOR / TNARNG, or extends to 3 RGT TNSG personnel with long commutes. |
+| 4 | **2 / 4 RGT LNO names** | CG Intent: 1 LNO each to 3 RGT ICP. Names still TBD. | Named LNOs with contact info so we can integrate them into task org before 30 APR. |
+| 5 | **Inject-timing precision** | HD WG slide has example timings (waterway breach 1200, entry-control 1300, drone approval 1430); DIV MSEL is authoritative. | Any early visibility on MSEL content ahead of 30 APR Final MSEL Review. |
+
+### Either visitor (opportunistic)
+
+- **Air Operations Branch Chief** — 4 BN declined. If BG Cox or LTC Estes can identify a DIV or adjacent-RGT fill, that closes a current blocker.
+- **Safety Officer designation** — required for DD 2977 signature routing. LTC Sheaf has not yet designated one from the 3 RGT roster; if either visitor has a recommendation, welcome.
 
 ## Bottom Line Up Front
 
