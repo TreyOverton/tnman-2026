@@ -120,11 +120,20 @@
                 });
 
                 // Treat links to binary source files as downloads so Docsify's
-                // router doesn't hijack them into an empty SPA page. Adds
-                // target=_blank (skips interception) + download + rel=noopener.
+                // router doesn't hijack them into an empty SPA page, and so the
+                // browser saves the real file instead of the SPA shell.
+                //   1. strip the leading '#' Docsify adds for hash routing
+                //      (otherwise 'download' on '#/foo.xlsx' saves the current
+                //      page as download.htm)
+                //   2. target=_blank bypasses Docsify's click interception
+                //   3. download forces browser save
                 document.querySelectorAll('.markdown-section a[href]').forEach(function(a) {
                   var href = a.getAttribute('href') || '';
                   if (/\.(pdf|docx?|xlsx?|xlsm|pptx?|eml|zip|csv)(\?.*)?$/i.test(href)) {
+                    if (href.charAt(0) === '#') {
+                      href = href.slice(1);
+                      a.setAttribute('href', href);
+                    }
                     if (!a.hasAttribute('target')) a.setAttribute('target', '_blank');
                     if (!a.hasAttribute('rel')) a.setAttribute('rel', 'noopener');
                     if (!a.hasAttribute('download')) a.setAttribute('download', '');
