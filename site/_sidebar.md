@@ -40,6 +40,7 @@
 - [Exercise Precedent](precedent.md)
 
 - **OIC NOTES**
+- [SITREP — 25 APR IDT](sitrep-25apr.md)
 - [AAR Notes](aar-draft.md)
 - [Comms Log](comms.md)
 - [Planning Gaps](planning-gaps.md)
