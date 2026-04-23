@@ -119,6 +119,18 @@
                   });
                 });
 
+                // Treat links to binary source files as downloads so Docsify's
+                // router doesn't hijack them into an empty SPA page. Adds
+                // target=_blank (skips interception) + download + rel=noopener.
+                document.querySelectorAll('.markdown-section a[href]').forEach(function(a) {
+                  var href = a.getAttribute('href') || '';
+                  if (/\.(pdf|docx?|xlsx?|xlsm|pptx?|eml|zip|csv)(\?.*)?$/i.test(href)) {
+                    if (!a.hasAttribute('target')) a.setAttribute('target', '_blank');
+                    if (!a.hasAttribute('rel')) a.setAttribute('rel', 'noopener');
+                    if (!a.hasAttribute('download')) a.setAttribute('download', '');
+                  }
+                });
+
                 // Inject data-label attributes for mobile stacked tables
                 var tables = document.querySelectorAll('.markdown-section table');
                 tables.forEach(function(table) {
