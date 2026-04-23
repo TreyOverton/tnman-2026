@@ -2,6 +2,8 @@
 
 Personnel slated for TNMAN 2026 based on LTC Sheaf's 7 APR email. Draft — names will be added/removed as planning matures.
 
+> **Download (xlsx):** [3 RGT Mission Roster — TNMAN 26](/docs/source/Mission-Roster-TNMAN-26.xlsx) — workbook version for routing (Summary · Expected Attachments · Regimental HQ · 2nd / 3rd / 4th Battalion · Open Items). Regenerated from this page; when this page updates, regenerate the xlsx.
+>
 > **Source data:** [data/regiment-roster.md](data/regiment-roster.md) (regimental Mar 2026 PDF) plus unit-level alert rosters in `site/data/alert_rosters/`. Flag any discrepancies in the [Comms Log](comms.md).
 
 ## Summary
