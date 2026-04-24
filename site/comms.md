@@ -6,6 +6,29 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-23 — LTC Sheaf → 1LT Overton (two xlsx updates — TPFDD 23 APR + Mission Roster strikethrough)
+
+LTC Sheaf returned two spreadsheets with updates:
+
+**(1) 3 RGT TPFDD - Ops Synch TNMAN-26 (23 APR 26).xlsx** — sheet renamed from `TNMAN-26` → **`Mt. Carmel Site Defense`** (matches FRAGO op name). Two new rows added:
+- **Notional Total PAX: 70** (flat across the window) — interior SECFOR patrols / screens exercised tabletop inside the ICP, not physically walked.
+- **Estimated Actual PAX: 54 peak on 14 MAY** — the physical on-ground footprint. Ramps 17 → 23 → 31 through 13 MAY, sits at 54 from 14 MAY 0800, dips to 49 mid-day 14 MAY, 54 through 15 MAY AAR.
+- Existing **Estimated Total PAX: 124** retained for RFF / CG / sizing purposes.
+- **"Notional"** status code added to the legend.
+
+Propagated to: [Ops Graphics TPFDD section](docs/ops-graphics.md), [Risk Assessment O-4 / M-3](risk.md), [DD 2977](docs/dd2977.md) Block 3 physical-footprint language, [FRAGO 26-05-01.1 enclosure C](docs/frago-26-05-01-1.md).
+
+**(2) 3 RGT Mission Roster TNMAN-26 (22 APR 26).xlsx** — LTC Sheaf's return of the workbook I generated 22 APR. Content text is identical to the version I sent him, **but he struck through 10 personnel in Excel** to mark them as not attending (formatting-only change; extractor that looks only at text would miss this). PAX drops **38 → 28**.
+
+- **HHC (1):** CPT McCroskey (ASST JAG) — **no organic JAG on the mission**; routes via COL Williams (PMO) per DIV OPORD.
+- **2 BN (5 of 8):** 1LT Barnes (Chaplain), SSG Lillard (Comm NCO), SGT Spence (Info Tech), SGT Walker (ASST S3 NCO), CPL Cate (S3 Clerk). Remaining 2 BN presence = BN CO / XO / HQ Co 1SG only.
+- **3 BN (3):** CPT Moore (S6 C&E Officer), SGT Overton Ian (A Co MP), PV1 Gauthier (A Co MP). A Co MP team shrinks 4 → 2.
+- **4 BN (1):** LT Hoskins (Part 107 UAS Pilot, fixed-wing — just certified 19 APR). **Part 107 pilot pool drops 3 → 1** (only CPT Widner remains organic; 1LT Riley was prior-out 22 APR).
+
+Propagated to: [Mission Roster](roster.md) (tables + Open Items + summary counts), [Chain of Command](coc.md), [Task Organization](taskorg.md) (SECFOR TF A Co MP team, Air Ops Part 107 pilots, 2 BN availability — now resolved unfavorably), [Risk Assessment M-3 / O-7](risk.md) (MRC-4 count 7 → 3; JAG-routing note), [DD 2977](docs/dd2977.md) (MRC-4 table, JAG consultation note).
+
+Source: Sheaf's xlsx archived in [source/](docs/source/Mission-Roster-TNMAN-26.xlsx) (strikethroughs preserved) and [source/TPFDD-Ops-Sequence.xlsx](docs/source/TPFDD-Ops-Sequence.xlsx).
+
 ### 2026-04-23 — 1LT Overton (processing note: 15 APR email caught up)
 
 Processed an email from LTC Sheaf dated **15 APR 26 15:43** that had not previously been archived. The email forwarded two TNARNG-level documents LTC Sheaf had just received:

@@ -89,7 +89,17 @@ This expanded posture is what the [RFF / RFS](rff-rfs.md) requests from DIV.
 
 A **NO-GO Line** along the HAAP perimeter fence is absolute — no TNSG personnel or sUAS cross it. sUAS operates outside the NO-GO Line; the purpose is to test HAAP's drone detection system, not to generate imagery of the installation interior.
 
-### TPFDD — Peak 124 PAX on 14 MAY
+### TPFDD — 54 Actual / 70 Notional / 124 Total at 14 MAY peak
+
+The **23 APR TPFDD** (`Mt. Carmel Site Defense` sheet — renamed from `TNMAN-26` to match the FRAGO operation name) formalizes the physical-vs-tabletop split Mr. Armstrong laid out on 20 APR. The former "Peak 124 PAX" figure is now decomposed:
+
+| Line | PAX | Meaning |
+|------|----:|---------|
+| **Estimated Actual PAX** (physical, on-ground) | **54 peak on 14 MAY** | What will physically be at HAAP on the day — the number the Staging Area Manager, risk planning, and medical support sizing work from. Ramp: 17 → 23 → 31 through 13 MAY; 54 from 14 MAY 0800; dip to 49 mid-day 14 MAY; 54 through 15 MAY AAR. |
+| **Notional Total PAX** (tabletop only) | **70 constant across window** | Interior SECFOR patrols and screens (N/S/W zoning, interior screen positions) exercised as tabletop inside the ICP; not physically deployed to HAAP. |
+| **Estimated Total PAX** | **124 peak on 14 MAY** | Sum for sizing / request-for-forces purposes; retained because the RFF, CG brief, and DIV coordination still reference it. |
+
+Element composition (unchanged from 21 APR):
 
 | Element | PAX | Active window |
 |---------|-----|---------------|
@@ -106,6 +116,8 @@ A **NO-GO Line** along the HAAP perimeter fence is absolute — no TNSG personne
 | **Peak total** | **~124** | 14 MAY all day |
 
 Draw-down starts 15 MAY evening: transition to AAR and travel home; final 3 ADVON PAX off-site by 16 MAY 0730.
+
+**Planning implication:** where a number matters *operationally* (medical / hydration / bathroom / parking / chow / transport), use **54 actual**. Where it matters *administratively* (RFF, DIV briefing, CG situational awareness, task-assignment math), continue to use **124 total**. The TPFDD also adds a **"Notional"** status code to the legend so notional rows can be flagged per hour.
 
 ### Certified Part 107 Pilots (as of 19 APR)
 

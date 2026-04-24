@@ -48,17 +48,17 @@ graph TD
 |------|----------|-------|
 | **Operations Section Chief** | **LTC Sheaf (RGT S3)** — primary. **1LT Overton (ASST S3)** — alternate / battle captain. | LTC Sheaf is MRC-2; role-limited to ICP-interior by DD 2977. If LTC Sheaf is TF XO or LNO instead, 1LT Overton assumes Ops Section Chief. |
 | **Staging Area Manager** | **SFC Bradley (HHC Rec NCO, MRC-1)** | Designated by LTC Sheaf (text 22 APR 26). |
-| **Air Operations Branch (4 / 3)** | **Branch Chief: TBD**<br>**Part 107 Pilots: CPT Widner (4 BN XO), LT Hoskins (4 BN)** | Per LTC Sheaf 22 APR text: "4 BN won't be the Air Ops Branch Chief." Branch Chief now open — likely a DIV / adjacent-RGT assignment. **1LT Riley removed** from pilot list (not attending per same text). [Operational / NAI Graphics](docs/ops-graphics.md) TPFDD shows 5 sUAS positions on 14-15 MAY; RFF requests 3 operators total (some from adjacent RGTs). |
+| **Air Operations Branch (4 / 3)** | **Branch Chief: TBD**<br>**Part 107 Pilots: CPT Widner (4 BN XO)** | Per LTC Sheaf 22 APR text: "4 BN won't be the Air Ops Branch Chief." Branch Chief now open — likely a DIV / adjacent-RGT assignment. **Part 107 pilot pool 3 → 1**: 1LT Riley removed 22 APR (not attending); **LT Hoskins removed 23 APR** (struck in Sheaf's roster). CPT Widner is now the sole organic pilot. [Operational / NAI Graphics](docs/ops-graphics.md) TPFDD shows 5 sUAS positions on 14-15 MAY; RFF requests 3 operators total — gap widens to 2 externally-sourced pilots needed. |
 | **SECFOR Task Force (3 / 3)** | **TF Commander: MAJ Crosby (3 BN CO)**<br>**Assisting NCO: SFC Sturgill (S3 Ops NCO)** | 3 BN is the Focus of Main Effort (FOME). TF CDR designated by LTC Sheaf text 22 APR. **1LT Riley and SFC Ferguson are not attending** (same text) — the 3 BN XO / Acting BN 1SG slots at SECFOR TF are therefore not filled from 3 BN's primary chain. |
 
 ### SECFOR TF Subordinate Composition (Draft)
 
 | Element | Personnel | Notes |
 |---------|-----------|-------|
-| A Co MP Team | SGT Malone (3 BN, MRC-3 — **single day only**), SGT Overton Ian (3 BN), PFC Human (3 BN), PV1 Gauthier (3 BN, MRC-4 — verify status) | A Co MP personnel from 3 BN. **SFC Ferguson (HQ Co 1SG) not attending** per LTC Sheaf 22 APR. |
+| A Co MP Team | SGT Malone (3 BN, MRC-3 — **single day only**), PFC Human (3 BN) | A Co MP down to 2 from 4 — **SGT Overton Ian and PV1 Gauthier not attending** per 23 APR Sheaf roster strikethrough. SFC Ferguson (HQ Co 1SG, prior 22 APR out). |
 | B Co MP Team | 2LT Steele (3 BN), PV2 Elrod (3 BN) | B Co MP personnel from 3 BN |
-| 4 BN Augment | SSG Whalen (A Co 1SG), SSG Miles (MP Sqd Ldr, MRC-3 — **single day only**), 2LT Neisler (MRC-4 — verify), WO1 Hendon (MRC-4 — verify) | 4 BN named personnel from CPT Widner's list |
-| 2 BN Augment (if available) | SFC Collins, SSG Burns (MRC-4 — verify), SSG Lillard, SGT Spence, SGT Walker (MRC-4 — verify), CPL Cate | 2 BN imported from alert roster; availability unconfirmed |
+| 4 BN Augment | SSG Whalen (A Co 1SG), SSG Miles (MP Sqd Ldr, MRC-3 — **single day only**), 2LT Neisler (MRC-4 — verify), WO1 Hendon (MRC-4 — verify) | 4 BN named personnel from CPT Widner's list. **LT Hoskins not attending** (was candidate Part 107 pilot, not SECFOR). |
+| 2 BN Augment (now effectively unavailable) | SFC Collins only | 2 BN roster **collapsed per 23 APR strikethrough** — 5 of 8 (Barnes, Lillard, Spence, Walker, Cate) not attending, including the SECFOR-eligible NCOs. Only the BN CO / XO / HQ Co 1SG are participating; none of them is available for the SECFOR TF subordinate lines. The 2 BN augment line is effectively zero. |
 
 ## Planning Section
 
@@ -104,7 +104,7 @@ This draft cannot be locked until the following are resolved. Each item also app
 6. **Planning Section Chief designation**.
 7. **Support Section Chief designation** (likely one of the BN S4s dual-hatted).
 8. **61st MED BN attachment names and MRC**.
-9. **2 BN availability confirmation** (CPT Borrilez) — the 2 BN SECFOR augment cannot be assumed until this lands.
-10. **MRC-4 status verification** for 8 personnel currently flagged as unverified.
+9. ~~**2 BN availability confirmation** (CPT Borrilez)~~ — **resolved 23 APR (unfavorably)**: 5 of 8 2 BN personnel struck from Sheaf's roster; 2 BN's SECFOR augment is effectively zero. BN CO / XO / HQ Co 1SG are the only 2 BN personnel participating.
+10. **MRC-4 status verification** — reduced from 8 → 3 personnel after 23 APR removals (McCroskey, Walker, Moore, Gauthier no longer applicable; SSG Burns prior). Still-unverified: Bennett, Neisler, Hendon (all 4 BN).
 11. **3 BN CSM vacancy** — confirm interim or acting.
 12. **3 BN XO / Acting BN 1SG alternates** — with 1LT Riley and SFC Ferguson not attending, confirm whether MAJ Crosby designates internal alternates for the SECFOR TF or fills from the broader 3 BN roster.

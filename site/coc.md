@@ -22,7 +22,7 @@
 | Engineer Officer | MAJ | Rookard, Curtis R | 865-272-3919 · curtis.rookard@tnstateguard.org |
 | S1 Officer | 1LT | Fielitz-Scarbrough, Cheryl A | 865-809-6060 · cheryl.fielitzscarbrough@tnstateguard.org |
 | ASST S3 | 1LT | Overton, Aaron L III | 425-301-2423 · aaron.overton@tnstateguard.org |
-| ASST JAG | CPT | McCroskey, Travis D | 865-696-0164 · travis.mccroskey@tnstateguard.org |
+| ASST JAG | CPT | McCroskey, Travis D | 865-696-0164 · travis.mccroskey@tnstateguard.org *(not attending TNMAN-26 per 23 APR Sheaf roster strikethrough — **no organic JAG on mission**; routes via COL Williams / PMO per DIV OPORD)* |
 | S2 NCO | 1SG | Snow, Michael E | 423-773-1063 · michael.snow@tnstateguard.org |
 | S6 NCO | CSM | Rutherford, Michael J | 423-538-0667 · michael.rutherford@tnstateguard.org |
 | S6 Specialist | SSG | Bradley, Timothy W | 423-579-9649 · timothy.bradley@tnstateguard.org |
@@ -39,7 +39,9 @@
 | BN Commander | CPT | Borrilez, Michael S | 916-220-0262 · michael.borrilez@tnstateguard.org |
 | BN Executive Officer | 2LT | Sobel, Scott T | 559-476-9312 · scott.sobel@tnstateguard.org |
 | HQ Co 1SG | SFC | Collins, Jeffrey S | 423-231-5144 · jeffrey.collins@tnstateguard.org |
-| BN Chaplain | 1LT | Barnes, Christopher W | 865-696-9415 · christopher.barnes@tnstateguard.org |
+| BN Chaplain | 1LT | Barnes, Christopher W | 865-696-9415 · christopher.barnes@tnstateguard.org *(not attending TNMAN-26 — 23 APR)* |
+
+**23 APR roster strikethrough — 5 of 8 2 BN personnel not attending** (BN Chaplain Barnes, SSG Lillard, SGT Spence, SGT Walker, CPL Cate). 2 BN's TNMAN presence is now BN CO / BN XO / HQ Co 1SG only; no organic comms / admin / S3 NCO support from 2 BN.
 
 ## 3rd Battalion, 3 RGT — Focus of Main Effort (FOME)
 
@@ -52,12 +54,16 @@
 | S3 Ops NCO | SFC | Sturgill, DeWayne D | 423-212-0335 · dewayne.sturgill@tnstateguard.org |
 | BN S4 | 2LT | Garrison, Aaron E | 931-510-5485 · aaron.garrison@tnstateguard.org |
 | BN S6 | SSG | Singh, Krishna | 423-552-2215 · krishna.singh@tnstateguard.org |
-| S6 C&E Officer | CPT | Moore, Leonard L | 239-877-6659 · leonard.moore@tnstateguard.org |
+| S6 C&E Officer | CPT | Moore, Leonard L | 239-877-6659 · leonard.moore@tnstateguard.org *(not attending TNMAN-26 — 23 APR)* |
 | B Co | 2LT | Steele, Michael M | 276-477-3104 · michael.steele@tnstateguard.org |
 
 **Vacancy:** 3 BN CSM (CSM Rutherford moved to HHC as S6 NCO per LTC Smith 2 APR email). Acting or interim to be confirmed with MAJ Crosby.
 
-**Not attending TNMAN-26 (per LTC Sheaf text 22 APR 26):** 1LT Riley (BN XO) · SFC Ferguson (HQ Co 1SG). Both remain in the 3 BN chain of command; they are removed from the [Mission Roster](roster.md) for this exercise. **MAJ Crosby is designated SECFOR TF Commander** in the [Task Organization](taskorg.md).
+**Not attending TNMAN-26:**
+- **Per 22 APR text:** 1LT Riley (BN XO) · SFC Ferguson (HQ Co 1SG).
+- **Per 23 APR roster strikethrough (Sheaf's xlsx):** CPT Moore (S6 C&E Officer) · SGT Overton, Ian M (A Co MP) · PV1 Gauthier (A Co MP).
+
+All remain in the 3 BN chain of command; removed from the [Mission Roster](roster.md) for this exercise. **MAJ Crosby is designated SECFOR TF Commander** in the [Task Organization](taskorg.md).
 
 ## 4th Battalion, 3 RGT
 
