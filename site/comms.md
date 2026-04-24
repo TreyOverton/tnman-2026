@@ -6,6 +6,21 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-24 11:01 — LTC Sheaf → 1LT Overton (email, minor document refresh)
+
+LTC Sheaf returned the four working documents "saved with the most current date" with minor improvements.
+
+Actual content diffs against the 22-23 APR copies we already had:
+
+- **Mission Roster xlsx** — no content or strikethrough change; filename only.
+- **TPFDD xlsx** — single typo fix in the status-code legend: **"Rest" → "Reset"** (cell A55). No timeline or PAX changes.
+- **RFF / RFS docx** — two wording tweaks: SECFOR "Screen" description wording adjusted; QRF task now reads "subordinate to the **incident commander**" (was "commander").
+- **NAI Graphics pptx** — two new distance annotations added to the **SECFOR Patrol Ops** slide: **~2200 m** and **~2700 m** (approximate patrol-zone distances from the ICP). Useful planning detail for SECFOR TF — now in [Ops Graphics](docs/ops-graphics.md).
+
+Source files at /docs/source/ replaced in-place with the 24 APR versions. Previous versions remain in git history.
+
+Source: [Updated-Documents-24APR.eml](/docs/source/emails/Updated-Documents-24APR.eml)
+
 ### 2026-04-23 — LTC Sheaf → 1LT Overton (two xlsx updates — TPFDD 23 APR + Mission Roster strikethrough)
 
 LTC Sheaf returned two spreadsheets with updates:

@@ -85,6 +85,10 @@ The 17 APR "Screen + 3 Patrols" posture was expanded to **15 × 5-PAX SECFOR tea
 
 This expanded posture is what the [RFF / RFS](rff-rfs.md) requests from DIV.
 
+### Patrol-Zone Distances (24 APR update)
+
+LTC Sheaf annotated the SECFOR Patrol Ops slide with approximate distances from the ICP to the patrol zones: **~2200 m** and **~2700 m**. Useful SECFOR TF planning detail for foot-movement times, comms range, and medical evac response.
+
 ### NO-GO Line
 
 A **NO-GO Line** along the HAAP perimeter fence is absolute — no TNSG personnel or sUAS cross it. sUAS operates outside the NO-GO Line; the purpose is to test HAAP's drone detection system, not to generate imagery of the installation interior.
