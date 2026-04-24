@@ -48,7 +48,7 @@ Not counted in the totals above until confirmed. See Open Items.
 
 ## 2nd Battalion
 
-*Availability not yet confirmed — LTC Sheaf indicated he is unsure of 2/3 posture and a query is pending with 2BN leadership. Full roster imported from [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point.*
+*Resolved 23 APR 26 — LTC Sheaf struck 5 of 8 2 BN personnel (Barnes, Lillard, Spence, Walker, Cate) from the Mission Roster workbook. 2 BN's TNMAN presence is the three leaders below (BN CO / BN XO / HQ Co 1SG) only; no SECFOR or admin-support augment from 2 BN. Original list was imported from the [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point. See [Comms Log 23 APR](comms.md) for detail.*
 
 | Rank | Name | Position | MRC | Contact Info |
 |------|------|----------|-----|--------------|
@@ -90,7 +90,7 @@ Not counted in the totals above until confirmed. See Open Items.
 - **61st MED BN (31st MED Co) attachment** — now **3 Green/Yellow tab medical personnel** per CG intent (upgraded from 2). No names, ranks, or written confirmation yet. POC is BG Cox (61st MED BN CO).
 - **Incoming LNOs** — 2 RGT (1), 4 RGT (1), DIV Staff (2) per CG enabling tasks. Names TBD.
 - **1 RGT OPFOR** — 6 PAX at Holston, 13-15 MAY. Not on our roster but will be on-site; coordinate through HAAP POC Mr. Tony Armstrong.
-- **2/3 availability** — 2BN roster imported from the [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) as a starting point. LTC Sheaf is unsure of 2/3 posture; follow-up pending with 2BN leadership (CPT Borrilez).
+- ~~**2/3 availability** — 2BN roster imported from the alert recall roster as a starting point; LTC Sheaf unsure of 2/3 posture~~ — **resolved 23 APR (unfavorably).** Sheaf's strikethrough removed 5 of 8 2 BN personnel; only BN CO / XO / HQ Co 1SG remain. The original [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) is retained as historical source only.
 - **PHA tracking** — Sheaf asked whether most-recent PHA dates could be included. PHA data is not in the alert rosters. Need a data source (S1 medical records?) — deferred pending confirmation from CPT Meager's replacement.
 - **Departures** — CPT Meager (HHC, moved to Texas), CPT Sutton and CW2 Hickman (HHC, now IRR), 2LT Zeinali and PV2 Crosby Caleb (3/3, inactive 2+ years), PV2 Danger (3/3, now IRR/PFC), PV1 Tobin (3/3, IRR or out), **SSG Burns (2 BN, discharged per CPT Borrilez 11 APR)**, MSG Klaus (2 BN, discharged — was never on mission roster). Removed from roster.
 - **Not attending TNMAN-26 (22 APR text)** — **1LT Riley** (3 BN XO · Part 107 pilot) and **SFC Ferguson** (3 BN HQ Co 1SG). Both remain in the 3 BN [chain of command](coc.md); removed from the roster. Second-order: Air Ops pilot candidate lost; SECFOR TF acting BN 1SG slot unfilled.
