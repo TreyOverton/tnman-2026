@@ -20,7 +20,7 @@ A short list of things we want to leave the drill with, if the conversation perm
 |---|------|------|-----|
 | 1 | **MRC-3 deviation concurrence** | DD 2977 Block 4: 4 MRC-3 Soldiers proposed for single-day 14 MAY participation with full mitigation (ICP-interior, battle buddy, med check-ins). | Verbal concurrence to proceed with signature routing; any additional controls BG Cox wants added. |
 | 2 | **31st MED Co attachment** | CG Intent calls for 3 Green/Yellow tab medics; we have no names / ranks / MRC yet. | Named roster (ideally 3 × Green tab MRC-1); written attachment tasking to 3 RGT. |
-| 3 | **PHA currency mechanism** | DIV OPORD §4.c.(4) rules out on-site PHAs; 7 MRC-4 Soldiers + 30+ others need PHA verification before 30 APR. | Preferred verification path (SIDPERS pull, unit self-attestation, etc.) and any 61st MED BN support. |
+| 3 | **PHA currency mechanism** | DIV OPORD §4.c.(4) rules out on-site PHAs; 3 remaining MRC-4 Soldiers + 25 others need PHA verification before 30 APR. | Preferred verification path (SIDPERS pull, unit self-attestation, etc.) and any 61st MED BN support. |
 | 4 | **AT-in-lieu approvals** (if we surface candidates) | DIV OPORD §3.j requires CG + DCGO signatures for any Soldier doing TNMAN in lieu of AT. | BG Cox's posture on signing these quickly when S1 routes names. |
 
 ### From LTC Estes
@@ -99,15 +99,21 @@ Full: [Task Organization](taskorg.md) · [Chain of Command](coc.md).
 
 ## Personnel
 
-- **38 PAX** on the draft [Mission Roster](roster.md) across HHC (11), 2 BN (8), 3 BN (11 after 1LT Riley / SFC Ferguson removed), 4 BN (8 after LT Hoskins added). Distribution: 17 MRC-1, 10 MRC-2, 4 MRC-3, 7 MRC-4.
-- **Peak force at ICP on 14 MAY: ~124 PAX** per the [TPFDD](docs/ops-graphics.md) (includes attached 85-PAX SECFOR from adjacent RGTs via RFF, LNOs, radio teams, medics, JAG, PAO, OPFOR).
+- **28 PAX** on the draft [Mission Roster](roster.md) after LTC Sheaf's 23 APR strikethroughs (10 personnel removed; roster dropped 38 → 28). Distribution across HHC (10), 2 BN (3), 3 BN (8), 4 BN (7). MRC breakdown: **14 MRC-1, 8 MRC-2, 3 MRC-3, 3 MRC-4**.
+- **2 BN presence narrowed to CO / XO / HQ Co 1SG only** — no organic 2 BN comms / admin / S3 NCO support.
+- **No organic JAG** — CPT McCroskey struck from roster; 3 RGT routes all legal matters via **COL Williams (PMO)** per DIV OPORD §3.i.6.(h).
+- **Part 107 pilot pool:** **1 organic (CPT Widner)**. 1LT Riley (22 APR text) and LT Hoskins (23 APR strikethrough) both not attending. RFF/RFS request for additional RPICs from adjacent RGTs is now load-bearing.
+- **Peak force at ICP on 14 MAY** (per 23 APR [TPFDD split](docs/ops-graphics.md)):
+  - **54 Actual PAX on-ground** — what drives medical, hydration, bathroom, chow, parking, transport, staging area sizing.
+  - **70 Notional PAX** — interior SECFOR exercised as tabletop inside the ICP, not physically walked.
+  - **124 Total PAX** — retained for RFF / CG / sizing purposes.
 
 ### Medical Readiness — FOR BG COX
 
-- **MRC-1:** 17 PAX — no restrictions.
-- **MRC-2:** 10 PAX — ICP-interior / staff roles, no extended SECFOR field duty. RGT-level approval.
-- **MRC-3:** 4 PAX requiring BG Cox deviation concurrence: MAJ Crosby (3 BN CO, SECFOR TF CDR), SGT Malone, SSG Miles, 1LT Barnes (2 BN Chaplain). All proposed for **single-day participation 14 MAY only**, ICP-interior role, MRC-1 battle buddy, medical check-ins at ICP, dawn-to-dusk / RON at home. Full deviation package: [DD 2977 Block 4](docs/dd2977.md).
-- **MRC-4:** 7 PAX unverified — CPT McCroskey, SGT Walker, CPT Moore, PV1 Gauthier, MAJ Bennett, 2LT Neisler, WO1 Hendon. Status must be resolved **before 30 APR orders issue**. If not raised to MRC-1/2, each goes through the MRC-3 deviation or does not deploy.
+- **MRC-1:** 14 PAX — no restrictions.
+- **MRC-2:** 8 PAX — ICP-interior / staff roles, no extended SECFOR field duty. RGT-level approval.
+- **MRC-3:** 3 PAX requiring BG Cox deviation concurrence: **MAJ Crosby** (3 BN CO, SECFOR TF CDR), **SGT Malone**, **SSG Miles**. All proposed for **single-day participation 14 MAY only**, ICP-interior role, MRC-1 battle buddy, medical check-ins at ICP, dawn-to-dusk / RON at home. (1LT Barnes removed 23 APR.) Full deviation package: [DD 2977 Block 4](docs/dd2977.md).
+- **MRC-4:** 3 PAX unverified — all 4 BN: **MAJ Bennett, 2LT Neisler, WO1 Hendon**. Status must be resolved **before 30 APR orders issue**. If not raised to MRC-1/2, each goes through the MRC-3 deviation or does not deploy. (CPT McCroskey, SGT Walker, CPT Moore, PV1 Gauthier removed 23 APR.)
 - **PHA gate:** Per DIV OPORD §4.c.(4), 61st MED BN will **NOT** provide PHAs during TNMAN. S1 must verify PHA currency for every mission-roster Soldier before orders issue. **Seeking BG Cox guidance on the verification mechanism** (SIDPERS pull, unit self-attestation, etc.).
 - **Attachment status:** CG Intent calls for 3 Green/Yellow tab medics from 31st MED Co. No names, ranks, or written tasking letter in hand. **Requesting BG Cox close this out.**
 
@@ -136,7 +142,9 @@ Full: [Task Organization](taskorg.md) · [Chain of Command](coc.md).
 | Screens (physical where US-11W facing, notional elsewhere) | 3 × 5 | 14 MAY 0800 – 15 MAY 2030 |
 | Patrols — N / S / W zones | 12 × 5 | 14 MAY 0800 – 15 MAY 2030 (most notional) |
 | Reserve / QRF | 2 × 5 | 14 MAY 0800 – 15 MAY 2030 |
-| Part 107 sUAS operators | 3 organic (Widner, Riley, Hoskins) + 2 requested from adjacent RGTs | 14 MAY 0800 – 15 MAY 2030 |
+| Part 107 sUAS operators | **1 organic (CPT Widner only)** — Riley and Hoskins not attending; rest must come from adjacent RGTs via RFF | 14 MAY 0800 – 15 MAY 2030 |
+
+Physical-vs-notional split quantified 23 APR: **54 Actual on-ground** vs. **70 Notional**; combined 124 retained for sizing purposes.
 
 ## Coordination Status — FOR LTC ESTES
 
@@ -146,7 +154,7 @@ Full: [Task Organization](taskorg.md) · [Chain of Command](coc.md).
 - **Forces requested:** 85 SECFOR PAX (17 × 5-PAX teams), 1 OPFOR team (6-8 PAX), 4 LNOs (2 RGT / 4 RGT / 2 × PMO), 1 TACN Radio Team, 1 HF Radio Team, 3 Part 107 sUAS RPICs.
 - **Support requested:** 3 × 68W medics, 3 TACN radio sets, 2 portable HF radios, 1 JAG, 1 PAO.
 - **Confirmed against DIV OPORD:** OPFOR (1 RGT), LNOs (2/4 RGT + DIV PMO), medics (31st MED Co), JAG (COL Williams, PMO), PAO (DIV PMO).
-- **Gaps:** 2 of 3 Part 107 sUAS operators; radio teams (TACN/HF); ATAK setup and Starlink still open from the 2 APR G6 Questions email.
+- **Gaps (sharper after 23 APR roster cuts):** 2 of 3 Part 107 sUAS RPICs (**CPT Widner is the only organic pilot**); radio teams (TACN/HF); ATAK setup and Starlink still open from the 2 APR G6 Questions email.
 
 ### 2 / 4 RGT LNO Integration
 
@@ -192,9 +200,9 @@ Full: [Task Organization](taskorg.md) · [Chain of Command](coc.md).
 
 From [Planning Gaps](planning-gaps.md), in priority order:
 
-1. **7 MRC-4 verifications** before 30 APR — S1.
+1. **3 MRC-4 verifications** before 30 APR — S1 (all 4 BN: MAJ Bennett, 2LT Neisler, WO1 Hendon).
 2. **PHA-currency mechanism** — needs BG Cox guidance.
-3. **Air Ops Branch Chief** — 4 BN declined; DIV / adjacent-RGT fill requested.
+3. **Air Ops Branch Chief + Part 107 pilot augmentation** — 4 BN declined the chief role; only CPT Widner remains as organic pilot. DIV / adjacent-RGT fill requested.
 4. **Safety Officer designation** — required for DD 2977 signature.
 5. **JAG consultation** with COL Williams (PMO) — for RUF and UAS policy review.
 6. **IET attendance verification** — DIV OPORD §3.j rules out non-IET personnel.
