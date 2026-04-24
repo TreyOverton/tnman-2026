@@ -16,8 +16,10 @@ tabulakit/
 │   ├── 404.html               # SPA routing fallback
 │   └── *.md                   # Your documentation pages
 │
-├── firebase.json              # Firebase hosting config (the only active target)
+├── .github/workflows/         # GitHub Pages auto-deploy
+├── firebase.json              # Firebase hosting config
 ├── .firebaserc.template       # Firebase project ID template
+├── netlify.toml               # Netlify hosting config
 │
 └── .claude/
     ├── CLAUDE.md              # This file
@@ -72,13 +74,15 @@ Domain and allowlist modes require Firebase config values. See `site/deploy-fire
 
 ### Deployment
 
-**Firebase is the only active deployment target.** The site runs in `"domain"` auth mode (restricted to `tnstateguard.org`) — Firebase Hosting is the host where the auth redirect URIs are whitelisted and where the content is intended to live. GitHub Pages and Netlify have been intentionally removed; do not re-add them.
+Three deployment targets are pre-configured:
 
-| Target | Config File |
-|--------|-------------|
-| Firebase | `firebase.json` · `.firebaserc` |
+| Target | Config File | Guide |
+|--------|------------|-------|
+| GitHub Pages | `.github/workflows/deploy.yml` | `site/deploy-github-pages.md` |
+| Firebase | `firebase.json` | `site/deploy-firebase.md` |
+| Netlify | `netlify.toml` | `site/deploy-netlify.md` |
 
-Firebase deploys are manual: `npx firebase-tools deploy --only hosting`. Push-to-main does not trigger any deploy.
+All deploy automatically on push to `main`. Each requires a one-time manual setup step in the provider's dashboard.
 
 ### Local Preview
 
@@ -94,7 +98,7 @@ npx live-server site --port=<previewPort from .tabulakit/config.json>
 - **Never edit `index.html`** unless you know what you're doing — it contains the Docsify runtime, theme, and auth logic
 - **Config changes go in `config.js` and `auth-config.js`** — not in `index.html`
 - **Commit messages** should be concise and descriptive
-- **Push to `main`** does NOT auto-deploy. Firebase deploys are manual via `npx firebase-tools deploy --only hosting`.
+- **Push to `main`** triggers deployment (GitHub Pages and Netlify auto-deploy; Firebase requires `firebase deploy`)
 
 ## Available Skills
 
