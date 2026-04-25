@@ -82,11 +82,12 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 | **ICS 213** | Group `[#]` | `[1-5]` | `[...]` | `[...]` | `[...]` |
 
 **Quality rubric (suggested):**
-1 = Form not completed or filled with placeholders
-2 = Sections present but missing critical fields
-3 = Complete; would pass internal review with minor coaching
-4 = Complete and clean; would pass external review
-5 = Above standard; usable as a template for next iteration
+
+- **1** — Form not completed or filled with placeholders
+- **2** — Sections present but missing critical fields
+- **3** — Complete; would pass internal review with minor coaching
+- **4** — Complete and clean; would pass external review
+- **5** — Above standard; usable as a template for next iteration
 
 
 ## Quotes / Notable Moments
