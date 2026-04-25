@@ -44,6 +44,8 @@
 - **214s doubled as the attendance roster.** In-session adaptation: rather than maintain a separate sign-in sheet, every participant's 214 (with rank, name, ICS position) was the record of attendance. Participants were also asked to write **AAR comments on the back of their 214** before turning it in. This collapsed three artifacts (attendance, 214, AAR feedback) into one workflow with no extra prep. Worth keeping as standard procedure for short-notice trainings.
 - **Recruiting an NCOIC was a force multiplier.** Even with no advance lead time — and even though the NCOIC (1SG Snow) had no opportunity to review the trainer guide before stepping into the room — having a second body running logistics let the OIC stay focused on substance. The session went well for on-the-fly because the role split was clear, even when the briefings on each side weren't fully matched.
 - **Tablet hand-off trick worked.** With 1SG Snow locked out of his Google account on his phone (see Improve), the OIC pulled out a **brand-new-in-box tablet**, signed in once, **disabled the auto-lock**, loaded the [Trainer Notes](ics-forms-trainer.md), and handed the tablet off. Treat this as a **standard fallback** for any tnstateguard.org-gated training where a facilitator's primary device may have sign-in issues — and bake the procedure into the [Trainer Notes pre-training checklist](ics-forms-trainer.md#pre-training-during-oics-planning-window).
+- **Front-of-room + bookend questions worked on the very next iteration.** After the OIC redirected and the [bookend "What is this form for?" prefix/suffix](ics-forms-trainer.md#brief-back-questions-by-form) was added to the Trainer Notes, 1SG Snow pulled up the refreshed page on the tablet, moved to the front of the room, and ran the next brief-back with substantially better whole-room interaction. The structural change (staging + framing + prompts) **fixed the small-group-conversation failure mode in one iteration**. Strong evidence that doctrine-as-living-page works: the change was noticed, applied, and validated inside a single training session.
+- **214 carries three artifacts at hand-in.** Final extension of the in-session capture pattern: each 214 now carries (1) attendance — front, (2) AAR comments — back, (3) per-form participation marker (**P** = filled personally / **O** = observed in own group) — back. No separate sign-in, no separate participation sheet, no extra NCOIC capture effort. This is the model worth keeping for short-notice trainings going forward.
 
 ## Improve — What to Fix Next Time
 
@@ -121,7 +123,7 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 
 | # | Rank · Name | Unit / Section | Forms practiced |
 |---|-------------|----------------|-----------------|
-| 1 | `[...]` | `[...]` | 214 + `[...]` |
+| 1 | `[...]` | `[...]` | 214 + `[forms participated in, with P/O markers]` |
 | 2 | `[...]` | `[...]` | 214 + `[...]` |
 | 3 | `[...]` | `[...]` | 214 + `[...]` |
 | 4 | `[...]` | `[...]` | 214 + `[...]` |
@@ -141,10 +143,11 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 
 ## Materials Disposition
 
-- **214s collected (also serve as attendance + back-side AAR comments):** `[Y/N — count]`. Stored at `[location]`.
+- **214s collected** — single artifact carrying attendance (front), AAR comments (back), and per-form participation markers (**P/O**, back): `[Y/N — count]`. Stored at `[location]`.
 - **Group-fills (205, 205A, 206, 209, 213):** `[Y/N — count]`. Stored at `[location]`.
 - **Whiteboard photo:** `[Y/N]`. Filed at `[location]`.
 - **AAR comments transcribed from 214 backs:** `[Y/N]`. Captured into the [Notable Moments](#quotes--notable-moments) section above.
+- **Per-form participation tally** *(from P/O markers on 214 backs)*: `[fill: e.g., 205 — N filled, M observed]`.
 
 ---
 

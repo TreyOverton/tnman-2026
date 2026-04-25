@@ -71,8 +71,10 @@ These tasks are designed so the OIC can stay focused on substance while the NCOI
 - [ ] **Photograph the whiteboard** before erasing.
 - [ ] **Photograph the filled forms** (one frame per group, plus a sample 214). Optional: photocopy each 214 for the participant to keep.
 - [ ] **Bundle the materials:** all 214s in one envelope; each group's other forms together; label envelopes with date + Op name + group #.
-- [ ] **214s = attendance roster** *(this iteration)*. Verify each 214 has rank, name, and ICS role on the front before bundling. The 214 stack is the attendance record.
-- [ ] **Check 214 backs for AAR comments** — participants are asked to write any feedback on the reverse before turning in. Flag any that have substantive comments for the OIC's [AAR](buttermilk-aar.md) writeup.
+- [ ] **214s = attendance roster + AAR feedback channel + per-form participation record** *(this iteration)*. Verify each 214 carries:
+  - **Front:** rank, name, ICS role chosen — this is the attendance record
+  - **Back:** AAR comments + a short list of forms the participant **Filled (P)** vs. **Observed (O)** — tells the OIC which forms each Soldier actually engaged with, without needing a separate capture sheet
+  - Flag any 214s with substantive AAR comments for the OIC's [AAR](buttermilk-aar.md) writeup.
 - [ ] **Hand the bundle to the OIC** with a 60-second debrief: who participated, who stood out, anything that didn't go as planned.
 
 ### Brief-Back Facilitation (NCOIC)

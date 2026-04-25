@@ -36,8 +36,14 @@
 
 **What didn't (and how we recovered):**
 - NCOIC's Google sign-in failed on his phone → QR code added mid-session so each group had self-serve participant notes.
-- NCOIC initially ran back-briefs as small-group conversations → OIC redirected to open-room learning; Trainer Notes now bake "lead from the front" + acknowledgement prompts as the standard.
+- NCOIC initially ran back-briefs as small-group conversations → OIC redirected to open-room learning; Trainer Notes now bake "lead from the front" + acknowledgement prompts as the standard. **Result on the very next iteration:** 1SG Snow pulled up the refreshed Trainer Notes on the tablet, moved to the front of the room, used the bookend "What is this form for?" prefix/suffix, and ran the brief-back with substantially better whole-room interaction. **The doctrine-as-living-page model fixed the failure mode inside a single session.**
 - NCOIC role-name confusion (training NCOIC vs. fictional scenario role) → one-sentence clarification at handoff added to procedure.
+
+**Final capture pattern — every 214 carries three artifacts at hand-in:**
+- **Front** — attendance (rank, name, ICS role)
+- **Back** — AAR comments + per-form **P/O** markers (Filled personally / Observed in group)
+
+No separate sign-in sheet. No separate participation log. No extra NCOIC capture effort. One piece of paper.
 
 ---
 

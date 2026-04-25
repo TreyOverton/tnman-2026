@@ -270,12 +270,17 @@ Each section: what the form is, who fills it, the critical fields, the most comm
 
 ## Before You Turn In Your 214
 
-Two things at the end:
+Three things at the end — all on the same 214 — so we don't need separate sign-in sheets or capture forms:
 
 1. **Your 214 is also the attendance sheet.** Make sure the top has your rank, name, and the ICS role you picked. Sign and date the bottom.
 2. **Write any AAR comments on the back** — what worked for you, what didn't, what you'd want different next time, anything you noticed about the forms or the scenario. Keep it short; bullet points are fine.
+3. **Note which forms you participated in.** Anywhere on the 214 (back is fine), jot a quick line for each non-214 form:
+   - **Filled (P)** — you personally wrote on the form
+   - **Observed (O)** — your group filled it but you watched / co-discussed
+   - *(skip a form entirely if your group didn't get to it)*
+   - Example: *"205A — P; 209 — O"*
 
-Both go to 1SG Snow at the end. He'll bundle and hand to the OIC.
+Everything goes to 1SG Snow. He'll bundle and hand to the OIC. Three artifacts captured in one piece of paper.
 
 ---
 
