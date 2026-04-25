@@ -34,7 +34,7 @@ Project, post, or pass around — points directly to the participant notes page 
 | 5 | Pick a Role | Walk participants through the [role list](ics-forms-participant.md#pick-your-ics-role-if-you-werent-assigned-one). Help the indecisive pick. | Help anyone who didn't get a form. Note who picked which role. |
 | 10 | ICS 214 individual fill | Walk the room. Field substantive ICS questions. | Time-keeper. Walk the room for **mechanical** questions only ("where does the time go?"). |
 | 25 | **Round 1** — group fill (205, 205A, 206, 209) | Float between groups. Coach without filling for them. | Time-keeper (announce 5-min remaining). Walk the room. |
-| 45 | Brief-backs (Round 1) | Run the discussion. Ask the [brief-back questions](#brief-back-questions-by-form) below. | Capture quotes / notable moments for [AAR](buttermilk-aar.md). |
+| 45 | Brief-backs (Round 1) | Ask the [substantive brief-back questions](#brief-back-questions-by-form) below. | **Run the room from the front** ([rules](#brief-back-facilitation-ncoic)): frame each brief, prompt other groups for acknowledgement, time-box at 4 min each. Capture quotes / notable moments for [AAR](buttermilk-aar.md). |
 | 60 | **Round 2** — rotate to a new form (213 enters) | Float. Time the rotation. | Manage the rotation. Hand out fresh forms. Continue notable-moment capture. |
 | 80 | Wrap-up | Walk the [takeaways](ics-forms-participant.md#wrap-up-takeaways). Hot wash. | Photograph the whiteboard. Begin collection of completed forms. |
 | 90 | End | Acknowledge participants. | Bundle 214s + group fills by group, label, hand to OIC. Final sign-out. |
@@ -52,6 +52,8 @@ These tasks are designed so the OIC can stay focused on substance while the NCOI
 - [ ] **Count and stage paper forms:** 15× ICS 214 in a stack near the door (one per arrival); 4× each of 205, 205A, 206, 209, 213 on the side tables in labeled stacks. Spare 5× of each.
 - [ ] **Print the [Pick-Your-Role list](ics-forms-participant.md#pick-your-ics-role-if-you-werent-assigned-one)** as a one-pager handout (time permitting; otherwise direct participants to the QR / their phones).
 - [ ] **Verify projector / screen** if showing the participant page during the session. Have the QR loaded full-screen as a backup display.
+- [ ] **NCOIC device check.** Verify the NCOIC can sign in to a tnstateguard.org Google account on whatever device they'll be using during the session. **Fallback procedure (validated 25 APR):** if the NCOIC's primary device fails sign-in, the OIC pulls out a clean tablet, signs in once, **disables auto-lock**, loads this Trainer Notes page, and hands the tablet over. Carry a clean tablet in the planning kit for this purpose.
+- [ ] **Clarify NCOIC role at handoff.** Say it explicitly when handing the device over: *"You're the training NCOIC. The scenario roster is for the participants to inhabit — you stay you."* This is a real failure mode (observed 25 APR): when a participant-page command roster lists the NCOIC's name and rank as a scenario position (e.g., 1SG Reece as Situation Unit Leader in the [Command Roster](ics-forms-participant.md#command-roster)), the NCOIC may unconsciously read themselves into that line and conflate their two roles. Pre-empt it with one sentence at handoff.
 
 ### During Training
 
@@ -72,6 +74,19 @@ These tasks are designed so the OIC can stay focused on substance while the NCOI
 - [ ] **214s = attendance roster** *(this iteration)*. Verify each 214 has rank, name, and ICS role on the front before bundling. The 214 stack is the attendance record.
 - [ ] **Check 214 backs for AAR comments** — participants are asked to write any feedback on the reverse before turning in. Flag any that have substantive comments for the OIC's [AAR](buttermilk-aar.md) writeup.
 - [ ] **Hand the bundle to the OIC** with a 60-second debrief: who participated, who stood out, anything that didn't go as planned.
+
+### Brief-Back Facilitation (NCOIC)
+
+When each group briefs back on their form, **the NCOIC runs the room** while the OIC asks the substantive [brief-back questions](#brief-back-questions-by-form). Rules of staging and engagement that prevent back-briefs from collapsing into small-group conversations:
+
+- [ ] **Lead from the front of the room**, not from within the briefing group's physical space. The staging itself signals to the rest of the room that this is open-room learning, not a side conversation.
+- [ ] **Frame for the room before the brief begins.** Standard language: *"Listen up — [briefer's rank/name] is describing a form that not everyone will get time to do personally today. This is your chance to hear it from someone who did."* Use that exact framing for any group that's about to brief on a form not everyone has rotated through yet.
+- [ ] **Prompt other groups for acknowledgement between briefings.** Don't let the briefing dissolve into the next group's quiet small-group prep. Standard prompts the NCOIC can rotate through:
+  - "What did you hear?"
+  - "What's your takeaway about the purpose of that form?"
+  - "If you had to fill that form tomorrow, what's the first thing you'd put on it?"
+  - "Who agrees? Who would have done it differently?"
+- [ ] **Time-box each brief-back at 4 minutes** (3-min walkthrough + 1-min open Q&A from the room). NCOIC calls time politely — "thanks, next group" — to keep the rotation moving.
 
 ### Things 1SG Snow Should NOT Do
 
