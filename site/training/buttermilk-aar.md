@@ -109,7 +109,7 @@ Use this table during/after each group's brief-back. Helps the XO see which form
   - **Recommendation:** *"Provide students with an exercise such as SAR where all forms are filled out as a template/example."* Asks for a **worked-example reference set** — every form filled completely from a different scenario (Search and Rescue suggested) — so participants have a model answer to study after the session. Captured as new Recommendation #7 below; pairs with 2LT Garrison's "official FEMA instructions" ask and with Recommendation #5 (30-min self-paced refresher).
 - **SSG Krishna Singh (HHC / 3 BN S6) — 214 turn-in feedback:**
   - **Observed:** *"Excellent training and exercise to help understand the proper knowledge to fill out all the forms. Great Work!"* Direct support for the form-purpose teaching frame.
-  - *(Left early; group-form P/O markers not captured — facilitator did not pre-brief on the new turn-in convention before SSG Singh's departure.)*
+  - *(Full training participation; departed at lunch — the P/O turn-in convention was briefed post-lunch, so SSG Singh's group-form markers were not captured. Credit full participation; only the marker convention was missed.)*
 - **SFC Jeffrey S. Collins (2 BN) — 214 turn-in feedback:**
   - **Observed:** *"All forms are very useful especially with no power incident; good to implement during annual training."* Two strong endorsements: (1) reinforces the **paper-and-pen-must-remain caveat** baked into Recommendation #1 (digital 214) — direct participant articulation of the no-power use case; (2) suggests this training should be **recurring (annual)**, not one-off. New Recommendation #8 captures the recurrence angle.
   - **Improve:** *"Include an AAR form with the packet (versus 'write notes on back of 214')."* Asks for a **dedicated AAR card / form** in the paper packet instead of the back-of-214 convention. Good pairing with Recommendation #6 (digital AAR-comment capture): the paper version of that ask is a structured AAR slip stapled to the 214 — more visible than the "write on the back" convention, and easier to design a digital twin of. Captured as Recommendation #6 reinforcement below.
@@ -148,7 +148,7 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 | 1 | 2LT Aaron E. Garrison | 3 BN S4 (MRC-1) | 214 · **P:** 205A, 206, 213 · **O:** 205, 209 |
 | 2 | SSG Randall B. Lillard | 2 BN Comm NCO (MRC-2) | 214 · **P:** 213, 205, 209 · **O:** 205A |
 | 3 | MAJ Curtis R. Rookard | HHC Engineer Officer (MRC-1) | 214 · **P:** 205A, 209 · **O:** 213, 205 |
-| 4 | SSG Krishna Singh | HHC / 3 BN S6 (MRC-1) | 214 · *(left early; remaining P/O markers not captured)* |
+| 4 | SSG Krishna Singh | HHC / 3 BN S6 (MRC-1) | 214 · *(full training participation; departed at lunch — missed only the post-lunch wrap-up where the P/O turn-in convention was briefed, so P/O markers not captured)* |
 | 5 | 1SG Michael E. Snow | HHC S2 NCO (MRC-1) — **served as training NCOIC** | 214 · *(NCOIC role; group-form participation N/A; AAR pending)* |
 | 6 | SFC Jeffrey S. Collins | 2 BN (MRC-1) | 214 · **P:** 205A, 209 |
 | 7 | 2LT Scott T. Sobel | 2 BN (MRC-1) | 214 · **P:** 205, 205A, 213 |
@@ -156,16 +156,16 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 | 9 | PV2 Charles E. Elrod | 3 BN B Co MP (MRC-1) | 214 · **P:** 213, 209, 206 |
 | 10 | PVT Kegan Elroy | New recruit (not yet on alert roster) | 214 · **P:** 213, 206 |
 
-*Roster closed at 10. Initial room count was higher; **several participants were called out to a command meeting partway through** (CPT Borrilez explicitly; SSG Singh also departed early) — sustained participation was therefore lower than the count would suggest. **9 of 10 turned in a 214; 7 of 10 completed full P/O participation markers.***
+*Roster closed at 10. Initial room count was higher; **several participants were called out to a command meeting partway through** (CPT Borrilez explicitly) — sustained participation was therefore lower than the count would suggest. SSG Singh stayed for the full training portion and departed at lunch. **9 of 10 turned in a 214; 7 of 10 completed full P/O participation markers** (Snow as NCOIC, Singh missed the post-lunch convention brief, Borrilez departed before turn-in).*
 
 
 ## Materials Disposition
 
-- **214s collected** — single artifact carrying attendance (front), AAR comments (back), and per-form participation markers (**P/O**, back): **9 of 10** *(CPT Borrilez departed before turn-in)*. Stored at `[location]`.
-- **Group-fills (205, 205A, 206, 209, 213):** `[Y/N — count]`. Stored at `[location]`.
-- **Whiteboard photo:** `[Y/N]`. Filed at `[location]`.
+- **214s collected:** 9 of 10 *(CPT Borrilez departed before turn-in)*. **Not retained** — all attendance, AAR comments, and P/O markers transcribed into this AAR; physical paper destroyed.
+- **Group-fills (205, 205A, 206, 209, 213):** Filled by groups during the session. **Not retained** — content insights captured in the per-form participation tally and Notable Moments above; physical paper destroyed.
+- **Whiteboard photo:** N/A — whiteboard not used during this iteration.
 - **AAR comments transcribed from 214 backs:** **Done** — all turn-in feedback captured into the [Notable Moments](#quotes--notable-moments) section above as named-participant entries.
-- **Per-form participation tally** *(from P/O markers on 214 backs; among 7 participants who recorded P/O — Snow filled only 214 as NCOIC; Singh left before the convention was briefed; Borrilez no turn-in)*:
+- **Per-form participation tally** *(from P/O markers on 214 backs; among 7 participants who recorded P/O — Snow filled only 214 as NCOIC; Singh departed at lunch before the post-lunch convention was briefed; Borrilez no turn-in)*:
   - **214** — 9 P (everyone who turned in); 0 O (the form is individual)
   - **205** — 2 P (Lillard, Sobel) · 2 O (Garrison, Rookard) · 3 not marked
   - **205A** — 4 P (Garrison, Rookard, Collins, Sobel) · 1 O (Lillard) · 2 not marked

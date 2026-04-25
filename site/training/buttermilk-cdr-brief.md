@@ -63,7 +63,7 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 ## What's Next *(~30 sec)*
 
 - **Hand-off to XO:** Completed [AAR](buttermilk-aar.md) page (BLUF, Sustain/Improve, by-form rubric, attendance, recommendations) — submitted by `[date/time]`.
-- **Materials disposition:** All 214s + group fills bundled and stored at `[location]`; AAR comments transcribed from 214 backs.
+- **Materials disposition:** Paper 214s + group-fills not retained — all content (attendance, AAR comments, P/O markers, group-fill insights) transcribed into the [AAR](buttermilk-aar.md). Physical paper destroyed; no whiteboard used this iteration.
 - **Next iteration:** Author a 30-min ICS-forms self-paced refresher under Training Materials so the next iteration starts from a higher baseline. The package is now standing on the planning portal — running it again is mostly delivery, not authoring.
 - **TNMAN-26 connection:** Today's gaps (paper-only 214, single-source map/QR production, trainer pre-familiarity) are pre-mitigations against the same pain at HAAP on 14 MAY. The work is portable.
 
