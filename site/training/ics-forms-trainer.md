@@ -172,6 +172,33 @@ The bookend matters because purpose is what's actually being taught; the field-b
 
 ---
 
+## Common Participant Questions
+
+These come up reliably; have a crisp answer ready.
+
+### "When it's getting hectic, it seems impossible to log every radio message — am I supposed to do all of that?"
+
+**Answer:** Yes — that's the standard. The 214 is the historical record; if it isn't on a 214, it didn't happen. Two techniques for when activity outpaces the pen:
+
+1. **When staffing permits, split the role.** One Soldier on the radio, one Soldier with the pen. The recorder hears the same traffic and writes it down. This is how busy operations centers run.
+2. **When staffing doesn't permit, scratch-and-backfill.** Keep a small notebook or scrap pad. Capture the time + 2-3 word stub during the surge ("0917 - PD Main+Church"). During the next lull, transcribe the stubs into your 214 with full sentences. Don't try to compose the prose during the surge.
+
+Either way: **timeliness over polish.** A messy entry made now beats a tidy entry that never happens.
+
+### "Can't we have something where all the timestamps are automatic and we can type the notes?"
+
+**Answer:** That's the goal. A digital ICS 214 with GPS + auto-timestamp + typed entries is on the [recommendations list](buttermilk-aar.md#recommendations--way-forward) coming out of this iteration of the training. **Caveat:** the paper-and-pen path must remain. Power outage and no-network conditions are exactly when activity-logging matters most, so digital and paper coexist — they don't replace each other.
+
+### "Two of us picked the same role — is that wrong?"
+
+**Answer:** No. Parallel positions on different shifts or different sectors are normal. Each person's 214 is *their own* — same role, different events, different observations.
+
+### "Do I write what I did, or what I heard, or what someone else did?"
+
+**Answer:** All three, with attribution. *"0917 — Patrol BRAVO reports affected individual at Main + Church; relayed to ICP per SOP"* logs what you heard and what you did with it. *"0935 — observed CPT Pemberton brief shift change"* logs what you witnessed. The 214 is your perspective; everything in it should be true from where you sat.
+
+---
+
 ## Optional Injects
 
 Pre-print on index cards. NCOIC delivers at OIC's signal.

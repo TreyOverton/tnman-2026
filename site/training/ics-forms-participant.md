@@ -182,6 +182,9 @@ Each section: what the form is, who fills it, the critical fields, the most comm
   - 0935R — Comm check with Patrol BRAVO at NAI 2 (Main St / Depot St); 5x5
   - 1012R — Briefed by CPT Pemberton on shift change at 1300R
   - 1047R — Greeneville PD reports affected individual sighted at corner of Main St / Church St; relayed to Branch Director per SOP
+- **When activity outpaces the pen:**
+  - **If staffing allows, split the role** — one Soldier on the radio, one with the pen.
+  - **If it doesn't, scratch-and-backfill** — keep a small notebook or scrap pad; during the surge, capture *time + 2-3 word stub* (e.g., *"0917 — PD Main+Church"*); during the next lull, transcribe the stubs into your 214 with full sentences. Don't try to compose prose mid-surge. **Timeliness over polish** — a messy entry made now beats a tidy entry that never happens.
 
 ### ICS 205 — Incident Radio Communications Plan
 

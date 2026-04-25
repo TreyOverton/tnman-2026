@@ -57,7 +57,7 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 
 ## Forward Asks *(~60 sec — the "what do you need from me?" slot)*
 
-1. **Build a digital ICS 214 with GPS + auto-timestamp capture.** Phone-accessible, low-friction logging anywhere. Pairs with the same auth-gated infrastructure already deployed for the planning portal. **Ask:** S3 / S6 sponsorship to scope this before TNMAN-26 if possible.
+1. **Build a digital ICS 214 with GPS + auto-timestamp capture.** Phone-accessible, low-friction logging anywhere. Pairs with the same auth-gated infrastructure already deployed for the planning portal. **Validated today by a direct participant ask** — *"Can't we have something where all the timestamps are automatic and we can type the notes?"* — from a Soldier in the seat. **Caveat:** paper-and-pen path must remain — power-out / no-network conditions are exactly when activity-logging matters most. Digital and paper coexist; they don't replace each other. **Ask:** S3 / S6 sponsorship to scope this before TNMAN-26 if possible.
 2. **Cross-train map + QR-code production** off SFC Ferguson onto at least three additional Soldiers, with a written SOP. Driver: 1LT Sobel raised this today. **Ask:** authority to schedule a short hands-on session before 30 APR.
 3. **Add a CalTopo map link to the Participant Notes** for any future training or mission with a defined AO. Same model we use for QR-distribution. **Ask:** integrates with #2.
 4. **Standing pre-flight checks:** Google account + device sign-in 24 hrs before any tnstateguard.org-gated training; printed trainer-notes packet as hard-copy fallback. **Ask:** none — already procedural.
