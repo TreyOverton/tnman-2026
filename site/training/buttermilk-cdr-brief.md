@@ -5,20 +5,20 @@
 > **Date:** 25 APR 26 · **Length:** 5-min walkaround
 > **Companion docs:** [Participant Notes](ics-forms-participant.md) · [Trainer Notes](ics-forms-trainer.md) · [AAR for XO](buttermilk-aar.md)
 >
-> **Status:** Living draft — fields update as the session progresses; final pass at end of training. `[brackets]` = still in motion.
+> **Status:** Final pass — training closed, all 214s processed. Outcome phrase + a few timestamps still pending OIC review.
 
 ---
 
 ## BLUF *(~30 sec)*
 
-> Ran a no-notice ICS-forms training for `[N]` 3 RGT Soldiers during the 25 APR IDT. Built the materials in ~20 min, executed in ~3 hrs (vs. 90-min plan — see Improve), hit every form on the list (214 + 205 / 205A / 206 / 209 / 213). Outcome: **`[mission accomplished / partially / shortfall — one phrase]`**. **The forward ask:** invest in a digital ICS 214 with GPS + auto-timestamp before TNMAN-26 — the parallel-214 conditioning we ran today wants a mobile platform to scale.
+> Ran a no-notice ICS-forms training for **10** 3 RGT Soldiers during the 25 APR IDT (sustained participation lower — several departed mid-session for a concurrent command meeting). Built the materials in ~30 min, executed 0900-1200R (vs. 90-min plan — see Improve), hit every form on the list (214 + 205 / 205A / 206 / 209 / 213); 9 of 10 turned in 214s. Outcome: **Mission accomplished — DRAFT pending OIC review.** **The headline forward ask:** invest in a digital ICS 214 with GPS + auto-timestamp before TNMAN-26 — the parallel-214 conditioning we ran today wants a mobile platform to scale. Four supporting asks below.
 
 ---
 
 ## What Happened *(~60 sec)*
 
-- **Tasking:** No-notice — assigned by XO minutes before delivery.
-- **Format:** 10-15 participants, planned 90-min block at HHC 3 RGT, Afton — **actual run ~3 hrs** (built-as-we-went; future iterations from the standing materials should hit 90 cleanly). Recommended cap going forward: 90-120 min.
+- **Tasking:** ICS forms training during the 25 APR IDT — directive 0830, start 0900.
+- **Format:** 10 participants in the room initially, planned 90-min block at HHC 3 RGT, Afton — **actual run ~3 hrs** (materials were authored in parallel with delivery; future iterations from the standing materials should hit 90 cleanly). Recommended cap going forward: 90-120 min.
 - **Scenario:** Fictional **Operation BUTTERMILK** — Nolichucky State Guard (NSG) supports civil authorities in a fast-moving public-health emergency in Greene County. Real TNSG constraints (unarmed, dawn-to-dusk, perimeter-only) preserved for training fidelity.
 - **Forms covered:** **ICS 214 (everyone, parallel through both rotations)** + 205, 205A, 206, 209, 213 in group rotations of 3-4.
 - **Tooling:** Participant + Trainer pages on the planning portal (Firebase, tnstateguard.org auth gate); QR code for in-room phone access; tablet hand-off as fallback; 1SG Snow as NCOIC.
@@ -28,10 +28,10 @@
 ## How It Went *(~60 sec)*
 
 **What worked** *(more on the [AAR](buttermilk-aar.md))*:
-- **Rapid-prep capability:** ~20 min from "you're running this" to walking in with complete materials. Same tooling that produced the TNMAN-26 OPORD package and FRAGO 26-05-01.1 enclosures.
+- **Tooling allowed real-time training prep in the moment.** ~20 min to a usable starting kit; OIC + NCOIC expanded and adjusted materials in parallel during delivery — every refinement was live on the planning portal within minutes and visible on every participant's phone. Same tooling that produced the TNMAN-26 OPORD package and FRAGO 26-05-01.1 enclosures.
 - **Parallel ICS 214 throughout:** Strong conditioning aid — the muscle every Soldier needs at HAAP on 14 MAY.
 - **214 doubled as attendance + AAR comments on the back:** Three artifacts collapsed into one workflow.
-- **NCOIC + tablet hand-off:** Force multiplier even with no review time; clean tablet, sign-in once, kill auto-lock, hand over — validated procedure.
+- **NCOIC + tablet hand-off:** Force multiplier; clean tablet, sign-in once, kill auto-lock, hand over — validated procedure.
 - **Quote — PVT Elrod:** *"Access to these notes about the form purpose was really helpful doing this for the first time."*
 
 **What didn't (and how we recovered):**
@@ -59,9 +59,10 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 ## Forward Asks *(~60 sec — the "what do you need from me?" slot)*
 
 1. **Build a digital ICS 214 with GPS + auto-timestamp capture.** Phone-accessible, low-friction logging anywhere. Pairs with the same auth-gated infrastructure already deployed for the planning portal. **Validated today by a direct participant ask** — *"Can't we have something where all the timestamps are automatic and we can type the notes?"* — from a Soldier in the seat. **Caveat:** paper-and-pen path must remain — power-out / no-network conditions are exactly when activity-logging matters most. Digital and paper coexist; they don't replace each other. **Ask:** S3 / S6 sponsorship to scope this before TNMAN-26 if possible.
-2. **Cross-train map + QR-code production** off SFC Ferguson onto at least three additional Soldiers, with a written SOP. Driver: 1LT Sobel raised this today. **Ask:** authority to schedule a short hands-on session before 30 APR.
+2. **Cross-train map + QR-code production** off SFC Ferguson onto at least three additional Soldiers, with a written SOP. Driver: 2LT Sobel raised this today. **Ask:** authority to schedule a short hands-on session before 30 APR.
 3. **Add a CalTopo map link to the Participant Notes** for any future training or mission with a defined AO. Same model we use for QR-distribution. **Ask:** integrates with #2.
 4. **Standing pre-flight checks:** Google account + device sign-in 24 hrs before any tnstateguard.org-gated training; printed trainer-notes packet as hard-copy fallback. **Ask:** none — already procedural.
+5. **Make ICS-forms training recurring, with supporting study assets.** Per SFC Collins (*"good to implement during annual training"*) and SSG Lillard (*"provide students with an exercise such as SAR where all forms are filled out as a template/example"*). The package is **already transferable** — Battalion-level facilitators can run the same training during BN drill with the same Trainer Notes the Regiment ran today. **Three supporting assets to author:** (a) a worked-example reference set with all six forms filled from a different scenario like SAR; (b) a 30-min self-paced facilitator refresher; (c) standing practice of pre-publishing the participant page ahead of any scheduled training so participants can read in. **Ask:** sponsorship to schedule annual recurrence into the FY27 training calendar and to authorize the supporting-asset effort (low cost, low risk).
 
 ---
 
@@ -69,7 +70,7 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 
 - **Hand-off to XO:** Completed [AAR](buttermilk-aar.md) page (BLUF, Sustain/Improve, by-form rubric, attendance, recommendations) — submitted by `[date/time]`.
 - **Materials disposition:** All 214s + group fills bundled and stored at `[location]`; AAR comments transcribed from 214 backs.
-- **Next iteration:** Author a 30-min ICS-forms self-paced refresher under Training Materials so the next no-notice tasking has a faster baseline.
+- **Next iteration:** Author a 30-min ICS-forms self-paced refresher under Training Materials so the next iteration starts from a higher baseline. The package is now standing on the planning portal — running it again is mostly delivery, not authoring.
 - **TNMAN-26 connection:** Today's gaps (paper-only 214, single-source map/QR production, trainer pre-familiarity) are pre-mitigations against the same pain at HAAP on 14 MAY. The work is portable.
 
 ---
@@ -78,12 +79,15 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 
 | Likely question | Crisp answer |
 |----------------|--------------|
-| "How long did this take to prep?" | ~20 min from cold start; only feasible because the planning portal had the rank/role/comms framework I could mirror into a fictional NSG scenario. |
+| "How long did this take to prep?" | ~20 min to a starting kit; the rest of the materials were authored in parallel during delivery as participant questions surfaced gaps. The planning portal carried the rank / role / comms framework I could mirror into a fictional NSG scenario. |
 | "Did anyone object to the zombie framing?" | No — it landed as intended (memorable, no dilution of operational mechanics). All scenario constraints mirror real TNSG posture. |
 | "Could we do this for HAAP-specific forms before 14 MAY?" | Yes — same scaffold, swap the scenario, ~30-60 min to produce. Will need DIV/RGT alignment on which forms 3 RGT will own at HAAP. |
 | "What does 'digital 214' actually mean — an app?" | Phone-accessible web form, same auth gate (tnstateguard.org), GPS + timestamp pre-filled, free-text body, submits to a server-side log. Could be prototyped on the existing planning-portal stack. |
 | "Why does the SFC Ferguson concentration matter?" | If he's unavailable on the day TNMAN spins up, we have no map and no QR distribution channel. That's a brittle link; cross-train is cheap insurance. |
 | "What's the cost of doing nothing on the digital 214?" | Continued reliance on paper; 214s get lost or skipped under load; AAR quality suffers; legal/incident reporting suffers. The paper version is acceptable for training; not great for an actual incident. |
+| "What did the participants ask for?" | Most-cited: digital 214 with auto-timestamps + typed notes (Elroy, Sobel, the room generally — paperwork friction is real); a worked-example reference set with all forms filled out (Lillard); the ability to access the materials in advance (Sobel); a CalTopo map link in the participant notes (Sobel, twice); official FEMA instructions alongside the local notes (Garrison). All in [AAR Recommendations](buttermilk-aar.md#recommendations--way-forward). |
+| "How would 'annual recurrence' fit our training calendar?" | Once the supporting assets are authored, each delivery is ~90 min — a manageable slot during any IDT. Suggest one Regiment-level run per year to certify a fresh cohort of facilitators, then those facilitators run BN-level deliveries in their own drill blocks, with feedback flowing back to the [single living source on the planning portal](https://tnman-2026.web.app/#/training/ics-forms-participant.md). |
+| "What's the worked-example reference, and why SAR?" | A second set of all six forms filled completely from a different scenario, so participants have a model answer to study after the session. SAR fits because it's distinct enough from a SECFOR-cordon training that participants encounter the forms in fresh context, but operationally familiar enough that the content is intuitive. Estimated effort: 4-6 hrs of authoring. |
 
 ---
 

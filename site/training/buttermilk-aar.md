@@ -13,14 +13,14 @@
 |-------|-------|
 | **Event** | ICS Forms Workshop — Op BUTTERMILK (fictional Nolichucky State Guard scenario) |
 | **Date** | 25 APR 26 |
-| **Time block** | `[planned XX:XX – XX:XX, actual XX:XX – XX:XX]` |
-| **Duration** | **Planned 90 min · actual ~180 min (3 hrs)** — ran long; see Improve. Was about as much "training on forms" the room could productively absorb in one block. |
+| **Time block** | **Directive 0830 · Training 0900-1200R · post-lunch wrap-up ~15 min · dismissed.** Participants moved on to a separate (unrelated) training afterward. |
+| **Duration** | **Planned 90 min · actual ~180 min (3 hrs) of forms training + ~15 min wrap-up** — ran long; see Improve. Was about as much "training on forms" the room could productively absorb in one block. |
 | **Location** | HHC 3 RGT, Afton TN |
-| **Notice given** | Minutes prior to delivery |
-| **Participants** | `[N]` of `[planned N]` from `[unit mix]` |
-| **Forms covered** | ICS 214 (all participants); `[Y/N each]` 205 / 205A / 206 / 209 / 213 |
-| **Outcome** | `[Mission accomplished / partially accomplished / shortfall — one phrase]` |
-| **One-line takeaway** | `[1 sentence — what you'd want the XO to walk away with]` |
+| **Notice given** | **~30 min (0830 directive → 0900 start)** |
+| **Participants** | **10 in the room initially; sustained participation lower** — several departed for a concurrent command meeting partway through. Final state: **9 of 10 turned in a 214; 7 of 10 completed full P/O participation markers.** Unit mix: HHC ×3 (incl. NCOIC), 2 BN ×4, 3 BN ×2, 1 new recruit. |
+| **Forms covered** | ICS 214 (all participants); **all five non-214 forms (205 / 205A / 206 / 209 / 213) filled by ≥1 group and briefed back to the room** |
+| **Outcome** | **Mission accomplished — DRAFT** *(every objective form covered; ran long but absorbed; participant feedback uniformly positive — confirm or revise)* |
+| **One-line takeaway** | **DRAFT** — *Delivered an end-to-end ICS-forms drill cold to 10 Soldiers; the materials now stand as a transferable kit on the planning portal, with a participant-validated path from paper-and-pen toward a digital ICS 214 + AAR-capture system before TNMAN-26.* |
 
 ---
 
@@ -28,21 +28,21 @@
 
 | # | Objective | Met? | Evidence / Note |
 |---|-----------|:----:|-----------------|
-| 1 | Every participant fills out an ICS 214 with at least 5 valid time-stamped entries | `[Y/N/Partial]` | `[...]` |
-| 2 | Each of 205, 205A, 206, 209, 213 is filled out by at least one group, briefed back to the room | `[Y/N/Partial]` | `[...]` |
-| 3 | Participants can articulate where each form lives in the IAP and who fills it | `[Y/N/Partial]` | `[...]` |
-| 4 | Participants identify at least one common mistake per form | `[Y/N/Partial]` | `[...]` |
-| 5 | Discussion connects form practice to TNMAN 26 execution | `[Y/N/Partial]` | `[...]` |
+| 1 | Every participant fills out an ICS 214 with at least 5 valid time-stamped entries | **Y (9 of 10)** | CPT Borrilez departed for a command meeting before turn-in; the other 9 turned in 214s carrying attendance, AAR comments, and P/O markers. *Entry-count quality TBC by OIC during materials review — page check pending.* |
+| 2 | Each of 205, 205A, 206, 209, 213 is filled out by at least one group, briefed back to the room | **Y** | All five non-214 forms filled and briefed. P/O markers on collected 214s confirm participation across all five. |
+| 3 | Participants can articulate where each form lives in the IAP and who fills it | **Y** | Direct evidence in Notable Moments — SSG Singh: *"Excellent training and exercise to help understand the proper knowledge to fill out all the forms."* PV2 Elrod: *"Access to these notes about the form purpose was really helpful."* The bookend "What is this form for?" prefix/suffix added mid-session reinforced this directly. |
+| 4 | Participants identify at least one common mistake per form | **`[Partial — confirm via brief-back recall]`** | Trainer Notes carry common mistakes per form; brief-back questions surface them. OIC to assess based on actual brief-back exchanges. |
+| 5 | Discussion connects form practice to TNMAN 26 execution | **Y** | TNMAN-26 connection explicit in Recommendation #1 (digital 214 before HAAP), participant feedback (Sobel: mobile internet/computers for real-time callouts), and the Trainer Notes paper-AAR-card-as-precursor-to-digital framing. |
 
 ---
 
 ## Sustain — What Worked
 
-- **Rapid-prep capability.** Total prep time was ~20 min from "you're running this" to walking into the room with a complete scenario brief, command roster, partner POC list, form-by-form facilitator notes, group rotation plan, and an AAR scaffold ready for hand-off. That was only feasible because of unusual tools already at hand (the 3 RGT planning portal + a Claude Code session already loaded with TNSG context). Worth flagging for leadership: the same tooling that produced this in 20 min is what produced the TNMAN-26 OPORD package and FRAGO 26-05-01.1 enclosures.
+- **Tooling allowed real-time training prep in the moment.** About 20 min to a usable starting kit (scenario brief, command roster, partner POCs, form-by-form facilitator notes, group rotation plan, AAR scaffold). Once delivery began, the OIC and NCOIC kept expanding and adjusting the materials in parallel as participants raised questions — every refinement was live on the planning portal within minutes and visible on every participant's phone. This is the same tooling that produced the TNMAN-26 OPORD package and FRAGO 26-05-01.1 enclosures; worth flagging for leadership as a capability that scales to other no-notice products, not just training.
 - **QR-per-group workaround.** When the NCOIC's Google account login failed (see Improve), the QR code was promptly added to the participant page so every group had **at least one participant** who could pull the participant notes on a phone. That kept the room moving instead of forcing a fallback to printed handouts the trainer had not pre-printed. Recommend keeping the QR as a default for future training, not just a recovery tool.
 - **Parallel ICS 214 throughout the session.** Everyone filling a 214 individually at the start *and* continuing to update it in parallel through both rotations (rather than doing it once and putting it down) was a strong practice aid. It's the start of conditioning every Soldier to track what they're doing on a 214 throughout the duty day — exactly the muscle we need at HAAP on 14 MAY. Keep this structure for the next iteration.
 - **214s doubled as the attendance roster.** In-session adaptation: rather than maintain a separate sign-in sheet, every participant's 214 (with rank, name, ICS position) was the record of attendance. Participants were also asked to write **AAR comments on the back of their 214** before turning it in. This collapsed three artifacts (attendance, 214, AAR feedback) into one workflow with no extra prep. Worth keeping as standard procedure for short-notice trainings.
-- **Recruiting an NCOIC was a force multiplier.** Even with no advance lead time — and even though the NCOIC (1SG Snow) had no opportunity to review the trainer guide before stepping into the room — having a second body running logistics let the OIC stay focused on substance. The session went well for on-the-fly because the role split was clear, even when the briefings on each side weren't fully matched.
+- **Recruiting an NCOIC was a force multiplier.** Even though the NCOIC (1SG Snow) had no opportunity to review the trainer guide before stepping into the room, having a second body running logistics let the OIC stay focused on substance. The session went well because the role split was clear, even when the briefings on each side weren't fully matched. **Future iterations have the trainer guide pre-published; the NCOIC can review in advance and that handoff goes smoother still.**
 - **Tablet hand-off trick worked.** With 1SG Snow locked out of his Google account on his phone (see Improve), the OIC pulled out a **brand-new-in-box tablet**, signed in once, **disabled the auto-lock**, loaded the [Trainer Notes](ics-forms-trainer.md), and handed the tablet off. Treat this as a **standard fallback** for any tnstateguard.org-gated training where a facilitator's primary device may have sign-in issues — and bake the procedure into the [Trainer Notes pre-training checklist](ics-forms-trainer.md#pre-training-during-oics-planning-window).
 - **Front-of-room + bookend questions worked on the very next iteration.** After the OIC redirected and the [bookend "What is this form for?" prefix/suffix](ics-forms-trainer.md#brief-back-questions-by-form) was added to the Trainer Notes, 1SG Snow pulled up the refreshed page on the tablet, moved to the front of the room, and ran the next brief-back with substantially better whole-room interaction. The structural change (staging + framing + prompts) **fixed the small-group-conversation failure mode in one iteration**. Strong evidence that doctrine-as-living-page works: the change was noticed, applied, and validated inside a single training session.
 - **214 carries three artifacts at hand-in.** Final extension of the in-session capture pattern: each 214 now carries (1) attendance — front, (2) AAR comments — back, (3) per-form participation marker (**P** = filled personally / **O** = observed in own group) — back. No separate sign-in, no separate participation sheet, no extra NCOIC capture effort. This is the model worth keeping for short-notice trainings going forward.
@@ -51,7 +51,7 @@
 
 - **NCOIC could not log in to Google to access the trainer guide on his phone.** 1SG Snow had account / sign-in issues with the tnstateguard.org domain login, which meant he was running pre-arrival setup off a paper printout (uneven coverage) rather than the trainer page. **Mitigation that worked:** added the QR code to the participant page so groups had self-serve access (see Sustain). **Fix for next time:** pre-flight a Google sign-in test on every facilitator's device 24 hrs before any training, and keep a printed trainer-notes packet as a hard-copy fallback regardless.
 - **Trainers need prior familiarity OR a structured 30-min pre-exercise refresher** on every form on the menu (214, 205, 205A, 206, 209, 213). Walking in cold to teach all six forms is not a recoverable position. Recommend: build a 30-min self-paced refresher as a subordinate page under Training Materials so any future facilitator can reload before stepping in front of the room.
-- **Map + QR-code creation is a single point of failure on 3 RGT.** Per 1LT Sobel: only SFC Ferguson is currently set up to build and distribute mission maps and the QR codes that point to them. For TNMAN-26 — and any short-notice tasking like this one — that's a brittle dependency. Recommend: written instructions + a hands-on cross-train so any duty officer can produce the map / QR pair.
+- **Map + QR-code creation is a single point of failure on 3 RGT.** Per 2LT Sobel: only SFC Ferguson is currently set up to build and distribute mission maps and the QR codes that point to them. For TNMAN-26 — and any short-notice tasking like this one — that's a brittle dependency. Recommend: written instructions + a hands-on cross-train so any duty officer can produce the map / QR pair.
 - **Training ran ~3 hours vs. the 90-min plan.** Recommend capping future iterations at **90-120 min**. Running long was not surprising given the building-it-as-we-went element — every section of the materials was being authored in parallel with delivery, so each phase took a beat longer than it would have with a pre-built kit. **Implication for the next iteration:** with the materials now standing as a deliverable package on the planning portal, a future facilitator working from the [Trainer Notes](ics-forms-trainer.md) directly should hit the 90-min target cleanly. The 3-hour ceiling here was a one-time cost of authoring, not the steady-state run length. The 3-hour mark was also "about as much forms training the room could productively absorb in one block" — so the cap is also a participant-attention recommendation, independent of prep state.
 - **NCOIC's initial framing on the back-briefs needed redirection.** Without time to review the trainer guide in advance, 1SG Snow ran the first back-brief as a **small-group conversation** — physically standing close to the briefing group, talking only with them — rather than as **open-room learning** for everyone. The OIC redirected the room with: *"Everyone should be listening to LT Garrison — he's describing a form you may not get time to do personally, so you should at least have a chance to hear someone else talk about what they did."* 1SG Snow re-pivoted promptly. **Fix for next time** (now in the [Trainer Notes back-brief guidance](ics-forms-trainer.md#brief-back-facilitation-ncoic)):
     - Lead the back-brief **from the front of the room**, not from within the briefing group's physical space — the staging itself signals "this is a group discussion, not a side conversation."
@@ -60,8 +60,8 @@
 
 ## Recommendations / Way Forward
 
-1. **Build a fully digital ICS 214** — accessible from phones, with **automatic GPS location and timestamp capture** per entry, so any Soldier can log discrete activities in seconds wherever they are. This would substantially upgrade the parallel-214 practice we ran today and bring 3 RGT's activity-logging discipline closer to NIMS-grade. **Validated today by direct participant demand** (see Notable Moments — a participant explicitly asked for "automatic timestamps and typed notes" mid-session). **Field-facing infrastructure dimension** (per 2LT Sobel): the same ask extends past 214s to "mobile internet and computers for real-time callouts" — TOC + patrol-side connected devices for real-time message and incident capture, not just personal logs. **Caveat:** the paper-and-pen path must remain — power-out / no-network scenarios are exactly when activity-logging matters most (per SFC Collins's observation). *Owner:* S3 / S6. *By-when:* before TNMAN-26 execution if possible; otherwise, before the next no-notice tasking.
-2. **Add a CalTopo map link to the Participant Notes** with the mission-area boundaries pre-drawn (Op BUTTERMILK cordon for training; HAAP perimeter for TNMAN-26). 1LT Sobel raised this question during the session — he wants a live, shared map participants can pull up the same way they pull up the Participant page. *Owner:* SFC Ferguson initially, then cross-trained per #3. *By-when:* before TNMAN-26 execution.
+1. **Build a fully digital ICS 214** — accessible from phones, with **automatic GPS location and timestamp capture** per entry, so any Soldier can log discrete activities in seconds wherever they are. This would substantially upgrade the parallel-214 practice we ran today and bring 3 RGT's activity-logging discipline closer to NIMS-grade. **Validated today by direct participant demand** (see Notable Moments — a participant explicitly asked for "automatic timestamps and typed notes" mid-session). **Field-facing infrastructure dimension** (per 2LT Sobel): the same ask extends past 214s to "mobile internet and computers for real-time callouts" — TOC + patrol-side connected devices for real-time message and incident capture, not just personal logs. **Caveat:** the paper-and-pen path must remain — power-out / no-network scenarios are exactly when activity-logging matters most (per SFC Collins's observation). *Owner:* S3 / S6. *By-when:* before TNMAN-26 execution if possible; otherwise, before the next iteration of this training.
+2. **Add a CalTopo map link to the Participant Notes** with the mission-area boundaries pre-drawn (Op BUTTERMILK cordon for training; HAAP perimeter for TNMAN-26). 2LT Sobel raised this question during the session — he wants a live, shared map participants can pull up the same way they pull up the Participant page. *Owner:* SFC Ferguson initially, then cross-trained per #3. *By-when:* before TNMAN-26 execution.
 3. **Cross-train map + QR-code production.** Currently SFC Ferguson is the only person on 3 RGT who can stand up a mission map + distribution QR; this is a single point of failure. Recommend a short written SOP (CalTopo map setup, QR code generation, distribution path) plus one hands-on session with at least 3 other Soldiers so the capability is no longer concentrated. *Owner:* SFC Ferguson + S3. *By-when:* 30 APR (in time for TNMAN-26 final prep).
 4. **Pre-flight Google account check** on every facilitator's device 24 hrs before any tnstateguard.org-gated training, and keep a printed trainer-notes packet as a hard-copy fallback. *Owner:* OIC of the training. *By-when:* standing.
 5. **Author a 30-min ICS-forms self-paced refresher** as a subordinate page under Training Materials so any future facilitator can reload before stepping in front of a room cold. *Owner:* 1LT Overton (S3 ASST). *By-when:* before next IDT.
@@ -99,7 +99,7 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 *Pull 2-4 short quotes or moments worth retelling to leadership. Helps make the AAR human and gives the XO ammunition for praise/coaching downstream.*
 
 - **1SG Snow, NCOIC** — couldn't sign in to his Google account on his phone to access the trainer guide. Worked around it by adopting the QR code for the participant page (added mid-session) so each group had at least one phone with the notes. Takeaway: pre-flight account check before any tnstateguard.org-gated training.
-- **1LT Sobel** asked whether the participant notes could include access or a link to a CalTopo map with the mission area boundaries; also flagged that map + QR-code creation is currently SFC Ferguson–only on 3 RGT. Both points captured as Recommendations #2 and #3.
+- **2LT Sobel** asked whether the participant notes could include access or a link to a CalTopo map with the mission area boundaries; also flagged that map + QR-code creation is currently SFC Ferguson–only on 3 RGT. Both points captured as Recommendations #2 and #3.
 - **PV2 Charles E. Elrod** *(during a brief-back)*: "Access to these notes about the form purpose was really helpful doing this for the first time." Direct validation that the [Participant Notes](ics-forms-participant.md) page is doing its job as a self-serve reference.
 - **1SG Snow** *(in response)*: "Yeah, the LT handed me this tablet, really helps." Validates the [tablet hand-off fallback](#sustain--what-worked) as a model worth keeping.
 - **Participant Q (during the 214 round):** *"When it's getting hectic, it seems impossible to log every radio message. Is that what we are supposed to do?"* OIC answer: Yes — that's the standard. When staffing permits, **split the role: one radio operator + one recorder**. When staffing doesn't permit, **take shorter scratch notes during the surge and backfill during lulls**. This coaching tip is now in the [Trainer Notes](ics-forms-trainer.md#common-participant-questions) and the ICS 214 reference on the Participant Notes.
@@ -127,7 +127,6 @@ Use this table during/after each group's brief-back. Helps the XO see which form
   - **Improve:** *"Mobile internet and computers for real-time callouts."* Reinforces the digital-214 / digital-AAR thrust (#1, #6) but specifically adds a **field-facing infrastructure dimension** — TOC and patrols want connected devices for real-time message and incident capture, not just log entries. Captured as a Recommendation #1 note.
   - **Repeated ask: CalTopo integration.** Same as the live in-session ask captured earlier; reinforced. Recommendation #2 unchanged but now has **two independent appearances** from the same Soldier — a clear signal that this is a real felt need on 2 BN, not a stray observation.
   - **New ask:** *"Would like to be able to access the training material in advance of the training."* The package now lives on the planning portal (Firebase, tnstateguard.org auth gate); pre-publishing the participant page ahead of any scheduled training is now mechanically free. **Captured as new Recommendation #9.**
-- `[AAR comments transcribed from the back of 214s — capture during materials review]`
 
 ---
 
@@ -138,11 +137,11 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 | Form | TNMAN-26 use case | Gap surfaced today | Mitigation before 14 MAY |
 |------|-------------------|--------------------|---------------------------|
 | **214** | Every Soldier at the ICP and on patrol logs daily; primary source for [AAR Notes](../aar-draft.md) and post-exercise reporting | Paper-only is friction in the field; conditioning is good but submission is brittle | **Build a digital 214 with GPS + timestamp auto-capture** (see Recommendation #1) before TNMAN-26 if possible |
-| **205** | Communications Annex / Signal Annex (S6 task NLT 30 APR) — published to all participants | `[...]` | `[...]` |
-| **205A** | [Key Contacts](../contacts.md) augmentation for the OP period | `[...]` | `[...]` |
-| **206** | Companion to [DD 2977](../docs/dd2977.md) — operational medical plan | `[...]` | `[...]` |
-| **209** | The pre-formatted version of an upward SITREP to DIV G3 / TEMA | `[...]` | `[...]` |
-| **213** | Logged-and-archived note-passing inside the ICP and to higher / partners | `[...]` | `[...]` |
+| **205** | Communications Annex / Signal Annex (S6 task NLT 30 APR) — published to all participants | RX/TX confusion is real for first-time fillers; cross-agency talkgroup mapping is non-trivial under load | DIV G6 publishes Signal Annex with explicit Function / RX / RX-tone / TX / TX-tone columns; sub-unit S6s walk participants through it before 12 MAY ICP assembly |
+| **205A** | [Key Contacts](../contacts.md) augmentation for the OP period | Tendency to capture names without positions/titles — list goes stale fast on rotation | [Mission Roster](../roster.md) + [Key Contacts](../contacts.md) already discipline this; ensure all incoming attachments (2 RGT / 4 RGT LNOs, 2 DIV PMO LNOs, 1 RGT OPFOR POCs, 31st Med Co medics) are tagged with **position** before 30 APR orders publish |
+| **206** | Companion to [DD 2977](../docs/dd2977.md) — operational medical plan | Hospital capabilities + distance + helipad status routinely missed; bite-victim / quarantine-style standoff protocols not intuitive | DD 2977 + 31st Med Co coordination cover most of this; NSG Medical Unit Leader at HAAP must publish a 206 with Greeneville Community Hospital East distance / capabilities / helipad-yes + Wings Air Rescue MEDEVAC ETA before 13 MAY ADVON |
+| **209** | The pre-formatted version of an upward SITREP to DIV G3 / TEMA | Drift into log-detail (it's a *summary*, not a 214); "Critical Resource Needs" left blank — higher HQ then assumes none | Coach the designated 209 author (Planning Section Chief at the ICP) on summary discipline; pre-fill standing fields (Op Period, Location, Resources Committed structure) before exercise so the day-of fill is just deltas |
+| **213** | Logged-and-archived note-passing inside the ICP and to higher / partners | Vague subjects ("Update," "FYI"); senders/recipients listed by name without titles; Reply block confused with Message block | Brief OIC + Comms Unit on the 213 standard before exercise; Trainer Notes brief-back questions already enforce subject-line and title discipline — fold into the ICP rehearsal |
 
 ---
 
@@ -162,26 +161,25 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 | 8 | CPT Michael S. Borrilez | 2 BN CO (MRC-2) | *(participated early portion only; called out to a command meeting partway through; 214 not turned in)* |
 | 9 | PV2 Charles E. Elrod | 3 BN B Co MP (MRC-1) | 214 · **P:** 213, 209, 206 |
 | 10 | PVT Kegan Elroy | New recruit (not yet on alert roster) | 214 · **P:** 213, 206 |
-| 6 | `[...]` | `[...]` | 214 + `[...]` |
-| 7 | `[...]` | `[...]` | 214 + `[...]` |
-| 8 | `[...]` | `[...]` | 214 + `[...]` |
-| 9 | `[...]` | `[...]` | 214 + `[...]` |
-| 10 | `[...]` | `[...]` | 214 + `[...]` |
-| 11 | `[...]` | `[...]` | 214 + `[...]` |
-| 12 | `[...]` | `[...]` | 214 + `[...]` |
-| 13 | `[...]` | `[...]` | 214 + `[...]` |
-| 14 | `[...]` | `[...]` | 214 + `[...]` |
-| 15 | `[...]` | `[...]` | 214 + `[...]` |
+
+*Roster closed at 10. Initial room count was higher; **several participants were called out to a command meeting partway through** (CPT Borrilez explicitly; SSG Singh also departed early) — sustained participation was therefore lower than the count would suggest. **9 of 10 turned in a 214; 7 of 10 completed full P/O participation markers.***
 
 ---
 
 ## Materials Disposition
 
-- **214s collected** — single artifact carrying attendance (front), AAR comments (back), and per-form participation markers (**P/O**, back): **Collection in progress — participants briefed at lunch break to complete AAR comments + P/O markers on return; turn-in expected post-lunch.** `[final count]`. Stored at `[location]`.
+- **214s collected** — single artifact carrying attendance (front), AAR comments (back), and per-form participation markers (**P/O**, back): **9 of 10** *(CPT Borrilez departed before turn-in)*. Stored at `[location]`.
 - **Group-fills (205, 205A, 206, 209, 213):** `[Y/N — count]`. Stored at `[location]`.
 - **Whiteboard photo:** `[Y/N]`. Filed at `[location]`.
-- **AAR comments transcribed from 214 backs:** `[Y/N]`. Captured into the [Notable Moments](#quotes--notable-moments) section above.
-- **Per-form participation tally** *(from P/O markers on 214 backs)*: `[fill: e.g., 205 — N filled, M observed]`.
+- **AAR comments transcribed from 214 backs:** **Done** — all turn-in feedback captured into the [Notable Moments](#quotes--notable-moments) section above as named-participant entries.
+- **Per-form participation tally** *(from P/O markers on 214 backs; among 7 participants who recorded P/O — Snow filled only 214 as NCOIC; Singh left before the convention was briefed; Borrilez no turn-in)*:
+  - **214** — 9 P (everyone who turned in); 0 O (the form is individual)
+  - **205** — 2 P (Lillard, Sobel) · 2 O (Garrison, Rookard) · 3 not marked
+  - **205A** — 4 P (Garrison, Rookard, Collins, Sobel) · 1 O (Lillard) · 2 not marked
+  - **206** — 3 P (Garrison, Elrod, Elroy) · 0 O · 4 not marked
+  - **209** — 4 P (Lillard, Rookard, Collins, Elrod) · 1 O (Garrison) · 2 not marked
+  - **213** — 5 P (Garrison, Lillard, Sobel, Elrod, Elroy) · 1 O (Rookard) · 1 not marked
+  - *"Not marked" = group did not reach this form during their rotation, or the participant did not adopt the new turn-in convention.*
 
 ---
 
@@ -189,7 +187,9 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 
 *Candid; for the XO's situational awareness on the constraints I was working under.*
 
-> A little forewarning would have been welcome — though in an actual no-notice incident, the ~20 minutes I had is probably all the prep window I would get, so the exercise was a fair stress-test of what's possible from a cold start. The training products got built in that 20-minute window only because the right tools were already in hand: the 3 RGT planning portal already had the rank/role/comms framework I could mirror into a fictional Nolichucky State Guard, and the Claude Code session was already loaded with TNSG context, which collapsed the lookup time on every detail. Without that setup, the same task would have taken closer to 2-3 hours of solo work, which would not have been deliverable in this window. Recommend: continue investing in that tooling so the next no-notice tasking has the same fast baseline.
+> The ~30-minute window between directive (0830) and start (0900) was a fair stress-test of what's possible from a cold start — and the products got built in that window only because the right tools were already in hand: the 3 RGT planning portal already had the rank/role/comms framework I could mirror into a fictional Nolichucky State Guard, and the Claude Code session was already loaded with TNSG context, which collapsed the lookup time on every detail. **Mitigation for any future iteration of this training: the prep is now in re-usable form on the planning portal — running it again is mostly delivery, not authoring.** Continue investing in that tooling and the next iteration starts from a much higher baseline.
+>
+> **Coverage gap I should call out:** I did not maintain my own ICS 214 during the session. I was running the room (and updating these materials live on the planning portal as participants raised questions), so the OIC perspective on the day is captured in this AAR and the Notable Moments rather than on a personal 214. For a future iteration I'd either keep a 214 on the tablet alongside the live edits, or tag the [Comms Log](../comms.md) commits as a de facto 214 — the Git history of the live editing IS a time-stamped activity log of the OIC's day, just in a non-standard form.
 
 ---
 
