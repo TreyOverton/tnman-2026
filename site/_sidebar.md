@@ -51,4 +51,5 @@
 - **TRAINING MATERIALS**
 - [ICS Forms — Participant Notes](training/ics-forms-participant.md)
 - [ICS Forms — Trainer Notes](training/ics-forms-trainer.md)
+- [Op BUTTERMILK — Commander's Brief](training/buttermilk-cdr-brief.md)
 - [Op BUTTERMILK — AAR (for XO)](training/buttermilk-aar.md)
