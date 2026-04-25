@@ -1,6 +1,6 @@
 # ICS Forms Workshop — Operation BUTTERMILK *(Trainer Notes)*
 
-> **For:** Facilitator (1LT Overton) and NCOIC (1SG Snow). 10-15 participants, no-notice training during 25 APR IDT.
+> **For:** Facilitator (OIC) and NCOIC. 10-15 participants, ~90-min block during an IDT or training day.
 > **Companion document:** [Participant Notes](ics-forms-participant.md) — share via the QR code below.
 
 ## Quick-Share QR for Participants
@@ -27,7 +27,7 @@ Project, post, or pass around — points directly to the participant notes page 
 
 ## Run-of-Show (90 min target)
 
-| Min | Phase | OIC (1LT Overton) | NCOIC (1SG Snow) |
+| Min | Phase | OIC | NCOIC |
 |----:|-------|-------------------|-------------------|
 | -15 | Pre-arrival | Build the substantive plan; review participant page | **Set up room** (chairs, tables, whiteboard). **Whiteboard the [Command Roster](ics-forms-participant.md#command-roster)** + [Partner POCs](ics-forms-participant.md#inter-agency-partner-pocs). Pre-count paper forms (15× 214, 4× each of 205/205A/206/209/213). |
 | 0 | Welcome + scenario | Read the [Scenario Brief](ics-forms-participant.md#scenario-brief) aloud. Confirm fictional framing. Show QR. | Sign-in / attendance roster. Hand out paper forms (one 214 to each, plus stack of others on side tables). |
@@ -41,7 +41,7 @@ Project, post, or pass around — points directly to the participant notes page 
 
 ---
 
-## NCOIC Delegation List — 1SG Snow
+## NCOIC Delegation List
 
 These tasks are designed so the OIC can stay focused on substance while the NCOIC keeps the training running on time and on rails.
 
@@ -52,8 +52,8 @@ These tasks are designed so the OIC can stay focused on substance while the NCOI
 - [ ] **Count and stage paper forms:** 15× ICS 214 in a stack near the door (one per arrival); 4× each of 205, 205A, 206, 209, 213 on the side tables in labeled stacks. Spare 5× of each.
 - [ ] **Print the [Pick-Your-Role list](ics-forms-participant.md#pick-your-ics-role-if-you-werent-assigned-one)** as a one-pager handout (time permitting; otherwise direct participants to the QR / their phones).
 - [ ] **Verify projector / screen** if showing the participant page during the session. Have the QR loaded full-screen as a backup display.
-- [ ] **NCOIC device check.** Verify the NCOIC can sign in to a tnstateguard.org Google account on whatever device they'll be using during the session. **Fallback procedure (validated 25 APR):** if the NCOIC's primary device fails sign-in, the OIC pulls out a clean tablet, signs in once, **disables auto-lock**, loads this Trainer Notes page, and hands the tablet over. Carry a clean tablet in the planning kit for this purpose.
-- [ ] **Clarify NCOIC role at handoff.** Say it explicitly when handing the device over: *"You're the training NCOIC. The scenario roster is for the participants to inhabit — you stay you."* This is a real failure mode (observed 25 APR): when a participant-page command roster lists the NCOIC's name and rank as a scenario position (e.g., 1SG Reece as Situation Unit Leader in the [Command Roster](ics-forms-participant.md#command-roster)), the NCOIC may unconsciously read themselves into that line and conflate their two roles. Pre-empt it with one sentence at handoff.
+- [ ] **NCOIC device check.** Verify the NCOIC can sign in to a tnstateguard.org Google account on whatever device they'll be using during the session. **Fallback procedure (field-validated):** if the NCOIC's primary device fails sign-in, the OIC pulls out a clean tablet, signs in once, **disables auto-lock**, loads this Trainer Notes page, and hands the tablet over. Carry a clean tablet in the planning kit for this purpose.
+- [ ] **Clarify NCOIC role at handoff.** Say it explicitly when handing the device over: *"You're the training NCOIC. The scenario roster is for the participants to inhabit — you stay you."* This is a real failure mode: when the participant-page command roster lists a scenario role (e.g., 1SG Reece as Situation Unit Leader in the [Command Roster](ics-forms-participant.md#command-roster)) that happens to share rank/role-name with the actual NCOIC, the NCOIC may unconsciously read themselves into that line and conflate their two roles. Pre-empt it with one sentence at handoff.
 
 ### During Training
 
@@ -90,7 +90,7 @@ When each group briefs back on their form, **the NCOIC runs the room** while the
   - "Who agrees? Who would have done it differently?"
 - [ ] **Time-box each brief-back at 4 minutes** (3-min walkthrough + 1-min open Q&A from the room). NCOIC calls time politely — "thanks, next group" — to keep the rotation moving.
 
-### Things 1SG Snow Should NOT Do
+### Things the NCOIC Should NOT Do
 
 - **Don't substitute for the OIC on substance.** One source of truth on the forms; mixed signals confuse participants.
 - **Don't over-correct group fills.** Let groups discover errors during their own brief-back — it's how the lesson sticks.

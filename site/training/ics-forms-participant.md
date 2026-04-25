@@ -8,7 +8,7 @@
 <em>Scan with your phone camera</em> · <a href="https://tnman-2026.web.app/#/training/ics-forms-participant.md">https://tnman-2026.web.app/#/training/ics-forms-participant.md</a>
 </p>
 
-> **Welcome.** This is your reference for the no-notice ICS forms training during 25 APR IDT. You'll bounce back to the **scenario brief**, the **command roster**, and the **form-by-form** notes throughout the session.
+> **Welcome.** This is your reference for the ICS forms training. You'll bounce back to the **scenario brief**, the **command roster**, and the **form-by-form** notes throughout the session.
 >
 > **Fictional framing:** Set in the **Nolichucky State Guard (NSG)** — a fictional state-guard analog used strictly for training. NSG mirrors real TNSG organization and constraints (unarmed, dawn-to-dusk, perimeter-only) so the form-fills produce realistic content but no one confuses the scenario with real-world operations.
 >
@@ -82,7 +82,7 @@ Pick one of the slots below and put that on your forms. Match it to your rank/sk
 
 At approximately **240200RAPR26** (24 APR, 0200R), Greeneville PD responded to a violent-disoriented-patient call at a downtown clinic on Main Street. Within 90 minutes, **six** similar calls came in across the city. By 0500R, dispatchers were taking calls of civilians attacking civilians. **Greene County Sheriff Hayden W. Kirkbride** declared a public-safety emergency at 240520RAPR26 and requested mutual-aid assistance through TEMA East Region.
 
-By the time the 25 APR IDT muster forms up, the situation has been ongoing for **~33 hours**. Affected individuals have been observed across an approximately **5-block area of downtown Greeneville** (Main St / Depot St / Church St / Andrew Johnson Hwy / Tusculum Blvd). The civilian count in the cordon zone is unknown but believed to be in the **low hundreds**. **~30 affected individuals confirmed** as of 250800RAPR26.
+By the time the IDT muster forms up the next morning, the situation has been ongoing for **~33 hours**. Affected individuals have been observed across an approximately **5-block area of downtown Greeneville** (Main St / Depot St / Church St / Andrew Johnson Hwy / Tusculum Blvd). The civilian count in the cordon zone is unknown but believed to be in the **low hundreds**. **~30 affected individuals confirmed** as of the morning muster.
 
 ### Behavior of Affected Individuals
 
@@ -280,7 +280,7 @@ Three things at the end — all on the same 214 — so we don't need separate si
    - *(skip a form entirely if your group didn't get to it)*
    - Example: *"205A — P; 209 — O"*
 
-Everything goes to 1SG Snow. He'll bundle and hand to the OIC. Three artifacts captured in one piece of paper.
+Everything goes to the NCOIC at the end. They'll bundle and hand to the OIC. Three artifacts captured in one piece of paper.
 
 ---
 
@@ -295,3 +295,15 @@ Everything goes to 1SG Snow. He'll bundle and hand to the OIC. Three artifacts c
 ---
 
 *Trainer's notes (run-of-show, NCOIC tasks, brief-back questions, optional injects): see [Trainer Notes](ics-forms-trainer.md).*
+
+---
+
+## Take This Training Back to Your Battalion
+
+> **For Battalion Commanders, XOs, S3s, and any NCO who runs unit training.**
+
+These materials are designed to be **fully transferable**. The training can be led by anyone willing to read through both the participant page (this one) and the [Trainer Notes](ics-forms-trainer.md) — no special prep, no dedicated subject-matter expert required.
+
+If you took this at Regiment, **take it back and run it during your Battalion drill.** The whole package — scenario, command roster, form-by-form reference, run-of-show, NCOIC delegation list, brief-back questions, optional injects — is on this site, owned by 3 RGT, and can be delivered to your formation with the same ~90-minute footprint.
+
+**Then send feedback back to 1LT Aaron L. Overton III** (aaron.overton@tnstateguard.org) on what worked, what didn't, and what you'd want different next time. Each iteration improves the package for everyone. The intent is that 3 RGT graduates this training out to Battalion and Company drill across the Regiment, with every run feeding lessons back into a single living source.
