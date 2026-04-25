@@ -7,13 +7,11 @@
 >
 > **Status:** Final pass — training closed, all 214s processed. Outcome phrase + a few timestamps still pending OIC review.
 
----
 
 ## BLUF *(~30 sec)*
 
 > Ran a no-notice ICS-forms training for **10** 3 RGT Soldiers during the 25 APR IDT (sustained participation lower — several departed mid-session for a concurrent command meeting). Built the materials in ~30 min, executed 0900-1200R (vs. 90-min plan — see Improve), hit every form on the list (214 + 205 / 205A / 206 / 209 / 213); 9 of 10 turned in 214s. Outcome: **Mission accomplished — DRAFT pending OIC review.** **The headline forward ask:** invest in a digital ICS 214 with GPS + auto-timestamp before TNMAN-26 — the parallel-214 conditioning we ran today wants a mobile platform to scale. Four supporting asks below.
 
----
 
 ## What Happened *(~60 sec)*
 
@@ -23,7 +21,6 @@
 - **Forms covered:** **ICS 214 (everyone, parallel through both rotations)** + 205, 205A, 206, 209, 213 in group rotations of 3-4.
 - **Tooling:** Participant + Trainer pages on the planning portal (Firebase, tnstateguard.org auth gate); QR code for in-room phone access; tablet hand-off as fallback; 1SG Snow as NCOIC.
 
----
 
 ## How It Went *(~60 sec)*
 
@@ -45,7 +42,6 @@
 
 No separate sign-in sheet. No separate participation log. No extra NCOIC capture effort. One piece of paper.
 
----
 
 ## What I Learned *(~30 sec)*
 
@@ -54,7 +50,6 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 3. **The parallel-214 structure is the right unit of practice** — keep it, but it wants a digital platform to scale beyond paper.
 4. **Cap forms-training blocks at 90-120 min.** Today ran ~3 hrs because materials were being authored in parallel with delivery; future runs from the standing kit should hit 90 cleanly. The 3-hour mark also turned out to be about as much forms training the room could productively absorb in one block — the cap is both a prep-state and a participant-attention recommendation.
 
----
 
 ## Forward Asks *(~60 sec — the "what do you need from me?" slot)*
 
@@ -64,7 +59,6 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 4. **Standing pre-flight checks:** Google account + device sign-in 24 hrs before any tnstateguard.org-gated training; printed trainer-notes packet as hard-copy fallback. **Ask:** none — already procedural.
 5. **Make ICS-forms training recurring, with supporting study assets.** Per SFC Collins (*"good to implement during annual training"*) and SSG Lillard (*"provide students with an exercise such as SAR where all forms are filled out as a template/example"*). The package is **already transferable** — Battalion-level facilitators can run the same training during BN drill with the same Trainer Notes the Regiment ran today. **Three supporting assets to author:** (a) a worked-example reference set with all six forms filled from a different scenario like SAR; (b) a 30-min self-paced facilitator refresher; (c) standing practice of pre-publishing the participant page ahead of any scheduled training so participants can read in. **Ask:** sponsorship to schedule annual recurrence into the FY27 training calendar and to authorize the supporting-asset effort (low cost, low risk).
 
----
 
 ## What's Next *(~30 sec)*
 
@@ -73,7 +67,6 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 - **Next iteration:** Author a 30-min ICS-forms self-paced refresher under Training Materials so the next iteration starts from a higher baseline. The package is now standing on the planning portal — running it again is mostly delivery, not authoring.
 - **TNMAN-26 connection:** Today's gaps (paper-only 214, single-source map/QR production, trainer pre-familiarity) are pre-mitigations against the same pain at HAAP on 14 MAY. The work is portable.
 
----
 
 ## Q&A Prep *(facilitator-only — anticipate likely questions)*
 
@@ -89,6 +82,5 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 | "How would 'annual recurrence' fit our training calendar?" | Once the supporting assets are authored, each delivery is ~90 min — a manageable slot during any IDT. Suggest one Regiment-level run per year to certify a fresh cohort of facilitators, then those facilitators run BN-level deliveries in their own drill blocks, with feedback flowing back to the [single living source on the planning portal](https://tnman-2026.web.app/#/training/ics-forms-participant.md). |
 | "What's the worked-example reference, and why SAR?" | A second set of all six forms filled completely from a different scenario, so participants have a model answer to study after the session. SAR fits because it's distinct enough from a SECFOR-cordon training that participants encounter the forms in fresh context, but operationally familiar enough that the content is intuitive. Estimated effort: 4-6 hrs of authoring. |
 
----
 
 *Submitted by:* 1LT Aaron L. Overton III · ASST S3, 3 RGT TNSG · `[date/time]`

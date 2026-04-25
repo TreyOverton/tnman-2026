@@ -5,7 +5,6 @@
 > **Format:** Standard military AAR. Fill `[bracketed]` placeholders during/after the session; sections are pre-structured for direct handoff.<br>
 > **Companion documents:** [Participant Notes](ics-forms-participant.md) (scenario, roster, form-by-form reference) · [Trainer Notes](ics-forms-trainer.md) (run-of-show, NCOIC delegation list, brief-back questions, injects).
 
----
 
 ## BLUF
 
@@ -22,7 +21,6 @@
 | **Outcome** | **Mission accomplished — DRAFT** *(every objective form covered; ran long but absorbed; participant feedback uniformly positive — confirm or revise)* |
 | **One-line takeaway** | **DRAFT** — *Delivered an end-to-end ICS-forms drill cold to 10 Soldiers; the materials now stand as a transferable kit on the planning portal, with a participant-validated path from paper-and-pen toward a digital ICS 214 + AAR-capture system before TNMAN-26.* |
 
----
 
 ## Training Objectives — Met / Not Met
 
@@ -34,7 +32,6 @@
 | 4 | Participants identify at least one common mistake per form | **`[Partial — confirm via brief-back recall]`** | Trainer Notes carry common mistakes per form; brief-back questions surface them. OIC to assess based on actual brief-back exchanges. |
 | 5 | Discussion connects form practice to TNMAN 26 execution | **Y** | TNMAN-26 connection explicit in Recommendation #1 (digital 214 before HAAP), participant feedback (Sobel: mobile internet/computers for real-time callouts), and the Trainer Notes paper-AAR-card-as-precursor-to-digital framing. |
 
----
 
 ## Sustain — What Worked
 
@@ -70,7 +67,6 @@
 8. **Make ICS-forms training recurring (annual at minimum).** Per SFC Collins's observation that this is "good to implement during annual training." The forms-discipline muscle decays without practice, especially for forms only used during incidents. Recommend baking an ICS-forms refresher into 3 RGT's annual training calendar — paired with a [worked-example reference (#7)](#recommendations--way-forward) participants can pre-study and a 30-min self-paced refresher (#5). *Owner:* S3. *By-when:* schedule into FY27 training plan.
 9. **Pre-publish training materials before the session.** Per 2LT Sobel: *"Would like to be able to access the training material in advance of the training."* The package now lives on the planning portal (Firebase, tnstateguard.org auth gate); pre-publishing the participant page ahead of any scheduled training is now mechanically free. Distribute the QR / link to participants on the IDT calendar entry or the day-prior reminder, so anyone who wants a head start has one. Pairs with the new [Take This Training Back to Your Battalion](ics-forms-participant.md#take-this-training-back-to-your-battalion) section — Battalion-level facilitators get the same advance access. *Owner:* OIC for any given training run. *By-when:* standing.
 
----
 
 ## By-Form Observations
 
@@ -92,7 +88,6 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 4 = Complete and clean; would pass external review
 5 = Above standard; usable as a template for next iteration
 
----
 
 ## Quotes / Notable Moments
 
@@ -128,7 +123,6 @@ Use this table during/after each group's brief-back. Helps the XO see which form
   - **Repeated ask: CalTopo integration.** Same as the live in-session ask captured earlier; reinforced. Recommendation #2 unchanged but now has **two independent appearances** from the same Soldier — a clear signal that this is a real felt need on 2 BN, not a stray observation.
   - **New ask:** *"Would like to be able to access the training material in advance of the training."* The package now lives on the planning portal (Firebase, tnstateguard.org auth gate); pre-publishing the participant page ahead of any scheduled training is now mechanically free. **Captured as new Recommendation #9.**
 
----
 
 ## Roll-Up to TNMAN 26
 
@@ -143,7 +137,6 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 | **209** | The pre-formatted version of an upward SITREP to DIV G3 / TEMA | Drift into log-detail (it's a *summary*, not a 214); "Critical Resource Needs" left blank — higher HQ then assumes none | Coach the designated 209 author (Planning Section Chief at the ICP) on summary discipline; pre-fill standing fields (Op Period, Location, Resources Committed structure) before exercise so the day-of fill is just deltas |
 | **213** | Logged-and-archived note-passing inside the ICP and to higher / partners | Vague subjects ("Update," "FYI"); senders/recipients listed by name without titles; Reply block confused with Message block | Brief OIC + Comms Unit on the 213 standard before exercise; Trainer Notes brief-back questions already enforce subject-line and title discipline — fold into the ICP rehearsal |
 
----
 
 ## Attendance
 
@@ -164,7 +157,6 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 
 *Roster closed at 10. Initial room count was higher; **several participants were called out to a command meeting partway through** (CPT Borrilez explicitly; SSG Singh also departed early) — sustained participation was therefore lower than the count would suggest. **9 of 10 turned in a 214; 7 of 10 completed full P/O participation markers.***
 
----
 
 ## Materials Disposition
 
@@ -181,7 +173,6 @@ Use this table during/after each group's brief-back. Helps the XO see which form
   - **213** — 5 P (Garrison, Lillard, Sobel, Elrod, Elroy) · 1 O (Rookard) · 1 not marked
   - *"Not marked" = group did not reach this form during their rotation, or the participant did not adopt the new turn-in convention.*
 
----
 
 ## Facilitator Self-Critique
 
@@ -191,7 +182,6 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 >
 > **Coverage gap I should call out:** I did not maintain my own ICS 214 during the session. I was running the room (and updating these materials live on the planning portal as participants raised questions), so the OIC perspective on the day is captured in this AAR and the Notable Moments rather than on a personal 214. For a future iteration I'd either keep a 214 on the tablet alongside the live edits, or tag the [Comms Log](../comms.md) commits as a de facto 214 — the Git history of the live editing IS a time-stamped activity log of the OIC's day, just in a non-standard form.
 
----
 
 ## Annex A — Source Materials Referenced
 
@@ -199,6 +189,5 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 - [ICS Forms — Trainer Notes](ics-forms-trainer.md) — run-of-show, NCOIC delegation, brief-back questions, optional injects
 - Standard FEMA/ICS form templates 214, 205, 205A, 206, 209, 213 (paper, hand-out)
 
----
 
 *Submitted by:* 1LT Aaron L. Overton III · ASST S3, 3 RGT TNSG · `[date/time submitted]`

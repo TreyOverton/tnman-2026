@@ -25,7 +25,6 @@
 
 > **You'll fill at least one ICS 214 (your own activity log) and contribute to two other forms in groups.**
 
----
 
 ## Pick Your ICS Role *(if you weren't assigned one)*
 
@@ -70,7 +69,6 @@ Pick one of the slots below and put that on your forms. Match it to your rank/sk
 
 > If two participants pick the same role, that's fine — parallel positions on different shifts/sectors. The 214 is *individual*; just put your own activities.
 
----
 
 ## Scenario Brief
 
@@ -122,7 +120,6 @@ By the time the IDT muster forms up the next morning, the situation has been ong
 - **Op Name:** Operation BUTTERMILK
 - **Incident Number (for forms):** TN-GRN-26-0425
 
----
 
 ## Command Roster
 
@@ -161,7 +158,6 @@ By the time the IDT muster forms up the next morning, the situation has been ong
 | Greeneville Community Hospital East | Dr. Ranjit S. Vasquez (ED) | 423-555-0091 | rvasquez@gch-east.org |
 | Wings Air Rescue MEDEVAC | Dispatch | 800-555-0464 | dispatch@wingsairrescue.org |
 
----
 
 ## Form-by-Form Reference
 
@@ -269,7 +265,6 @@ Each section: what the form is, who fills it, the critical fields, the most comm
   - **From:** Patrol BRAVO **To:** SFC Whitford (NSG Comms UL) **Subj:** Civilian volunteer at outer cordon claiming "cure" — request guidance, am holding position.
   - **From:** SSG Halliburton (NSG Med UL) **To:** Wings Air Rescue **Subj:** Pre-coordination — bite-victim transport criteria, advise standoff protocol.
 
----
 
 ## Before You Turn In Your 214
 
@@ -285,7 +280,6 @@ Three things at the end — all on the same 214 — so we don't need separate si
 
 Everything goes to the NCOIC at the end. They'll bundle and hand to the OIC. Three artifacts captured in one piece of paper.
 
----
 
 ## Wrap-Up Takeaways
 
@@ -295,11 +289,9 @@ Everything goes to the NCOIC at the end. They'll bundle and hand to the OIC. Thr
 4. **209 goes UP.** Anything you want higher HQ or TEMA to see, put it on the 209.
 5. **213 is for when email is broken or someone needs a paper trail.**
 
----
 
 *Trainer's notes (run-of-show, NCOIC tasks, brief-back questions, optional injects): see [Trainer Notes](ics-forms-trainer.md).*
 
----
 
 ## Take This Training Back to Your Battalion
 

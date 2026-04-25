@@ -13,7 +13,6 @@ Project, post, or pass around — points directly to the participant notes page 
 <em>https://tnman-2026.web.app/#/training/ics-forms-participant.md</em>
 </p>
 
----
 
 ## Training Objectives
 
@@ -23,7 +22,6 @@ Project, post, or pass around — points directly to the participant notes page 
 4. Participants identify at least one common mistake per form
 5. Discussion connects form practice to TNMAN-26 execution
 
----
 
 ## Run-of-Show (90 min target)
 
@@ -39,7 +37,6 @@ Project, post, or pass around — points directly to the participant notes page 
 | 80 | Wrap-up | Walk the [takeaways](ics-forms-participant.md#wrap-up-takeaways). Hot wash. | Photograph the whiteboard. Begin collection of completed forms. |
 | 90 | End | Acknowledge participants. | Bundle 214s + group fills by group, label, hand to OIC. Final sign-out. |
 
----
 
 ## NCOIC Delegation List
 
@@ -96,7 +93,6 @@ When each group briefs back on their form, **the NCOIC runs the room** while the
 - **Don't over-correct group fills.** Let groups discover errors during their own brief-back — it's how the lesson sticks.
 - **Don't re-explain a form differently** than the OIC just explained it. If a participant asks for a different framing, redirect: "Ask the OIC during brief-back."
 
----
 
 ## Group Assignments (4 groups of 3-4)
 
@@ -109,7 +105,6 @@ When each group briefs back on their form, **the NCOIC runs the room** while the
 
 **Everyone fills out an ICS 214 individually before round 1** and continues logging on it through both rounds. Collect 214s at the end.
 
----
 
 ## Brief-Back Questions (by Form)
 
@@ -170,7 +165,6 @@ The bookend matters because purpose is what's actually being taught; the field-b
 - "Did you include the sender's *title*, or just name?"
 - **(To someone else, last):** "What is this form for?"
 
----
 
 ## Common Participant Questions
 
@@ -197,7 +191,6 @@ Either way: **timeliness over polish.** A messy entry made now beats a tidy entr
 
 **Answer:** All three, with attribution. *"0917 — Patrol BRAVO reports affected individual at Main + Church; relayed to ICP per SOP"* logs what you heard and what you did with it. *"0935 — observed CPT Pemberton brief shift change"* logs what you witnessed. The 214 is your perspective; everything in it should be true from where you sat.
 
----
 
 ## Optional Injects
 
@@ -209,7 +202,6 @@ Pre-print on index cards. NCOIC delivers at OIC's signal.
 - **Inject 4 (T+50 min):** TEMA Dir. Renfro requests an updated 209 by 1730R for a Governor's-office brief. → drives 209.
 - **Inject 5 (T+60 min):** A TV news crew shows up at the ICP requesting access. → drives 213 to PIO + entry on 214.
 
----
 
 ## After-Action
 
