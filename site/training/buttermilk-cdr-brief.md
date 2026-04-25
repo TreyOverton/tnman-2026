@@ -1,8 +1,8 @@
 # Op BUTTERMILK — Commander's Brief *(Draft, iterative)*
 
-> **Audience:** XO · S3 · CO · visiting senior leadership *(any subset)*
-> **Brief by:** 1LT Aaron L. Overton III, ASST S3, 3 RGT TNSG
-> **Date:** 25 APR 26 · **Length:** 5-min walkaround
+> **Audience:** XO · S3 · CO · visiting senior leadership *(any subset)*<br>
+> **Brief by:** 1LT Aaron L. Overton III, ASST S3, 3 RGT TNSG<br>
+> **Date:** 25 APR 26 · **Length:** 5-min walkaround<br>
 > **Companion docs:** [Participant Notes](ics-forms-participant.md) · [Trainer Notes](ics-forms-trainer.md) · [AAR for XO](buttermilk-aar.md)
 >
 > **Status:** Final pass — training closed, all 214s processed. Outcome phrase + a few timestamps still pending OIC review.

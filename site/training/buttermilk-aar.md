@@ -1,8 +1,8 @@
 # Op BUTTERMILK — Training AAR
 
-> **Audience:** XO, 3 RGT
-> **Author:** 1LT Aaron L. Overton III, ASST S3, 3 RGT TNSG
-> **Format:** Standard military AAR. Fill `[bracketed]` placeholders during/after the session; sections are pre-structured for direct handoff.
+> **Audience:** XO, 3 RGT<br>
+> **Author:** 1LT Aaron L. Overton III, ASST S3, 3 RGT TNSG<br>
+> **Format:** Standard military AAR. Fill `[bracketed]` placeholders during/after the session; sections are pre-structured for direct handoff.<br>
 > **Companion documents:** [Participant Notes](ics-forms-participant.md) (scenario, roster, form-by-form reference) · [Trainer Notes](ics-forms-trainer.md) (run-of-show, NCOIC delegation list, brief-back questions, injects).
 
 ---

@@ -1,6 +1,6 @@
 # ICS Forms Workshop — Operation BUTTERMILK *(Trainer Notes)*
 
-> **For:** Facilitator (OIC) and NCOIC. 10-15 participants, ~90-min block during an IDT or training day.
+> **For:** Facilitator (OIC) and NCOIC. 10-15 participants, ~90-min block during an IDT or training day.<br>
 > **Companion document:** [Participant Notes](ics-forms-participant.md) — share via the QR code below.
 
 ## Quick-Share QR for Participants
