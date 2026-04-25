@@ -62,7 +62,7 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 
 ## What's Next *(~30 sec)*
 
-- **Hand-off to XO:** Completed [AAR](buttermilk-aar.md) page (BLUF, Sustain/Improve, by-form rubric, attendance, recommendations) — submitted by `[date/time]`.
+- **Hand-off to XO:** Completed [AAR](buttermilk-aar.md) page (BLUF, Sustain/Improve, by-form rubric, attendance, recommendations) — submitted **251500RAPR26**.
 - **Materials disposition:** Paper 214s + group-fills not retained — all content (attendance, AAR comments, P/O markers, group-fill insights) transcribed into the [AAR](buttermilk-aar.md). Physical paper destroyed; no whiteboard used this iteration.
 - **Next iteration:** Author a 30-min ICS-forms self-paced refresher under Training Materials so the next iteration starts from a higher baseline. The package is now standing on the planning portal — running it again is mostly delivery, not authoring.
 - **TNMAN-26 connection:** Today's gaps (paper-only 214, single-source map/QR production, trainer pre-familiarity) are pre-mitigations against the same pain at HAAP on 14 MAY. The work is portable.
@@ -83,4 +83,4 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 | "What's the worked-example reference, and why SAR?" | A second set of all six forms filled completely from a different scenario, so participants have a model answer to study after the session. SAR fits because it's distinct enough from a SECFOR-cordon training that participants encounter the forms in fresh context, but operationally familiar enough that the content is intuitive. Estimated effort: 4-6 hrs of authoring. |
 
 
-*Submitted by:* 1LT Aaron L. Overton III · ASST S3, 3 RGT TNSG · `[date/time]`
+*Submitted by:* 1LT Aaron L. Overton III · ASST S3, 3 RGT TNSG · **251500RAPR26**

@@ -191,4 +191,4 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 - Standard FEMA/ICS form templates 214, 205, 205A, 206, 209, 213 (paper, hand-out)
 
 
-*Submitted by:* 1LT Aaron L. Overton III · ASST S3, 3 RGT TNSG · `[date/time submitted]`
+*Submitted by:* 1LT Aaron L. Overton III · ASST S3, 3 RGT TNSG · **251500RAPR26**
