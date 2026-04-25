@@ -38,7 +38,7 @@
 
 ## Sustain — What Worked (3-5 bullets)
 
-- `[e.g., "Whiteboarding the command roster before participants arrived saved 10 min of look-up during 213 fills."]`
+- **Rapid-prep capability.** Total prep time was ~20 min from "you're running this" to walking into the room with a complete scenario brief, command roster, partner POC list, form-by-form facilitator notes, group rotation plan, and an AAR scaffold ready for hand-off. That was only feasible because of unusual tools already at hand (the 3 RGT planning portal + a Claude Code session already loaded with TNSG context). Worth flagging for leadership: the same tooling that produced this in 20 min is what produced the TNMAN-26 OPORD package and FRAGO 26-05-01.1 enclosures.
 - `[...]`
 - `[...]`
 
@@ -135,9 +135,9 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 
 ## Facilitator Self-Critique
 
-*One paragraph, optional, candid. Useful for the XO to see what you'd do differently with more lead time.*
+*Candid; for the XO's situational awareness on the constraints I was working under.*
 
-> `[...]`
+> A little forewarning would have been welcome — though in an actual no-notice incident, the ~20 minutes I had is probably all the prep window I would get, so the exercise was a fair stress-test of what's possible from a cold start. The training products got built in that 20-minute window only because the right tools were already in hand: the 3 RGT planning portal already had the rank/role/comms framework I could mirror into a fictional Nolichucky State Guard, and the Claude Code session was already loaded with TNSG context, which collapsed the lookup time on every detail. Without that setup, the same task would have taken closer to 2-3 hours of solo work, which would not have been deliverable in this window. Recommend: continue investing in that tooling so the next no-notice tasking has the same fast baseline.
 
 ---
 

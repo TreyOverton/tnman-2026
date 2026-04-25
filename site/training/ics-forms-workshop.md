@@ -9,6 +9,51 @@
 
 ---
 
+## Pick Your ICS Role (for the 214 and beyond)
+
+If you weren't assigned a role coming in, **pick one of the slots below and put that on your forms.** Match it to your rank/skill set if you want a comfort fit, or pick something outside your normal lane to stretch. Either is fine — the goal is to have a believable lens through which to fill the forms.
+
+> Filling out a 214? Put your real rank + name + this role + "NSG 3 RGT" in the position field.
+
+### ICP-Side Roles *(working at HHC Afton)*
+
+| # | Role | Reports to | What you'd be logging on a 214 |
+|---|------|------------|-------------------------------|
+| 1 | **Plans Section staff** | CPT Pemberton (PSC) | Drafting the 209, organizing battle rhythm, prepping for next OP |
+| 2 | **Logistics Section staff** | CPT Forrester (LSC) | Tracking supplies, transportation, billeting; receiving RFFs |
+| 3 | **Comms Unit operator** | SFC Whitford (Comms UL) | Working the TACN radio, passing messages, logging traffic |
+| 4 | **Resource Unit assistant** | 1LT Norvell (Resource UL) | Personnel accountability, check-in / check-out, status board |
+| 5 | **Situation Unit clerk** | 1SG Reece (Situation UL) | Plotting incidents on the SITMAP, tracking affected-area changes |
+| 6 | **Liaison desk** | 1LT Shankle (LNO) | Receiving calls from partner agencies, relaying back to staff |
+| 7 | **Safety Officer's runner** | CW3 Pickering (Safety) | Walking the floor, checking PPE / hydration / fatigue, briefing arrivals |
+| 8 | **PIO support** | CPT Coppinger (PIO) | Drafting public statements, fielding press inquiries |
+| 9 | **Finance / Admin clerk** | 1LT Doyle (F/A SC) | Time-keeping, claims, simple supply requisitions |
+
+### Field-Side Roles *(out on the cordon, perimeter, or partner CP)*
+
+| # | Role | Reports to | What you'd be logging on a 214 |
+|---|------|------------|-------------------------------|
+| 10 | **Strike Team ALPHA member** | SSG Brockwell | Outer cordon position, observation/reporting, comm checks |
+| 11 | **Strike Team BRAVO member** | SSG Iyengar | Same — different sector |
+| 12 | **Patrol team leader** *(sub-element under a Strike Team)* | SSG Brockwell or Iyengar | Leading a 4-PAX patrol, comm checks every 30 min, sighting reports |
+| 13 | **LNO to Greeneville PD command post** | 1LT Shankle (LNO) | Sitting at GPD CP, relaying back to NSG ICP, logging GPD decisions |
+| 14 | **LNO to Greene Co Sheriff CP** | 1LT Shankle (LNO) | Same — Sheriff side |
+| 15 | **LNO to Greene Co EMS staging** | 1LT Shankle (LNO) | Same — EMS side; coordinates ambulance response |
+| 16 | **ICP runner / messenger** | 1SG Reece (Situation UL) | Walking 213s between sections; physical message routing |
+
+### Specialist Roles *(pick one of these only if it matches your real skill set)*
+
+| # | Role | Reports to | What you'd be logging on a 214 |
+|---|------|------------|-------------------------------|
+| 17 | **sUAS observer** *(paired with Part 107 pilot)* | CPT Linzy (Patrol Branch) | Pre-flight, mission profile, sortie logs, post-flight; **NO-GO line is absolute** |
+| 18 | **Medical NCO assistant** | SSG Halliburton (Med UL) | Casualty triage, MEDEVAC pre-coord, hospital comm |
+| 19 | **Driver / Vehicle Commander** | Strike Team Leader | Vehicle pre-checks, route reports, fuel state, daylight-only driving |
+| 20 | **Forward TACN radio operator** | SFC Whitford (Comms UL) | Operating the TACN node at a forward position; relaying field traffic |
+
+> If two participants pick the same role, that's fine — they're parallel positions on different shifts or different sectors. The 214 is *individual*; just put your own activities.
+
+---
+
 ## How to Run This (TL;DR for the facilitator)
 
 1. **5 min** — Read the [Scenario Brief](#scenario-brief) aloud. Whiteboard the [Command Roster](#command-roster-whiteboard-reference) and [Partner POCs](#interagency-partner-pocs) before participants arrive.
