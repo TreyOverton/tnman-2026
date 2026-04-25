@@ -47,3 +47,7 @@
 - [Orders Consistency Review](warno-opord-review.md)
 - [ICP Org Reference](icp-org-reference.md)
 - [JAG Pre-Brief](docs/jag-brief.md)
+
+- **TRAINING MATERIALS**
+- [ICS Forms Workshop — Op BUTTERMILK](training/ics-forms-workshop.md)
+- [Op BUTTERMILK — AAR (for XO)](training/buttermilk-aar.md)
