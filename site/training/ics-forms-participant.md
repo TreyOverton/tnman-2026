@@ -1,17 +1,35 @@
-# ICS Forms Workshop — Operation BUTTERMILK
+# ICS Forms Workshop — Operation BUTTERMILK *(Participant Notes)*
 
-> **For:** 10-15 participants, no-notice training during 25 APR IDT
-> **Purpose:** Hands-on practice filling ICS 214 (everyone), then 205 / 205A / 206 / 209 / 213 in groups
-> **Target time:** 90 minutes (compress or expand to fit available block)
-> **Materials:** paper ICS forms (provided by facilitator), pens, whiteboard with command roster posted
+> **Pull this up on your phone or tablet.** Sign in with your TNSG Google account when prompted.
+
+<p align="center">
+<img src="/training/qr-participant.png" alt="QR code for this page — scan to open on your phone" width="240">
+<br>
+<em>Scan with your phone camera</em> · <a href="https://tnman-2026.web.app/#/training/ics-forms-participant.md">https://tnman-2026.web.app/#/training/ics-forms-participant.md</a>
+</p>
+
+> **Welcome.** This is your reference for the no-notice ICS forms training during 25 APR IDT. You'll bounce back to the **scenario brief**, the **command roster**, and the **form-by-form** notes throughout the session.
 >
-> **Fictional framing:** This exercise is set in the **Nolichucky State Guard (NSG)** — a fictional state-guard analog used here strictly for training, so participants don't conflate the scenario with real-world TNSG operations. NSG mirrors real TNSG organization and constraints (unarmed, dawn-to-dusk, perimeter-only) so the form-fills produce realistic content.
+> **Fictional framing:** Set in the **Nolichucky State Guard (NSG)** — a fictional state-guard analog used strictly for training. NSG mirrors real TNSG organization and constraints (unarmed, dawn-to-dusk, perimeter-only) so the form-fills produce realistic content but no one confuses the scenario with real-world operations.
+>
+> **Trainer's notes** (run-of-show, common mistakes to watch for, optional injects) are on a separate [Trainer Notes](ics-forms-trainer.md) page.
+
+## Today's Agenda (90 min)
+
+1. **5 min** — Scenario brief (read aloud)
+2. **15 min** — Everyone fills an **ICS 214** individually using entries from the brief
+3. **20 min — Round 1** — Groups of 3-4 fill **205, 205A, 206, or 209**
+4. **15 min** — Each group walks the room through their form
+5. **20 min — Round 2** — Rotate to a new form (213 introduced this round)
+6. **10 min** — Wrap-up
+
+> **You'll fill at least one ICS 214 (your own activity log) and contribute to two other forms in groups.**
 
 ---
 
-## Pick Your ICS Role (for the 214 and beyond)
+## Pick Your ICS Role *(if you weren't assigned one)*
 
-If you weren't assigned a role coming in, **pick one of the slots below and put that on your forms.** Match it to your rank/skill set if you want a comfort fit, or pick something outside your normal lane to stretch. Either is fine — the goal is to have a believable lens through which to fill the forms.
+Pick one of the slots below and put that on your forms. Match it to your rank/skill set, or pick something outside your normal lane to stretch — either is fine.
 
 > Filling out a 214? Put your real rank + name + this role + "NSG 3 RGT" in the position field.
 
@@ -41,7 +59,7 @@ If you weren't assigned a role coming in, **pick one of the slots below and put 
 | 15 | **LNO to Greene Co EMS staging** | 1LT Shankle (LNO) | Same — EMS side; coordinates ambulance response |
 | 16 | **ICP runner / messenger** | 1SG Reece (Situation UL) | Walking 213s between sections; physical message routing |
 
-### Specialist Roles *(pick one of these only if it matches your real skill set)*
+### Specialist Roles *(pick only if it matches your real skill set)*
 
 | # | Role | Reports to | What you'd be logging on a 214 |
 |---|------|------------|-------------------------------|
@@ -50,18 +68,7 @@ If you weren't assigned a role coming in, **pick one of the slots below and put 
 | 19 | **Driver / Vehicle Commander** | Strike Team Leader | Vehicle pre-checks, route reports, fuel state, daylight-only driving |
 | 20 | **Forward TACN radio operator** | SFC Whitford (Comms UL) | Operating the TACN node at a forward position; relaying field traffic |
 
-> If two participants pick the same role, that's fine — they're parallel positions on different shifts or different sectors. The 214 is *individual*; just put your own activities.
-
----
-
-## How to Run This (TL;DR for the facilitator)
-
-1. **5 min** — Read the [Scenario Brief](#scenario-brief) aloud. Whiteboard the [Command Roster](#command-roster-whiteboard-reference) and [Partner POCs](#interagency-partner-pocs) before participants arrive.
-2. **15 min** — Hand everyone an **ICS 214**. Walk through the form together. Have each person log entries from the brief itself ("0900R: received scenario brief at HHC Afton"). Everyone gets to do at least the 214.
-3. **20 min — Round 1** — Break into 4 groups (3-4 each). Assign each group one form: **205, 205A, 206, 209**. (213 is round 2.) Groups fill out one form using the scenario.
-4. **15 min** — Each group walks the room through their form (3-4 min each). Others ask questions.
-5. **20 min — Round 2 (rotate)** — Groups swap to a new form. Suggested rotation: 205↔205A, 206↔213, 209 group does a 213. Refilling forms reinforces what they heard from the previous group's brief.
-6. **10 min** — Wrap-up: when each form is used, where they go in the IAP, and how they nest. Five-minute hot wash.
+> If two participants pick the same role, that's fine — parallel positions on different shifts/sectors. The 214 is *individual*; just put your own activities.
 
 ---
 
@@ -117,11 +124,9 @@ By the time the 25 APR IDT muster forms up, the situation has been ongoing for *
 
 ---
 
-## Command Roster — Whiteboard Reference
+## Command Roster
 
-*Write these on the whiteboard before participants arrive. All are fictional.*
-
-### NSG 3 RGT Task Force (ICP at HHC Afton)
+### NSG 3 RGT Task Force *(ICP at HHC Afton — all fictional)*
 
 | ICS Position | Rank · Name | Phone | Email |
 |--------------|-------------|-------|-------|
@@ -158,21 +163,21 @@ By the time the 25 APR IDT muster forms up, the situation has been ongoing for *
 
 ---
 
-## Form Guidance — Brief Teacher's Reference
+## Form-by-Form Reference
 
-Each section is intentionally short — enough to get participants started and unstuck. Hand out the actual forms; these notes are the facilitator's cheat sheet.
+Each section: what the form is, who fills it, the critical fields, the most common mistakes (so you avoid them), and sample fill-ins drawn from the scenario.
 
 ### ICS 214 — Activity Log *(everyone fills one)*
 
 - **What it is:** Time-stamped log of activities, decisions, observations. Most foundational ICS form. **One per individual or unit per operational period.**
 - **Who fills it:** *Every assigned individual.* Section Chiefs may also keep a unit-level 214.
-- **Critical fields:** Incident Name, OP Period, Name + ICS Position, **Time + Notable Activities** (this is the meat), Resources Assigned (if unit-level), **Signature, Date/Time** at bottom.
+- **Critical fields:** Incident Name, OP Period, Name + ICS Position, **Time + Notable Activities**, Resources Assigned (if unit-level), **Signature, Date/Time** at bottom.
 - **Common mistakes:**
   - Writing duties / responsibilities instead of **discrete time-stamped events**
   - Skipping the time column
   - Forgetting to sign and date at the end of the period
   - Editorializing — keep entries factual, neutral, terse
-- **Scenario hooks** (offer if participants get stuck):
+- **Sample entries** (use as inspiration, not verbatim):
   - 0900R — Received scenario brief at HHC Afton
   - 0935R — Comm check with Patrol BRAVO at NAI 2 (Main St / Depot St); 5x5
   - 1012R — Briefed by CPT Pemberton on shift change at 1300R
@@ -188,7 +193,7 @@ Each section is intentionally short — enough to get participants started and u
   - Leaving Function blank — without it, you have a freq list, not a comms *plan*
   - Forgetting tones (especially for analog repeaters)
   - Listing channels nobody is actually using on this incident
-- **Scenario hooks** *(channels for this exercise — fictional but realistic)*:
+- **Channels for this exercise** *(fictional but realistic)*:
   - **CH 1 — NSG Command:** TACN Talkgroup 401-CMD, Digital, no tones
   - **CH 2 — NSG Patrol:** TACN Talkgroup 402-PTL, Digital
   - **CH 3 — Greeneville PD Dispatch:** 154.785 RX / 159.135 TX, Analog Wide, RX Tone 100.0, TX Tone 100.0
@@ -208,7 +213,7 @@ Each section is intentionally short — enough to get participants started and u
   - Missing rank / title
   - No alt contact (cell *and* desk for key positions)
   - Not flagging the IC and Section Chiefs clearly
-- **Scenario hooks:** Use the [Command Roster](#command-roster-whiteboard-reference) and [Partner POCs](#interagency-partner-pocs) above. Group should produce a clean, sorted list with section grouping and a "**(IC)**" or "**(SC)**" tag on the principals.
+- **Sources for the data:** Use the [Command Roster](#command-roster) and [Partner POCs](#interagency-partner-pocs) above. Produce a clean, sorted list with section grouping and a "**(IC)**" or "**(SC)**" tag on the principals.
 
 ### ICS 206 — Medical Plan
 
@@ -220,7 +225,7 @@ Each section is intentionally short — enough to get participants started and u
   - Forgetting helipad status — affects MEDEVAC routing
   - No call-down procedure — people freeze when injured
   - Forgetting MEDEVAC POC + ETA expectation
-- **Scenario hooks:**
+- **Sample fill-ins:**
   - **Aid Station:** HHC Afton, NSG medic on-site (SSG Halliburton)
   - **Hospital:** Greeneville Community Hospital East — 401 Takoma Ave, ~6 mi from HHC Afton, ED line 423-555-0091, Trauma III equiv, helipad: yes
   - **MEDEVAC:** Wings Air Rescue, 800-555-0464, ETA 18 min from request
@@ -237,7 +242,7 @@ Each section is intentionally short — enough to get participants started and u
   - Forgetting to identify next-period objectives
   - No critical resource needs listed → higher HQ assumes you don't need anything
   - No casualty count, even if the count is "zero NSG, two civilian"
-- **Scenario hooks:**
+- **Sample fill-ins:**
   - Incident Type: Civil Disturbance / Public Health Emergency
   - Location: Downtown Greeneville, TN (5-block cordon: Main / Depot / Church / Andrew Johnson Hwy / Tusculum Blvd)
   - Resources Committed: 4 × 5-PAX NSG patrols (unarmed observe-only); 12 × Greeneville PD; 8 × Sheriff; 4 × EMS units; 1 × Fire engine (staging)
@@ -256,27 +261,14 @@ Each section is intentionally short — enough to get participants started and u
   - No date / time stamp
   - Mixing the Message and Reply blocks (Reply is for the *recipient*)
   - Multi-paragraph essays — keep it tight (5 sentences max usually)
-- **Scenario hooks** *(write up these as if you're sending them):*
+- **Sample messages:**
   - **From:** CPT Pemberton (PSC, NSG 3 RGT) **To:** Dir. Renfro (TEMA East) **Subj:** RFF — 6 additional unarmed SECFOR teams, IOT extend cordon to Tusculum Blvd. Need by 251700R.
   - **From:** Patrol BRAVO **To:** SFC Whitford (NSG Comms UL) **Subj:** Civilian volunteer at outer cordon claiming "cure" — request guidance, am holding position.
   - **From:** SSG Halliburton (NSG Med UL) **To:** Wings Air Rescue **Subj:** Pre-coordination — bite-victim transport criteria, advise standoff protocol.
 
 ---
 
-## Suggested Group Assignments (4 groups of 3-4)
-
-| Group | Round 1 | Round 2 (rotate) |
-|-------|---------|------------------|
-| 1 | ICS 205 | ICS 213 |
-| 2 | ICS 205A | ICS 209 |
-| 3 | ICS 206 | ICS 205 |
-| 4 | ICS 209 | ICS 213 |
-
-**Everyone fills out an ICS 214 individually before round 1** and continues logging on it through both rounds. Collect 214s at the end.
-
----
-
-## Wrap-Up Talking Points (5 min)
+## Wrap-Up Takeaways
 
 1. **Where each form lives in the IAP:** 205, 205A, 206, 209 are part of the daily Incident Action Plan, signed by the Planning Section Chief. 214 is *kept by everyone* and turned in at end of OP. 213 is transactional and filed in the comms log.
 2. **The 214 is the historical record.** If it isn't on a 214, it didn't happen — true for AAR, true for legal review, true for media.
@@ -286,28 +278,4 @@ Each section is intentionally short — enough to get participants started and u
 
 ---
 
-## Optional Injects (if rotating / extending)
-
-Pre-print a few of these on index cards for facilitators to drop on groups mid-exercise.
-
-- **Inject 1 (T+15 min):** Greeneville PD reports a school bus full of children stopped at the outer cordon, parents demanding entry to look for relatives. Greeneville PD requesting NSG observation support at a fallback assembly point. → drives 213, 214, possibly 209 update.
-- **Inject 2 (T+25 min):** Wings Air Rescue notifies they are diverted to a higher-acuity call elsewhere; ETA now 45 min. → drives 206 update, 213 to higher.
-- **Inject 3 (T+40 min):** Comms degraded — TACN Talkgroup 402-PTL is intermittently dropping. → drives 205 update + 213 to S6.
-- **Inject 4 (T+50 min):** TEMA Dir. Renfro requests an updated 209 by 1730R for a Governor's-office brief. → drives 209.
-- **Inject 5 (T+60 min):** A TV news crew shows up at the ICP requesting access. → drives 213 to PIO + entry on 214.
-
----
-
-## After-Action
-
-Capture observations on the [AAR Notes](../aar-draft.md) page or via the `/aar` skill. Specific things to look for:
-
-- Which forms did groups breeze through? Which stalled?
-- Did any group treat 214 like 213 (or vice versa)?
-- Did 209 stay summary-level, or drift into log-detail?
-- Did 206 include capabilities + distance, or just hospital names?
-- Did the 213 sender + recipient include **titles**, or just names?
-
-That feedback shapes the next iteration of this drill — and informs how 3 RGT will use the same forms when [TNMAN 26](../README.md) executes.
-
-Capture the post-training write-up on the [Op BUTTERMILK AAR](buttermilk-aar.md) page for handoff to the XO.
+*Trainer's notes (run-of-show, NCOIC tasks, brief-back questions, optional injects): see [Trainer Notes](ics-forms-trainer.md).*

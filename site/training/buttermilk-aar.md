@@ -3,7 +3,7 @@
 > **Audience:** XO, 3 RGT
 > **Author:** 1LT Aaron L. Overton III, ASST S3, 3 RGT TNSG
 > **Format:** Standard military AAR. Fill `[bracketed]` placeholders during/after the session; sections are pre-structured for direct handoff.
-> **Companion document:** [ICS Forms Workshop — Op BUTTERMILK](ics-forms-workshop.md) (lesson plan and scenario brief).
+> **Companion documents:** [Participant Notes](ics-forms-participant.md) (scenario, roster, form-by-form reference) · [Trainer Notes](ics-forms-trainer.md) (run-of-show, NCOIC delegation list, brief-back questions, injects).
 
 ---
 
@@ -143,7 +143,8 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 
 ## Annex A — Source Materials Referenced
 
-- [ICS Forms Workshop — Op BUTTERMILK](ics-forms-workshop.md) — lesson plan, scenario brief, command roster, form-by-form facilitator notes
+- [ICS Forms — Participant Notes](ics-forms-participant.md) — scenario, command roster, form-by-form reference for participants
+- [ICS Forms — Trainer Notes](ics-forms-trainer.md) — run-of-show, NCOIC delegation, brief-back questions, optional injects
 - Standard FEMA/ICS form templates 214, 205, 205A, 206, 209, 213 (paper, hand-out)
 
 ---

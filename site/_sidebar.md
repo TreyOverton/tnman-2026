@@ -49,5 +49,6 @@
 - [JAG Pre-Brief](docs/jag-brief.md)
 
 - **TRAINING MATERIALS**
-- [ICS Forms Workshop — Op BUTTERMILK](training/ics-forms-workshop.md)
+- [ICS Forms — Participant Notes](training/ics-forms-participant.md)
+- [ICS Forms — Trainer Notes](training/ics-forms-trainer.md)
 - [Op BUTTERMILK — AAR (for XO)](training/buttermilk-aar.md)
