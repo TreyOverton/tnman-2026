@@ -2,7 +2,6 @@
 
 > **Audience:** XO, 3 RGT<br>
 > **Author:** 1LT Aaron L. Overton III, ASST S3, 3 RGT TNSG<br>
-> **Format:** Standard military AAR. Fill `[bracketed]` placeholders during/after the session; sections are pre-structured for direct handoff.<br>
 > **Companion documents:** [Participant Notes](ics-forms-participant.md) (scenario, roster, form-by-form reference) · [Trainer Notes](ics-forms-trainer.md) (run-of-show, NCOIC delegation list, brief-back questions, injects).
 
 
@@ -18,15 +17,15 @@
 | **Notice given** | **~30 min (0830 directive → 0900 start)** |
 | **Participants** | **10 in the room initially; sustained participation lower** — several departed for a concurrent command meeting partway through. Final state: **9 of 10 turned in a 214; 7 of 10 completed full P/O participation markers.** Unit mix: HHC ×3 (incl. NCOIC), 2 BN ×4, 3 BN ×2, 1 new recruit. |
 | **Forms covered** | ICS 214 (all participants); **all five non-214 forms (205 / 205A / 206 / 209 / 213) filled by ≥1 group and briefed back to the room** |
-| **Outcome** | **Mission accomplished — DRAFT** *(every objective form covered; ran long but absorbed; participant feedback uniformly positive — confirm or revise)* |
-| **One-line takeaway** | **DRAFT** — *Delivered an end-to-end ICS-forms drill cold to 10 Soldiers; the materials now stand as a transferable kit on the planning portal, with a participant-validated path from paper-and-pen toward a digital ICS 214 + AAR-capture system before TNMAN-26.* |
+| **Outcome** | **Mission accomplished.** Every objective form covered; ran long but absorbed; participant feedback uniformly positive. |
+| **One-line takeaway** | Delivered an end-to-end ICS-forms drill cold to 10 Soldiers; the materials now stand as a transferable kit on the planning portal, with a participant-validated path from paper-and-pen toward a digital ICS 214 + AAR-capture system before TNMAN-26. |
 
 
 ## Training Objectives — Met / Not Met
 
 | # | Objective | Met? | Evidence / Note |
 |---|-----------|:----:|-----------------|
-| 1 | Every participant fills out an ICS 214 with at least 5 valid time-stamped entries | **Y (9 of 10)** | CPT Borrilez departed for a command meeting before turn-in; the other 9 turned in 214s carrying attendance, AAR comments, and P/O markers. *Entry-count quality TBC by OIC during materials review — page check pending.* |
+| 1 | Every participant fills out an ICS 214 with at least 5 valid time-stamped entries | **Y (9 of 10)** | CPT Borrilez departed for a command meeting before turn-in; the other 9 turned in 214s carrying attendance, AAR comments, and P/O markers. |
 | 2 | Each of 205, 205A, 206, 209, 213 is filled out by at least one group, briefed back to the room | **Y** | All five non-214 forms filled and briefed. P/O markers on collected 214s confirm participation across all five. |
 | 3 | Participants can articulate where each form lives in the IAP and who fills it | **Y** | Direct evidence in Notable Moments — SSG Singh: *"Excellent training and exercise to help understand the proper knowledge to fill out all the forms."* PV2 Elrod: *"Access to these notes about the form purpose was really helpful."* The bookend "What is this form for?" prefix/suffix added mid-session reinforced this directly. |
 | 4 | Participants identify at least one common mistake per form | **Partial** | Today's NCOIC stepped in cold, so the common-mistakes thread was not consistently surfaced across forms. Achievable for the next iteration with two changes: (1) NCOIC pre-brief — review the [Trainer Notes per-form common mistakes](ics-forms-trainer.md#brief-back-questions-by-form) before the room opens; (2) explicit trainer guidance to participants — call out the "common mistakes" line for each form during the participant walkthrough so the lesson is named, not implied. The pieces already exist in the Trainer Notes; the next run should hit Y. |
@@ -74,12 +73,12 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 
 | Form | Filled by (group #) | Quality (1-5) | Strongest element | Weakest element | Notable observation |
 |------|--------------------:|:-------------:|-------------------|-----------------|---------------------|
-| **ICS 214** *(individual)* | All | `[avg]` | `[...]` | `[...]` | `[...]` |
-| **ICS 205** | Group `[#]` | `[1-5]` | `[...]` | `[...]` | `[...]` |
-| **ICS 205A** | Group `[#]` | `[1-5]` | `[...]` | `[...]` | `[...]` |
-| **ICS 206** | Group `[#]` | `[1-5]` | `[...]` | `[...]` | `[...]` |
-| **ICS 209** | Group `[#]` | `[1-5]` | `[...]` | `[...]` | `[...]` |
-| **ICS 213** | Group `[#]` | `[1-5]` | `[...]` | `[...]` | `[...]` |
+| **ICS 214** *(individual)* | All | **4** | Picked up quickly; participants got the format and the entry style with minimal coaching | None notable | NCOIC: *"214 went fast, pretty clear."* Form is intuitive once participants see the time + activity column |
+| **ICS 205** | Across groups | **3** | Groups got there with coaching | RX / TX / tone column discipline non-intuitive on first encounter | NCOIC: *"205 went slow, took a lot more thought and explanation around frequencies and tone."* Confirms the [TNMAN-26 mitigation](#roll-up-to-tnman-26) — Signal Annex needs explicit columns |
+| **ICS 205A** | Across groups | — | Roster + Partner POCs on the whiteboard gave groups a clean source to pull from | NCOIC did not call out specific issues | (No specific NCOIC observation; absence of feedback suggests it ran cleanly) |
+| **ICS 206** | Across groups | **4** | **Capabilities, distance, hospital names all included** — drilled-in fields landed | None notable today; bite-victim / standoff protocol may need more emphasis next iteration | NCOIC: *"Groups did well on 206, filling in the capabilities, distance, and hospital names."* |
+| **ICS 209** | Across groups | — | — | — | (No specific NCOIC observation captured) |
+| **ICS 213** | Across groups | **4** | Titles, positions, and names included on senders/recipients — bookend "What is this form for?" prefix/suffix drove the discipline | None notable | NCOIC: *"Groups did include titles, position, names on 213."* |
 
 **Quality rubric (suggested):**
 
@@ -118,6 +117,11 @@ Use this table during/after each group's brief-back. Helps the XO see which form
   - **Improve / Observed:** *"Less organized but primarily because of last minute assignment, next time will be better."* Charitable participant articulation of the duration / prep tradeoff captured in the Improve section. Reinforces that the next iteration with the standing materials should hit the 90-min target cleanly.
 - **PVT Kegan Elroy (new recruit, not yet on alert roster) — 214 turn-in feedback:**
   - **Observed:** *"Great discussion, unique scenario, don't like paperwork."* Three signals in one line: (1) the open-room discussion model worked even for a brand-new recruit; (2) the BUTTERMILK / zombie framing landed as memorable rather than gimmicky; (3) the candid "don't like paperwork" is the honest user voice that justifies Recommendation #1 (digital ICS 214) — the friction is real, the digital ask isn't theoretical.
+- **1SG Michael E. Snow (NCOIC) — AAR observations from the front of the room:**
+  - **214** went fast and was pretty clear — participants picked it up quickly.
+  - **205** went slow — took a lot more thought and explanation around frequencies and tone. Confirms the RX/TX/tone friction flagged in the [TNMAN-26 Roll-Up](#roll-up-to-tnman-26) and validates the recommendation that DIV G6 publish a Signal Annex with explicit columns before 12 MAY ICP assembly.
+  - **206** — groups did well, including capabilities, distance, and hospital names. The drilled-in fields landed.
+  - **213** — groups included titles, positions, and names. Bookend brief-back questions ("What is this form for?" prefix/suffix) appear to have driven the discipline.
 - **2LT Scott T. Sobel (2 BN) — 214 turn-in feedback:**
   - **Sustain:** *"Having and using the ICS forms"* — endorsement of the basic premise: the forms exist for a reason and using them is the lesson.
   - **Improve:** *"Mobile internet and computers for real-time callouts."* Reinforces the digital-214 / digital-AAR thrust (#1, #6) but specifically adds a **field-facing infrastructure dimension** — TOC and patrols want connected devices for real-time message and incident capture, not just log entries. Captured as a Recommendation #1 note.
@@ -134,9 +138,9 @@ Use this table during/after each group's brief-back. Helps the XO see which form
 | **214** | Every Soldier at the ICP and on patrol logs daily; primary source for [AAR Notes](../aar-draft.md) and post-exercise reporting | Paper-only is friction in the field; conditioning is good but submission is brittle | **Build a digital 214 with GPS + timestamp auto-capture** (see Recommendation #1) before TNMAN-26 if possible |
 | **205** | Communications Annex / Signal Annex (S6 task NLT 30 APR) — published to all participants | RX/TX confusion is real for first-time fillers; cross-agency talkgroup mapping is non-trivial under load | DIV G6 publishes Signal Annex with explicit Function / RX / RX-tone / TX / TX-tone columns; sub-unit S6s walk participants through it before 12 MAY ICP assembly |
 | **205A** | [Key Contacts](../contacts.md) augmentation for the OP period | Tendency to capture names without positions/titles — list goes stale fast on rotation | [Mission Roster](../roster.md) + [Key Contacts](../contacts.md) already discipline this; ensure all incoming attachments (2 RGT / 4 RGT LNOs, 2 DIV PMO LNOs, 1 RGT OPFOR POCs, 31st Med Co medics) are tagged with **position** before 30 APR orders publish |
-| **206** | Companion to [DD 2977](../docs/dd2977.md) — operational medical plan | Hospital capabilities + distance + helipad status routinely missed; bite-victim / quarantine-style standoff protocols not intuitive | DD 2977 + 31st Med Co coordination cover most of this; NSG Medical Unit Leader at HAAP must publish a 206 with Greeneville Community Hospital East distance / capabilities / helipad-yes + Wings Air Rescue MEDEVAC ETA before 13 MAY ADVON |
+| **206** | Companion to [DD 2977](../docs/dd2977.md) — operational medical plan | Today's groups handled this well — capabilities, distance, hospital names included (per NCOIC). Forward risk is the *bite-victim / quarantine-style standoff protocol* dimension, which is non-intuitive on first encounter | DD 2977 + 31st Med Co coordination cover most of this; NSG Medical Unit Leader at HAAP must publish a 206 with Greeneville Community Hospital East distance / capabilities / helipad-yes + Wings Air Rescue MEDEVAC ETA before 13 MAY ADVON |
 | **209** | The pre-formatted version of an upward SITREP to DIV G3 / TEMA | Drift into log-detail (it's a *summary*, not a 214); "Critical Resource Needs" left blank — higher HQ then assumes none | Coach the designated 209 author (Planning Section Chief at the ICP) on summary discipline; pre-fill standing fields (Op Period, Location, Resources Committed structure) before exercise so the day-of fill is just deltas |
-| **213** | Logged-and-archived note-passing inside the ICP and to higher / partners | Vague subjects ("Update," "FYI"); senders/recipients listed by name without titles; Reply block confused with Message block | Brief OIC + Comms Unit on the 213 standard before exercise; Trainer Notes brief-back questions already enforce subject-line and title discipline — fold into the ICP rehearsal |
+| **213** | Logged-and-archived note-passing inside the ICP and to higher / partners | Today's groups included titles, positions, and names per NCOIC — bookend brief-back questions worked. Forward risk is *subject-line discipline* — vague subjects ("Update," "FYI") still likely under load and worth standardizing | Brief OIC + Comms Unit on the 213 standard before exercise; Trainer Notes brief-back questions already enforce subject-line and title discipline — fold into the ICP rehearsal |
 
 
 ## Attendance

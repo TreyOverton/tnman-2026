@@ -1,16 +1,14 @@
-# Op BUTTERMILK — Commander's Brief *(Draft, iterative)*
+# Op BUTTERMILK — Commander's Brief
 
 > **Audience:** XO · S3 · CO · visiting senior leadership *(any subset)*<br>
 > **Brief by:** 1LT Aaron L. Overton III, ASST S3, 3 RGT TNSG<br>
 > **Date:** 25 APR 26 · **Length:** 5-min walkaround<br>
 > **Companion docs:** [Participant Notes](ics-forms-participant.md) · [Trainer Notes](ics-forms-trainer.md) · [AAR for XO](buttermilk-aar.md)
->
-> **Status:** Final pass — training closed, all 214s processed. Outcome phrase + a few timestamps still pending OIC review.
 
 
 ## BLUF *(~30 sec)*
 
-> Ran a no-notice ICS-forms training for **10** 3 RGT Soldiers during the 25 APR IDT (sustained participation lower — several departed mid-session for a concurrent command meeting). Built the materials in ~30 min, executed 0900-1200R (vs. 90-min plan — see Improve), hit every form on the list (214 + 205 / 205A / 206 / 209 / 213); 9 of 10 turned in 214s. Outcome: **Mission accomplished — DRAFT pending OIC review.** **The headline forward ask:** invest in a digital ICS 214 with GPS + auto-timestamp before TNMAN-26 — the parallel-214 conditioning we ran today wants a mobile platform to scale. Four supporting asks below.
+> Ran a no-notice ICS-forms training for **10** 3 RGT Soldiers during the 25 APR IDT (sustained participation lower — several departed mid-session for a concurrent command meeting). Built the materials in ~30 min, executed 0900-1200R (vs. 90-min plan — see Improve), hit every form on the list (214 + 205 / 205A / 206 / 209 / 213); 9 of 10 turned in 214s. **Outcome: Mission accomplished.** **The headline forward ask:** invest in a digital ICS 214 with GPS + auto-timestamp before TNMAN-26 — the parallel-214 conditioning we ran today wants a mobile platform to scale. Four supporting asks below.
 
 
 ## What Happened *(~60 sec)*
