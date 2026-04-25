@@ -11,14 +11,14 @@
 
 ## BLUF *(~30 sec)*
 
-> Ran a no-notice ICS-forms training for `[N]` 3 RGT Soldiers during the 25 APR IDT. Built the materials in ~20 min, executed in ~90 min, hit every form on the list (214 + 205 / 205A / 206 / 209 / 213). Outcome: **`[mission accomplished / partially / shortfall — one phrase]`**. **The forward ask:** invest in a digital ICS 214 with GPS + auto-timestamp before TNMAN-26 — the parallel-214 conditioning we ran today wants a mobile platform to scale.
+> Ran a no-notice ICS-forms training for `[N]` 3 RGT Soldiers during the 25 APR IDT. Built the materials in ~20 min, executed in ~3 hrs (vs. 90-min plan — see Improve), hit every form on the list (214 + 205 / 205A / 206 / 209 / 213). Outcome: **`[mission accomplished / partially / shortfall — one phrase]`**. **The forward ask:** invest in a digital ICS 214 with GPS + auto-timestamp before TNMAN-26 — the parallel-214 conditioning we ran today wants a mobile platform to scale.
 
 ---
 
 ## What Happened *(~60 sec)*
 
 - **Tasking:** No-notice — assigned by XO minutes before delivery.
-- **Format:** 10-15 participants, 90-min block during 25 APR IDT at HHC 3 RGT, Afton.
+- **Format:** 10-15 participants, planned 90-min block at HHC 3 RGT, Afton — **actual run ~3 hrs** (built-as-we-went; future iterations from the standing materials should hit 90 cleanly). Recommended cap going forward: 90-120 min.
 - **Scenario:** Fictional **Operation BUTTERMILK** — Nolichucky State Guard (NSG) supports civil authorities in a fast-moving public-health emergency in Greene County. Real TNSG constraints (unarmed, dawn-to-dusk, perimeter-only) preserved for training fidelity.
 - **Forms covered:** **ICS 214 (everyone, parallel through both rotations)** + 205, 205A, 206, 209, 213 in group rotations of 3-4.
 - **Tooling:** Participant + Trainer pages on the planning portal (Firebase, tnstateguard.org auth gate); QR code for in-room phone access; tablet hand-off as fallback; 1SG Snow as NCOIC.
@@ -52,6 +52,7 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 1. **Trainers need either prior familiarity or a 30-min pre-flight refresher** on every form. Walking in cold is not recoverable for a 6-form drill.
 2. **Map + QR-code production is currently SFC Ferguson–only on 3 RGT.** Single point of failure; needs cross-training before TNMAN-26.
 3. **The parallel-214 structure is the right unit of practice** — keep it, but it wants a digital platform to scale beyond paper.
+4. **Cap forms-training blocks at 90-120 min.** Today ran ~3 hrs because materials were being authored in parallel with delivery; future runs from the standing kit should hit 90 cleanly. The 3-hour mark also turned out to be about as much forms training the room could productively absorb in one block — the cap is both a prep-state and a participant-attention recommendation.
 
 ---
 
