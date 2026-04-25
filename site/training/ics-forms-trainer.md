@@ -113,41 +113,60 @@ When each group briefs back on their form, **the NCOIC runs the room** while the
 
 When each group walks the room through their form, ask 1-2 of these. They surface the lessons without pre-baking them into the lecture.
 
+**Standard bookend for every form's brief-back:**
+
+- **First question (to the briefing group):** *"What is this form for?"* — forces them to articulate purpose before walking the fields.
+- **Last question (to someone else in the room — pick a different person each time):** *"What is this form for?"* — tests retention and forces a non-briefing participant to restate it in their own words.
+
+The bookend matters because purpose is what's actually being taught; the field-by-field is just the vehicle. If the room can answer the suffix question without coaching, the brief-back hit.
+
 ### ICS 214
 
+- **(To briefing group, first):** "What is this form for?"
 - "Show me the entry where you logged something *you* did, vs. something you *observed*."
 - "Did you sign and date the bottom?"
 - "Look at your neighbor's 214 — same OP period, same brief — does theirs read the same way as yours? Why or why not?"
+- **(To someone else, last):** "What is this form for?"
 
 ### ICS 205
 
+- **(To briefing group, first):** "What is this form for?"
 - "Walk me through CH 3. Who's on it, what's it for, are RX and TX correct?"
 - "What channel does the medic use to call MEDEVAC? What channel does Patrol BRAVO use to talk to the ICP?"
 - "What's the difference between this and the 205A?"
+- **(To someone else, last):** "What is this form for?"
 
 ### ICS 205A
 
+- **(To briefing group, first):** "What is this form for?"
 - "If the IC needs to call the Greene Co Sheriff, where on this list do they look?"
 - "Did you flag the IC and Section Chiefs distinctly?"
 - "What's the difference between this and the 205?"
+- **(To someone else, last):** "What is this form for?"
 
 ### ICS 206
 
+- **(To briefing group, first):** "What is this form for?"
 - "If a Soldier breaks an ankle on the perimeter at 1430R, walk me through what happens, using only this form."
 - "What's the helipad status at the closest hospital? Why does that matter?"
 - "What's the bite-victim protocol — and where on this form is it captured?"
+- **(To someone else, last):** "What is this form for?"
 
 ### ICS 209
 
+- **(To briefing group, first):** "What is this form for?"
 - "Pretend you're the Governor's chief of staff. What's the 30-second version?"
 - "What did you put in 'Critical Resource Needs'? Why those specifically?"
 - "How is this different from a 214? From a 213?"
+- **(To someone else, last):** "What is this form for?"
 
 ### ICS 213
 
+- **(To briefing group, first):** "What is this form for?"
 - "Read me your 'Subject' line. Would the recipient know what to do with this without opening it?"
 - "Where would the recipient write their reply?"
 - "Did you include the sender's *title*, or just name?"
+- **(To someone else, last):** "What is this form for?"
 
 ---
 
