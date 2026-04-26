@@ -36,6 +36,7 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | [RFF / RFS](rff-rfs.md) | Draft | 3 RGT request for forces/support — SECFOR (17), OPFOR, LNOs, TACN/HF teams, Part 107 sUAS, medical, JAG, PAO. Issued by LTC Sheaf 17-18 APR 26. |
 | [Orders Back-Brief](back-brief.md) | Draft | Summary of 3 RGT expectations across DIV OPORD / CG Intent / RGT OPORD. Read-ahead for the 18 APR CG Operational Brief. |
 | [Execution Matrix](execution-matrix.md) | Draft | Blue-force playbook for the 13-15 MAY exercise window — swim-laned by ICP C2 / SECFOR / UAS / Comms / Exercise Control / Sustainment. First-pass planning tool for the ICP. |
+| [ICP Layout & Workflow](icp-layout.md) | Draft | Notional floor-plan and information-flow diagrams for the Mt Carmel AFRC ICP. Pre-recon paper design; revs after 6 MAY 1500R leader's recon. Prepared 26 APR per LTC Sheaf direction. |
 | [DD Form 2977 — Deliberate Risk Assessment](dd2977.md) | Draft | Overall residual risk: **Moderate**. Medical-readiness deviation addendum for MRC-2/3/4 personnel. Routing: BG Cox (medical concurrence) → COL Roark (final approval). 7 MRC-4 statuses must be resolved before 30 APR. |
 
 ## Related (Outside Documents Section)

@@ -25,6 +25,7 @@
 - [Operational / NAI Graphics](docs/ops-graphics.md)
 - [Orders Back-Brief](docs/back-brief.md)
 - [Execution Matrix](docs/execution-matrix.md)
+- [ICP Layout & Workflow (draft)](docs/icp-layout.md)
 - [IDT OPORD (26-04)](docs/opord-idt-26-04.md)
 - [DD Form 2977](docs/dd2977.md)
 - [CG's Intent](docs/cg-intent.md)
