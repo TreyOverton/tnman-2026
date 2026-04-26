@@ -18,19 +18,43 @@
    color (orange/teal); table headers keep their dark-blue fill.
    ============================================================ */
 @media print {
-  /* Force the browser to honor explicit colors instead of dropping them
-     "to save ink". Without this, our deliberate orange/black choices
-     can be mangled by the user-agent's default color-adjustment. */
-  *,
-  *::before,
-  *::after {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
+  /* Strategy: let the browser strip backgrounds by default (saves ink and
+     prevents the dark theme from printing as a wall of color), then bring
+     back the specific colors we want — heading orange, TH orange text,
+     inline-code light tint — with print-color-adjust on those targeted
+     elements only. NEVER use print-color-adjust on '*' — that's what
+     made callouts, zebra stripes, and TH fills all print as ink-heavy
+     colored boxes. */
 
   html, body, .content {
     background: #fff !important;
     color: #000 !important;
+  }
+
+  /* Strip the dark-theme backgrounds that would otherwise print as
+     unreadable colored boxes. blockquote = the callout boxes; table
+     rows = the alternate-row zebra stripes from the docsify-themeable
+     dark theme; td/th = defensive in case any cell-level background
+     leaks through. */
+  .markdown-section blockquote,
+  .markdown-section blockquote *,
+  .markdown-section table,
+  .markdown-section thead,
+  .markdown-section tbody,
+  .markdown-section tr,
+  .markdown-section th,
+  .markdown-section td {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+  /* Keep callouts visually distinct without filling them — left rule
+     and a hairline border around the box do the job in print. */
+  .markdown-section blockquote {
+    border-left: 3px solid #f97316 !important;
+    border-top: 1px solid #d1d5db !important;
+    border-right: 1px solid #d1d5db !important;
+    border-bottom: 1px solid #d1d5db !important;
+    padding: 0.5em 0.75em !important;
   }
 
   /* Body text: solid black. Headings are explicitly set below. */
@@ -78,20 +102,23 @@
     text-decoration: underline;
   }
 
-  /* Inline code: dark text on a light tint so it's still distinguishable. */
+  /* Inline code: dark text on a light tint so it's still distinguishable.
+     This is the one place we DO want print-color-adjust:exact, so the
+     light gray actually renders. */
   .markdown-section code,
   .markdown-section pre,
   .markdown-section pre code {
     color: #000 !important;
     background: #f2f2f2 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
-  /* Table headers: drop the dark-blue fill (saves a lot of toner on
-     multi-table pages), and use the theme color in bold with a strong
-     bottom border so the row still reads as a header. Literal hex
-     for the same browser-compat reason as headings above. */
+  /* Table headers: no fill (saves toner; the previous orange fill was
+     coming back as a light-blue smear from the dark-theme alternate-row
+     rule). Use orange bold text + orange bottom border so the row
+     still reads as a header. */
   .markdown-section table th {
-    background: transparent !important;
     color: #f97316 !important;
     font-weight: 700 !important;
     border-bottom: 2px solid #f97316 !important;
