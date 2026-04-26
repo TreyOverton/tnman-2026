@@ -1,4 +1,8 @@
-# ICS Forms Workshop — Operation BUTTERMILK *(Participant Notes)*
+# ICS Forms Workshop
+
+## Operation BUTTERMILK
+
+### Participant Notes
 
 > **Pull this up on your phone or tablet.** Sign in with your TNSG Google account when prompted.
 
@@ -34,38 +38,38 @@ Pick one of the slots below and put that on your forms. Match it to your rank/sk
 
 ### ICP-Side Roles *(working at HHC Afton)*
 
-| # | Role | Reports to | What you'd be logging on a 214 |
-|---|------|------------|-------------------------------|
-| 1 | **Plans Section staff** | CPT Pemberton (PSC) | Drafting the 209, organizing battle rhythm, prepping for next OP |
-| 2 | **Logistics Section staff** | CPT Forrester (LSC) | Tracking supplies, transportation, billeting; receiving RFFs |
-| 3 | **Comms Unit operator** | SFC Whitford (Comms UL) | Working the TACN radio, passing messages, logging traffic |
-| 4 | **Resource Unit assistant** | 1LT Norvell (Resource UL) | Personnel accountability, check-in / check-out, status board |
-| 5 | **Situation Unit clerk** | 1SG Reece (Situation UL) | Plotting incidents on the SITMAP, tracking affected-area changes |
-| 6 | **Liaison desk** | 1LT Shankle (LNO) | Receiving calls from partner agencies, relaying back to staff |
-| 7 | **Safety Officer's runner** | CW3 Pickering (Safety) | Walking the floor, checking PPE / hydration / fatigue, briefing arrivals |
-| 8 | **PIO support** | CPT Coppinger (PIO) | Drafting public statements, fielding press inquiries |
-| 9 | **Finance / Admin clerk** | 1LT Doyle (F/A SC) | Time-keeping, claims, simple supply requisitions |
+| # | Role | What you'd be logging on a 214 |
+|---|------|-------------------------------|
+| 1 | **Plans Section staff**<br>*Reports to: CPT Pemberton (PSC)* | Drafting the 209, organizing battle rhythm, prepping for next OP |
+| 2 | **Logistics Section staff**<br>*Reports to: CPT Forrester (LSC)* | Tracking supplies, transportation, billeting; receiving RFFs |
+| 3 | **Comms Unit operator**<br>*Reports to: SFC Whitford (Comms UL)* | Working the TACN radio, passing messages, logging traffic |
+| 4 | **Resource Unit assistant**<br>*Reports to: 1LT Norvell (Resource UL)* | Personnel accountability, check-in / check-out, status board |
+| 5 | **Situation Unit clerk**<br>*Reports to: 1SG Reece (Situation UL)* | Plotting incidents on the SITMAP, tracking affected-area changes |
+| 6 | **Liaison desk**<br>*Reports to: 1LT Shankle (LNO)* | Receiving calls from partner agencies, relaying back to staff |
+| 7 | **Safety Officer's runner**<br>*Reports to: CW3 Pickering (Safety)* | Walking the floor, checking PPE / hydration / fatigue, briefing arrivals |
+| 8 | **PIO support**<br>*Reports to: CPT Coppinger (PIO)* | Drafting public statements, fielding press inquiries |
+| 9 | **Finance / Admin clerk**<br>*Reports to: 1LT Doyle (F/A SC)* | Time-keeping, claims, simple supply requisitions |
 
 ### Field-Side Roles *(out on the cordon, perimeter, or partner CP)*
 
-| # | Role | Reports to | What you'd be logging on a 214 |
-|---|------|------------|-------------------------------|
-| 10 | **Strike Team ALPHA member** | SSG Brockwell | Outer cordon position, observation/reporting, comm checks |
-| 11 | **Strike Team BRAVO member** | SSG Iyengar | Same — different sector |
-| 12 | **Patrol team leader** *(sub-element under a Strike Team)* | SSG Brockwell or Iyengar | Leading a 4-PAX patrol, comm checks every 30 min, sighting reports |
-| 13 | **LNO to Greeneville PD command post** | 1LT Shankle (LNO) | Sitting at GPD CP, relaying back to NSG ICP, logging GPD decisions |
-| 14 | **LNO to Greene Co Sheriff CP** | 1LT Shankle (LNO) | Same — Sheriff side |
-| 15 | **LNO to Greene Co EMS staging** | 1LT Shankle (LNO) | Same — EMS side; coordinates ambulance response |
-| 16 | **ICP runner / messenger** | 1SG Reece (Situation UL) | Walking 213s between sections; physical message routing |
+| # | Role | What you'd be logging on a 214 |
+|---|------|-------------------------------|
+| 10 | **Strike Team ALPHA member**<br>*Reports to: SSG Brockwell* | Outer cordon position, observation/reporting, comm checks |
+| 11 | **Strike Team BRAVO member**<br>*Reports to: SSG Iyengar* | Same — different sector |
+| 12 | **Patrol team leader** *(sub-element under a Strike Team)*<br>*Reports to: SSG Brockwell or Iyengar* | Leading a 4-PAX patrol, comm checks every 30 min, sighting reports |
+| 13 | **LNO to Greeneville PD command post**<br>*Reports to: 1LT Shankle (LNO)* | Sitting at GPD CP, relaying back to NSG ICP, logging GPD decisions |
+| 14 | **LNO to Greene Co Sheriff CP**<br>*Reports to: 1LT Shankle (LNO)* | Same — Sheriff side |
+| 15 | **LNO to Greene Co EMS staging**<br>*Reports to: 1LT Shankle (LNO)* | Same — EMS side; coordinates ambulance response |
+| 16 | **ICP runner / messenger**<br>*Reports to: 1SG Reece (Situation UL)* | Walking 213s between sections; physical message routing |
 
 ### Specialist Roles *(pick only if it matches your real skill set)*
 
-| # | Role | Reports to | What you'd be logging on a 214 |
-|---|------|------------|-------------------------------|
-| 17 | **sUAS observer** *(paired with Part 107 pilot)* | CPT Linzy (Patrol Branch) | Pre-flight, mission profile, sortie logs, post-flight; **NO-GO line is absolute** |
-| 18 | **Medical NCO assistant** | SSG Halliburton (Med UL) | Casualty triage, MEDEVAC pre-coord, hospital comm |
-| 19 | **Driver / Vehicle Commander** | Strike Team Leader | Vehicle pre-checks, route reports, fuel state, daylight-only driving |
-| 20 | **Forward TACN radio operator** | SFC Whitford (Comms UL) | Operating the TACN node at a forward position; relaying field traffic |
+| # | Role | What you'd be logging on a 214 |
+|---|------|-------------------------------|
+| 17 | **sUAS observer** *(paired with Part 107 pilot)*<br>*Reports to: CPT Linzy (Patrol Branch)* | Pre-flight, mission profile, sortie logs, post-flight; **NO-GO line is absolute** |
+| 18 | **Medical NCO assistant**<br>*Reports to: SSG Halliburton (Med UL)* | Casualty triage, MEDEVAC pre-coord, hospital comm |
+| 19 | **Driver / Vehicle Commander**<br>*Reports to: Strike Team Leader* | Vehicle pre-checks, route reports, fuel state, daylight-only driving |
+| 20 | **Forward TACN radio operator**<br>*Reports to: SFC Whitford (Comms UL)* | Operating the TACN node at a forward position; relaying field traffic |
 
 > If two participants pick the same role, that's fine — parallel positions on different shifts/sectors. The 214 is *individual*; just put your own activities.
 
@@ -125,38 +129,38 @@ By the time the IDT muster forms up the next morning, the situation has been ong
 
 ### NSG 3 RGT Task Force *(ICP at HHC Afton — all fictional)*
 
-| ICS Position | Rank · Name | Phone | Email |
-|--------------|-------------|-------|-------|
-| Incident Commander | COL Marcus J. Hadley | 423-555-0101 | marcus.hadley@nolichuckysg.org |
-| Deputy IC | LTC Vivian R. Chamberlain | 423-555-0102 | vivian.chamberlain@nolichuckysg.org |
-| Operations Section Chief | MAJ Daniel L. Tetrick | 423-555-0103 | daniel.tetrick@nolichuckysg.org |
-| Planning Section Chief | CPT Reuben S. Pemberton | 423-555-0104 | reuben.pemberton@nolichuckysg.org |
-| Logistics Section Chief | CPT Helen M. Forrester | 423-555-0105 | helen.forrester@nolichuckysg.org |
-| Finance / Admin Sec. Chief | 1LT Kevin A. Doyle | 423-555-0106 | kevin.doyle@nolichuckysg.org |
-| Safety Officer | CW3 Lonnie D. Pickering | 423-555-0107 | lonnie.pickering@nolichuckysg.org |
-| Public Information Officer | CPT Nadia G. Coppinger | 423-555-0108 | nadia.coppinger@nolichuckysg.org |
-| Liaison Officer | 1LT Theo R. Shankle | 423-555-0109 | theo.shankle@nolichuckysg.org |
-| Medical Unit Leader | SSG Rita E. Halliburton | 423-555-0110 | rita.halliburton@nolichuckysg.org |
-| Communications Unit Leader | SFC Mason K. Whitford | 423-555-0111 | mason.whitford@nolichuckysg.org |
-| Patrol Branch Director | CPT Garrett W. Linzy | 423-555-0112 | garrett.linzy@nolichuckysg.org |
-| Strike Team ALPHA Leader | SSG Ezra C. Brockwell | 423-555-0113 | ezra.brockwell@nolichuckysg.org |
-| Strike Team BRAVO Leader | SSG Tarun A. Iyengar | 423-555-0114 | tarun.iyengar@nolichuckysg.org |
-| Resource Unit Leader | 1LT Cassidy M. Norvell | 423-555-0115 | cassidy.norvell@nolichuckysg.org |
-| Situation Unit Leader | 1SG Wendell L. Reece | 423-555-0116 | wendell.reece@nolichuckysg.org |
+| ICS Position / Rank · Name | Phone | Email |
+|----------------------------|-------|-------|
+| **Incident Commander**<br>COL Marcus J. Hadley | 423-555-0101 | marcus.hadley@nolichuckysg.org |
+| **Deputy IC**<br>LTC Vivian R. Chamberlain | 423-555-0102 | vivian.chamberlain@nolichuckysg.org |
+| **Operations Section Chief**<br>MAJ Daniel L. Tetrick | 423-555-0103 | daniel.tetrick@nolichuckysg.org |
+| **Planning Section Chief**<br>CPT Reuben S. Pemberton | 423-555-0104 | reuben.pemberton@nolichuckysg.org |
+| **Logistics Section Chief**<br>CPT Helen M. Forrester | 423-555-0105 | helen.forrester@nolichuckysg.org |
+| **Finance / Admin Sec. Chief**<br>1LT Kevin A. Doyle | 423-555-0106 | kevin.doyle@nolichuckysg.org |
+| **Safety Officer**<br>CW3 Lonnie D. Pickering | 423-555-0107 | lonnie.pickering@nolichuckysg.org |
+| **Public Information Officer**<br>CPT Nadia G. Coppinger | 423-555-0108 | nadia.coppinger@nolichuckysg.org |
+| **Liaison Officer**<br>1LT Theo R. Shankle | 423-555-0109 | theo.shankle@nolichuckysg.org |
+| **Medical Unit Leader**<br>SSG Rita E. Halliburton | 423-555-0110 | rita.halliburton@nolichuckysg.org |
+| **Communications Unit Leader**<br>SFC Mason K. Whitford | 423-555-0111 | mason.whitford@nolichuckysg.org |
+| **Patrol Branch Director**<br>CPT Garrett W. Linzy | 423-555-0112 | garrett.linzy@nolichuckysg.org |
+| **Strike Team ALPHA Leader**<br>SSG Ezra C. Brockwell | 423-555-0113 | ezra.brockwell@nolichuckysg.org |
+| **Strike Team BRAVO Leader**<br>SSG Tarun A. Iyengar | 423-555-0114 | tarun.iyengar@nolichuckysg.org |
+| **Resource Unit Leader**<br>1LT Cassidy M. Norvell | 423-555-0115 | cassidy.norvell@nolichuckysg.org |
+| **Situation Unit Leader**<br>1SG Wendell L. Reece | 423-555-0116 | wendell.reece@nolichuckysg.org |
 
 ### Inter-Agency Partner POCs
 
-| Agency | Rank · Name · Title | Phone | Email |
-|--------|---------------------|-------|-------|
-| Greeneville PD | Chief Briley T. Maddox | 423-555-0142 | bmaddox@greenevilletn.gov |
-| Greene Co Sheriff | Sheriff Hayden W. Kirkbride | 423-555-0119 | hkirkbride@greenecountytn.gov |
-| Greene Co EMS | Dir. Karen P. Whitley | 423-555-0188 | kwhitley@greenecountyems.org |
-| Greeneville Fire | Chief Dale R. McKinney | 423-555-0171 | dmckinney@greenevilletn.gov |
-| ETSU PD | Chief Roosevelt P. Jones | 423-555-0218 | rjones@etsu.edu |
-| TEMA East Region | Dir. Augusta L. Renfro | 423-555-0205 | arenfro@tn.gov |
-| State JOC LNO | MAJ Diana V. Ralston | 615-555-0033 | diana.ralston@state.example |
-| Greeneville Community Hospital East | Dr. Ranjit S. Vasquez (ED) | 423-555-0091 | rvasquez@gch-east.org |
-| Wings Air Rescue MEDEVAC | Dispatch | 800-555-0464 | dispatch@wingsairrescue.org |
+| Agency / Rank · Name · Title | Phone | Email |
+|------------------------------|-------|-------|
+| **Greeneville PD**<br>Chief Briley T. Maddox | 423-555-0142 | bmaddox@greenevilletn.gov |
+| **Greene Co Sheriff**<br>Sheriff Hayden W. Kirkbride | 423-555-0119 | hkirkbride@greenecountytn.gov |
+| **Greene Co EMS**<br>Dir. Karen P. Whitley | 423-555-0188 | kwhitley@greenecountyems.org |
+| **Greeneville Fire**<br>Chief Dale R. McKinney | 423-555-0171 | dmckinney@greenevilletn.gov |
+| **ETSU PD**<br>Chief Roosevelt P. Jones | 423-555-0218 | rjones@etsu.edu |
+| **TEMA East Region**<br>Dir. Augusta L. Renfro | 423-555-0205 | arenfro@tn.gov |
+| **State JOC LNO**<br>MAJ Diana V. Ralston | 615-555-0033 | diana.ralston@state.example |
+| **Greeneville Community Hospital East**<br>Dr. Ranjit S. Vasquez (ED) | 423-555-0091 | rvasquez@gch-east.org |
+| **Wings Air Rescue MEDEVAC**<br>Dispatch | 800-555-0464 | dispatch@wingsairrescue.org |
 
 
 ## Form-by-Form Reference

@@ -5,19 +5,95 @@
  * so your rules automatically take priority.
  *
  * This file is yours — it is never modified by TabulaKit updates.
- *
- * Examples:
- *
- *   Change the sidebar background:
- *     :root { --sidebar-background: #1a1a2e; }
- *
- *   Make headings larger:
- *     .markdown-section h1 { font-size: 2em; }
- *
- *   Add a custom font:
- *     @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
- *     body { font-family: 'Inter', sans-serif; }
- *
- *   Hide the search bar:
- *     .search { display: none; }
  */
+
+/* ============================================================
+   Print
+   ------------------------------------------------------------
+   The site uses a dark screen theme (--base-color: #ddd on #222
+   background). With no @media print rules in tabulakit.css, the
+   browser prints those screen colors directly — light-gray body
+   text on white, which is hard to read. Force solid black text
+   and white background for print. Headings keep their theme
+   color (orange/teal); table headers keep their dark-blue fill.
+   ============================================================ */
+@media print {
+  /* Force the browser to honor explicit colors instead of dropping them
+     "to save ink". Without this, our deliberate orange/black choices
+     can be mangled by the user-agent's default color-adjustment. */
+  *,
+  *::before,
+  *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  html, body, .content {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Body text: solid black. Headings are explicitly set below. */
+  .markdown-section p,
+  .markdown-section li,
+  .markdown-section td,
+  .markdown-section dd,
+  .markdown-section dt,
+  .markdown-section blockquote,
+  .markdown-section blockquote p,
+  .markdown-section span,
+  .markdown-section strong,
+  .markdown-section em,
+  .markdown-section b,
+  .markdown-section i {
+    color: #000 !important;
+  }
+
+  /* Headings: theme orange. Literal hex used (not var(--theme-color))
+     because some browsers don't reliably resolve CSS custom properties
+     in @media print contexts — the literal is bulletproof and the site
+     theme is locked to #f97316 / #3bc0cb in config.js. The descendant
+     selector is included to defeat any nested <a>/<span> color rules
+     that would otherwise win. */
+  .markdown-section h1,
+  .markdown-section h2,
+  .markdown-section h3,
+  .markdown-section h4,
+  .markdown-section h5,
+  .markdown-section h6,
+  .markdown-section h1 *,
+  .markdown-section h2 *,
+  .markdown-section h3 *,
+  .markdown-section h4 *,
+  .markdown-section h5 *,
+  .markdown-section h6 * {
+    color: #f97316 !important;
+  }
+
+  /* Links print as solid black + underline (paths usually clear from context). */
+  .markdown-section a,
+  .markdown-section a:link,
+  .markdown-section a:visited {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+
+  /* Inline code: dark text on a light tint so it's still distinguishable. */
+  .markdown-section code,
+  .markdown-section pre,
+  .markdown-section pre code {
+    color: #000 !important;
+    background: #f2f2f2 !important;
+  }
+
+  /* Table headers: drop the dark-blue fill (saves a lot of toner on
+     multi-table pages), and use the theme color in bold with a strong
+     bottom border so the row still reads as a header. Literal hex
+     for the same browser-compat reason as headings above. */
+  .markdown-section table th {
+    background: transparent !important;
+    color: #f97316 !important;
+    font-weight: 700 !important;
+    border-bottom: 2px solid #f97316 !important;
+  }
+}

@@ -71,14 +71,14 @@
 
 Use this table during/after each group's brief-back. Helps the XO see which forms are genuinely understood vs. memorized.
 
-| Form | Filled by (group #) | Quality (1-5) | Strongest element | Weakest element | Notable observation |
-|------|--------------------:|:-------------:|-------------------|-----------------|---------------------|
-| **ICS 214** *(individual)* | All | **4** | Picked up quickly; participants got the format and the entry style with minimal coaching | None notable | NCOIC: *"214 went fast, pretty clear."* Form is intuitive once participants see the time + activity column |
-| **ICS 205** | Across groups | **3** | Groups got there with coaching | RX / TX / tone column discipline non-intuitive on first encounter | NCOIC: *"205 went slow, took a lot more thought and explanation around frequencies and tone."* Confirms the [TNMAN-26 mitigation](#roll-up-to-tnman-26) — Signal Annex needs explicit columns |
-| **ICS 205A** | Across groups | — | Roster + Partner POCs on the whiteboard gave groups a clean source to pull from | NCOIC did not call out specific issues | (No specific NCOIC observation; absence of feedback suggests it ran cleanly) |
-| **ICS 206** | Across groups | **4** | **Capabilities, distance, hospital names all included** — drilled-in fields landed | None notable today; bite-victim / standoff protocol may need more emphasis next iteration | NCOIC: *"Groups did well on 206, filling in the capabilities, distance, and hospital names."* |
-| **ICS 209** | Across groups | — | — | — | (No specific NCOIC observation captured) |
-| **ICS 213** | Across groups | **4** | Titles, positions, and names included on senders/recipients — bookend "What is this form for?" prefix/suffix drove the discipline | None notable | NCOIC: *"Groups did include titles, position, names on 213."* |
+| Form | Quality (1-5) | Observations |
+|------|:-------------:|--------------|
+| **ICS 214 — Activity Log**<br>*(individual; filled by all participants)* | **4** | **Strongest:** Picked up quickly — participants got the format and entry style with minimal coaching.<br>**Weakest:** None notable.<br>**Notable:** NCOIC — *"214 went fast, pretty clear."* Form is intuitive once participants see the time + activity column. |
+| **ICS 205 — Incident Radio Communications Plan**<br>*(filled across groups)* | **3** | **Strongest:** Groups got there with coaching.<br>**Weakest:** RX / TX / tone column discipline non-intuitive on first encounter.<br>**Notable:** NCOIC — *"205 went slow, took a lot more thought and explanation around frequencies and tone."* Confirms the [TNMAN-26 mitigation](#roll-up-to-tnman-26) — Signal Annex needs explicit columns. |
+| **ICS 205A — Communications List**<br>*(filled across groups)* | — | **Strongest:** Roster + Partner POCs on the whiteboard gave groups a clean source to pull from.<br>**Weakest:** No specific NCOIC observation captured.<br>**Notable:** Absence of feedback suggests it ran cleanly. |
+| **ICS 206 — Medical Plan**<br>*(filled across groups)* | **4** | **Strongest:** Capabilities, distance, hospital names all included — drilled-in fields landed.<br>**Weakest:** None today; bite-victim / standoff protocol may need more emphasis next iteration.<br>**Notable:** NCOIC — *"Groups did well on 206, filling in the capabilities, distance, and hospital names."* |
+| **ICS 209 — Incident Status Summary**<br>*(filled across groups)* | — | **Strongest / Weakest / Notable:** No specific NCOIC observation captured. |
+| **ICS 213 — General Message**<br>*(filled across groups)* | **4** | **Strongest:** Titles, positions, and names included on senders/recipients — bookend "What is this form for?" prefix/suffix drove the discipline.<br>**Weakest:** None notable.<br>**Notable:** NCOIC — *"Groups did include titles, position, names on 213."* |
 
 **Quality rubric (suggested):**
 
