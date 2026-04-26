@@ -48,8 +48,8 @@
 - [ICP Org Reference](icp-org-reference.md)
 - [JAG Pre-Brief](docs/jag-brief.md)
 
-- **TRAINING MATERIALS**
-- [ICS Forms — Participant Notes](training/ics-forms-participant.md)
-- [ICS Forms — Trainer Notes](training/ics-forms-trainer.md)
-- [Op BUTTERMILK — Commander's Brief](training/buttermilk-cdr-brief.md)
-- [Op BUTTERMILK — AAR (for XO)](training/buttermilk-aar.md)
+- **TRAINING: ICS FORMS**
+- [Participant Notes](training/ics-forms-participant.md)
+- [Trainer Notes](training/ics-forms-trainer.md)
+- [Commander's Brief](training/buttermilk-cdr-brief.md)
+- [AAR (for XO)](training/buttermilk-aar.md)

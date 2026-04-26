@@ -1,8 +1,6 @@
 # ICS Forms Workshop
 
-## Operation BUTTERMILK
-
-### Participant Notes
+## Participant Notes
 
 > **Pull this up on your phone or tablet.** Sign in with your TNSG Google account when prompted.
 
