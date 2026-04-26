@@ -69,9 +69,10 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Comms / Technology
 
+- **HF frequencies for 13-15 MAY** — LTC Estes formally requested via email to LTC Hughes (TNSG HHC G6) on 26 APR. 3 RGT will stand up the HF antenna 13 MAY (Wed) evening, send all day 14 MAY, possibly extend into 15 MAY. Awaiting reply-all from G6 with frequency assignments. LTC Sheaf and LTC Smith cc'd. *Source: [Comms Log 26 APR](comms.md).*
 - **TACN radios — training + delivery** — LTC Smith's 2 APR G6 Questions email is open. 3 RGT needs at least 4 TACN radios for the HAAP mission. *Source: [Comms Log](comms.md).*
 - **ATAK setup and training** — 3 RGT has lost most personnel previously trained on ATAK. Need a DIV G6 plan. *Source: [Comms Log](comms.md).*
-- **Starlink for ICP** — decision from DIV G6. *Source: [Comms Log](comms.md).*
+- **Starlink for ICP** — decision from DIV G6. Per Estes 26 APR, 3 RGT also plans Starlink at the Mt Carmel site as part of the PACE plan. *Source: [Comms Log](comms.md).*
 - **PACE plan publication** — S6 task due 30 APR.
 
 ### Logistics (S4)
@@ -81,8 +82,10 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Coordination
 
-- **HAAP site orientation** — coordinate a pre-mission perimeter walk-through with Mr. Tony Armstrong (HAAP POC). *Source: [Key Contacts](contacts.md).*
-- **ICP location recon** — scout the actual ICP site at Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645, to confirm parking, setup space, and power.
+- **Leader's Recon — 6 MAY 1500R** (specific datetime per [BG Cox AAR 25 APR](comms.md), forwarded 26 APR). Narrows the [FRAGO 26-05-01.1](docs/frago-26-05-01-1.md) 5-7 MAY window to a fixed time. Coordinate logistics for the recon team (transport, recall plan, brief-back to CDR).
+- **HAAP site orientation** — coordinate a pre-mission perimeter walk-through with Mr. Tony Armstrong (HAAP POC). Likely folded into the 6 MAY recon if Armstrong is available. *Source: [Key Contacts](contacts.md).*
+- **ICP location recon** — scout the actual ICP site at Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645, to confirm parking, setup space, and power. Same 6 MAY 1500R window.
+- **DIV FRAGO incoming** — LTC Estes 26 APR: *"FRAGO will be published with updated info this week."* Watch for it; may refine the 14 MAY DIV inject schedule and/or HHC LNO posture (Hughes / Barbas / Coulter / Jernigan / Hogan, with Hogan receiving PERSTATs). *Source: [Comms Log 26 APR](comms.md).*
 - **MAJ Callison / MAJ Crandall (TNNG planners)** — S3 Task 4 requires 1LT Overton / LTC Sheaf to contact and coordinate with both. Not yet initiated.
 
 ## Medium — Before Exercise Execution

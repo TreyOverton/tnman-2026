@@ -70,6 +70,23 @@ timeline
 
 *Goal: Full SECFOR posture on the HAAP perimeter; sUAS detection testing; absorb and respond to the full set of scenario injects (kinetic attack on HAAP + cyber attack on ORNL Eagle-I — the latter affecting DIV G6 / Y-12 / ORNL, not 3 RGT directly).*
 
+> **DIV-issued 14 MAY beats** *(BG Cox AAR from 25 APR 3 RGT planning meeting, forwarded by LTC Estes 26 APR — see [Comms Log](../comms.md))*. These are the authoritative DIV inject times and supersede any `{inject}` placeholders below where they conflict.
+>
+> | Time (R) | DIV-level event |
+> |----------|-----------------|
+> | **0600** | 31 SM transit / staging at Mt Carmel AFRC |
+> | **0900** | Holston EMA arrives |
+> | **1000** | SECFOR patrols active — **4 notional + 1 live** (1 physical 5-PAX team on US 11W; 4 teams tabletop in the ICP) |
+> | **1200** | ICP established |
+> | **1200** | Waterway breach (notional inject) |
+> | **1300** | OPFOR Main Gate (scenarios from Holston Armory POC) |
+> | **1400-1430** | UAS attack / detection / response |
+> | **1600** | ICP IOC (full operating capability) |
+>
+> Cox's email also shifts ICP IOC to **14 MAY 1600** (vs. the storyboard assumption that ICP would already be operational on 13 MAY). 13 MAY in the calendar below is therefore travel + partial ramp; full operating posture on 14 MAY only. **DIV FRAGO is expected this week** (per Estes 26 APR) and may further refine these.
+
+
+
 | Time (R) | ICP C2 | SECFOR | UAS / Air | Comms | Exercise Control Touch-Point | Sustainment |
 |----------|--------|--------|-----------|-------|------------------------------|-------------|
 | **0519-0700** | Day-1 battle rhythm starts; all section chiefs brief status | Morning accountability; pass-down from ADVON posture; ROE re-brief | Pre-flight + airspace coord | Full radio check across PACE | **{inject}** Morning scenario update (expected) | Breakfast; hydration |

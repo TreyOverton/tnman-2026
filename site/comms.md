@@ -6,6 +6,43 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-26 21:02 — LTC Sheaf → 1LT Overton (Fwd: TNMAN Update — wraps Estes G6 HF request + Estes DIV-CG TNMAN-wide status + BG Cox 25 APR planning-meeting AAR)
+
+LTC Sheaf forwarded a multi-layer email chain with the directive: *"Please incorporate these two emails into our planning. I need to start thinking about what the ICP will look like and the work flow of information."* Three nested messages:
+
+**Layer 1 — LTC Estes → LTC Hughes (TNSG HHC G6) · 26 APR 15:40R · HF frequency request.** 3 RGT will stand up the HF antenna **13 MAY (Wed) evening**, send all day **14 MAY**, possibly extend into **15 MAY**. Frequencies needed for those dates. LTC Sheaf and LTC Smith cc'd on the request; reply-all expected from G6 with frequency info or RFIs.
+
+**Layer 2 — LTC Estes → DIV CG / DCG-O / DCG-S / COS / DCSM · 26 APR 15:30R · TNMAN-wide status update.** Estes (DIV TNMAN PM) summarized all four TNSG missions:
+
+- **JBAT** — POCs MAJ Garner, CPT Gray, CPT Kasinger; PAX/MRC by tonight; relying on TDOT for signal.
+- **Mapping** — 2 PAX (MAJ Wemyss, 1SG Wade). Wemyss leads Starlink + Field CP at Fall Creek Falls (12 MAY arrival, 13 MAY home). MTSU aerospace drones (up to 5). No HF on Mapping.
+- **Cyber** — 3 PAX (Chief Barbas, LT Mule, CPT Lacey); 14 MAY only.
+- **Mt. Carmel site defense (3 RGT)** — **31 PAX tracked** (= our 28 organic + 3 attached 61st MED Co medics). LTC Estes singled out LTC Sheaf's tracking discipline and **directly referenced [https://tnman-2026.web.app](https://tnman-2026.web.app) to the CG and DIV staff** — they can sign in with their TNSG email. ENDEX flexibility: anticipating evening of 14 MAY but supportable into morning of 15 MAY. Estes is coordinating with G6 for HF frequencies; 3 RGT will stand up HF antenna and test propagation throughout 14 MAY. Starlink also planned at the site as part of PACE.
+- **HHC LNOs** — 5 PAX (Hughes, Barbas, Coulter, Jernigan, Hogan). **Hogan receives PERSTATs throughout 14 MAY**. JOC at Sidco staffed by LNOs and TNSG leadership at the table behind the desks.
+- **Other:** Chief Hogan tracks HHC participation under COL Ritter. **DIV FRAGO will publish this week with updated info.** Estes confirming with 61st MedCo for personnel allocations.
+- Estes' own TNMAN tracking spreadsheet: [TNSG TNMAN PAX and Calendar.xlsx (Google Sheets)](https://docs.google.com/spreadsheets/d/1nabFAZkcwZ191mms2JdG64Gs6BGvESM6/edit).
+
+**Layer 3 — BG Cox → CG / DCG-S / Estes · 25 APR 13:30R · "AAR from 3rd RGT planning meeting."** Cox's notes from the 25 APR drill planning meeting — operationally specific, supersedes the storyboard timing in our [Execution Matrix](docs/execution-matrix.md):
+
+- **Leader's Recon: 6 MAY @ 1500R** (narrows our [FRAGO 26-05-01.1](docs/frago-26-05-01-1.md) 5-7 MAY window to a specific datetime).
+- **Holston Armory POC training objectives:** (1) UAS detection, (2) Main Gate intrusion (no augmentation needed). No one inside fence/gate.
+- **14 MAY timeline (DIV-issued):**
+  - **0600** — 31 SM transit / staging
+  - **0900** — Holston EMA arrives
+  - **1000** — SECFOR patrols: **4 notional + 1 live** (1 physical patrol team on US 11W; 4 notional teams tabletop in the ICP)
+  - **1200** — ICP established at Mt Carmel AFRC
+  - **1200** — waterway breach (notional)
+  - **1300** — OPFOR main gate (scenarios from HA)
+  - **1400-1430** — UAS attack / detection / response
+  - **1600** — ICP IOC (full operating capability)
+- COS working on confirmation of ENG leadership, commitment, and participant names.
+
+Propagated to: [Execution Matrix 14 MAY block](docs/execution-matrix.md) (Cox's beats added as authoritative DIV inject sequence); [Planning Gaps](planning-gaps.md) (HF frequencies pending Hughes; DIV FRAGO incoming this week); [Mission Roster Open Items](roster.md) (31 PAX reconciliation note); [FRAGO 26-05-01.1 page](docs/frago-26-05-01-1.md) (6 MAY 1500R recon specific time).
+
+**Sheaf's framing follow-up:** *"I need to start thinking about what the ICP will look like and the work flow of information."* Captured here for tracking — this is Sheaf's own action item, not yet a tasking. May cue a future ICP layout / information-flow diagram on the planning portal once he has direction.
+
+Source: [Fw-TNMAN-Update-26APR.eml](/docs/source/emails/Fw-TNMAN-Update-26APR.eml). The .eml also carried an older version of the [NAI Graphics pptx](/docs/source/OPS-NAI-Graphics.pptx) (Estes was forwarding what he had) — current 24 APR version retained; the older copy is preserved inside the .eml only.
+
 ### 2026-04-24 11:01 — LTC Sheaf → 1LT Overton (email, minor document refresh)
 
 LTC Sheaf returned the four working documents "saved with the most current date" with minor improvements.
