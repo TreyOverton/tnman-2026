@@ -17,7 +17,7 @@ Key internal and external contacts for TNMAN 26 planning and execution. Draft.
 | 4 BN CO | CPT | Haddix, Terrence S | 623-466-4526 | terrence.haddix@tnstateguard.org |
 | 4 BN XO (Part 107 UAS Pilot) | CPT | Widner, Matthew W | 865-824-8693 | matthew.widner@tnstateguard.org |
 | 3 BN XO (Part 107 UAS Pilot) | 1LT | Riley, Michael W | 423-291-0365 | michael.riley@tnstateguard.org |
-| 4 BN (Part 107 UAS Pilot, cert 19 APR 26) | LT | Hoskins, Sam | TBD | TBD |
+| ~~4 BN (Part 107 UAS Pilot, cert 19 APR 26)~~ | ~~LT Hoskins, Sam~~ | — | — | Out per 23 APR Sheaf strikethrough |
 
 Full personnel contact info: [Mission Roster](roster.md) · Full chain of command: [Chain of Command](coc.md)
 
@@ -61,6 +61,20 @@ Full personnel contact info: [Mission Roster](roster.md) · Full chain of comman
 | Role | Name | Contact |
 |------|------|---------|
 | HAAP POC | Mr. Tony Armstrong | 423-341-5840 · tony.a.armstrong.civ@army.mil |
+
+## DIV / Cross-RGT Comms
+
+| Role | Rank | Name | Contact |
+|------|------|------|---------|
+| HHC G6 (TNSG-wide comms lead) | LTC | Hughes, Timmy | tnsg.hhc.g6@tnstateguard.org / timmy.hughes@tnstateguard.org |
+| 2 RGT 51st SIG / Comms Plan owner | CW2 | Roach, Frederick | frederick.roach@tnstateguard.org · 931-650-0345 |
+| 2 RGT 51st SIG CO (Mapping mission) | MAJ | Wemyss, David | david.wemyss@tnstateguard.org · 615-308-7546 |
+| HHC G6 RTO at JOC | CPL | Jernigan, Preston | preston.jernigan@tnstateguard.org · 615-519-3935 |
+| HHC G6 (Cyber) | LT | Mule, Andrew | andrew.mule@tnstateguard.org · 516-509-4942 |
+| 4 RGT S6/XO (potential 4 RGT LNO to 3 RGT) | MAJ | Thomas, Rebecca | rebecca.thomas@tnstateguard.org · 423-802-6742 |
+| 4 RGT (potential 4 RGT LNO to 3 RGT) | MAJ | Hamlin | (contact TBD) |
+| TNSG JAG | CPT | Harris, Peter J. | (via JAG admin — 18 APR UAS memo author) |
+| TNSG IRR / SDFF lead (drone augmentation) | SFC | Acosta, Adam | admin@sdff.us · 951-226-8943 |
 
 ## Cyber Working Group (14 MAY scenario)
 

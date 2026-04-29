@@ -8,7 +8,7 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Personnel
 
-- **MRC-4 status verification** — 7 Soldiers: CPT McCroskey (HHC), SGT Walker (2 BN), CPT Moore (3 BN), PV1 Gauthier (3 BN), MAJ Bennett (4 BN), 2LT Neisler (4 BN), WO1 Hendon (4 BN). Each must be raised to MRC-1/2 or processed through the MRC-3 deviation. (SSG Burns removed — discharged.) *Source: [Mission Roster](roster.md), [DD 2977 Block 4](docs/dd2977.md).*
+- **MRC-4 / MRC-unknown status verification** — refreshed 29 APR. **MRC-4:** CPT McCroskey (HHC, restored 29 APR), MAJ Bennett (4 BN), 2LT Neisler (4 BN), WO1 Hendon (4 BN). **MRC-unknown** (blank in Sheaf's 29 APR xlsx): 1LT Riley (3 BN), SFC Ferguson (3 BN), PV1 Elrod (3 BN — new recruit, biographical info pending). Each must be raised to MRC-1/2 or processed through the MRC-3 deviation. *Source: [Mission Roster](roster.md), [DD 2977 Block 4](docs/dd2977.md).*
 - **PHA currency data** — **HARDER BLOCKER.** DIV OPORD 26-05 §4.c.(4) confirms 61st MED BN **will NOT provide PHAs during TNMAN**. Units must verify PHAs are current before orders issue. Chase via S1 medical records. *Source: [Risk Assessment M-4](risk.md), [DIV OPORD §4.c.(4)](docs/opord-div.md).*
 - **IET attendance verification** — DIV OPORD 26-05 §3.j.(11).(d): *"Soldiers who have not attended IET will not be allowed to attend TNMAN."* S1 must verify IET attendance for all mission-roster personnel before orders issue. *Source: [DIV OPORD §3.j](docs/opord-div.md).*
 - **AT-in-lieu approvals** — DIV OPORD 26-05 §3.j.(11).(c): any Soldier doing TNMAN in lieu of AT requires **CG and DCGO approval**. S1 to identify any such Soldiers on the roster and route approvals. *Source: [DIV OPORD §3.j](docs/opord-div.md).*
@@ -48,8 +48,11 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Legal
 
-- **JAG consultation** — [JAG Pre-Brief](docs/jag-brief.md) prepared but not yet shared with JAG. DIV OPORD §3.i.6.(h) names **COL Williams (PMO)** as the JAG for 3 RGT (Legal review of RUF + UAS policy). This is the addressee. Drives O-7 and L-1 residuals.
-- **ROE document** — written against TN state law (SAD authority), must name TNSG as unarmed presence-only force, covers fence-line civilian interaction. Blocks SECFOR line tasks. DIV OPORD assigns the Legal review to COL Williams.
+- **JAG consultation** — Two pre-briefs now submitted to TNSG JAG; **no responses received yet:**
+  - [JAG Pre-Brief — Command Authority & Mission Sets](docs/jag-brief.md) (Title 10/SAD seam, SECFOR ROE, UAS legal bases generally). Drives O-7 and L-1 residuals.
+  - [JAG Pre-Brief — Personally-Owned DJI UAS](docs/jag-brief-dji.md) (28 APR; §889 / TCA § 12-4-120 / ASDA layering for SDFF augmentee airframes).
+- **JAG UAS Memorandum (CPT Harris, 18 APR)** — [received via Estes/Acosta forwarding chain 27 APR](docs/jag-uas-memo.md). Foundational opinion to COL Williams; covers FAA Part 107 / TCA §§ 39-13-902/903. **Does not address Section 889 / DJI** — that gap is the basis for the DJI pre-brief.
+- **ROE document** — written against TN state law (SAD authority), must name TNSG as unarmed presence-only force, covers fence-line civilian interaction. Blocks SECFOR line tasks. DIV OPORD §3.i.6.(h) assigns the Legal review to **COL Williams (PMO)**.
 
 ### Coordination with DIV (newly surfaced from DIV OPORD)
 
@@ -69,11 +72,12 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Comms / Technology
 
-- **HF frequencies for 13-15 MAY** — LTC Estes formally requested via email to LTC Hughes (TNSG HHC G6) on 26 APR. 3 RGT will stand up the HF antenna 13 MAY (Wed) evening, send all day 14 MAY, possibly extend into 15 MAY. Awaiting reply-all from G6 with frequency assignments. LTC Sheaf and LTC Smith cc'd. *Source: [Comms Log 26 APR](comms.md).*
-- **TACN radios — training + delivery** — LTC Smith's 2 APR G6 Questions email is open. 3 RGT needs at least 4 TACN radios for the HAAP mission. *Source: [Comms Log](comms.md).*
+- **HF frequencies for 13-15 MAY** — placeholders in [Annex H](docs/comms-plan.md) (DELTA 5.7785 MHz USB / ECHO 9.295 MHz USB) pending TNG confirmation. **CW2 Roach (2 RGT) now owns the comms-plan request** — 3 RGT no longer needs to submit. Net Control by AAN4YR at TNG JOC. *Source: [Comms Log 27 APR](comms.md), [28 APR meeting](comms.md).*
+- **TACN radios — request + training** — Per 28 APR meeting: G6 has 10 on hand and requested 10 more from TNG. **3 RGT needs 3 TACN; JBAT needs 3 TACN.** Submit request to LTC Hughes (G6). CW4 Simpson oversees field employment / training. *Source: [Comms Plan](docs/comms-plan.md), [Comms Log 28 APR](comms.md).*
 - **ATAK setup and training** — 3 RGT has lost most personnel previously trained on ATAK. Need a DIV G6 plan. *Source: [Comms Log](comms.md).*
-- **Starlink for ICP** — decision from DIV G6. Per Estes 26 APR, 3 RGT also plans Starlink at the Mt Carmel site as part of the PACE plan. *Source: [Comms Log](comms.md).*
-- **PACE plan publication** — S6 task due 30 APR.
+- **Starlink for ICP** — Per Estes 26 APR, 3 RGT also plans Starlink at the Mt Carmel site as part of the PACE plan. Per 28 APR meeting, FCF mapping mission also using Starlink. Equipment + procurement path still TBD for both. *Source: [Comms Log](comms.md).*
+- ~~**PACE plan publication**~~ — partially resolved. **WINLINK confirmed in PACE** per 27 APR Wemyss/Estes direction. PACE: Primary USB voice; Alternate SHARES WINLINK. Still need Net Control day-by-day assignments per Estes' 27 APR direction to CW2 Roach.
+- **4 RGT LNO names** — per 28 APR meeting, **MAJ Thomas and MAJ Hamlin** floated as possible 4 RGT LNOs to 3 RGT ICP. Unverified — pending 4 BN confirmation. *Source: [Comms Plan](docs/comms-plan.md).*
 
 ### Logistics (S4)
 
@@ -82,8 +86,8 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Coordination
 
-- **Leader's Recon — 6 MAY 1500R** (specific datetime per [BG Cox AAR 25 APR](comms.md), forwarded 26 APR). Narrows the [FRAGO 26-05-01.1](docs/frago-26-05-01-1.md) 5-7 MAY window to a fixed time. Coordinate logistics for the recon team (transport, recall plan, brief-back to CDR).
-- **HAAP site orientation** — coordinate a pre-mission perimeter walk-through with Mr. Tony Armstrong (HAAP POC). Likely folded into the 6 MAY recon if Armstrong is available. *Source: [Key Contacts](contacts.md).*
+- ~~**Leader's Recon — 6 MAY 1500R**~~ — **LOCKED 28 APR.** LTC Sheaf's formal recon email confirms link-up at **Walgreens 4500 W Stone Dr, Kingsport TN 37660 NLT 061455RMAY26**, then movement as a group to HAAP Main Gate. **7-PAX team:** COL Roark, LTC Estes, CSM Seals, LTC Sheaf, MAJ Crosby, 1LT Overton, SFC Acosta. *Source: [Comms Log 28 APR](comms.md).*
+- **HAAP site orientation** — folded into the 6 MAY 1500R recon — Mr. Armstrong is the explicit purpose: *"meet the installation POC and answer any RFI's."* *Source: [Comms Log 28 APR](comms.md).*
 - **ICP location recon** — scout the actual ICP site at Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645, to confirm parking, setup space, and power. Same 6 MAY 1500R window.
 - **DIV FRAGO incoming** — LTC Estes 26 APR: *"FRAGO will be published with updated info this week."* Watch for it; may refine the 14 MAY DIV inject schedule and/or HHC LNO posture (Hughes / Barbas / Coulter / Jernigan / Hogan, with Hogan receiving PERSTATs). *Source: [Comms Log 26 APR](comms.md).*
 - **MAJ Callison / MAJ Crandall (TNNG planners)** — S3 Task 4 requires 1LT Overton / LTC Sheaf to contact and coordinate with both. Not yet initiated.

@@ -40,6 +40,11 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | **30 APR 26 (302100RAPR26)** | **All BN and HHC:** Brief 3 RGT CDR on route/convoy plans | [OPORD §3](docs/opord-rgt.md) |
 | **30 APR 26 (302100RAPR26)** | **S3 Task 6:** Publish Time-Phased Force Deployment Data (TPFDD) for RSA deployment/redeployment | [OPORD §3 S3](docs/opord-rgt.md) |
 | **25 APR 26** | **IDT** — Regular monthly drill; training and planning day | [WARNO 26-04](docs/source/emails/Final-Coordinating-Drafts-TNMAN-26-OPORD-WARNO-26-04.eml) |
+| 27 APR 26 | LTC Estes / MAJ Wemyss — HF/WinLink comms direction (CW2 Roach owns comms plan request; FCF TOC 12-13 MAY; WINLINK now in PACE) | [Comms Log](comms.md) |
+| 27 APR 26 | LTC Estes → SFC Acosta — SDFF Part 107 augmentation pool (5 E. TN / 4 FCF) | [Volunteer Pilots](volunteer-pilots.md) · [Comms Log](comms.md) |
+| **28 APR 26 (1900-2000 CT)** | **TNMAN Comms Discussion (Google Meet)** — by-mission comms split, TACN inventory, A4U Net schedule confirmed | [Comms Plan](docs/comms-plan.md) · [Comms Log](comms.md) |
+| 28 APR 26 | **JAG Pre-Brief — Personally-Owned DJI UAS** submitted to TNSG JAG (no response yet) | [DJI Pre-Brief](docs/jag-brief-dji.md) |
+| **29 APR 26** | **Mission roster refresh (Sheaf 29 APR)** — 28 → 31 organic PAX. Riley, Ferguson, McCroskey restored; PV1 Elrod added; Steele dropped | [Mission Roster](roster.md) · [Comms Log](comms.md) |
 | 30 APR 26 | **Final MSEL Review (DIV level)** | [FPM Slides](docs/fpm-slides.md) |
 
 ## Preparation Phase
@@ -47,6 +52,8 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | Date | Event | Source |
 |------|-------|--------|
 | 4 MAY 26 | **Scenario "Early Notice" published** — SEOC monitoring weather system; 6-10 inches rain forecast 9-14 MAY | [FPM Slides](docs/fpm-slides.md) |
+| **6 MAY 26 (061455RMAY26)** | **Leader's Recon — Walgreens link-up** at 4500 W Stone Dr, Kingsport, TN 37660. Recon team: COL Roark, LTC Estes, CSM Seals, LTC Sheaf, MAJ Crosby, 1LT Overton, SFC Acosta. Proceed as group to HAAP Main Gate. | [Comms Log 28 APR](comms.md) |
+| **6 MAY 26 (061500RMAY26)** | **Leader's Recon — at HAAP Main Gate** — meet Mr. Armstrong, address RFIs / concerns. Narrowed from FRAGO 5-7 MAY window per BG Cox 25 APR AAR. | [FRAGO 26-05-01.1](docs/frago-26-05-01-1.md) |
 | 9 MAY 26 (090800RMAY26) | **3 RGT IDT** at unit training sites | [WARNO](docs/warno.md) |
 | 9-10 MAY 26 | Scenario: heavy rainfall, flash flooding, squall line in Northeast TN begins | [FPM Slides](docs/fpm-slides.md) |
 | 11 MAY 26 (D+0) | TEMA responds to severe weather; requests TNNG assistance. Public Safety COMMEX at Bldg 686-VTS Smyrna | [FPM Slides](docs/fpm-slides.md) |

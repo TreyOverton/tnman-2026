@@ -11,6 +11,10 @@
 - [Task Organization](taskorg.md)
 - [Risk Assessment](risk.md)
 
+- **JAG BRIEFS**
+- [Pre-Brief — Command Authority & Mission Sets](docs/jag-brief.md)
+- [Pre-Brief — Personally-Owned DJI UAS](docs/jag-brief-dji.md)
+
 - **DOCUMENTS**
 - [Document Index](docs/README.md)
 - [Situational Awareness Brief](docs/sabrief.md)
@@ -23,6 +27,8 @@
 - [OPORD Encl A — Storyboard](docs/opord-encl-a.md)
 - [RFF / RFS](docs/rff-rfs.md)
 - [Operational / NAI Graphics](docs/ops-graphics.md)
+- [TNMAN Comms Plan (Annex H)](docs/comms-plan.md)
+- [JAG UAS Memo (Harris, 18 APR)](docs/jag-uas-memo.md)
 - [Orders Back-Brief](docs/back-brief.md)
 - [Execution Matrix](docs/execution-matrix.md)
 - [ICP Layout & Workflow (draft)](docs/icp-layout.md)
@@ -35,6 +41,7 @@
 - [FPM Slides (26-27 MAR 26)](docs/fpm-slides.md)
 - [Cyber WG Slides](docs/cyber-wg.md)
 - [HD WG Slide (early draft)](docs/hdwg-slide.md)
+- [Volunteer Pilots (SDFF)](volunteer-pilots.md)
 - [Participant Guide](docs/participant-guide.md)
 - [Technology & Platforms](tech.md)
 - [RFI Log](rfi.md)
@@ -47,7 +54,6 @@
 - [Planning Gaps](planning-gaps.md)
 - [Orders Consistency Review](warno-opord-review.md)
 - [ICP Org Reference](icp-org-reference.md)
-- [JAG Pre-Brief](docs/jag-brief.md)
 
 - **TRAINING: ICS FORMS**
 - [Participant Notes](training/ics-forms-participant.md)

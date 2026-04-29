@@ -1,0 +1,436 @@
+Delivered-To: aaron.overton@tnstateguard.org
+Received: by 2002:a05:7022:e0d:b0:12c:43be:2420 with SMTP id dx13csp5873220dlb;
+        Mon, 27 Apr 2026 08:08:37 -0700 (PDT)
+X-Received: by 2002:a05:690c:c64a:b0:79b:e346:fcfb with SMTP id 00721157ae682-7b9ecfb1269mr344513087b3.32.1777302517186;
+        Mon, 27 Apr 2026 08:08:37 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1777302517; cv=none;
+        d=google.com; s=arc-20240605;
+        b=eYN0K81y72N3ZcbzYJToLUmcKNyHI4f2EiA8ldqUJ6s3kwQzwTwoqovwST8D2inExr
+         9Lwc9VleQ5NDvBmxcWDWUI7UcVUVtsxS/URBQ0q/MDOQnylnWDdZ7VUS8LUJcI0kZdjD
+         Z50MVrwfD3os8gEwgdmbYVIFnoqSWxIFgz/zmBAIXJNoDsubjrtn0dAOczfPypdagne5
+         v2fGNZRjKRNjd05WYQYc8VK18rUuZfPAX4+x/MO8+5sGxcUl8sLKlrpkJ4mVmpv5Valg
+         Phaw78IDB5DdXB90HLt9J43T1WRZrB6Y0Wa5T3x95l7ygICDUGDEl1IWcTdrit4lAY+y
+         d+rg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:content-language:accept-language:in-reply-to
+         :references:message-id:date:thread-index:thread-topic:subject:to
+         :from:dkim-signature;
+        bh=l9Cu7RXqODIE4rN1Rfmys8Dt4WaZs2yVgPB18xw4ygU=;
+        fh=DCNKCzbM8jNxpKcnmfBeUEt64ZDHQFxLp+YUUufAW1U=;
+        b=Mq6LO4uJV6MTEZMXboE26pazJl0wfgzZNQusnelcxMmgBirLzejn0IVq20XlUraAsn
+         Lj+mGaAIoxUyZJQnpNVWHh/GFusa3dPp1NP+kFyNz5vILv0Pyh5h4XagyQqISt1J6K3x
+         Ii5I2nXFvK8h18m34J4qUp4R4HP6ASvQxzm2cLIlFf34zYI+4a6k3rpWXRoOrxOmRpIO
+         8/7eN92+8A6ciLYJwAe63pSVzlhgcxxcI1gkVnCs68nUAg1Xqu2C+jdwQOmO3dmep9/F
+         DLyS/njl++ISug4iEfeaCZCnKz7I8IfibQI6HxECpcubVtSa9Ph2AKr3vGiUjaE6vQxZ
+         Cozg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=pPb0JzEH;
+       spf=pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=john.sheaf@tnstateguard.org;
+       dara=neutral header.i=@tnstateguard.org
+Return-Path: <john.sheaf@tnstateguard.org>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 00721157ae682-7b9ee8b191fsor169555647b3.4.2026.04.27.08.08.36
+        for <aaron.overton@tnstateguard.org>
+        (Google Transport Security);
+        Mon, 27 Apr 2026 08:08:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=pPb0JzEH;
+       spf=pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=john.sheaf@tnstateguard.org;
+       dara=neutral header.i=@tnstateguard.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tnstateguard-org.20251104.gappssmtp.com; s=20251104; t=1777302516; x=1777907316; darn=tnstateguard.org;
+        h=mime-version:content-language:accept-language:in-reply-to
+         :references:message-id:date:thread-index:thread-topic:subject:to
+         :from:from:to:cc:subject:date:message-id:reply-to;
+        bh=l9Cu7RXqODIE4rN1Rfmys8Dt4WaZs2yVgPB18xw4ygU=;
+        b=pPb0JzEHT7pr+AKN1FQx05ZN3fkgGQZs9l6Wb4TjpkW9Yrgl2s0aQmnTDVhpus40IY
+         FIsrMKmHyMfjjAMtF4B6ZyGCzt27/kOY0ji2rocOnbIYA1stO/eTcOd1aL8Ak9WhhHKN
+         Pqpw1j9NqWG13e2eWSDNud6Xupp0Y1NbBbT25JoREfqYVIR1d0RyomC0F+vnFcWz1dTb
+         64tTQ9d01mKQybemtfECdLyVEayzepqQKdNaLscv95KvkQaxBPltyin7PHobH7pnrB1p
+         EcCmbSZaZqFopx7QIediOeIzHwFNqTK3qGmwEwbs+u1bSTM4Ix+3vruOHxc4MwWMDktV
+         94Yw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1777302516; x=1777907316;
+        h=mime-version:content-language:accept-language:in-reply-to
+         :references:message-id:date:thread-index:thread-topic:subject:to
+         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=l9Cu7RXqODIE4rN1Rfmys8Dt4WaZs2yVgPB18xw4ygU=;
+        b=X4e00etQuVcJefUTi1jfPjYTi+Lp73o+K2+fZByA1/SMR3e0nhVLxk2wdNw16LPcEp
+         drIRXe9P/z7JvTFJxELE7KfIPdpjJJcrL9ljItRdqIn1UusMoPK1KSP9rnfVk8jNTLrF
+         ro5E5wfgIWn7BWR2kjdjAfYjuaiPx/nVC2+I+QQu4wuJ7d5boHmfp6zMn0Be3JM8nmDB
+         YmI1Xp2KqcDTbSaYH9CVL5np2BmJwHNtg+lMNy7oskU6wp9ot11rnaiAChOeiXro7xl1
+         cx+WgaDkrw9lSP/L14XxoURsOHnUMSoktMhXOSddnjxHa8njd4NDQx8L+cwCqUKFbf4D
+         HffQ==
+X-Gm-Message-State: AOJu0Ywer5U8tGIpoe96zebrKrfPkV0b0LYxhX4JxR1/NvQJg5JuGi9A
+	x6P+gD1ADN4yKX0qJQBg7hKobh99BmT8Wdeygh8vjF0gOEVtpZ7g6vSVC710YPHQd6pInM6koJ5
+	453qtiUBvVuScDdxNJHYL5YfIiaatsd4gBx4IRrEKsMpkb7VWQl4vsunTy9x+aHEdTqlGZTSUcX
+	z1S3tQF1Vo6TZdBdhqrSYRCm6d/S/IDFljopS3/5Rereg/oicN2HpHrwl0IZyIYRSu
+X-Gm-Gg: AeBDiesTrOZY08PpYgyGO3Fg2dcpM1KChBvSm28jnFcnISmWjWjQy67QGW+oIKDXlgG
+	r0SauinGfao17an+5BNeIM/pEHV+mzYAMDUtLLhrBgt5IZKEiSgAYpjBk4yTL3x+p/b1dxkj+l6
+	BCb8uMdZrUkZGadH0dM76v7nAal8f6jEN3MPseiZMa7/3YqYqfhhpPgshZMjm/Zsr2KBtZQUbVP
+	mYfoO6oTptpkYJQu08AzIwHiYXBMdgrVM2X0/Z8/DJll2p5y9e3Z9u3pU9+X2LiFL/2KH+/0KfP
+	qvcXxLYoIup/OYRbh8DwZqCqW10OsEm7gCFxRICHhLKq5agJAWTDwi5syWCYdCpsj3mj9RvywwG
+	PvS/jdmm8t0LXu6lCUP7Jug4RCTYcOws40v9TE95jdX5w4DS9B7vUzhCjJn35P1K7nFMCUf0hbA
+	makdhZSIr+p5mIATgDKuTwCU6UkaCSW1SyQexZRSaA4sa8j8ifRgkchwZpZ1L1HQie6cJZXIoI
+X-Received: by 2002:a05:690c:c648:b0:7b8:a304:d253 with SMTP id 00721157ae682-7b9ecfb11f6mr382648277b3.30.1777302516014;
+        Mon, 27 Apr 2026 08:08:36 -0700 (PDT)
+Return-Path: <john.sheaf@tnstateguard.org>
+Received: from DS7PR03MB5559.namprd03.prod.outlook.com ([2603:1036:301:301e::5])
+        by smtp.gmail.com with ESMTPSA id 00721157ae682-7baf1cda83bsm92490657b3.5.2026.04.27.08.08.35
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 27 Apr 2026 08:08:35 -0700 (PDT)
+From: John Sheaf <john.sheaf@tnstateguard.org>
+To: "Overton, Aaron" <aaron.overton@tnstateguard.org>, "TNSG CSM Rutherford,
+ Michael " <michael.rutherford@tnstateguard.org>
+Subject: Fw: TNMAN26 HF/WinLink Comms
+Thread-Topic: TNMAN26 HF/WinLink Comms
+Thread-Index: AWdoY01FcH+38wQptdU+04j7r3RDD0RFRDRB6Lm+T1k=
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 27 Apr 2026 15:08:34 +0000
+Message-ID:
+	<DS7PR03MB55594C9EE94B569F49C5DEAAFA362@DS7PR03MB5559.namprd03.prod.outlook.com>
+References:
+	<CAMGPtM-urEkUmwQEgtmM9unXUKMVUct42qJfy6Tha7PZOdfgxg@mail.gmail.com>
+ <21D5DD6A-2636-4DB2-96D5-60A6EC4FCB3D@tnstateguard.org>
+In-Reply-To: <21D5DD6A-2636-4DB2-96D5-60A6EC4FCB3D@tnstateguard.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-reactions: allow
+Content-Type: multipart/alternative;
+	boundary="_000_DS7PR03MB55594C9EE94B569F49C5DEAAFA362DS7PR03MB5559namp_"
+MIME-Version: 1.0
+
+--_000_DS7PR03MB55594C9EE94B569F49C5DEAAFA362DS7PR03MB5559namp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+1LT Overton, CSM Rutherford;
+
+Apparently, WINLINK is now part of our COMMPLAN. See message conversation a=
+ttached.
+
+Get Outlook for iOS<https://aka.ms/o0ukef>
+________________________________
+From: tnsg.2nd co <tnsg.2nd.co@tnstateguard.org>
+Sent: Monday, April 27, 2026 10:58:12 AM
+To: Scott Smith <scott.smith@tnstateguard.org>; Sheaf, John <john.sheaf@tns=
+tateguard.org>; David Wemyss <david.wemyss@tnstateguard.org>; COL Robert (N=
+oah) Roark <tnsg.3rd.co@tnstateguard.org>; Frederick Roach <Frederick.Roach=
+@TNStateGuard.org>; Garner, Robert <robert.garner@tnstateguard.org>; Lacey,=
+ David <david.lacey@tnstateguard.org>; William Barbas <william.barbas@tnsta=
+teguard.org>
+Cc: Allen Nunley <allen.nunley@tnstateguard.org>; TNSG HHC-G3 <tnsg.hhc.g3@=
+tnstateguard.org>; Col John Dietzen <john.dietzen@tnstateguard.org>; Timmy =
+Hughes <tnsg.hhc.g6@tnstateguard.org>; Alan Cox, COL, MC, TNSG, 61st CO <tn=
+sg.dcgo@tnstateguard.org>; BG Tom =93VW=94 Weisenstein <tnsg.dcgs@tnstategu=
+ard.org>; LTC Steven Estes <tnsg.2nd.co@tnstateguard.org>
+Subject: Fwd: TNMAN26 HF/WinLink Comms
+
+ALCON: Note changes in 2nd RGMT participation in the Mapping mission.
+
+Chief Roach - good work: in the COMMs plan please list who will have Net co=
+ntrol on each day of the exercise if that is relevant to the exercise. Let=
+=92s stress HF throughout so that we get in some good repetitions.
+
+SGM Nunley - this can be in the next FRAGO. Get back to MAJ Wemyss and chie=
+f Roach as needed for details.
+
+Request of the COMMs plan is now w/Chief Roach of 2nd RGMT, so 3rd does not=
+ need to put in the request.
+
+Standby for more info as it comes our way.
+
+V/R
+
+LTC Estes
+
+=97=97=97
+
+LTC STEVEN ESTES
+2nd Regiment, Commanding
+Tennessee State Guard
+
+Email:  tnsg.2nd.co@tnstateguard.org
+Mobile:  816.383.0745
+
+Begin forwarded message:
+
+From: "Wemyss, David" <david.wemyss@tnstateguard.org>
+Subject: TNMAN26 HF/WinLink Comms
+Date: April 27, 2026 at 10:50:39 EDT
+To: Steven Estes <steven.estes@tnstateguard.org>, Frederick Roach <frederic=
+k.roach@tnstateguard.org>, Preston Jernigan <preston.jernigan@tnstateguard.=
+org>, Timmy Hughes <timmy.hughes@tnstateguard.org>, "CW4 Michael TNSG Simps=
+on, CHS-III, PCII" <michael.simpson@tnstateguard.org>, Adam Wade <adam.wade=
+@tnstateguard.org>
+Cc: Keith Smith <keith.smith@tnstateguard.org>, Andrew Ammons <andrew.ammon=
+s@tnstateguard.org>, Andrew Mule <andrew.mule@tnstateguard.org>
+
+ALCON,
+After several telecoms with S6/G6 personnel we have come to an understandin=
+g concerning HF/WinLink comms during TNMAN26. Having worked with LT Mule, C=
+W3 Roach and PFC Jernigan it is my intent to see the following steps be tak=
+en:
+
+  *   As is practical, all regiments, locations, and the JOC will participa=
+te in HF Network communications per a published schedule during the week of=
+ 13 May - 17 May
+  *   CW3 Roach will work with TEMA and TNANG to set frequencies and a sche=
+dule of the HF Net. Net to include voice and digital traffic.
+  *   CW3 Roach is to publish the comms plan and schedule requesting G6 for=
+ review and approval
+  *   Request that G6 disseminate the approved plan to all TNSG units after=
+ final review
+  *   Each Regimental S6 to respond to CW3 Roach and G6 their intent to par=
+ticipate and personnel involvement
+  *   Request that CW4 Simpson will oversee the use of P25 TACN radios at f=
+ield locations he designates and provide training support as required
+  *   MAJ Wemyss will publish AAR to LTC Estes and G6 upon exercise complet=
+ion
+
+2nd REG TOC
+
+  *   51st SIG will set up and maintain a TOC at Falls Creek Falls on 12-13=
+ May
+  *   51st SIG will support HF, drone, and TACN missions communication requ=
+irements as outlined above
+
+V/r
+
+MAJ David R. Wemyss
+Tennessee State Guard
+2nd Regiment - Nashville
+=93Old Hickory=94
+Commanding 51st Signal Battalion
+(615)308-7546
+
+    [https://drive.google.com/uc?id=3D1Clbm8qam-074Su_9LsqHOAPRijHmF4BC&exp=
+ort=3Ddownload]   [https://ci3.googleusercontent.com/mail-sig/AIorK4w4nabla=
+q5UWka3MKzuiC8HlArlHrXf7Y_Yt8ayN6jlZD4KBYE86y7--q8OruZQY24Wd4w6_dovGQDn]
+
+CLASSIFICATION: UNCLASSIFIED
+
+
+--_000_DS7PR03MB55594C9EE94B569F49C5DEAAFA362DS7PR03MB5559namp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0,=
+ 0, 0);">
+1LT Overton, CSM Rutherford;</div>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0,=
+ 0, 0);">
+<br>
+</div>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0,=
+ 0, 0);">
+Apparently, WINLINK is now part of our COMMPLAN. See message conversation a=
+ttached.</div>
+<div id=3D"ms-outlook-mobile-body-separator-line" data-applydefaultfontstyl=
+es=3D"true" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system=
+, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;" dir=3D"ltr">
+<div style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robot=
+o, Arial, Helvetica, sans-serif; font-size: 12pt;" dir=3D"ltr">
+<br>
+</div>
+</div>
+<div style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robot=
+o, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" id=
+=3D"ms-outlook-mobile-signature">
+<span style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robo=
+to, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">Ge=
+t
+</span><span style=3D"font-family: Aptos, Aptos_MSFontService, -apple-syste=
+m, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;"><a href=3D"https=
+://aka.ms/o0ukef">Outlook for iOS</a></span></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> tnsg.2nd co &lt;tnsg.=
+2nd.co@tnstateguard.org&gt;<br>
+<b>Sent:</b> Monday, April 27, 2026 10:58:12 AM<br>
+<b>To:</b> Scott Smith &lt;scott.smith@tnstateguard.org&gt;; Sheaf, John &l=
+t;john.sheaf@tnstateguard.org&gt;; David Wemyss &lt;david.wemyss@tnstategua=
+rd.org&gt;; COL Robert (Noah) Roark &lt;tnsg.3rd.co@tnstateguard.org&gt;; F=
+rederick Roach &lt;Frederick.Roach@TNStateGuard.org&gt;; Garner,
+ Robert &lt;robert.garner@tnstateguard.org&gt;; Lacey, David &lt;david.lace=
+y@tnstateguard.org&gt;; William Barbas &lt;william.barbas@tnstateguard.org&=
+gt;<br>
+<b>Cc:</b> Allen Nunley &lt;allen.nunley@tnstateguard.org&gt;; TNSG HHC-G3 =
+&lt;tnsg.hhc.g3@tnstateguard.org&gt;; Col John Dietzen &lt;john.dietzen@tns=
+tateguard.org&gt;; Timmy Hughes &lt;tnsg.hhc.g6@tnstateguard.org&gt;; Alan =
+Cox, COL, MC, TNSG, 61st CO &lt;tnsg.dcgo@tnstateguard.org&gt;;
+ BG Tom =93VW=94 Weisenstein &lt;tnsg.dcgs@tnstateguard.org&gt;; LTC Steven=
+ Estes &lt;tnsg.2nd.co@tnstateguard.org&gt;<br>
+<b>Subject:</b> Fwd: TNMAN26 HF/WinLink Comms</font>
+<div>&nbsp;</div>
+</div>
+<div style=3D"line-break:after-white-space">ALCON: Note changes in 2nd RGMT=
+ participation in the Mapping mission.&nbsp;
+<div><br>
+</div>
+<div>Chief Roach - good work: in the COMMs plan please list who will have N=
+et control on each day of the exercise if that is relevant to the exercise.=
+ Let=92s stress HF throughout so that we get in some good repetitions.<br>
+<div><br>
+</div>
+<div>SGM Nunley - this can be in the next FRAGO. Get back to MAJ Wemyss and=
+ chief Roach as needed for details.</div>
+<div><br>
+</div>
+<div>Request of the COMMs plan is now w/Chief Roach of 2nd RGMT, so 3rd doe=
+s not need to put in the request.</div>
+<div><br>
+</div>
+<div>Standby for more info as it comes our way.</div>
+<div><br>
+</div>
+<div>V/R</div>
+<div><br>
+</div>
+<div>LTC Estes<br id=3D"x_lineBreakAtBeginningOfMessage">
+<div>
+<div><br>
+=97=97=97<br>
+<br>
+LTC STEVEN ESTES<br>
+2nd Regiment, Commanding<br>
+Tennessee State Guard<br>
+<br>
+Email:&nbsp;&nbsp;tnsg.2nd.co@tnstateguard.org<br>
+Mobile:&nbsp;&nbsp;816.383.0745</div>
+</div>
+<div><br>
+<blockquote type=3D"cite">
+<div>Begin forwarded message:</div>
+<br class=3D"x_Apple-interchange-newline">
+<div style=3D"margin-top:0px; margin-right:0px; margin-bottom:0px; margin-l=
+eft:0px">
+<span style=3D"font-family:-webkit-system-font,Helvetica Neue,Helvetica,san=
+s-serif; color:rgba(0,0,0,1.0)"><b>From:
+</b></span><span style=3D"font-family:-webkit-system-font,Helvetica Neue,He=
+lvetica,sans-serif">&quot;Wemyss, David&quot; &lt;david.wemyss@tnstateguard=
+.org&gt;<br>
+</span></div>
+<div style=3D"margin-top:0px; margin-right:0px; margin-bottom:0px; margin-l=
+eft:0px">
+<span style=3D"font-family:-webkit-system-font,Helvetica Neue,Helvetica,san=
+s-serif; color:rgba(0,0,0,1.0)"><b>Subject:
+</b></span><span style=3D"font-family:-webkit-system-font,Helvetica Neue,He=
+lvetica,sans-serif"><b>TNMAN26 HF/WinLink Comms</b><br>
+</span></div>
+<div style=3D"margin-top:0px; margin-right:0px; margin-bottom:0px; margin-l=
+eft:0px">
+<span style=3D"font-family:-webkit-system-font,Helvetica Neue,Helvetica,san=
+s-serif; color:rgba(0,0,0,1.0)"><b>Date:
+</b></span><span style=3D"font-family:-webkit-system-font,Helvetica Neue,He=
+lvetica,sans-serif">April 27, 2026 at 10:50:39 EDT<br>
+</span></div>
+<div style=3D"margin-top:0px; margin-right:0px; margin-bottom:0px; margin-l=
+eft:0px">
+<span style=3D"font-family:-webkit-system-font,Helvetica Neue,Helvetica,san=
+s-serif; color:rgba(0,0,0,1.0)"><b>To:
+</b></span><span style=3D"font-family:-webkit-system-font,Helvetica Neue,He=
+lvetica,sans-serif">Steven Estes &lt;steven.estes@tnstateguard.org&gt;, Fre=
+derick Roach &lt;frederick.roach@tnstateguard.org&gt;, Preston Jernigan &lt=
+;preston.jernigan@tnstateguard.org&gt;, Timmy Hughes
+ &lt;timmy.hughes@tnstateguard.org&gt;, &quot;CW4 Michael TNSG Simpson, CHS=
+-III, PCII&quot; &lt;michael.simpson@tnstateguard.org&gt;, Adam Wade &lt;ad=
+am.wade@tnstateguard.org&gt;<br>
+</span></div>
+<div style=3D"margin-top:0px; margin-right:0px; margin-bottom:0px; margin-l=
+eft:0px">
+<span style=3D"font-family:-webkit-system-font,Helvetica Neue,Helvetica,san=
+s-serif; color:rgba(0,0,0,1.0)"><b>Cc:
+</b></span><span style=3D"font-family:-webkit-system-font,Helvetica Neue,He=
+lvetica,sans-serif">Keith Smith &lt;keith.smith@tnstateguard.org&gt;, Andre=
+w Ammons &lt;andrew.ammons@tnstateguard.org&gt;, Andrew Mule &lt;andrew.mul=
+e@tnstateguard.org&gt;<br>
+</span></div>
+<br>
+<div>
+<div dir=3D"ltr">
+<div>ALCON,</div>
+<div>After several telecoms with S6/G6 personnel&nbsp;we have come to an un=
+derstanding concerning HF/WinLink comms during TNMAN26. Having worked with =
+LT Mule, CW3 Roach and PFC Jernigan it is my intent to see the following st=
+eps be taken:</div>
+<div>
+<ul>
+<li>As is practical, all regiments, locations, and the JOC will participate=
+ in HF Network communications per a published schedule during the week of 1=
+3 May - 17 May</li><li>CW3 Roach will work with TEMA and TNANG to set frequ=
+encies and a schedule&nbsp;of the HF Net. Net to include voice and digital =
+traffic.</li><li>CW3 Roach is to publish the comms plan and schedule reques=
+ting G6 for review and approval</li><li>Request that G6 disseminate the app=
+roved plan to all TNSG units after final review</li><li>Each Regimental S6 =
+to respond to CW3 Roach and G6 their intent to participate and personnel in=
+volvement</li><li>Request that CW4 Simpson will oversee the use of P25 TACN=
+ radios at field locations he designates and provide training support as re=
+quired</li><li>MAJ Wemyss will publish AAR to LTC Estes and G6 upon exercis=
+e completion</li></ul>
+<div>2nd REG TOC</div>
+</div>
+<div>
+<ul>
+<li>51st SIG will set up and maintain a TOC at Falls Creek Falls on 12-13 M=
+ay</li><li>51st SIG will support HF, drone, and TACN missions communication=
+ requirements as outlined above</li></ul>
+</div>
+<span class=3D"x_gmail_signature_prefix">V/r</span>
+<div><br>
+<div dir=3D"ltr" class=3D"x_gmail_signature" data-smartmail=3D"gmail_signat=
+ure">
+<div dir=3D"ltr"><span style=3D"color:rgb(34,34,34)">MAJ David R. Wemyss</s=
+pan>
+<div style=3D"color:rgb(34,34,34)">Tennessee State Guard<br>
+<div>2nd Regiment - Nashville</div>
+<div>=93Old Hickory=94</div>
+<div>Commanding 51st Signal Battalion</div>
+<div>(615)308-7546<br>
+</div>
+<div><br>
+</div>
+<div><span style=3D"font-size:17pt; background-color:rgba(255,255,255,0)">&=
+nbsp; &nbsp;&nbsp;</span><img src=3D"https://drive.google.com/uc?id=3D1Clbm=
+8qam-074Su_9LsqHOAPRijHmF4BC&amp;export=3Ddownload" width=3D"96" height=3D"=
+92"><span style=3D"background-color:rgba(255,255,255,0)">&nbsp;&nbsp;<img s=
+rc=3D"https://ci3.googleusercontent.com/mail-sig/AIorK4w4nablaq5UWka3MKzuiC=
+8HlArlHrXf7Y_Yt8ayN6jlZD4KBYE86y7--q8OruZQY24Wd4w6_dovGQDn" width=3D"96" he=
+ight=3D"87"></span><br>
+</div>
+<div><br>
+</div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">CLASSIFICATION: U=
+NCLASSIFIED</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_DS7PR03MB55594C9EE94B569F49C5DEAAFA362DS7PR03MB5559namp_--

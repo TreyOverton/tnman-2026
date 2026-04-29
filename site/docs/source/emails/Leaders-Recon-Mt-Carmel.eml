@@ -1,0 +1,172 @@
+Delivered-To: aaron.overton@tnstateguard.org
+Received: by 2002:a05:7022:690:b0:12c:43be:2420 with SMTP id y16csp778901dly;
+        Tue, 28 Apr 2026 14:27:11 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AFNElJ9RJWM7IBmHqTUHPSXV/7bM0qtNtvjervAZbY1CfGiOzUrXFqcxa6JLJ8xvozJF6/cc65qwDI5PcmV+hrMH@tnstateguard.org
+X-Received: by 2002:a05:6402:4542:b0:671:a6e2:97b0 with SMTP id 4fb4d7f45d1cf-67b1fcd850dmr646177a12.0.1777411630852;
+        Tue, 28 Apr 2026 14:27:10 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1777411630; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=gAwFNPiZt8lq9gaxUpV75B+X0P/pEG6JIgUfVbUKW6vRJF1/WTUbhlmgUzWXBxotNp
+         gwGsH9Y/OyvrH2HM6XfFnAtqtDEeOGMQGkA9NMxVhNpNCHcJOH3NCRnNFvfvnx55I+Jf
+         20tSbHiYSYZlI30ePVJ5umtw7Oyq4UCvGHrFsvG4SJCueyo1pUJbwfFX5YKBzZ4n+8kW
+         +ucMSjLnt+ZQHFlUMG7a2cC/VuiuYBYVVdMGh3UDD5rlXc652Q6cON/jqmmb3ZqVQihk
+         Xnu/Dubl1ufDA6u6nt9gaZjD7MEDb7MR6cfc5JyIp6ct+JLW320E+v2T7FG86bSi7Xmq
+         U+Vg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=rS67JhCAAKmSMSK7AQgVA8Qi+NH0wruzVOVjqoCLVGw=;
+        fh=LddyKyoI4JuvI+HmsgxkNdWBL07xOTsir2P3DMOUEZU=;
+        b=cZIYR+Vdf5byAbBftcR1eTiVMTjfcK2q8Pw1msMdCx94cHPQN7Rs9ajOIUKJv0ozos
+         fiXDYI+Z3dZ+/I32A2XsPy8Pr+9HfMs87Fa4AHogL5zkiOCuwDSuRxKtGMJPP4UMjNoO
+         nwc8PZ9TPJ2w0XebDOx9aTSCTFb/rEPs2Ts8CGLynQDQu5P8V64+HedekAaOto7wBsMg
+         2AsCaqcCW3EOkrzc9gtIEOsqgFvoI2FbQWat5nT5IMnoLgnAYQZ0tI84qjBq89X+hgWm
+         JsB2jXVPweosAg6HieEGwMdKUwqv7AJYIC157HaZAQushHWRZSfuk6Q6ygg5Iv62Idkx
+         pIrw==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=uyfgogCC;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=john.sheaf@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+Return-Path: <john.sheaf@tnstateguard.org>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 4fb4d7f45d1cf-67b2216e7ddsor77156a12.15.2026.04.28.14.27.10
+        for <aaron.overton@tnstateguard.org>
+        (Google Transport Security);
+        Tue, 28 Apr 2026 14:27:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@tnstateguard-org.20251104.gappssmtp.com header.s=20251104 header.b=uyfgogCC;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of john.sheaf@tnstateguard.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=john.sheaf@tnstateguard.org;
+       dara=fail header.i=@tnstateguard.org
+ARC-Seal: i=1; a=rsa-sha256; t=1777411630; cv=none;
+        d=google.com; s=arc-20240605;
+        b=TLqIxBgvHjOnLP/WOyxj8QimYN7DoRZadHtOeaU/OTeRbmooRSIz2MAKiwgsNXn5Jg
+         IVgI7GytFmp5iOsTGTgz5vur1WRZs5/oW3L95cFVPK742dKHSmCYTEDYg7fHLcohZn39
+         UQRENVx9+qef/wOqt06yXioKmMcQvq7XqkUaes/95ICSx3ceichT99nsm7ndVn/rvwqM
+         PoVcWxFQfJP5+6NXFax0WnV8KzGW1dyYhG+ZEu+0GIe4FlAAJ+54BMaHyvuqIt1c0pt2
+         5xG/4lGLr9EEqU+TjOAI4hITPYcdEPk33qsEhwI3Ht/u/1a/XetfWP8/CFNkL3rYtGb4
+         UGKQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=rS67JhCAAKmSMSK7AQgVA8Qi+NH0wruzVOVjqoCLVGw=;
+        fh=LddyKyoI4JuvI+HmsgxkNdWBL07xOTsir2P3DMOUEZU=;
+        b=T6Vlv9Qi7qSvN/VtrsgT0CMg5HzeMSyI83XecPhqKsVCPAt94dgEt6/AM/ul+gKP6z
+         9X54TBJ+f2qHIjAW0uPa+qqxc8tnidrab0lNvFrIUPjH8sqrRt1oc3AfFEdLYsVlk/CZ
+         ou2NPxI4u+tILmJelFt5E3pPVKp1gT/w3QjaWnQftg9sccYhXJn93fGuJWEC9o2ohwpP
+         YKit+Wx8ZE6N9dBXZ/4B6BfsqILuukPIgZwxH1cl7zia5/Gh2CWtJNjcGwZ4L1xazoIY
+         NJIejs7GsbBrAfgoZpCnKCj+T67XcNG3BMlwtRkfmEVzAcI9x23GGUOgJjxUjQ8pkupH
+         9qxQ==;
+        darn=tnstateguard.org
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tnstateguard-org.20251104.gappssmtp.com; s=20251104; t=1777411630; x=1778016430; darn=tnstateguard.org;
+        h=cc:to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=rS67JhCAAKmSMSK7AQgVA8Qi+NH0wruzVOVjqoCLVGw=;
+        b=uyfgogCC1vzG2LQ6peFPd/wy7HAJltm2tubt0xY08rVkuNG1Gny3iZXEnBfVkp8dmu
+         iAiS2CEKRvN3JSq4s04dV4cjLfn/ykamcpxRQNx7z9IABoV36uWHuWVNsWPgpm132kRM
+         YHpqUUrbf/V2ct2klvTYuZM9i3Z52WH1dQJttifdw5OnrVNFxmxp2DV1+TRyYBo7xZhC
+         KdtO8tTgRW5J4aFuwOBnZ67JRiLsvQx+g8sZMmOvr/CSLwvj9jdmCLpS4J5fQGpxrbu/
+         E4Bb0OpYjiXqWw/3wAdrPrhx6V4Vt8cHPuZdRpKxTQc/MvLoN3aNerIX4NJRa0balwBD
+         2UFg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1777411630; x=1778016430;
+        h=cc:to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=rS67JhCAAKmSMSK7AQgVA8Qi+NH0wruzVOVjqoCLVGw=;
+        b=V37oDzfOviUlaOW+iznGFX5UJ7CBhOFWDlAMji6vuE16krffXIsGV8l0oFOwQCftGf
+         0SNBxYPkbrB9sITbnDn2lOKDbXfk0YR49uN8C+opGekU4sb2SCqvGje8MMlzreixfMPu
+         IScwxPHiP/Myg0x2TJv9JqZgaSytFgRZ/PLyEkCHa5LZwa6cj7cbQJhT3fUI81WbBna/
+         rnEkHTO+1MSt8vYVZq57HyzZCqE3HMxQU8tFeyccEcAeo3hdUsw/YZIKHNDY2KGd6AzV
+         tCNnPIgj8W/0BZ5X4CkaEOZVSeI+E9mD4Y6VezgK09V6sw8AKTpmIlqlQ7etdfwIwyL1
+         qBGQ==
+X-Forwarded-Encrypted: i=1; AFNElJ9L9ZKWVVeHyuRxm2vsyuzJ63jyUXhj7mTITxaEOmohl5wvGbJ2XC9LTRKJMpLCSPtuFZNyUglWlhWmWdbp@tnstateguard.org
+X-Gm-Message-State: AOJu0YzJ2wL5haMuhKtCZyhSovkpipmLLPj+hqMX/R2jRv9UCcrfe6iq
+	lxJ2o67ohIcBM9kwftLEKYA2bQqEjrWXOhzxZo6yxv/4hf33hdqOqFHAoLhkyMU/LJluLZJFWPc
+	dFayJjZ9Ltdw8Kz8x2W4TX0RV4i+iB6gDXlVKxO6LUgl7
+X-Gm-Gg: AeBDiesaCu59Lw8t44ptByPHVS7aL+vNoYER85/pXf4c9gbkkp4oNrYqaPGh2azWL/R
+	Uk6WlbpF6//cefLDvQtKuqpkb4guRIm0xjETrrDw7UACeS2geSSQ9UW3N46Ddy6JeIBaG2cRGPf
+	it+PN2FIf3lfT7jvAfDcOlh9atbuelZOyDlcyfaQg48yS6Ewp0q0WaPJFr1VS+lV/4a5oAM2xMv
+	96sfuRJf/JupNfB5cBDPqm33sGGcP4f7KK28BTabcw9/urEdMLYdro49CCLsi5tB31mO4wPChk7
+	bpDxjfuX8V0pWtNa
+X-Received: by 2002:a05:6402:548b:b0:672:523f:1bf4 with SMTP id
+ 4fb4d7f45d1cf-67b1fdb033amr837491a12.10.1777411630275; Tue, 28 Apr 2026
+ 14:27:10 -0700 (PDT)
+MIME-Version: 1.0
+From: "Sheaf, John" <john.sheaf@tnstateguard.org>
+Date: Tue, 28 Apr 2026 17:26:59 -0400
+X-Gm-Features: AVHnY4L8v6tZWYjNUmouyxhcx0aAuKeXdz2HzhwHABj1crDGBUuAeNS7_m2fD2U
+Message-ID: <CADnmdSNE4HBPrVG_+gb0kpsBA5RjCU1hoO0Tg0k32On6UJ=-9w@mail.gmail.com>
+Subject: Leader's Recon to Mt Carmel Site Defense
+To: Robert Roark <robert.roark@tnstateguard.org>, 
+	LTC Steven Estes <tnsg.2nd.co@tnstateguard.org>, 
+	Michael Seals <michael.seals@tnstateguard.org>, Lyle Crosby <lyle.crosby@tnstateguard.org>, 
+	Aaron Overton <aaron.overton@tnstateguard.org>, Adam Acosta <adam.acosta@tnstateguard.org>
+Cc: Scott Smith <joseph.smith@tnstateguard.org>
+Content-Type: multipart/alternative; boundary="000000000000d7ad0a06508be487"
+
+--000000000000d7ad0a06508be487
+Content-Type: text/plain; charset="UTF-8"
+
+Gentlemen;
+
+We will be conducting a Leader's Reconnaissance of the Mt. Carmel Site
+Defense area of operations. These exercise operations will occur on 13-15
+MAY 26. This reconnaissance will be conducted in order to meet the
+installation POC (Mr. Armstrong) and answer any RFI's and address any
+concerns which the group may have regarding expected and anticipated
+operations during the TNMAN-26 exercise.
+
+I anticipate that the team that will meet is:
+
+COL Noah Roark, CDR 3 RGT TNSG
+LTC Steve Estes, CDR 2 RGT TNSG
+CSM Michael Seals, CSM RGT TNSG
+LTC John Sheaf, S3 3 RGT TNSG
+MAJ Lyle Crosby, CDR 3 Bn / 3 RGT, TNSG
+1LT Aaron Overton, Asst S3 3 RGT TNSG
+SFC Adam Acosta, TNSG IRR / State Defense Force Foundation
+
+We will link up at the Walgreens parking lot, 4500 W Stone Dr, Kingsport,
+TN 37660 NLT 061455RMAY26 and proceed to the linkup point at the Main Gate.
+
+Should you have any questions or concerns, please let me know.
+
+-- 
+V/R
+
+JOHN T. SHEAF
+LTC, TNSG
+S3, 3 RGT
+717.673.6177
+john.sheaf@tnstateguard.org
+
+--000000000000d7ad0a06508be487
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Gentlemen;</div><div><br></div><div>We will be conduc=
+ting a Leader&#39;s Reconnaissance of the Mt. Carmel Site Defense area of o=
+perations. These exercise operations will occur on 13-15 MAY 26. This recon=
+naissance will be conducted in order to meet the installation POC (Mr. Arms=
+trong) and answer any RFI&#39;s and address any concerns which the group ma=
+y have regarding expected=C2=A0and anticipated operations during the TNMAN-=
+26 exercise.</div><div><br></div><div><div>I anticipate that the team that =
+will meet is:</div><div><br></div><div>COL Noah Roark, CDR 3 RGT TNSG</div>=
+<div>LTC Steve Estes, CDR 2 RGT TNSG</div><div>CSM Michael Seals, CSM RGT T=
+NSG</div><div>LTC John Sheaf, S3 3 RGT TNSG</div><div>MAJ Lyle Crosby, CDR =
+3 Bn / 3 RGT, TNSG</div><div>1LT Aaron Overton, Asst S3 3 RGT TNSG</div><di=
+v>SFC Adam Acosta, TNSG IRR / State Defense Force Foundation</div></div><di=
+v><br></div><div>We will link up at the Walgreens parking lot,=C2=A04500 W =
+Stone Dr, Kingsport, TN 37660 NLT 061455RMAY26 and proceed to the linkup po=
+int at the Main Gate.</div><div><br></div><div>Should you have any question=
+s or concerns, please let me know.</div><div><br></div><span class=3D"gmail=
+_signature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_signature"=
+ data-smartmail=3D"gmail_signature"><div dir=3D"ltr">V/R<div><br></div><div=
+>JOHN T. SHEAF</div><div>LTC, TNSG</div><div>S3, 3 RGT</div><div>717.673.61=
+77</div><div><a href=3D"mailto:john.sheaf@tnstateguard.org" target=3D"_blan=
+k">john.sheaf@tnstateguard.org</a></div></div></div></div>
+
+--000000000000d7ad0a06508be487--

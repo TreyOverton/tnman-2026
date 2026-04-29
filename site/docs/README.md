@@ -37,17 +37,21 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | [Orders Back-Brief](back-brief.md) | Draft | Summary of 3 RGT expectations across DIV OPORD / CG Intent / RGT OPORD. Read-ahead for the 18 APR CG Operational Brief. |
 | [Execution Matrix](execution-matrix.md) | Draft | Blue-force playbook for the 13-15 MAY exercise window — swim-laned by ICP C2 / SECFOR / UAS / Comms / Exercise Control / Sustainment. First-pass planning tool for the ICP. |
 | [ICP Layout & Workflow](icp-layout.md) | Draft | Notional floor-plan and information-flow diagrams for the Mt Carmel AFRC ICP. Pre-recon paper design; revs after 6 MAY 1500R leader's recon. Prepared 26 APR per LTC Sheaf direction. |
-| [DD Form 2977 — Deliberate Risk Assessment](dd2977.md) | Draft | Overall residual risk: **Moderate**. Medical-readiness deviation addendum for MRC-2/3/4 personnel. Routing: BG Cox (medical concurrence) → COL Roark (final approval). 7 MRC-4 statuses must be resolved before 30 APR. |
+| [DD Form 2977 — Deliberate Risk Assessment](dd2977.md) | Draft | Overall residual risk: **Moderate**. Medical-readiness deviation addendum for MRC-2/3/4 personnel. Routing: BG Cox (medical concurrence) → COL Roark (final approval). MRC-4 verifications must be resolved before 30 APR. |
+| [TNMAN Comms Plan (Annex H)](comms-plan.md) | Draft | DIV-level comms plan — HF/VHF freqs, SHARES + VHF call signs, A4U Net schedule, ICS forms conventions. Owned by TNSG HHC G6 (LTC Hughes); CW2 Roach (2 RGT 51st SIG) executes. Frequencies pending TNG confirmation. |
+| [JAG UAS Memorandum](jag-uas-memo.md) | Received | CPT Harris (TNSG JAG) → COL Williams (DIV PMO), 18 APR 26. Foundational legal opinion: FAA Part 107 / TCA §§ 39-13-902/903. **Not a response to either pre-brief.** |
 
 ## Related (Outside Documents Section)
 
 | Doc | Status | Location | Notes |
 |-----|--------|----------|-------|
-| [Task Organization](../taskorg.md) | Draft | Planning | ICP task org per LTC Sheaf's ICS template; 12 dependencies. TF org estimate due NLT 18 APR 26. |
-| [Mission Roster](../roster.md) | Draft | Personnel | **39 personnel** across HHC (11) / 2 BN (8) / 3 BN (13) / 4 BN (7). SSG Burns removed (discharged). Expected attachments: 2 medics from 61st MED BN, 1 PAO rep. |
+| [Task Organization](../taskorg.md) | Draft | Planning | ICP task org per LTC Sheaf's ICS template. Air Ops Branch Chief still open. |
+| [Mission Roster](../roster.md) | Draft | Personnel | **31 organic PAX** (HHC 11 / 2 BN 3 / 3 BN 10 / 4 BN 7) per Sheaf 29 APR. Expected attachments: 3 medics from 61st MED BN (31st MED Co), 1 PAO rep, 4 LNOs. |
 | [Risk Assessment](../risk.md) | Draft | Planning | Full hazard register. Overall residual risk: **Moderate** (O-7 ROE and L-1 Title 10/SAD seam pending JAG). |
-| [Timeline](../timeline.md) | Live | Operations | Phase I / II / III timeline updated to revised OPORD (Phase II ENDEX 142131RMAY26). |
+| [Timeline](../timeline.md) | Live | Operations | Phase I / II / III timeline. Phase II ENDEX 142131RMAY26. Leader's Recon 6 MAY 1455R Walgreens link-up. |
 | [Comms Log](../comms.md) | Live | OIC Notes | Reverse-chronological record of significant comms and decisions. |
 | [Orders Consistency Review](../warno-opord-review.md) | Reference | OIC Notes | DIV OPORD received 17 APR — review re-opened to cross-check RGT OPORD against DIV tasking. |
-| [JAG Pre-Brief](jag-brief.md) | Draft | OIC Notes | Title 10/SAD seam, SECFOR ROE, UAS legal bases. **Not yet shared with JAG.** |
+| [JAG Pre-Brief — Command Authority & Mission Sets](jag-brief.md) | Draft | JAG Briefs | Title 10/SAD seam, SECFOR ROE, UAS legal bases. **No JAG response received.** |
+| [JAG Pre-Brief — Personally-Owned DJI UAS](jag-brief-dji.md) | Submitted | JAG Briefs | §889 / TCA § 12-4-120 / ASDA analysis for personally-owned DJI on official missions. **No JAG response received.** |
+| [Volunteer Pilots](../volunteer-pilots.md) | Live | Reference | SDFF Part 107 pilot augmentation pool (5 E. TN, 4 FCF). |
 | [Reference Index](../reference-index.md) | Live | Reference | Index of external/received reference materials and archived source emails. |

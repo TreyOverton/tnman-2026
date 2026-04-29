@@ -6,6 +6,129 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-29 09:28 — LTC Sheaf → 1LT Fielitz-Scarbrough / 1LT Overton (email, TNMAN-26 Personnel Roster — 29 APR)
+
+LTC Sheaf returned a refreshed mission roster: *"These are my current expectations. We will obviously have to adjust, but this is my current estimate."* Format was the workbook I had built (Sheaf edited it directly).
+
+**Net effect: 28 → 31 organic PAX.** Diff vs. the 23 APR strikethrough roster:
+
+- **HHC (10 → 11):** **CPT McCroskey (ASST JAG, MRC-4) restored.** Note the **23 APR justification for routing JAG via COL Williams (PMO) per DIV OPORD §3.i.6.(h) still applies** — McCroskey is back on the roster but is not the planning route for legal review.
+- **2 BN (3 → 3):** unchanged.
+- **3 BN (8 → 10):** **1LT Riley (BN XO · Part 107 pilot) and SFC Ferguson (HQ Co 1SG) restored** — both had been removed by 22 APR text message. **Two new B Co MP additions:** PV2 Charles Elrod (already on the roster — father) and **PV1 Elrod** (his son, a brand-new recruit who first appeared in uniform at the 25 APR IDT). Per Sheaf: *"there are two 'Elrods' in 3/3. I only have personal biographical information on one. Query MAJ Crosby / 1LT Riley for more information if they even have it."* 1LT Overton replied to confirm father/son relationship and that both are listed in the 25 APR IDT AAR/brief docs. **2LT Steele dropped** from the working roster (no reason given; remains in [Chain of Command](coc.md)).
+- **4 BN (7 → 7):** unchanged.
+
+**Second-order impacts:**
+
+- **Part 107 pilot pool: 1 → 2 organic.** Riley restoration partially closes the RFF pilot gap. CPT Widner is no longer the sole pilot. Combined with the SDFF augmentation pool ([Volunteer Pilots](volunteer-pilots.md)), the RFF for 3 sUAS operators is achievable.
+- **MRC-4 / MRC-unknown verifications grow.** MRC-4 still pending: Bennett, Neisler, Hendon (4 BN) **+ McCroskey (HHC, restored)**. **MRC-unknown:** Riley, Ferguson, PV1 Elrod (3 BN — Sheaf left those fields blank in the 29 APR xlsx).
+- **DIV-tracked total: 31 organic + 3 attached medics = 34.** Previously the 31 figure (Estes 26 APR) reconciled to 28 organic + 3 medics; the 29 APR roster moves the organic-only count to 31 directly.
+
+**Sheaf's process direction:** *"this was edited from the Planning Portal format. Incorporate this information into the Planning Portal, but make sure that the format in the portal remains the same."* Also flagged that he will forward the 29 APR TPFDD later in the day. Sheaf does not yet know names or count of attachments — pending refinement.
+
+Propagated to: [Mission Roster](roster.md) (summary, HHC/3 BN tables, Open Items rewritten); [Chain of Command](coc.md) (restorations); [Task Organization](taskorg.md) (Air Ops pilot pool restored); [DD 2977](docs/dd2977.md) (MRC-4 list updated, JAG note retained).
+
+Source: [TNMAN-26-Personnel-Roster-29APR.eml](/docs/source/emails/TNMAN-26-Personnel-Roster-29APR.eml) · [reply](/docs/source/emails/TNMAN-26-Personnel-Roster-29APR-Reply.eml) · [29 APR roster xlsx](/docs/source/Mission-Roster-TNMAN-26-29APR.xlsx).
+
+### 2026-04-28 17:26 — LTC Sheaf → COL Roark / LTC Estes / CSM Seals / MAJ Crosby / 1LT Overton / SFC Acosta (email, Leader's Recon to Mt Carmel Site Defense)
+
+LTC Sheaf issued the formal **Leader's Recon** notification, locking in the recon team and link-up plan that BG Cox first set on the 25 APR AAR (6 MAY 1500R). Purpose: *"meet the installation POC (Mr. Armstrong) and answer any RFI's and address any concerns which the group may have regarding expected and anticipated operations during the TNMAN-26 exercise."*
+
+**Recon team (7 PAX):**
+
+- COL Noah Roark, CDR 3 RGT TNSG
+- LTC Steve Estes, CDR 2 RGT TNSG (DIV TNMAN PM)
+- CSM Michael Seals, RCSM 3 RGT TNSG
+- LTC John Sheaf, S3 3 RGT TNSG
+- MAJ Lyle Crosby, CDR 3 BN / 3 RGT TNSG
+- 1LT Aaron Overton, ASST S3 3 RGT TNSG
+- **SFC Adam Acosta, TNSG IRR / State Defense Force Foundation** ← SDFF lead is on the recon, which means he meets Mr. Armstrong before any SDFF drone tasking. See [Volunteer Pilots](volunteer-pilots.md).
+
+**Link-up:** Walgreens parking lot, 4500 W Stone Dr, Kingsport, TN 37660 — **NLT 061455RMAY26**. Proceed as a group to the linkup point at the **Main Gate** (HAAP). LTC Smith (Scott) cc'd.
+
+Propagated to: [Timeline](timeline.md) (1455R Walgreens link-up + 1500R Main Gate); [Volunteer Pilots](volunteer-pilots.md) (SFC Acosta on recon team); [Planning Gaps](planning-gaps.md) (recon datetime locked).
+
+Source: [Leaders-Recon-Mt-Carmel.eml](/docs/source/emails/Leaders-Recon-Mt-Carmel.eml).
+
+### 2026-04-28 — 3 RGT UAS Section (LTC Sheaf, 1LT Overton) → TNSG JAG (legal inquiry, Personally-Owned DJI UAS)
+
+The unit submitted a self-prepared **legal inquiry brief** to TNSG JAG asking whether a soldier may operate a **personally-owned DJI drone** in support of an official TNSG mission where the organization has not procured the equipment. Drafted because **CPT Harris's 18 APR JAG memo to COL Williams** ([JAG UAS Memo](docs/jag-uas-memo.md)) addresses Part 107 / TCA §§ 39-13-902/903 but is silent on the §889 / TCA § 12-4-120 / ASDA layering — and a portion of the SDFF augmentation pool may bring DJI airframes (see [Volunteer Pilots](volunteer-pilots.md)).
+
+**Key analytic findings (subject to JAG confirmation):**
+
+- **§889 NDAA FY2019** is a federal acquisition statute; does not reach state-entity personnel using personal equipment.
+- **TCA § 12-4-120** prohibits **purchase or acquisition** only — Senate Amendment #1 (6 March 2023) deliberately removed *"otherwise using"* before passage.
+- **American Security Drone Act (ASDA, FAR 52.240-1, eff. 22 Dec 2025)** creates a **conditional operational-use prohibition** that activates with federal funding nexus. **The TNMAN-26 funding source is the controlling variable.**
+- *SZ DJI Technology Co., Ltd. v. DoD* (D.D.C. Sep 2025) sustained the Chinese-Military-Company designation on narrow grounds; appeal pending; **no stay**.
+
+**No JAG response received yet.** New page: [JAG Pre-Brief — Personally-Owned DJI UAS](docs/jag-brief-dji.md). Sidebar restructured to add a **JAG BRIEFS** section between PLANNING and DOCUMENTS, holding both this brief and the original [Command Authority & Mission Sets](docs/jag-brief.md) brief.
+
+Source: [JAG-Brief-DJI-Personal-Use-28APR26.docx](/docs/source/JAG-Brief-DJI-Personal-Use-28APR26.docx).
+
+### 2026-04-28 19:00-20:00 CT — TNMAN Comms Discussion (Google Meet, CW2 Roach organizing)
+
+Working meeting attended by **CW2 Roach** (organizer, 2 RGT 51st SIG), **LTC Estes**, **LTC Sheaf**, **CSM Rutherford**, **LTC Smith (Scott)**, **CPL Jernigan**, **MAJ Thomas (4 RGT)**, **LT Mule**, **LTC Hughes** (HHC G6), and **CPT Holt**. Google Meet `meet.google.com/xax-ziak-nvh`. Notes captured in **TNMAN Annex H** working draft and a separate notes doc.
+
+**By-mission summary:**
+
+- **Drone Mapping (Fall Creek Falls):** VHF, HF, Starlink. Tue/Wed (12-13 MAY). MAJ Wemyss / SGT Wade.
+- **Cyber:** PC only, no comms. LT Mule.
+- **JBAT:** TDOT main comms; ~3 TACN. CPT Gray.
+- **Mt. Carmel Site Defense (3 RGT):** 1 CP comms with **HF on Thursday 14 MAY**. ~3 TACN radios. **4 RGT may provide notional support; MAJ Thomas and MAJ Hamlin LNOs from 4 RGT** (unverified — pending 4 BN confirmation).
+- **JOC (Volunteer XRAY):** TNNG-manned during the exercise. **CPL Jernigan + CW2 Roach** as RTO support. Operates A4U net for radio checks. 18:00-18:30 Zulu (13:00-13:30 CST) on 14 MAY and 15 MAY.
+
+**G6 inventory (LTC Hughes):** 10 TACN radios on hand; 10 additional requested from TNG. Submit request for issuance to RGTs.
+
+**Action items:**
+
+1. Submit TACN radio request to LTC Hughes (G6).
+2. Determine TNG frequencies for the exercise.
+3. Send slide presentation to call participants.
+
+**Authoritative artifact: [TNMAN Comms Plan / Annex H](docs/comms-plan.md)** — new page. Frequencies (DELTA 5.7785 MHz USB / ECHO 9.295 MHz USB) are placeholders pending TNG confirmation. SHARES call signs (3 RGT = **AAN4ZR**) and VHF call signs (3 RGT = **Buccaneer**, channel **TNSG04**) captured.
+
+Sources: [TNMAN-Comms-Discussion-Invite.eml](/docs/source/emails/TNMAN-Comms-Discussion-Invite.eml) · [meeting notes docx](/docs/source/TNMAN-Comms-Discussion-Notes-28APR.docx) · [Annex H docx](/docs/source/TNMAN-Annex-H.docx) · [TNSG Radio Contacts xlsx](/docs/source/TNSG-Radio-Contacts.xlsx).
+
+### 2026-04-27 11:08 — LTC Estes (via MAJ Wemyss) → ALCON (email, TNMAN-26 HF/WinLink Comms direction)
+
+**MAJ Wemyss** sent an HF/WinLink direction email to G6 / S6 personnel after several telecoms; **LTC Estes** forwarded with overlay direction to ALCON. Substantive intent:
+
+- All regiments, locations, and the JOC participate in **HF Network communications per a published schedule** during 13-17 MAY (as practical).
+- **CW2 Roach (2 RGT 51st SIG)** owns the comms-plan request — **3 RGT no longer needs to submit** a separate request.
+- **CW4 Simpson** to oversee P25 TACN radios at field locations he designates; provide training as needed.
+- **MAJ Wemyss** to publish AAR to LTC Estes and G6 upon exercise completion.
+- **2 RGT 51st SIG sets up and maintains a TOC at Fall Creek Falls 12-13 MAY** supporting HF, drone, and TACN missions.
+
+LTC Estes' overlay: *"Stress HF throughout so that we get in some good repetitions"* and to SGM Nunley *"this can be in the next FRAGO"* — implying the **DIV FRAGO this week** will codify the comms plan. Estes also called out for the **comms plan to list who has Net Control on each day of the exercise** if relevant.
+
+Sheaf's note to 1LT Overton + CSM Rutherford: *"Apparently, WINLINK is now part of our COMMPLAN. See message conversation attached."* This is the first confirmation of WINLINK as a formal mode in our PACE.
+
+Propagated to: [TNMAN Comms Plan](docs/comms-plan.md) (PACE); [Planning Gaps](planning-gaps.md) (DIV FRAGO comms expectation); [Reference Index](reference-index.md).
+
+Source: [HF-WinLink-Comms-27APR.eml](/docs/source/emails/HF-WinLink-Comms-27APR.eml).
+
+### 2026-04-27 12:58 — LTC Estes → SFC Acosta (Fwd from LTC Sheaf, Fall Creek Falls / SDFF drone PAX coordination)
+
+LTC Estes forwarded SDFF augmentation correspondence to **SFC Adam Acosta** with a 4-attachment package (NAI Graphics PPTX, JAG drone memo, DIV OPORD Draft 2, HD WG Slide). Estes' direction to Acosta:
+
+- *"I'd like you and your team to operate as part of TNSG as this part of the exercise. Doing so will avoid confusion."*
+- *"3rd put out a Request for Forces for more drones, and you are it."*
+- Drone information must flow **to Mr. Armstrong (HAAP POC)** before flight ops at Holston.
+- **Reach out to LTC Sheaf first** at 717-673-6177 *"before you speak with Tony Armstrong."*
+- Drone ops zone is the **blue oval on slide 4** of the NAI Graphics PPTX.
+
+LTC Sheaf forwarded with the comment *"Here's another one. 🤦‍♂️"* — captured in the comms log only because we received it; no new operational direction for 3 RGT to take. The forwarded NAI Graphics is an **older copy** of our 24 APR version (missing the ~2200m / ~2700m SECFOR distance annotations Sheaf added later). The forwarded **DIV OPORD Draft 2 is text-identical** to the copy already in [/docs/source/div-opord-26-05/](/docs/source/div-opord-26-05/). The **HD WG Slide is a byte-for-byte duplicate** of [HD-WG-TNMAN-26-Working-Group-Slide.pptx](/docs/source/HD-WG-TNMAN-26-Working-Group-Slide.pptx). The **JAG drone memo** is a previously-unseen authoritative document — see new page [JAG UAS Memo](docs/jag-uas-memo.md).
+
+**Volunteer roster received:** SDFF Part 107 pilots:
+
+- **E. TN / Holston (5):** Adam Acosta, Rory Johnson, Carter Johnson, Avery Brown, Michael Boughton.
+- **Fall Creek Falls (4):** same minus Boughton.
+
+New reference page: [Volunteer Pilots](volunteer-pilots.md).
+
+Propagated to: [Volunteer Pilots](volunteer-pilots.md) (new page); [JAG UAS Memo](docs/jag-uas-memo.md) (new page); [JAG Pre-Brief — DJI Personal Use](docs/jag-brief-dji.md) (DJI risk follow-up authored 28 APR).
+
+Source: [Fall-Creek-Falls-PAX.eml](/docs/source/emails/Fall-Creek-Falls-PAX.eml) · [JAG memo pdf](/docs/source/JAG-UAS-Memo-Harris-18APR26.pdf) · [SDFF E. TN pdf](/docs/source/SDFF-Pilot-Volunteers-ETN.pdf) · [SDFF FCF pdf](/docs/source/SDFF-Pilot-Volunteers-FCF.pdf).
+
 ### 2026-04-26 21:02 — LTC Sheaf → 1LT Overton (Fwd: TNMAN Update — wraps Estes G6 HF request + Estes DIV-CG TNMAN-wide status + BG Cox 25 APR planning-meeting AAR)
 
 LTC Sheaf forwarded a multi-layer email chain with the directive: *"Please incorporate these two emails into our planning. I need to start thinking about what the ICP will look like and the work flow of information."* Three nested messages:

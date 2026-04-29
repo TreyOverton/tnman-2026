@@ -11,6 +11,10 @@ External reference materials, higher-HQ planning products, and informational res
 | [HD Working Group Slide](docs/hdwg-slide.md) | Received | TNNG HD WG | [pptx](/docs/source/HD-WG-TNMAN-26-Working-Group-Slide.pptx) | Early-draft slide forwarded by LTC Sheaf 15 APR. 14 MAY inject timeline (waterway breach 1200, entry-control 1300, drone approval 1430) still useful. 10-SG-PAX estimate obsolete. |
 | [FRAGORD 3 (JFHQ-TN OPORD 25-18)](docs/fragord-3-jfhq.md) | Received | JFHQ-TN (MG Ross / J3 Lowrance) | [docx](/docs/source/FRAGORD-3-JFHQ-TN-OPORD-25-18.docx) | TNARNG FRAGORD. 278th ACR provides Mt Carmel Armory as RON + ICP for 50 PAX 11-17 MAY. 30th TC provides 6 White Cell PAX. |
 | [ICP Organization Reference](icp-org-reference.md) | Received | LTC Sheaf | [pptx](/docs/source/ICP-Organization.pptx) | ICS-structured ICP task org template mapping S1–S6 to ICS positions. Used as the basis for the [Task Organization](taskorg.md) draft. |
+| [JAG UAS Memorandum (Harris, 18 APR 26)](docs/jag-uas-memo.md) | Received | TNSG JAG (CPT Harris) → COL Williams (DIV PMO) | [pdf](/docs/source/JAG-UAS-Memo-Harris-18APR26.pdf) | Foundational legal opinion on TNSG UAS authority (FAA Part 107, TCA §§ 39-13-902/903). Surfaced 27 APR via the Estes / Acosta SDFF forwarding chain. |
+| [TNMAN Comms Plan / Annex H](docs/comms-plan.md) | Draft | TNSG HHC G6 (LTC Hughes); CW2 Roach (2 RGT 51st SIG) executes | [docx](/docs/source/TNMAN-Annex-H.docx) · [meeting notes 28 APR](/docs/source/TNMAN-Comms-Discussion-Notes-28APR.docx) | DIV-wide HF/VHF/WINLINK plan. Frequencies pending TNG confirmation. |
+| [TNSG Radio Operator Contacts (12 MAY 25)](/docs/source/TNSG-Radio-Contacts.xlsx) | Reference | TNSG HHC G6 | xlsx | TNSG-wide radio operator roster with SHARES / MARS / Ham call signs and FCC ratings. Pre-dates TNMAN-26 but supplies operator-level call signs supporting Annex H. |
+| [Volunteer Pilots (SDFF Part 107)](volunteer-pilots.md) | Reference | LTC Estes → SFC Acosta (SDFF) | [E. TN pdf](/docs/source/SDFF-Pilot-Volunteers-ETN.pdf) · [FCF pdf](/docs/source/SDFF-Pilot-Volunteers-FCF.pdf) | 5-pilot E. TN volunteer pool for 3 RGT and 4-pilot FCF pool for 2 RGT. SFC Acosta is also on the 6 MAY recon team. |
 
 ## Informational Pages
 
@@ -42,3 +46,8 @@ Key emails are archived in `/docs/source/emails/` and logged in the [Comms Log](
 | 20 APR 26 22:58 | Updated NAI / RFF / TPFDD documents | LTC Sheaf → LTC Smith / 1LT Overton | [eml](/docs/source/emails/Updated-NAI-RFF-TPFDD-Documents.eml) |
 | 20 APR 26 23:02 | TNSG TNMAN Calendar (LTC Estes synch matrix) | LTC Sheaf → 1LT Overton | [eml](/docs/source/emails/TNSG-TNMAN-Calendar-Overview.eml) |
 | 21 APR 26 | RGT OPORD 26-04 for IDT 25 APR + Encl A | LTC Sheaf → COL Roark / CSM Seals / LTC Smith | [eml](/docs/source/emails/RGT-OPORD-26-04-for-IDT-25APR.eml) |
+| 27 APR 26 | TNMAN26 HF/WinLink Comms (MAJ Wemyss / LTC Estes) | LTC Sheaf fwd | [eml](/docs/source/emails/HF-WinLink-Comms-27APR.eml) |
+| 27 APR 26 | Fall Creek Falls PAX (SDFF augmentation, JAG UAS memo, NAI graphics, DIV Draft 2, HD WG) | LTC Estes → SFC Acosta; Sheaf fwd | [eml](/docs/source/emails/Fall-Creek-Falls-PAX.eml) |
+| 27 APR 26 | TNMAN Comms discussion (Google Meet invite, 28 APR 1900-2000 CT) | CW2 Roach (organizer) | [eml](/docs/source/emails/TNMAN-Comms-Discussion-Invite.eml) |
+| 28 APR 26 | Leader's Recon to Mt Carmel Site Defense (6 MAY 1455R Walgreens link-up) | LTC Sheaf | [eml](/docs/source/emails/Leaders-Recon-Mt-Carmel.eml) |
+| 29 APR 26 | TNMAN-26 Personnel Roster (29 APR 26) — restorations + Elrods | LTC Sheaf → 1LT Fielitz-Scarbrough / 1LT Overton | [eml](/docs/source/emails/TNMAN-26-Personnel-Roster-29APR.eml) · [reply](/docs/source/emails/TNMAN-26-Personnel-Roster-29APR-Reply.eml) |
