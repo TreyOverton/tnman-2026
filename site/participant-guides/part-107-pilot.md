@@ -63,10 +63,10 @@ The three pilots are **CPT, 1LT, and SFC respectively** — all serving the same
 
 ## Resources
 
-- [Air Ops Branch Director](air-ops-director.md) — CPT Borrilez
+- [Air Ops Branch Director](participant-guides/air-ops-director.md) — CPT Borrilez
 - [JAG UAS Memo (Harris, 18 APR)](../docs/jag-uas-memo.md) — Part 107 / TCA § 39-13-902/903 framework
 - [JAG Pre-Brief — Personally-Owned DJI UAS](../docs/jag-brief-dji.md) — § 889 / TCA § 12-4-120 / ASDA analysis (no JAG response yet)
 - [Ops Graphics](../docs/ops-graphics.md) — blue-oval flight zone, NO-GO Line, NAIs
 - [Volunteer Pilots](../volunteer-pilots.md) — SDFF augmentation list (Acosta + others)
-- [SDFF Representative](sdff-representative.md) — for SFC Acosta's parallel role
-- [Common Expectations](common.md)
+- [SDFF Representative](participant-guides/sdff-representative.md) — for SFC Acosta's parallel role
+- [Common Expectations](participant-guides/common.md)

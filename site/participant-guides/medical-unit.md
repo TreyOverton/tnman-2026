@@ -65,9 +65,9 @@ Two distinct rank dynamics:
 
 ## Resources
 
-- [Logistics Section Chief](logistics-chief.md)
-- [Safety Officer](safety-officer.md) — coordinate continuously on heat / hydration
-- [Foot Patrol Member](foot-patrol-member.md) — primary outdoor risk population
+- [Logistics Section Chief](participant-guides/logistics-chief.md)
+- [Safety Officer](participant-guides/safety-officer.md) — coordinate continuously on heat / hydration
+- [Foot Patrol Member](participant-guides/foot-patrol-member.md) — primary outdoor risk population
 - [DIV OPORD 26-05](../docs/opord-div.md) §3.b.(1) and §4.c.(4) — 61st MED Co tasking; PHA constraint
 - [DD Form 2977](../docs/dd2977.md) — Block 4 medical mitigations
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

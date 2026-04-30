@@ -58,9 +58,9 @@ The same dynamic applies to **SFC Bradley as Logistics Deputy** (under CPT Haddi
 
 ## Resources
 
-- [Operations Section Chief](ops-chief.md)
-- [Asst Ops Specialist](asst-ops.md)
-- [SECFOR Branch Director](secfor-director.md)
-- [Air Ops Branch Director](air-ops-director.md)
+- [Operations Section Chief](participant-guides/ops-chief.md)
+- [Asst Ops Specialist](participant-guides/asst-ops.md)
+- [SECFOR Branch Director](participant-guides/secfor-director.md)
+- [Air Ops Branch Director](participant-guides/air-ops-director.md)
 - [Execution Matrix](../docs/execution-matrix.md)
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

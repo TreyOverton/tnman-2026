@@ -61,10 +61,10 @@ The Resources Unit Leader (RUL) owns **personnel and resource accountability** f
 
 ## Resources
 
-- [Planning Section Chief](planning-chief.md)
-- [Situation Unit Leader](situation-unit-leader.md)
-- [Documentation Unit](documentation-unit.md)
-- [Staging Area Manager](staging-area-manager.md)
+- [Planning Section Chief](participant-guides/planning-chief.md)
+- [Situation Unit Leader](participant-guides/situation-unit-leader.md)
+- [Documentation Unit](participant-guides/documentation-unit.md)
+- [Staging Area Manager](participant-guides/staging-area-manager.md)
 - [ICS-203](../docs/ics-203.md) — your 12 MAY 1400 prepared form
 - [Mission Roster](../roster.md)
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

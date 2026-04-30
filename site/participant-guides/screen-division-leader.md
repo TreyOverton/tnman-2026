@@ -54,8 +54,8 @@ The Screen Division/Group Leader runs the **screen-line element** of the SECFOR 
 
 ## Resources
 
-- [SECFOR Branch Director](secfor-director.md)
-- [SECFOR Branch Deputy](secfor-deputy.md)
-- [Foot Patrol Member](foot-patrol-member.md)
+- [SECFOR Branch Director](participant-guides/secfor-director.md)
+- [SECFOR Branch Deputy](participant-guides/secfor-deputy.md)
+- [Foot Patrol Member](participant-guides/foot-patrol-member.md)
 - [Ops Graphics](../docs/ops-graphics.md) — NO-GO Line, NAIs, screen positions
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

@@ -69,10 +69,10 @@ Notable rank dynamic. **CSM Rutherford is E-9, the most senior NCO rank in the u
 
 ## Resources
 
-- [Logistics Section Chief](logistics-chief.md)
+- [Logistics Section Chief](participant-guides/logistics-chief.md)
 - [Comms Plan / Annex H](../docs/comms-plan.md) — frequencies, call signs, A4U Net schedule, ICS-213 conventions
-- [Documentation Unit](documentation-unit.md) — receives ICS-309 archive
-- [SECFOR Branch Director](secfor-director.md) — coordinates foot-patrol comms
-- [Air Ops Branch Director](air-ops-director.md) — coordinates flight comms
+- [Documentation Unit](participant-guides/documentation-unit.md) — receives ICS-309 archive
+- [SECFOR Branch Director](participant-guides/secfor-director.md) — coordinates foot-patrol comms
+- [Air Ops Branch Director](participant-guides/air-ops-director.md) — coordinates flight comms
 - [TNSG Radio Contacts (12 MAY 25)](/docs/source/TNSG-Radio-Contacts.xlsx) — operator-level call signs
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

@@ -60,8 +60,8 @@ MAJ is high rank for a Staging Area Manager — typical ICS doctrine has this ro
 
 ## Resources
 
-- [Operations Section Chief](ops-chief.md)
-- [Resources Unit Leader](resources-unit-leader.md) — sign-in coordination
-- [Logistics Section Chief](logistics-chief.md) and [Logistics Deputy](logistics-deputy.md) — physical setup
-- [Situation Unit Leader](situation-unit-leader.md) — CalTopo verification at sign-in
-- [Common Expectations](common.md)
+- [Operations Section Chief](participant-guides/ops-chief.md)
+- [Resources Unit Leader](participant-guides/resources-unit-leader.md) — sign-in coordination
+- [Logistics Section Chief](participant-guides/logistics-chief.md) and [Logistics Deputy](participant-guides/logistics-deputy.md) — physical setup
+- [Situation Unit Leader](participant-guides/situation-unit-leader.md) — CalTopo verification at sign-in
+- [Common Expectations](participant-guides/common.md)

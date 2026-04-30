@@ -52,9 +52,9 @@ One related dynamic: as an A Co MP NCO, you may be asked by **MAJ Crosby (SECFOR
 
 ## Resources
 
-- [Operations Section Chief](ops-chief.md)
-- [Operations Section Deputy](ops-deputy.md)
-- [SECFOR Branch Director](secfor-director.md)
+- [Operations Section Chief](participant-guides/ops-chief.md)
+- [Operations Section Deputy](participant-guides/ops-deputy.md)
+- [SECFOR Branch Director](participant-guides/secfor-director.md)
 - [Execution Matrix](../docs/execution-matrix.md)
 - [DD Form 2977 Block 4](../docs/dd2977.md) — MRC-3 single-day mitigation
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

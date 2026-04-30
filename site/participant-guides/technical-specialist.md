@@ -52,9 +52,9 @@ Two distinct rank dynamics in this billet:
 
 ## Resources
 
-- [Planning Section Chief](planning-chief.md)
-- [Resources Unit Leader](resources-unit-leader.md)
-- [Situation Unit Leader](situation-unit-leader.md)
-- [Documentation Unit](documentation-unit.md)
+- [Planning Section Chief](participant-guides/planning-chief.md)
+- [Resources Unit Leader](participant-guides/resources-unit-leader.md)
+- [Situation Unit Leader](participant-guides/situation-unit-leader.md)
+- [Documentation Unit](participant-guides/documentation-unit.md)
 - [DD Form 2977 Block 4](../docs/dd2977.md) — MRC-3 / MRC-4 mitigations
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

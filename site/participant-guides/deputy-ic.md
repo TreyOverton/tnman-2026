@@ -54,7 +54,7 @@ LTC is the appropriate rank for Deputy IC; this is a clean officer billet. Two r
 
 ## Resources
 
-- [Incident Commander](ic.md) — the primary you support
+- [Incident Commander](participant-guides/ic.md) — the primary you support
 - [ICS-203](../docs/ics-203.md)
 - [Orders Back-Brief](../docs/back-brief.md)
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

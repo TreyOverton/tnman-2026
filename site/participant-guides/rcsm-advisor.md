@@ -56,6 +56,6 @@ The RCSM is the senior NCO on the task force. The role is a Command Staff adviso
 
 ## Resources
 
-- [Incident Commander](ic.md)
+- [Incident Commander](participant-guides/ic.md)
 - [ICS-203](../docs/ics-203.md)
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

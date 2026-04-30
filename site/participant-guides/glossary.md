@@ -349,7 +349,7 @@ Incident Command System (ICS) / National Incident Management System (NIMS) is th
 | **ATAK** / **TAK** | Android Team Awareness Kit / Team Awareness Kit | Tactical mapping/comms app |
 | **GPS** | Global Positioning System | |
 | **PC** | Personal Computer | |
-| **CalTopo** | CalTopo (mobile mapping app) | TNMAN-26 location-sharing tool — see [CalTopo Guide](caltopo.md) |
+| **CalTopo** | CalTopo (mobile mapping app) | TNMAN-26 location-sharing tool — see [CalTopo Guide](participant-guides/caltopo.md) |
 
 ## Legal & Regulatory
 
@@ -455,8 +455,8 @@ Incident Command System (ICS) / National Incident Management System (NIMS) is th
 
 ## Related
 
-- [Common Expectations](common.md) — what every participant does
-- [CalTopo Guide](caltopo.md) — location-sharing app
+- [Common Expectations](participant-guides/common.md) — what every participant does
+- [CalTopo Guide](participant-guides/caltopo.md) — location-sharing app
 - [Mission Roster](../roster.md) — full personnel list
 - [ICS-203](../docs/ics-203.md) — billet-by-billet assignment
 - [Operations Graphics](../docs/ops-graphics.md) — NAI overlay, NO-GO Line, NAIs 3001-3010

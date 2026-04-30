@@ -67,11 +67,11 @@ CPT is appropriate for a Branch Director on this TF. **No internal rank-vs-role 
 
 ## Resources
 
-- [Operations Section Chief](ops-chief.md)
-- [Part 107 Pilot](part-107-pilot.md) — Widner / Riley / Acosta
-- [SECFOR Branch Director](secfor-director.md) — coordinate during sUAS event
+- [Operations Section Chief](participant-guides/ops-chief.md)
+- [Part 107 Pilot](participant-guides/part-107-pilot.md) — Widner / Riley / Acosta
+- [SECFOR Branch Director](participant-guides/secfor-director.md) — coordinate during sUAS event
 - [JAG UAS Memo](../docs/jag-uas-memo.md) — CPT Harris, 18 APR (Part 107, TCA § 39-13-902/903)
 - [JAG Pre-Brief — Personally-Owned DJI UAS](../docs/jag-brief-dji.md)
 - [Ops Graphics](../docs/ops-graphics.md) — flight zone (slide 4 blue oval), NO-GO Line
 - [Volunteer Pilots](../volunteer-pilots.md) — SDFF augmentation
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

@@ -80,5 +80,5 @@ The same dynamic applies in reverse to **1LT Overton (Planning Section Chief)** 
 - [SA Brief](../docs/sabrief.md) — AO picture, weather, sUAS posture, friendly picture
 - [Execution Matrix](../docs/execution-matrix.md) — 13-15 MAY playbook with inject windows
 - [Comms Plan / Annex H](../docs/comms-plan.md) — A4U Net schedule, HF / VHF freqs, ICS-213 conventions
-- [CalTopo Guide](caltopo.md) — team map for personnel disposition
-- [Common Expectations](common.md)
+- [CalTopo Guide](participant-guides/caltopo.md) — team map for personnel disposition
+- [Common Expectations](participant-guides/common.md)

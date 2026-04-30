@@ -55,6 +55,6 @@ MAJ is appropriate rank for the Chaplain billet. The Chaplain operates under **c
 
 ## Resources
 
-- [Incident Commander](ic.md)
+- [Incident Commander](participant-guides/ic.md)
 - [ICS-203](../docs/ics-203.md)
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

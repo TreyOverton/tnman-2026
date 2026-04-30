@@ -18,7 +18,7 @@ The SECFOR Branch Director commands the security-force element on the exercise �
 - Receives **inject response taskings** from the Ops Chief on the OPFOR main-gate scenario (1300) and the sUAS detection event (1400-1430)
 - Owns **SECFOR safety** as it interacts with civilian US-11W traffic, weather, and fatigue
 
-The SECFOR mission is **perimeter-only, unarmed, presence-only** — see [ROE summary in Common Expectations](common.md).
+The SECFOR mission is **perimeter-only, unarmed, presence-only** — see [ROE summary in Common Expectations](participant-guides/common.md).
 
 ## Expectations during TNMAN-26
 
@@ -60,11 +60,11 @@ MAJ is appropriate for a Branch Director on this TF. **No internal rank-vs-role 
 
 ## Resources
 
-- [Operations Section Chief](ops-chief.md)
-- [SECFOR Branch Deputy](secfor-deputy.md) — SFC Ferguson; covers 13 and 15 MAY
-- [Screen Division/Group Leader](screen-division-leader.md) — 2LT Garrison
-- [Foot Patrol Member](foot-patrol-member.md) — Whalen / Human / Elrod
-- [Air Ops Branch Director](air-ops-director.md) — coordinate during sUAS event
+- [Operations Section Chief](participant-guides/ops-chief.md)
+- [SECFOR Branch Deputy](participant-guides/secfor-deputy.md) — SFC Ferguson; covers 13 and 15 MAY
+- [Screen Division/Group Leader](participant-guides/screen-division-leader.md) — 2LT Garrison
+- [Foot Patrol Member](participant-guides/foot-patrol-member.md) — Whalen / Human / Elrod
+- [Air Ops Branch Director](participant-guides/air-ops-director.md) — coordinate during sUAS event
 - [Ops Graphics](../docs/ops-graphics.md) — NO-GO Line, NAIs, SECFOR boundaries
 - [DD Form 2977 Block 4](../docs/dd2977.md) — MRC-3 single-day mitigation
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

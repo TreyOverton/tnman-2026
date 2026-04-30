@@ -58,9 +58,9 @@ Rank-vs-role example, similar to the **Operations Deputy (1SG Collins)** dynamic
 
 ## Resources
 
-- [Logistics Section Chief](logistics-chief.md)
-- [Service Branch Director](service-branch-director.md)
-- [Communications Unit](comms-unit.md)
-- [Medical Unit](medical-unit.md)
-- [Staging Area Manager](staging-area-manager.md)
-- [Common Expectations](common.md)
+- [Logistics Section Chief](participant-guides/logistics-chief.md)
+- [Service Branch Director](participant-guides/service-branch-director.md)
+- [Communications Unit](participant-guides/comms-unit.md)
+- [Medical Unit](participant-guides/medical-unit.md)
+- [Staging Area Manager](participant-guides/staging-area-manager.md)
+- [Common Expectations](participant-guides/common.md)

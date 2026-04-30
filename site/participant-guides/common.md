@@ -4,7 +4,7 @@ What every TNMAN-26 participant does regardless of role. **Read your role page f
 
 If your role page contradicts this page on a detail, follow the role page — it has been tailored to your responsibilities.
 
-> **Lost in abbreviations?** See the **[Glossary](glossary.md)** — every term used across the planning portal, organized by category.
+> **Lost in abbreviations?** See the **[Glossary](participant-guides/glossary.md)** — every term used across the planning portal, organized by category.
 
 ## Reporting
 
@@ -49,7 +49,7 @@ The same web portal will accept AAR notes. **Until it's live**, capture in your 
 
 The ICP needs to be able to see where personnel are during the exercise window. Every participant runs **CalTopo** on a personal mobile device. This is non-negotiable for accountability and for the **Safety Officer (SFC Sturgill)**.
 
-See **[CalTopo Guide](caltopo.md)** for full setup. Critical points:
+See **[CalTopo Guide](participant-guides/caltopo.md)** for full setup. Critical points:
 
 - Install before 12 MAY
 - Allow location **"Always"** (not "While Using App") — iOS in particular requires this

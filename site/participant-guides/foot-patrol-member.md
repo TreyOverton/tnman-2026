@@ -66,10 +66,10 @@ The squad has **no officer in the foot-patrol element itself.** SSG Whalen leads
 
 ## Resources
 
-- [Screen Division/Group Leader](screen-division-leader.md) — 2LT Garrison
-- [SECFOR Branch Director](secfor-director.md) — MAJ Crosby
-- [SECFOR Branch Deputy](secfor-deputy.md) — SFC Ferguson
+- [Screen Division/Group Leader](participant-guides/screen-division-leader.md) — 2LT Garrison
+- [SECFOR Branch Director](participant-guides/secfor-director.md) — MAJ Crosby
+- [SECFOR Branch Deputy](participant-guides/secfor-deputy.md) — SFC Ferguson
 - [Comms Plan / Annex H](../docs/comms-plan.md) — radio freqs, ICS-213 conventions
 - [Ops Graphics](../docs/ops-graphics.md) — NO-GO Line, screen positions, NAIs
-- [Safety Officer](safety-officer.md) — SFC Sturgill
-- [Common Expectations](common.md)
+- [Safety Officer](participant-guides/safety-officer.md) — SFC Sturgill
+- [Common Expectations](participant-guides/common.md)

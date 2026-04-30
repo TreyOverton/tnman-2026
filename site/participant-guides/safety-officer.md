@@ -60,9 +60,9 @@ This dynamic also applies in spirit to the RUL (1LT Fielitz-Scarbrough) directin
 
 ## Resources
 
-- [Incident Commander](ic.md)
+- [Incident Commander](participant-guides/ic.md)
 - [ICS-203](../docs/ics-203.md)
 - [DD Form 2977](../docs/dd2977.md) — Deliberate Risk Assessment, residual risk Moderate
 - [Risk Assessment](../risk.md)
-- [Common Expectations](common.md)
-- [Medical Unit](medical-unit.md)
+- [Common Expectations](participant-guides/common.md)
+- [Medical Unit](participant-guides/medical-unit.md)

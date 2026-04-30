@@ -56,9 +56,9 @@ The role exists to keep the Logistics Section responsive when CPT Haddix and SFC
 
 ## Resources
 
-- [Logistics Section Chief](logistics-chief.md)
-- [Logistics Section Deputy](logistics-deputy.md)
-- [Communications Unit](comms-unit.md)
-- [Medical Unit](medical-unit.md)
-- [Staging Area Manager](staging-area-manager.md)
-- [Common Expectations](common.md)
+- [Logistics Section Chief](participant-guides/logistics-chief.md)
+- [Logistics Section Deputy](participant-guides/logistics-deputy.md)
+- [Communications Unit](participant-guides/comms-unit.md)
+- [Medical Unit](participant-guides/medical-unit.md)
+- [Staging Area Manager](participant-guides/staging-area-manager.md)
+- [Common Expectations](participant-guides/common.md)

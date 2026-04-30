@@ -66,9 +66,9 @@ LTC is the appropriate rank for an Ops Section Chief on a TF this size. **No int
 
 ## Resources
 
-- [Incident Commander](ic.md)
-- [SECFOR Branch Director](secfor-director.md)
-- [Air Ops Branch Director](air-ops-director.md)
-- [Staging Area Manager](staging-area-manager.md)
+- [Incident Commander](participant-guides/ic.md)
+- [SECFOR Branch Director](participant-guides/secfor-director.md)
+- [Air Ops Branch Director](participant-guides/air-ops-director.md)
+- [Staging Area Manager](participant-guides/staging-area-manager.md)
 - [Execution Matrix](../docs/execution-matrix.md)
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

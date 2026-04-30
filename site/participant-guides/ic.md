@@ -77,4 +77,4 @@ The IC is doctrinally an officer, and COL Roark is the appropriate rank for this
 - [Execution Matrix](../docs/execution-matrix.md) — 13-15 MAY blue-force playbook
 - [Risk Assessment](../risk.md) — overall residual risk: Moderate
 - [Orders Back-Brief](../docs/back-brief.md) — summary of 3 RGT expectations across DIV/CG/RGT orders
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

@@ -62,9 +62,9 @@ This is a rank-vs-role billet. **CPT McCroskey is rank-senior to the Planning Se
 
 ## Resources
 
-- [Planning Section Chief](planning-chief.md)
-- [Resources Unit Leader](resources-unit-leader.md)
-- [Situation Unit Leader](situation-unit-leader.md)
-- [Comms Unit](comms-unit.md) — ICS-309 station logs
+- [Planning Section Chief](participant-guides/planning-chief.md)
+- [Resources Unit Leader](participant-guides/resources-unit-leader.md)
+- [Situation Unit Leader](participant-guides/situation-unit-leader.md)
+- [Comms Unit](participant-guides/comms-unit.md) — ICS-309 station logs
 - [JAG UAS Memo](../docs/jag-uas-memo.md) — for JAG-track context
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

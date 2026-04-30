@@ -56,9 +56,9 @@ This is a rank-vs-role example. **SFC is the standard rank for a senior SECFOR N
 
 ## Resources
 
-- [SECFOR Branch Director](secfor-director.md)
-- [Screen Division/Group Leader](screen-division-leader.md)
-- [Foot Patrol Member](foot-patrol-member.md)
-- [Operations Section Chief](ops-chief.md)
+- [SECFOR Branch Director](participant-guides/secfor-director.md)
+- [Screen Division/Group Leader](participant-guides/screen-division-leader.md)
+- [Foot Patrol Member](participant-guides/foot-patrol-member.md)
+- [Operations Section Chief](participant-guides/ops-chief.md)
 - [Ops Graphics](../docs/ops-graphics.md) — NO-GO Line, NAIs
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

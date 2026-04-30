@@ -52,8 +52,8 @@ N/A pending fill. Once assigned, the PIO is typically a CPT-MAJ in DIV PAO or a 
 
 ## Resources
 
-- [Incident Commander](ic.md)
-- [Liaison Officer](liaison-officer.md)
+- [Incident Commander](participant-guides/ic.md)
+- [Liaison Officer](participant-guides/liaison-officer.md)
 - [DIV OPORD 26-05](../docs/opord-div.md) §3.i.6.(g) — DIV PAO tasking
 - [CG's Intent](../docs/cg-intent.md) — PAO consolidation with TNARNG PAO
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

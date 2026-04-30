@@ -63,9 +63,9 @@ A few related dynamics:
 
 ## Resources
 
-- [Incident Commander](ic.md)
-- [Public Information Officer](pio.md)
+- [Incident Commander](participant-guides/ic.md)
+- [Public Information Officer](participant-guides/pio.md)
 - [DIV OPORD 26-05](../docs/opord-div.md) §3.i.6 — DIV LNO taskings
 - [CG's Intent](../docs/cg-intent.md) — incoming LNO breakdown
 - [Comms Plan / Annex H](../docs/comms-plan.md) — JOC integration
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

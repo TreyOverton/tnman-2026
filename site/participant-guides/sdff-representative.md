@@ -40,7 +40,7 @@ The Agency Rep role is **liaison and integration**, not command. The Agency Rep:
 
 ### 14 MAY (main flying day)
 
-- Operate as **Pilot 3** in the Air Ops Branch — see the [Part 107 Pilot](part-107-pilot.md) page for the flight-side expectations.
+- Operate as **Pilot 3** in the Air Ops Branch — see the [Part 107 Pilot](participant-guides/part-107-pilot.md) page for the flight-side expectations.
 - **Continue Agency Rep liaison** — be available to the IC for any SDFF-integration question or external SDFF coordination need.
 - Brief the IC on any SDFF-specific AAR observation captured during the day.
 
@@ -69,11 +69,11 @@ This is a complex rank-vs-role billet because of the parallel capacities and the
 
 ## Resources
 
-- [Incident Commander](ic.md)
-- [Air Ops Branch Director](air-ops-director.md) — CPT Borrilez
-- [Part 107 Pilot](part-107-pilot.md) — flight-side expectations
+- [Incident Commander](participant-guides/ic.md)
+- [Air Ops Branch Director](participant-guides/air-ops-director.md) — CPT Borrilez
+- [Part 107 Pilot](participant-guides/part-107-pilot.md) — flight-side expectations
 - [Volunteer Pilots](../volunteer-pilots.md) — full SDFF augmentation list
 - [JAG UAS Memo (Harris, 18 APR)](../docs/jag-uas-memo.md) — Part 107 / TCA framework
 - [JAG Pre-Brief — Personally-Owned DJI UAS](../docs/jag-brief-dji.md) — DJI / federal-nexus analysis
 - [Comms Log 27 APR](../comms.md) — Estes → Acosta direction (operate as TNSG, route through Sheaf to Armstrong)
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

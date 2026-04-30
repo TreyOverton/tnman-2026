@@ -63,10 +63,10 @@ CPT is appropriate rank for a Logistics Section Chief on this TF. **No internal 
 
 ## Resources
 
-- [Incident Commander](ic.md)
-- [Logistics Section Deputy](logistics-deputy.md)
-- [Service Branch Director](service-branch-director.md)
-- [Communications Unit](comms-unit.md)
-- [Medical Unit](medical-unit.md)
+- [Incident Commander](participant-guides/ic.md)
+- [Logistics Section Deputy](participant-guides/logistics-deputy.md)
+- [Service Branch Director](participant-guides/service-branch-director.md)
+- [Communications Unit](participant-guides/comms-unit.md)
+- [Medical Unit](participant-guides/medical-unit.md)
 - [Comms Plan / Annex H](../docs/comms-plan.md)
-- [Common Expectations](common.md)
+- [Common Expectations](participant-guides/common.md)

@@ -58,9 +58,9 @@ The more interesting dynamic in this Section is who you *both* direct — a CPT 
 
 ## Resources
 
-- [Planning Section Chief](planning-chief.md)
-- [Resources Unit Leader](resources-unit-leader.md)
-- [Situation Unit Leader](situation-unit-leader.md)
-- [Documentation Unit](documentation-unit.md)
-- [Technical Specialist](technical-specialist.md)
-- [Common Expectations](common.md)
+- [Planning Section Chief](participant-guides/planning-chief.md)
+- [Resources Unit Leader](participant-guides/resources-unit-leader.md)
+- [Situation Unit Leader](participant-guides/situation-unit-leader.md)
+- [Documentation Unit](participant-guides/documentation-unit.md)
+- [Technical Specialist](participant-guides/technical-specialist.md)
+- [Common Expectations](participant-guides/common.md)
