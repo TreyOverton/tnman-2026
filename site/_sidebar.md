@@ -29,6 +29,8 @@
 - [Operational / NAI Graphics](docs/ops-graphics.md)
 - [TNMAN Comms Plan (Annex H)](docs/comms-plan.md)
 - [JAG UAS Memo (Harris, 18 APR)](docs/jag-uas-memo.md)
+- [ICS-203 Assignment List](docs/ics-203.md)
+- [RGT Orders 26-04-601-3](docs/rgt-orders.md)
 - [Orders Back-Brief](docs/back-brief.md)
 - [Execution Matrix](docs/execution-matrix.md)
 - [ICP Layout & Workflow (draft)](docs/icp-layout.md)

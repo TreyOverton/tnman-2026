@@ -40,6 +40,8 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | [DD Form 2977 — Deliberate Risk Assessment](dd2977.md) | Draft | Overall residual risk: **Moderate**. Medical-readiness deviation addendum for MRC-2/3/4 personnel. Routing: BG Cox (medical concurrence) → COL Roark (final approval). MRC-4 verifications must be resolved before 30 APR. |
 | [TNMAN Comms Plan (Annex H)](comms-plan.md) | Draft | DIV-level comms plan — HF/VHF freqs, SHARES + VHF call signs, A4U Net schedule, ICS forms conventions. Owned by TNSG HHC G6 (LTC Hughes); CW2 Roach (2 RGT 51st SIG) executes. Frequencies pending TNG confirmation. |
 | [JAG UAS Memorandum](jag-uas-memo.md) | Received | CPT Harris (TNSG JAG) → COL Williams (DIV PMO), 18 APR 26. Foundational legal opinion: FAA Part 107 / TCA §§ 39-13-902/903. **Not a response to either pre-brief.** |
+| [ICS-203 — Organization Assignment List](ics-203.md) | Approved | LTC Sheaf 29 APR; COL Roark approved 29-30 APR. Authoritative billet-by-billet ICP assignments for the 13 MAY 26 operational period. Will be incorporated into FRAGO 26-05-01.2 (NLT 2 MAY 26). |
+| [RGT Orders 26-04-601-3 (TNMAN-26)](rgt-orders.md) | Issued | S1 (1LT Fielitz-Scarbrough) 29 APR 26; signed COL Roark. 30 of 31 organic ordered for 13-15 MAY (PV1 Elrod pending). DIV orders not yet issued. |
 
 ## Related (Outside Documents Section)
 

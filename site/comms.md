@@ -6,6 +6,48 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-29 — S1 (1LT Fielitz-Scarbrough) → 3 RGT (RGT Orders 26-04-601-3 issued, signed COL Roark)
+
+S1 issued **RGT Orders 26-04-601-3 — TNMAN-26** for 13-15 MAY 26. Signed COL Robert R. Roark; authorizing OPORD chain is [RGT OPORD 26-05-01](docs/opord-rgt.md) + [FRAGO 26-05-01.1](docs/frago-26-05-01-1.md). Issued **one day ahead of the 30 APR S1 Task 3 deadline.**
+
+**Coverage:** 30 of 31 organic personnel. **PV1 Elrod** (3 BN B Co MP, son of PV2 Charles Elrod, new recruit) is the only organic name not on the order — first name and bio info still pending; will be added on a follow-up order.
+
+**Key parameters:** Daily report 0600; exercise window 0600-2030 EST; without pay; uniform/equipment IAW RGT OPORD; POVs at individual expense; **Personally Owned Weapons NOT authorized**; authority Section 58-1-410 TCA. Location reads *"US Army Reserve Center, 399 US-11W Scenic"* — known cosmetic difference from canonical *"Armed Forces Reserve Center, 399 A US-11W Scenic"* (FRAGO will reconcile).
+
+**DIV orders not yet issued.** When DIV orders publish, they supersede these for any conflict; barring conflict, these stand as the working orders.
+
+**Cosmetic items captured for future reissue or FRAGO 26-05-01.2 cleanup:** McCOSKEY → McCROSKEY; Terrance → Terrence (Haddix); "Joshua p." → "Joshua P." (Ferguson); "Tennessee State Code Annotated" → *Tennessee Code Annotated*; EST → EDT (or ROMEO); facility name fix.
+
+Propagated to: new page [RGT Orders 26-04-601-3](docs/rgt-orders.md); [Timeline](timeline.md) (S1 Task 3 met 29 APR); [Planning Gaps](planning-gaps.md) (S1 Task 3 closed; PV1 Elrod info still required).
+
+Source: [RGT-Orders-26-04-601-3-TNMAN.pdf](/docs/source/RGT-Orders-26-04-601-3-TNMAN.pdf).
+
+### 2026-04-29 — LTC Sheaf → 1LT Overton (email, ICS-203 Assignment List for review/approval; COL Roark approved; will be in FRAGO 26-05-01.2)
+
+LTC Sheaf forwarded a **completed ICS-203 Organization Assignment List** for the **13 MAY 26 operational period (0600-2030)** with the framing: *"Pending your review and approval, this document is the Assignments List (ICP-203) that we will move forward with to establish the ICP."* **COL Roark approved.** LTC Sheaf replied that the ICS-203 will be incorporated into **FRAGO 26-05-01.2**, which he is drafting and hopes to release **before Saturday 2 MAY 26**.
+
+**Sheaf's SECFOR-footprint math:** *"Filling out the ICP leaves ~ four pax to almost fill out only one of the three 5-man Screen patrolling squads. So, we will have one 'almost actual' foot patrol and two notional on the screen line."* The four PAX not on the ICS-203 (and therefore available for the screen patrol): **SSG Whalen, PFC Human, PV2 Charles Elrod, PV1 Elrod**. One slot short of a 5-man squad.
+
+**Closes long-open task-org gaps in one stroke:**
+
+- **Deputy IC** = LTC Smith (Scott)
+- **Safety Officer** = SFC Sturgill *(unblocks DD 2977 routing)*
+- **Operations Section Chief** = LTC Sheaf
+- **Planning Section Chief** = 1LT Overton
+- **Logistics / Sustain Chief** = CPT Haddix
+- **Air Ops Branch Director** = **CPT Borrilez (2 BN CO)** *(was the long-stuck "Air Ops Branch Chief — TBD" billet — DIV / adjacent fill not needed)*
+- **SECFOR Branch Deputy** = SFC Ferguson
+- **Service Branch Director** = 2LT Neisler
+- **Documentation Unit** = CPT McCroskey
+- **Three Part 107 pilots staffed:** Widner (Pilot 1), Riley (Pilot 2), **SFC Acosta (Pilot 3, SDFF)** — exactly the RFF ask. SDFF augmentation is now task-org-integrated.
+- **First named 61st MED Co medic: MAJ Markus F. Gampe** (Medical Unit). 2 of 3 still TBD.
+
+**Still open:** Public Information Officer (DIV PAO assignment via LTC Epright); incoming 2/4/DIV LNO names; remaining 2 medics; PV1 Elrod first name + bio info; some MRC-4/unknown verifications.
+
+New page: [ICS-203 — Organization Assignment List](docs/ics-203.md). [Task Organization](taskorg.md) refactored to defer to the ICS-203 as authoritative.
+
+Source: [ICS-203-Organization-Assignment-List.pdf](/docs/source/ICS-203-Organization-Assignment-List.pdf).
+
 ### 2026-04-29 09:28 — LTC Sheaf → 1LT Fielitz-Scarbrough / 1LT Overton (email, TNMAN-26 Personnel Roster — 29 APR)
 
 LTC Sheaf returned a refreshed mission roster: *"These are my current expectations. We will obviously have to adjust, but this is my current estimate."* Format was the workbook I had built (Sheaf edited it directly).
