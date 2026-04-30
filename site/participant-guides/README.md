@@ -5,9 +5,7 @@ Per-role handbooks for TNMAN-26 participants. This section serves two audiences:
 1. **The person filling the role** — so you know what's expected of you, what's not, and how to coordinate.
 2. **The people around the role** — so the team understands what each member is doing, why they're doing it, and how their own work supports it.
 
-If you're filling a role, **read your role page first, then [Common Expectations](common.md).** If you want to understand what someone else is doing, find their page in the role list below.
-
-> **Status (30 APR 26):** This section is being rolled out. The two pages linked below are **sample drafts** for review; the remaining role pages will be added once the template is locked.
+If you're filling a role, **read your role page first, then [Common Expectations](common.md).** If you want to understand what someone else is doing, find their page below.
 
 ## Common to all participants
 
@@ -16,55 +14,53 @@ If you're filling a role, **read your role page first, then [Common Expectations
 
 ## Roles by ICS Section
 
-Pages marked *(sample)* are drafted; the rest are coming as the rollout completes.
-
 ### Command Staff
 
-- **[Incident Commander / TF Commander](ic.md)** — COL Roark *(sample)*
-- Deputy Incident Commander — LTC Smith *(coming)*
-- RCSM (Command-Staff advisor) — CSM Seals *(coming)*
-- Chaplain — MAJ Bennett *(coming)*
-- Safety Officer — SFC Sturgill *(coming)*
-- Public Information Officer — open *(coming)*
-- Liaison Officer — open + incoming 2 RGT / 4 RGT / DIV LNOs *(coming)*
+- [Incident Commander / TF Commander](ic.md) — COL Roark
+- [Deputy Incident Commander](deputy-ic.md) — LTC Smith
+- [RCSM (Command-Staff advisor)](rcsm-advisor.md) — CSM Seals
+- [Chaplain](chaplain.md) — MAJ Bennett
+- [Safety Officer](safety-officer.md) — SFC Sturgill
+- [Public Information Officer](pio.md) — open
+- [Liaison Officer](liaison-officer.md) — open + incoming 2 RGT / 4 RGT / DIV LNOs
 
 ### Operations Section
 
-- Operations Section Chief — LTC Sheaf *(coming)*
-- Operations Section Deputy — 1SG Collins *(coming)*
-- Asst Ops Specialist — SGT Malone *(coming)*
-- Staging Area Manager — MAJ Rookard *(coming)*
-- SECFOR Branch Director — MAJ Crosby *(coming)*
-- SECFOR Branch Deputy — SFC Ferguson *(coming)*
-- Screen Division/Group Leader — 2LT Garrison *(coming)*
-- Foot Patrol Member — SSG Whalen / PFC Human / PV2 Elrod *(coming)*
-- Air Ops Branch Director — CPT Borrilez *(coming)*
-- Part 107 Pilot — CPT Widner / 1LT Riley / SFC Acosta (SDFF) *(coming)*
+- [Operations Section Chief](ops-chief.md) — LTC Sheaf
+- [Operations Section Deputy](ops-deputy.md) — 1SG Collins
+- [Assistant Ops Specialist](asst-ops.md) — SGT Malone
+- [Staging Area Manager](staging-area-manager.md) — MAJ Rookard
+- [SECFOR Branch Director](secfor-director.md) — MAJ Crosby
+- [SECFOR Branch Deputy](secfor-deputy.md) — SFC Ferguson
+- [Screen Division/Group Leader](screen-division-leader.md) — 2LT Garrison
+- [Foot Patrol Member](foot-patrol-member.md) — SSG Whalen / PFC Human / PV2 Elrod
+- [Air Ops Branch Director](air-ops-director.md) — CPT Borrilez
+- [Part 107 Pilot](part-107-pilot.md) — CPT Widner / 1LT Riley / SFC Acosta (SDFF)
 
 ### Planning Section
 
-- Planning Section Chief — 1LT Overton *(coming)*
-- Planning Section Deputy — 2LT Sobel *(coming)*
-- Resources Unit Leader — 1LT Fielitz-Scarbrough *(coming)*
-- **[Situation Unit Leader](situation-unit-leader.md)** — 1SG Snow *(sample — includes the rank-vs-role example)*
-- Documentation Unit — CPT McCroskey *(coming)*
-- Technical Specialist — SSG Miles / WO1 Hendon *(coming)*
+- [Planning Section Chief](planning-chief.md) — 1LT Overton
+- [Planning Section Deputy](planning-deputy.md) — 2LT Sobel
+- [Resources Unit Leader](resources-unit-leader.md) — 1LT Fielitz-Scarbrough
+- [Situation Unit Leader](situation-unit-leader.md) — 1SG Snow
+- [Documentation Unit](documentation-unit.md) — CPT McCroskey
+- [Technical Specialist](technical-specialist.md) — SSG Miles / WO1 Hendon
 
 ### Logistics Section
 
-- Logistics Section Chief — CPT Haddix *(coming)*
-- Logistics Section Deputy — SFC Bradley *(coming)*
-- Service Branch Director — 2LT Neisler *(coming)*
-- Communications Unit — CSM Rutherford / SSG Singh *(coming)*
-- Medical Unit — MAJ Gampe (61st MED Co attachment) + 2 medics pending *(coming)*
+- [Logistics Section Chief](logistics-chief.md) — CPT Haddix
+- [Logistics Section Deputy](logistics-deputy.md) — SFC Bradley
+- [Service Branch Director](service-branch-director.md) — 2LT Neisler
+- [Communications Unit](comms-unit.md) — CSM Rutherford / SSG Singh
+- [Medical Unit](medical-unit.md) — MAJ Gampe (61st MED Co attachment) + 2 medics pending
 
 ### Agency / Organization Representative
 
-- SDFF Representative — SFC Acosta *(coming)*
+- [SDFF Representative](sdff-representative.md) — SFC Acosta
 
 ## How these pages are structured
 
-Each role page uses the same template:
+Each role page follows the same template:
 
 | Section | Purpose |
 |---------|---------|

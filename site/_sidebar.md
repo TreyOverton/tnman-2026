@@ -4,7 +4,7 @@
 - [Situational Awareness Brief](docs/sabrief.md)
 - [Operational / NAI Graphics](docs/ops-graphics.md)
 - [Execution Matrix](docs/execution-matrix.md)
-- [ICP Layout & Workflow (draft)](docs/icp-layout.md)
+- [ICP Layout & Workflow](docs/icp-layout.md)
 
 - **PERSONNEL**
 - [Mission Roster](roster.md)
@@ -44,8 +44,6 @@
 - [Overview](participant-guides/README.md)
 - [Common Expectations](participant-guides/common.md)
 - [CalTopo Guide](participant-guides/caltopo.md)
-- [Incident Commander (sample)](participant-guides/ic.md)
-- [Situation Unit Leader (sample)](participant-guides/situation-unit-leader.md)
 
 - **REFERENCE**
 - [Reference Index](reference-index.md)
