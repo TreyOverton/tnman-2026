@@ -10,6 +10,7 @@ If you're filling a role, **read your role page first, then [Common Expectations
 ## Common to all participants
 
 - **[Common Expectations](common.md)** — what every participant does regardless of role: ICS-214 activity log, AAR observations, CalTopo, ROE, reporting, conduct, safety
+- **[Glossary / Abbreviations](glossary.md)** — every acronym and abbreviation used across the planning portal, organized by category (ranks, organizations, ICS, comms, legal, etc.)
 - **[CalTopo Guide](caltopo.md)** — install, setup, and exercise-day use of the team-tracking app every participant runs on a personal mobile device
 
 ## Roles by ICS Section

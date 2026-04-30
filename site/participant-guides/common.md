@@ -4,6 +4,8 @@ What every TNMAN-26 participant does regardless of role. **Read your role page f
 
 If your role page contradicts this page on a detail, follow the role page — it has been tailored to your responsibilities.
 
+> **Lost in abbreviations?** See the **[Glossary](glossary.md)** — every term used across the planning portal, organized by category.
+
 ## Reporting
 
 | Item | Value |

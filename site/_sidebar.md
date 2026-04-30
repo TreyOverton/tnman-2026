@@ -43,6 +43,7 @@
 - **PARTICIPANT GUIDES**
 - [Overview](participant-guides/README.md)
 - [Common Expectations](participant-guides/common.md)
+- [Glossary / Abbreviations](participant-guides/glossary.md)
 - [CalTopo Guide](participant-guides/caltopo.md)
 
 - **REFERENCE**
