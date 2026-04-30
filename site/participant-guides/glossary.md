@@ -20,8 +20,9 @@ Tennessee State Guard mirrors Army rank structure. The TNSG is a state-only forc
 | **MAJ** | Major | O-4 | Field-grade |
 | **LTC** | Lieutenant Colonel | O-5 | |
 | **COL** | Colonel | O-6 | |
-| **BG** | Brigadier General | O-7 | One-star general officer |
-| **MG** | Major General | O-8 | Two-star |
+| **BG** | Brigadier General | O-7 | One-star general officer; **highest rank in TNSG** |
+
+> **Note:** Higher general-officer ranks (MG / LTG / GEN — O-8 through O-10) exist in DoD / TNARNG but **TNSG tops out at BG**. You may encounter higher ranks when interacting with TNARNG, JFHQ-TN, or federal counterparts.
 
 ### Warrant Officers
 
@@ -31,24 +32,29 @@ Tennessee State Guard mirrors Army rank structure. The TNSG is a state-only forc
 | **CW2** | Chief Warrant Officer 2 | W-2 | |
 | **CW3** | Chief Warrant Officer 3 | W-3 | |
 | **CW4** | Chief Warrant Officer 4 | W-4 | |
+| **CW5** | Chief Warrant Officer 5 | W-5 | Senior warrant grade |
 
 ### Enlisted (lowest to highest)
 
 | Abbrev | Rank | Pay grade | Notes |
 |--------|------|-----------|-------|
-| **PV1** | Private | E-1 | |
-| **PV2** | Private | E-2 | |
+| **PV1** | Private | E-1 | New enlistee; no insignia |
+| **PV2** | Private | E-2 | Earned the single-chevron promotion |
 | **PFC** | Private First Class | E-3 | |
 | **CPL** | Corporal | E-4 | (alt: SPC — Specialist) |
 | **SGT** | Sergeant | E-5 | First NCO grade |
 | **SSG** | Staff Sergeant | E-6 | |
 | **SFC** | Sergeant First Class | E-7 | Senior NCO |
-| **MSG** | Master Sergeant | E-8 | |
-| **1SG** | First Sergeant | E-8 | Senior NCO billet at company level |
-| **SGM** | Sergeant Major | E-9 | |
-| **CSM** | Command Sergeant Major | E-9 | Senior NCO billet at battalion level and above |
+| **MSG** | Master Sergeant | E-8 | Staff NCO |
+| **1SG** | First Sergeant | E-8 | Senior NCO **billet** (leadership at company level) — same pay grade as MSG |
+| **SGM** | Sergeant Major | E-9 | Staff NCO |
+| **CSM** | Command Sergeant Major | E-9 | Senior NCO **billet** (leadership at battalion level and above) — same pay grade as SGM |
 
-**Pay-grade shorthand**: officers are O-1 through O-10; warrants are W-1 through W-5; enlisted are E-1 through E-9. You may see references like "an E-7 in the role of..." — that's a SFC or 1SG depending on billet.
+> **Note on PV1 vs. PV2:** the number is the pay grade, not a "first / second" ordinal. **PV1 (E-1) is junior to PV2 (E-2)** — the "2" indicates the soldier has earned the single-chevron promotion. This is the opposite of officer Lieutenants, where 1LT (O-2) is senior to 2LT (O-1) because "First" is higher than "Second." Two different naming conventions; both rank-bands have the higher pay grade as the senior.
+
+> **Note on E-8 / E-9 billets:** **1SG and CSM are billet titles, not separate pay grades.** A soldier at E-8 wearing the 1SG diamond is a First Sergeant by **assignment**; the same E-8 in a staff position is a MSG. Same dynamic at E-9 (CSM is the unit-leadership billet; SGM is a staff role at the same pay grade).
+
+**Pay-grade shorthand**: officers are O-1 through O-10; warrants are W-1 through W-5; enlisted are E-1 through E-9. You may see references like "an E-7 in the role of..." — that's a SFC.
 
 ## Military Organizations & Echelons
 
