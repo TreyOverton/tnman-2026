@@ -8,7 +8,7 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 ### Personnel
 
-- **MRC-4 / MRC-unknown status verification** — refreshed 29 APR. **MRC-4:** CPT McCroskey (HHC, restored 29 APR), MAJ Bennett (4 BN), 2LT Neisler (4 BN), WO1 Hendon (4 BN). **MRC-unknown** (blank in Sheaf's 29 APR xlsx): 1LT Riley (3 BN), SFC Ferguson (3 BN), PV1 Elrod (3 BN — new recruit, biographical info pending). Each must be raised to MRC-1/2 or processed through the MRC-3 deviation. *Source: [Mission Roster](roster.md), [DD 2977 Block 4](docs/dd2977.md).*
+- **MRC-4 / MRC-unknown status verification** — refreshed 30 APR. **MRC-4:** CPT McCroskey (HHC, restored 29 APR), MAJ Bennett (4 BN), 2LT Neisler (4 BN), WO1 Hendon (4 BN). **MRC-unknown** (blank in Sheaf's 29 APR xlsx): 1LT Riley (3 BN), SFC Ferguson (3 BN). Each must be raised to MRC-1/2 or processed through the MRC-3 deviation. *Source: [Mission Roster](roster.md), [DD 2977 Block 4](docs/dd2977.md).* (PV1 Elrod removed 30 APR — no longer applicable.)
 - **PHA currency data** — **HARDER BLOCKER.** DIV OPORD 26-05 §4.c.(4) confirms 61st MED BN **will NOT provide PHAs during TNMAN**. Units must verify PHAs are current before orders issue. Chase via S1 medical records. *Source: [Risk Assessment M-4](risk.md), [DIV OPORD §4.c.(4)](docs/opord-div.md).*
 - **IET attendance verification** — DIV OPORD 26-05 §3.j.(11).(d): *"Soldiers who have not attended IET will not be allowed to attend TNMAN."* S1 must verify IET attendance for all mission-roster personnel before orders issue. *Source: [DIV OPORD §3.j](docs/opord-div.md).*
 - **AT-in-lieu approvals** — DIV OPORD 26-05 §3.j.(11).(c): any Soldier doing TNMAN in lieu of AT requires **CG and DCGO approval**. S1 to identify any such Soldiers on the roster and route approvals. *Source: [DIV OPORD §3.j](docs/opord-div.md).*
@@ -104,7 +104,7 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 ### Content / Pages Currently Placeholder
 
 - **[Situational Awareness Brief](docs/sabrief.md)** — placeholder, no content. Needs an intel-style brief for ICP leadership.
-- **[Participant Guide](docs/participant-guide.md)** — placeholder. Short handbook for Soldiers reporting to the exercise.
+- ~~**Participant Guide** — placeholder.~~ — **Replaced 30 APR** by the [Participant Guides](participant-guides/README.md) section (Overview + Common Expectations + CalTopo Guide + per-role pages — rollout in progress).
 - **[Exercise Precedent](precedent.md)** — placeholder. Prior 3 RGT experience at TNMAN / similar exercises.
 - **[Technology & Platforms](tech.md)** — placeholder. Documentation of radios, ATAK, Starlink, ICP systems.
 - **[AAR Notes](aar-draft.md)** — placeholder; will begin populating during execution.

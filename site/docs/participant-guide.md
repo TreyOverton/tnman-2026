@@ -1,3 +1,0 @@
-# Participant Guide
-
-*Content pending.*

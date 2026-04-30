@@ -77,7 +77,7 @@ A 6-hour clock is a concrete planning factor — drives ADVON composition, load 
 - **DIV OPORD §3.i.4.(i):** "Provide sleeping area for 1st Regt SECFOR personnel."
 - **CG standing policy:** Dawn-to-dusk + RON at home (or Soldier-funded hotel). **No billeting at the ICP.**
 - **1 RGT tasking in DIV OPORD §3.i.2.(a):** 6 personnel as **OPFOR** (not SECFOR). The DIV sub-tasking language appears to have "SECFOR" where "OPFOR" was intended.
-- **[FRAGORD 3 to JFHQ-TN OPORD 25-18](../docs/fragord-3-jfhq.md)** (15 APR, processed 23 APR): Tasks **278th ACR** to provide **Mt Carmel Armory** space for **50 individuals** as **RON and ICP** 11-17 MAY. This independently confirms that the Armory is authorized for RON use; 278th ACR is the facility-providing unit, and 3 RGT manages SG use of the space. The CG dawn-to-dusk policy for TNSG personnel still governs TNSG RON decisions.
+- **[FRAGORD 3 to JFHQ-TN OPORD 25-18](docs/fragord-3-jfhq.md)** (15 APR, processed 23 APR): Tasks **278th ACR** to provide **Mt Carmel Armory** space for **50 individuals** as **RON and ICP** 11-17 MAY. This independently confirms that the Armory is authorized for RON use; 278th ACR is the facility-providing unit, and 3 RGT manages SG use of the space. The CG dawn-to-dusk policy for TNSG personnel still governs TNSG RON decisions.
 
 Two issues to resolve before FRAGO:
 
@@ -107,7 +107,7 @@ Update [DD 2977](docs/dd2977.md) Block 4 and [Planning Gaps](planning-gaps.md) t
 
 - **DIV OPORD §4.b.(2):** "All Volunteers will be in an unpaid status during TNMAN."
 
-This should be surfaced in the S1 orders process and reflected in the [Mission Roster](roster.md) / [Participant Guide](docs/participant-guide.md). 4 BN's employment-coordination concern (CPT Borrilez comment on 2 BN truck drivers) is reinforced — Soldiers must take leave without pay if employed; civilian-employment coordination under S1 Task 3 is even more important.
+This should be surfaced in the S1 orders process and reflected in the [Mission Roster](roster.md) / [Participant Guides](participant-guides/README.md). 4 BN's employment-coordination concern (CPT Borrilez comment on 2 BN truck drivers) is reinforced — Soldiers must take leave without pay if employed; civilian-employment coordination under S1 Task 3 is even more important.
 
 ### B7. AT-vs-TNMAN approval authority — FRAGO
 

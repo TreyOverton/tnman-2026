@@ -20,7 +20,7 @@ External reference materials, higher-HQ planning products, and informational res
 
 | Page | Status | Notes |
 |------|--------|-------|
-| [Participant Guide](docs/participant-guide.md) | Placeholder | Short handbook for Soldiers reporting to the exercise. Not yet written. |
+| [Participant Guides](participant-guides/README.md) | Live (rollout in progress) | Per-role handbooks for participants. Overview, Common Expectations, CalTopo Guide, plus role pages (IC and Situation Unit Leader as sample drafts; remaining roles being added). |
 | [Technology & Platforms](tech.md) | Placeholder | Documentation of radios (TACN, HF/VHF), ATAK, Starlink, ICP systems. Awaits resolution of G6 open items. |
 | [RFI Log](rfi.md) | Placeholder | Tracking Requests for Information. |
 | [Exercise Precedent](precedent.md) | Placeholder | Prior 3 RGT experience at TNMAN / similar exercises. |

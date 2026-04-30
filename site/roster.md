@@ -12,9 +12,9 @@ Personnel slated for TNMAN 2026. Current as of LTC Sheaf's **29 APR 26 email** *
 |------|------:|------:|------:|------:|------:|------:|
 | Regimental HQ | 11 | 5 | 5 | 0 | 1 | 0 |
 | 2nd Battalion | 3 | 2 | 1 | 0 | 0 | 0 |
-| 3rd Battalion | 10 | 4 | 1 | 2 | 0 | 3 |
+| 3rd Battalion | 9 | 4 | 1 | 2 | 0 | 2 |
 | 4th Battalion | 7 | 2 | 1 | 1 | 3 | 0 |
-| **Total (draft)** | **31** | **13** | **8** | **3** | **4** | **3** |
+| **Total (draft)** | **30** | **13** | **8** | **3** | **4** | **2** |
 
 **Legend:** <span class="mrc mrc-1">MRC-1</span> fully available &nbsp; <span class="mrc mrc-2">MRC-2</span> partial &nbsp; <span class="mrc mrc-3">MRC-3</span> limited &nbsp; <span class="mrc mrc-4">MRC-4</span> unknown / unverified (treated as red for safety)
 
@@ -59,7 +59,7 @@ Not counted in the totals above until confirmed. See Open Items.
 
 ## 3rd Battalion
 
-*Per LTC Sheaf 29 APR 26: SFC Ferguson and 1LT Riley are back on the roster (reversal of the 22 APR text-message removal). Two new B Co MP additions: PV2 Charles Elrod (the father, already on the roster) and PV1 Elrod (his son, a new recruit who first appeared in uniform at the 25 APR IDT — first name and biographical info pending). 2LT Steele dropped from the working roster. Query MAJ Crosby / 1LT Riley if more info on PV1 Elrod is needed.*
+*Per LTC Sheaf 29 APR 26: SFC Ferguson and 1LT Riley are back on the roster (reversal of the 22 APR text-message removal). 2LT Steele dropped from the working roster. **PV1 Elrod (son of PV2 Charles Elrod) was added 29 APR but removed 30 APR** — per voice conversation between LTC Sheaf and 1LT Overton, PV1 Elrod is not yet sworn in, has not attended IET, and has not had a PHA, which disqualifies him under DIV OPORD §3.j.(11).(d).*
 
 | Rank | Name | Position | MRC | Contact Info |
 |------|------|----------|-----|--------------|
@@ -71,8 +71,7 @@ Not counted in the totals above until confirmed. See Open Items.
 | 2LT | Garrison, Aaron E | BN S4 | <span class="mrc mrc-1">MRC-1</span> | 931-510-5485<br>aaron.garrison@tnstateguard.org<br>385 Poplar Ridge Rd, Piney Flats, TN 37686 |
 | SGT | Malone, Tony W | A Co MP | <span class="mrc mrc-3">MRC-3</span> | 423-646-7146<br>tony.malone@tnstateguard.org<br>404 Blue Bonnet Dr, Bristol, TN 37620 |
 | PFC | Human, Nicholas J | A Co MP | <span class="mrc mrc-1">MRC-1</span> | 423-656-1333<br>nicholas.human@tnstateguard.org<br>1920 Bowater Dr E11, Kingsport, TN 37760 |
-| PV2 | Elrod, Charles E | B Co MP (father) | <span class="mrc mrc-1">MRC-1</span> | 423-930-3860<br>charles.elrod@tnstateguard.org<br>2110 Buffalo Rd, Johnson City, TN 37604 |
-| PV1 | Elrod, **TBD** | B Co MP (son) — new recruit | <span class="mrc mrc-4">unknown</span> | First name + bio info pending; MAJ Crosby / 1LT Riley to confirm |
+| PV2 | Elrod, Charles E | B Co MP | <span class="mrc mrc-1">MRC-1</span> | 423-930-3860<br>charles.elrod@tnstateguard.org<br>2110 Buffalo Rd, Johnson City, TN 37604 |
 
 ## 4th Battalion
 
@@ -97,15 +96,15 @@ Not counted in the totals above until confirmed. See Open Items.
 - **1 RGT OPFOR** — 6 PAX at Holston, 13-15 MAY. Not on our roster but will be on-site; coordinate through HAAP POC Mr. Tony Armstrong.
 - ~~**2/3 availability** — 2BN roster imported from the alert recall roster as a starting point; LTC Sheaf unsure of 2/3 posture~~ — **resolved 23 APR (unfavorably).** Sheaf's strikethrough removed 5 of 8 2 BN personnel; only BN CO / XO / HQ Co 1SG remain. The original [2BN alert recall roster (1 Mar 2026)](/data/alert_rosters/2BN%20ALERT%20RECALL-%201%20MARCH%202026.docx) is retained as historical source only.
 - **PHA tracking** — Sheaf asked whether most-recent PHA dates could be included. PHA data is not in the alert rosters. Need a data source (S1 medical records?) — deferred pending confirmation from CPT Meager's replacement.
-- **Departures (still out)** — CPT Meager (HHC, moved to Texas), CPT Sutton and CW2 Hickman (HHC, now IRR), 2LT Zeinali and PV2 Crosby Caleb (3/3, inactive 2+ years), PV2 Danger (3/3, now IRR/PFC), PV1 Tobin (3/3, IRR or out), **SSG Burns (2 BN, discharged per CPT Borrilez 11 APR)**, MSG Klaus (2 BN, discharged — was never on mission roster).
+- **Departures (still out)** — CPT Meager (HHC, moved to Texas), CPT Sutton and CW2 Hickman (HHC, now IRR), 2LT Zeinali and PV2 Crosby Caleb (3/3, inactive 2+ years), PV2 Danger (3/3, now IRR/PFC), PV1 Tobin (3/3, IRR or out), **SSG Burns (2 BN, discharged per CPT Borrilez 11 APR)**, MSG Klaus (2 BN, discharged — was never on mission roster), **PV1 Elrod (3 BN, son of PV2 Charles Elrod — added 29 APR, removed 30 APR per voice conversation: not yet sworn in, no IET, no PHA — disqualified per DIV OPORD §3.j.(11).(d))**.
 - ~~**Not attending TNMAN-26 (22 APR text)** — 1LT Riley, SFC Ferguson~~ — **REVERSED 29 APR.** Sheaf's 29 APR roster restores both. 1LT Riley brings the Part 107 pilot pool back to **2 organic** (Widner + Riley). SFC Ferguson available for a 1SG / SECFOR billet again.
-- **DIV-tracked PAX = 31 organic** (was 28+3 attachments). LTC Estes 26 APR DIV-CG email referenced 31; the 29 APR roster brings the **organic** count to 31 directly. Attached **61st MED Co medics (3)** are still expected on top of organic. New target on the ground: **34 PAX** (31 organic + 3 medics). *Source: [Comms Log 26 APR](comms.md), [29 APR](comms.md).*
+- **DIV-tracked PAX (was 31 organic)** — Estes 26 APR DIV-CG email referenced 31; Sheaf's 29 APR roster brought organic to 31. After PV1 Elrod removal 30 APR, organic = **30**. Attached **61st MED Co medics (3, of which MAJ Markus F. Gampe named per ICS-203)** are still expected on top of organic. **Plus SFC Acosta (SDFF, IRR) on the ICS-203 as Pilot 3.** Working target on the ground: **~34 PAX** (30 organic + 3 medics + Acosta). *Source: [Comms Log 26 APR](comms.md), [29 APR](comms.md), [30 APR](comms.md).*
 - **2LT Steele dropped (29 APR)** — Steele (B Co) was on the prior roster as MRC-1 but is not on Sheaf's 29 APR list. No reason given. Remains in the [Chain of Command](coc.md).
 - **PV1 Elrod (29 APR new add)** — son of PV2 Charles Elrod, joined as a new recruit; first appeared in uniform at the 25 APR IDT (per 1LT Overton AAR/brief docs). First name and biographical info pending — query MAJ Crosby / 1LT Riley.
 - **23 APR strikethrough now mostly stale** — only the **2 BN cuts (5 of 8)** and the 3 BN cuts (CPT Moore, SGT Overton Ian, PV1 Gauthier) and **LT Hoskins (4 BN)** remain out. CPT McCroskey is back in HHC per 29 APR. Original 23 APR removals retained for history:
   - **2 BN (5)** — 1LT Barnes (Chaplain), SSG Lillard (Comm NCO), SGT Spence (Info Tech), SGT Walker (ASST S3 NCO), CPL Cate (S3 Clerk). Remaining 2 BN: BN CO / BN XO / HQ Co 1SG only.
   - **3 BN (3)** — CPT Moore (S6 C&E Officer), SGT Overton, Ian M (A Co MP), PV1 Gauthier (A Co MP). A Co MP team still 2.
   - **4 BN (1)** — **LT Hoskins** (Part 107 UAS Pilot, fixed-wing). Pilot pool now **2** (Widner, Riley) after Riley's 29 APR restoration; Hoskins still out.
-- **MRC-4 (unknown) personnel** — verifications still required for: **Bennett, Neisler, Hendon** (all 4 BN), plus **CPT McCroskey** (HHC, ASST JAG, restored 29 APR). Verifications pending for **1LT Riley, SFC Ferguson, PV1 Elrod** (3 BN — newly listed, MRC field blank in Sheaf's 29 APR xlsx).
+- **MRC-4 (unknown) personnel** — verifications still required for: **Bennett, Neisler, Hendon** (all 4 BN), plus **CPT McCroskey** (HHC, ASST JAG, restored 29 APR). MRC-unknown verifications pending for **1LT Riley, SFC Ferguson** (3 BN — restored 29 APR, MRC field blank in Sheaf's 29 APR xlsx). PV1 Elrod removed 30 APR.
 - **Rank discrepancy — Hendon (4/3)** — 4BN Feb 2026 PDF lists SSG/WOC; regimental Mar 2026 PDF and Sheaf's email list WO1. Using **WO1**.
 - **Rank discrepancy — Miles (4/3)** — 4BN Feb 2026 PDF lists SGT; regimental Mar 2026 PDF and Sheaf's email list SSG. Using **SSG**.

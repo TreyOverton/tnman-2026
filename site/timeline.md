@@ -47,6 +47,7 @@ All times **ROMEO (Eastern)** unless otherwise noted. Date-time group format: **
 | **29 APR 26** | **Mission roster refresh (Sheaf 29 APR)** — 28 → 31 organic PAX. Riley, Ferguson, McCroskey restored; PV1 Elrod added; Steele dropped | [Mission Roster](roster.md) · [Comms Log](comms.md) |
 | **29 APR 26** | **ICS-203 Assignment List approved** by COL Roark — closes Deputy IC, Safety Officer, Ops/Planning/Logistics/Air Ops Chiefs in one stroke. Will be incorporated into FRAGO 26-05-01.2. | [ICS-203](docs/ics-203.md) · [Comms Log](comms.md) |
 | **29 APR 26** | **S1 issues RGT Orders 26-04-601-3** (signed COL Roark) — 30 of 31 organic ordered 13-15 MAY. Met S1 Task 3 30 APR deadline one day early. **DIV orders pending.** | [RGT Orders](docs/rgt-orders.md) · [Comms Log](comms.md) |
+| **30 APR 26** | **PV1 Elrod removed** from mission roster (voice conversation Sheaf / Overton — not yet sworn in / no IET / no PHA). Organic count 31 → 30. SECFOR foot-patrol element drops 4 → 3 PAX. | [Comms Log](comms.md) |
 | 30 APR 26 | **Final MSEL Review (DIV level)** | [FPM Slides](docs/fpm-slides.md) |
 | **NLT Sat 02 MAY 26** | **FRAGO 26-05-01.2 target publication** — LTC Sheaf drafting; will incorporate the [ICS-203](docs/ics-203.md) and likely roll up the cosmetic/location FRAGO-candidate items from the Consistency Review. | [Comms Log 29 APR](comms.md) |
 

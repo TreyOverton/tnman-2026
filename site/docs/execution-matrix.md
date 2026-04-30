@@ -115,14 +115,14 @@ timeline
 |----------|--------|--------|-----------|-------|------------------------------|-------------|
 | **0700-0900** | Half-day opens; sections present for hot-wash; ICP watch-standing minimized | **Light perimeter posture** — reduced patrol footprint; maintain Main Gate + Bridge coverage only | No sUAS sorties by default (mission complete D+1); airspace closed | **{inject}** Comms blackout — JFHQ exercises PACE / Emergency Comms Plan | — | Breakfast |
 | **0900-1030** | **Hot-wash** at ICP — section chiefs + LTC Sheaf + COL Roark | Residual perimeter coverage | — | PACE exercise — alternates (FirstNet ePTT, cell, satellite, JISCC) tested | Comms-blackout exercise in progress | — |
-| **1030-1200** | **Local AAR** session — structured AAR by swim lane; notes captured to [AAR Notes](aar-draft.md) | Begin equipment turn-in | — | Begin comms teardown | — | Late morning snacks |
+| **1030-1200** | **Local AAR** session — structured AAR by swim lane; notes captured to [AAR Notes](../aar-draft.md) | Begin equipment turn-in | — | Begin comms teardown | — | Late morning snacks |
 | **1200-1400** | AAR close-out; DIV report drafted | Demob convoy prep; route brief | — | Signal Annex recovery | — | Lunch |
 | **1400-1600** | Section chiefs sign off; SITREP to DIV G3; [Comms Log](../comms.md) finalized | Convoy departure; home-station return begins | — | Final check-in on arrival at home station | — | — |
 | **NLT 2131R** | **Phase III initial actions complete** per RGT OPORD (24 hrs post-ENDEX) | Home-station arrival; 2-hr NLT closure report to G3 per DIV TACSOP | — | Final comms check at home station | — | — |
 
 ### D+2 Key Reports
 
-- **AAR Observations** captured to [AAR Notes](aar-draft.md) (use `/aar` skill during execution).
+- **AAR Observations** captured to [AAR Notes](../aar-draft.md) (use `/aar` skill during execution).
 - **Home-Station Closure / Sensitive-Item Report** NLT 2 hrs after arrival (per DIV TACSOP).
 - **DIV AAR submission** follows the +90-day admin close-out cycle.
 

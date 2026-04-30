@@ -6,6 +6,16 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-30 — Voice conversation, LTC Sheaf / 1LT Overton (PV1 Elrod removed from mission roster)
+
+In a voice conversation following the 29 APR ICS-203 approval, LTC Sheaf and 1LT Overton determined that **PV1 Elrod** (3 BN B Co MP, son of PV2 Charles Elrod — added to the roster 29 APR as a new recruit) is **not yet sworn in, has not attended IET, and has not had a PHA**. Per **DIV OPORD §3.j.(11).(d)** — *"Soldiers who have not attended IET will not be allowed to attend TNMAN"* — and the §4.c.(4) PHA expectation, PV1 Elrod cannot participate.
+
+**Removed from the mission roster.** Organic count: 31 → **30**.
+
+**Downstream impact — SECFOR foot patrol:** The four PAX previously identified as available for the physical screen patrol drops to **three** — SSG Whalen, PFC Human, PV2 Charles Elrod. Sheaf's *"one almost-actual / two notional"* framing still holds; the actual squad is two slots short of a 5-man rather than one. ICS-203 SECFOR-footprint section corrected.
+
+Propagated to: [Mission Roster](roster.md) (count + 3 BN table + Open Items + Departures); [ICS-203](docs/ics-203.md) (SECFOR Footprint Math); [Task Organization](taskorg.md) (Physical SECFOR Footprint); [Planning Gaps](planning-gaps.md) (PV1 Elrod biographical-info gap closed by removal).
+
 ### 2026-04-29 — S1 (1LT Fielitz-Scarbrough) → 3 RGT (RGT Orders 26-04-601-3 issued, signed COL Roark)
 
 S1 issued **RGT Orders 26-04-601-3 — TNMAN-26** for 13-15 MAY 26. Signed COL Robert R. Roark; authorizing OPORD chain is [RGT OPORD 26-05-01](docs/opord-rgt.md) + [FRAGO 26-05-01.1](docs/frago-26-05-01-1.md). Issued **one day ahead of the 30 APR S1 Task 3 deadline.**

@@ -61,16 +61,15 @@ graph TD
 | Air Ops — Pilot 2 | 1LT Michael W. Riley (3 BN XO, Part 107) |
 | Air Ops — Pilot 3 | SFC Adam Acosta (SDFF, IRR) |
 
-### Physical SECFOR Footprint (Sheaf 29 APR)
+### Physical SECFOR Footprint (Sheaf 29 APR; updated 30 APR)
 
-After ICP fills, **4 PAX remain** for the actual screen patrol — one slot short of a 5-man squad:
+After ICP fills, **3 PAX remain** for the actual screen patrol (was 4 before PV1 Elrod's 30 APR removal — see [Comms Log](comms.md)) — two slots short of a 5-man squad:
 
 | PAX | Source |
 |-----|--------|
 | SSG John R. Whalen (4 BN, A Co 1SG Acting) | likely squad leader |
 | PFC Nicholas J. Human (3 BN, A Co MP) | |
 | PV2 Charles E. Elrod (3 BN, B Co MP) | |
-| PV1 Elrod (3 BN, B Co MP — son, name pending) | |
 
 Plan: **one "almost actual" foot patrol** parallel to the southernmost side of US-11W (consistent with HAAP POC Mr. Armstrong's 20 APR guidance — perimeter-only, southern US-11W only). **Two notional patrols** on the screen line.
 
