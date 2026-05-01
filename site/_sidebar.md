@@ -20,6 +20,7 @@
 - **JAG BRIEFS**
 - [Command Authority & Mission Sets](docs/jag-brief.md)
 - [Personally-Owned DJI UAS](docs/jag-brief-dji.md)
+- [DSCA & TNSG Authority](docs/jag-brief-dsca.md)
 - [JAG UAS Memo (Harris, 18 APR)](docs/jag-uas-memo.md)
 
 - **ORDERS**

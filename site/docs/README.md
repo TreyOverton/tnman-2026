@@ -55,5 +55,6 @@ Central index of 3 RGT–owned planning documents for TNMAN 26. External referen
 | [Orders Consistency Review](../warno-opord-review.md) | Reference | OIC Notes | DIV OPORD received 17 APR — review re-opened to cross-check RGT OPORD against DIV tasking. |
 | [JAG Pre-Brief — Command Authority & Mission Sets](jag-brief.md) | Draft | JAG Briefs | Title 10/SAD seam, SECFOR ROE, UAS legal bases. **No JAG response received.** |
 | [JAG Pre-Brief — Personally-Owned DJI UAS](jag-brief-dji.md) | Submitted | JAG Briefs | §889 / TCA § 12-4-120 / ASDA analysis for personally-owned DJI on official missions. **No JAG response received.** |
+| [JAG Pre-Brief — DSCA & TNSG Authority](jag-brief-dsca.md) | Submitted | JAG Briefs | DoDD 3025.18 / JP 3-27 / 3-28 / 32 U.S.C. § 109 / TCA Title 58 framing. Asks JAG to confirm TNSG authority flows from state law (not DSCA), correct the "civilian support of military operations" phrasing, and clean up HD-vs-DSCA framing in the planning record. |
 | [Volunteer Pilots](../volunteer-pilots.md) | Live | Reference | SDFF Part 107 pilot augmentation pool (5 E. TN, 4 FCF). |
 | [Reference Index](../reference-index.md) | Live | Reference | Index of external/received reference materials and archived source emails. |
