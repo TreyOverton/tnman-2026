@@ -65,6 +65,7 @@
 - [Planning Gaps](planning-gaps.md)
 - [Orders Consistency Review](warno-opord-review.md)
 - [ICP Org Reference](icp-org-reference.md)
+- [Participant Portal Plan (Astro)](participant-portal-plan.md)
 
 - **TRAINING: ICS FORMS**
 - [Participant Notes](training/ics-forms-participant.md)
