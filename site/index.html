@@ -72,6 +72,16 @@
           name: sidebarName,
           repo: false,
           loadSidebar: true,
+          // Resolve relative-path links against the current directory rather
+          // than against the site root. Without this, a link from
+          // /docs/dd2977.md to (opord-rgt.md) resolves to /opord-rgt.md
+          // (404) instead of /docs/opord-rgt.md. An earlier attempt to add
+          // this paired it with a per-directory _sidebar.md alias that was
+          // too narrow — once relativePath caused routes to be deeper, the
+          // per-dir alias missed the new sidebar probe paths and navigation
+          // broke. The regex alias below catches arbitrary nested paths
+          // and is what makes relativePath safe.
+          relativePath: true,
           // Pin sidebar/navbar resolution to the root copy. Without this,
           // Docsify walks up from the current route probing for _sidebar.md
           // at each level. Firebase's SPA rewrite returns index.html for
