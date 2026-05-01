@@ -74,6 +74,12 @@
           loadSidebar: true,
           subMaxLevel: docsifyOpts.subMaxLevel || 3,
           auto2top: true,
+          // Treat single newlines in markdown as <br>. Without this,
+          // metadata blocks like "**Prepared for:** ...\n**Subject:** ..."
+          // render as one inline run because marked.js collapses single
+          // newlines to spaces by default. OPORD/WARNO copy headers and
+          // signature blocks rely on the same pattern.
+          markdown: { breaks: true },
           search: docsifyOpts.search ? {
             placeholder: 'Search...',
             noData: 'No results',
