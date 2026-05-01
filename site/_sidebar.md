@@ -33,6 +33,7 @@
 - [RGT OPORD 26-04 (IDT)](docs/opord-idt-26-04.md)
 - [JFHQ-TN FRAGORD 3](docs/fragord-3-jfhq.md)
 - [RGT FRAGO 26-05-01.1](docs/frago-26-05-01-1.md)
+- [RGT FRAGO 26-05-01.2](docs/frago-26-05-01-2.md)
 - [RGT Orders 26-04-601-3](docs/rgt-orders.md)
 
 - **SUPPORTING DOCUMENTS**

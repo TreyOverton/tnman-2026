@@ -6,6 +6,40 @@ Record all significant communications, decisions, and updates here. Newest entri
 
 ---
 
+### 2026-04-30 — LTC Sheaf circulates FRAGO 26-05-01.2 + 7 enclosures; COL Roark approves without comment
+
+LTC Sheaf circulated **[RGT FRAGO 26-05-01.2 (TNMAN)](docs/frago-26-05-01-2.md)** (DTG 302130RAPR26) for leadership review. **COL Roark approved without comment.** To be distributed to battalions and staff. Supersedes [FRAGO 26-05-01.1](docs/frago-26-05-01-1.md) for any conflict; original tasks remain in effect except as edited.
+
+**New / changed:**
+
+- **3 BN Task 1: Main-gate security test** at 399 US-11W N on **141300RMAY26**. Civilian attire. Verbal, non-violent, non-confrontational, max 2 people. **Replaces 1 RGT OPFOR** (cancelled by DIV HQ — see Encl B Status column).
+- **3 BN Task 2: SECFOR foot-patrol uniform spec** — boonie cap on active patrol only; patrol cap in ICP/RSA/lodging.
+- **S2: two new tasks** — DIV G2 reporting / IPB; weather monitoring for ICP and sUAS.
+- **S3: 5 tasks** — incl. **HEMA integration NET 140900RMAY26** ("civilian support to military operations" — same phrase the [DSCA pre-brief](docs/jag-brief-dsca.md) asks JAG to clarify; carried forward in FRAGO 2 pending JAG response).
+- **S6: 3 tasks** — receive 3 TACN radios from DIV G6; conduct training; HF/TACN COMMEX 13-15 MAY IAW Annex H.
+- **Coordinating Instructions: 7 tasks** — sUAS license registration to **CPT Borrilez** NLT 061500RMAY26 (FAA reg + RPIC + observer); ICS forms refamiliarization NLT 131530RMAY26 (FEMA URL); 72-hr ops gear IAW TA-50 (Encl F); ICS-300 review (Encl G); RON requests to **CPT Haddix + SFC Bradley** NLT 061500RMAY26; **"Exercise – Exercise – Exercise" prowords** on all comms.
+- **Leader's Recon locked at 061500RMAY26.**
+- **Annex H Signal added** — DELTA 5.7785 MHz USB primary; **ECHO 6.8765 MHz USB secondary** (was 9.295 MHz on the prior 14 APR draft); HF SHARES table reorganized; A4U Net 1800-1830Z daily 14-15 MAY.
+- **Enclosures expanded A → A-G**: A NAI Graphics (30 APR), B RFF/RFS (30 APR), C TPFDD (30 APR), D TNSG Radio Contacts, E ICS-203 (30 APR), F TA-50 Inventory, G ICS Org Structure (MAR 2018 reference).
+
+**RFF/RFS Status column (Encl B) is the most substantive enclosure change:**
+
+| Request | Status |
+|---------|--------|
+| SECFOR Patrol (12) | Provided notionally |
+| SECFOR Screen (3) | **3 RGT can only provide 1 of 3** (1 live + 2 notional) |
+| SECFOR QRF (2) | Provided notionally |
+| **OPFOR (1 team)** | **Mission cancelled by DIV HQ** |
+| LNO 2 RGT, 4 RGT (2) | Provided, pending IDs |
+| LNO PMO (2) | (blank) |
+| TACN Radio Team | Not provided; 3× TACN radios + online training instead |
+| HF Radio Team | Not provided |
+| §107 sUAS Operators (3 req) | **Adequate via internal + interagency** (TPFDD now lists 10) |
+
+**TPFDD totals refined** to hour-by-hour bands: **42 → 50 Actual / 73 → 83 Notional / 120 → 125 Total** (vs. flat 54/70/124 in the 23 APR version). ADVON jumps 11 → 25 with pilots/medics relocated into that line. §107 sUAS expanded to 5 TNSG + 5 IA pilots. Propagated to [Ops Graphics](docs/ops-graphics.md) and [RFF/RFS](docs/rff-rfs.md).
+
+Source: [RGT-FRAGO-26-05-01-2.docx](/docs/source/RGT-FRAGO-26-05-01-2.docx) + Encls A-G in [/docs/source/](/docs/source/).
+
 ### 2026-04-30 — Voice conversation, LTC Sheaf / 1LT Overton (PV1 Elrod removed from mission roster)
 
 In a voice conversation following the 29 APR ICS-203 approval, LTC Sheaf and 1LT Overton determined that **PV1 Elrod** (3 BN B Co MP, son of PV2 Charles Elrod — added to the roster 29 APR as a new recruit) is **not yet sworn in, has not attended IET, and has not had a PHA**. Per **DIV OPORD §3.j.(11).(d)** — *"Soldiers who have not attended IET will not be allowed to attend TNMAN"* — and the §4.c.(4) PHA expectation, PV1 Elrod cannot participate.

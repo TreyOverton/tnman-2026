@@ -93,15 +93,19 @@ LTC Sheaf annotated the SECFOR Patrol Ops slide with approximate distances from 
 
 A **NO-GO Line** along the HAAP perimeter fence is absolute — no TNSG personnel or sUAS cross it. sUAS operates outside the NO-GO Line; the purpose is to test HAAP's drone detection system, not to generate imagery of the installation interior.
 
-### TPFDD — 54 Actual / 70 Notional / 124 Total at 14 MAY peak
+### TPFDD — 42-50 Actual / 73-83 Notional / 120-125 Total *(30 APR refinement)*
 
-The **23 APR TPFDD** (`Mt. Carmel Site Defense` sheet — renamed from `TNMAN-26` to match the FRAGO operation name) formalizes the physical-vs-tabletop split Mr. Armstrong laid out on 20 APR. The former "Peak 124 PAX" figure is now decomposed:
+The **30 APR TPFDD** (Encl C to [FRAGO 26-05-01.2](frago-26-05-01-2.md)) refines the prior flat 54/70/124 split into hour-by-hour bands as Sheaf has placed pilots / medics / LNOs more precisely:
 
 | Line | PAX | Meaning |
 |------|----:|---------|
-| **Estimated Actual PAX** (physical, on-ground) | **54 peak on 14 MAY** | What will physically be at HAAP on the day — the number the Staging Area Manager, risk planning, and medical support sizing work from. Ramp: 17 → 23 → 31 through 13 MAY; 54 from 14 MAY 0800; dip to 49 mid-day 14 MAY; 54 through 15 MAY AAR. |
-| **Notional Total PAX** (tabletop only) | **70 constant across window** | Interior SECFOR patrols and screens (N/S/W zoning, interior screen positions) exercised as tabletop inside the ICP; not physically deployed to HAAP. |
-| **Estimated Total PAX** | **124 peak on 14 MAY** | Sum for sizing / request-for-forces purposes; retained because the RFF, CG brief, and DIV coordination still reference it. |
+| **Estimated Actual PAX** (physical, on-ground) | **42 → 50 across the day** | Ramps through 13 MAY (28 → 30 PAX), peaks at **50** on 14 MAY 1100 forward through the AAR. Sizing target for hydration / medical / chow / parking / transport. Lower than the 23 APR estimate of 54 because OPFOR (8 PAX) was cancelled by DIV HQ. |
+| **Notional Total PAX** (tabletop only) | **73 → 83** | Interior N/S/W SECFOR patrols and screens, plus interagency notional pilots — exercised tabletop inside the ICP; not physically deployed to HAAP. |
+| **Estimated Total PAX** | **120 → 125** | Sum for RFF / CG-brief / DIV-coordination purposes. Drops below 124 (was) when OPFOR is removed; bumps to 125 with the IA pilot lines added. |
+
+**ADVON line** went from 11 → **25 PAX** in the 30 APR TPFDD — likely reflects placement of the IA pilots (SDFF + adjacent-RGT) and 61st MED Co medics into the ADVON line rather than a separate bucket. The 13 MAY ADVON arrival therefore looks much heavier on the 30 APR TPFDD than on prior versions.
+
+**§107 sUAS lane expanded**: now **5 TNSG pilots + 5 IA (interagency) pilots** = 10 total. RFF asked for 3; Sheaf has 10 lined up. See [Volunteer Pilots](../volunteer-pilots.md) for the SDFF integration.
 
 Element composition (unchanged from 21 APR):
 

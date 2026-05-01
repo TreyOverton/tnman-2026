@@ -40,11 +40,18 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 
 - ~~**RGT OPORD 26-05-01**~~ — **ISSUED** (141600RAPR26).
 - ~~**DIV OPORD 26-05**~~ — **RECEIVED** 17 APR 26 (signed 161200RAPRIL2026). [DIV OPORD page](docs/opord-div.md). Triggered [Orders Consistency Review](warno-opord-review.md) re-open — 15 FRAGO-candidate items identified.
-- ~~**FRAGO to RGT OPORD 26-05-01**~~ — **FRAGO 26-05-01.1 issued 21 APR.** **FRAGO 26-05-01.2** is in draft per LTC Sheaf 29 APR; target NLT Saturday 2 MAY 26; will incorporate the approved [ICS-203](docs/ics-203.md). Likely also reconciles cosmetic Consistency Review items (location-name canonicalization).
+- ~~**FRAGO to RGT OPORD 26-05-01**~~ — **FRAGO 26-05-01.1 issued 21 APR · [FRAGO 26-05-01.2 issued 30 APR](docs/frago-26-05-01-2.md), COL Roark approved without comment.** Distributing to battalions and staff. Incorporates approved [ICS-203](docs/ics-203.md) (Encl E), refines TPFDD, adds Annex H Signal, and surfaces DIV provisioning decisions in the [RFF/RFS](docs/rff-rfs.md) Status column.
 - **CG operational brief — 18 APR 26** — LTC Sheaf to brief BG Stewart. Draft must go to G3 BEAVER as pre-read/read-ahead **before** the brief date. This is **5 days away** and requires: TF org estimate, personnel assessment, execution timeline. *Source: [Comms Log](comms.md) 13 APR "Next Steps" email.*
 - **S3 Task 2 — TF Organization estimate** — **NLT 18 APR 26**. Current [Task Organization](taskorg.md) is a draft with 12 dependencies. Feeds directly into the CG brief.
 - ~~**sUAS and SECFOR team composition**~~ — **RESOLVED** (in aggregate). [Operational / NAI Graphics](docs/ops-graphics.md) now defines 15 × 5-PAX SECFOR teams (screens + N/S/W patrols + QRF), 3 sUAS operators, and the full 124-PAX TPFDD. **[RFF-RFS TNMAN-26](/docs/source/RFF-RFS-TNMAN-26.docx)** formally requests the adjacent-RGT reinforcement from DIV.
-- **RFF status** — Submitted 20 APR. Awaiting DIV sourcing decision on 85 SECFOR PAX, 2+2 LNOs, 3 medics, JAG, PAO, radio teams.
+- ~~**RFF status — awaiting DIV sourcing decision**~~ — **DIV decisions returned and captured in the 30 APR Encl B Status column** ([RFF/RFS page](docs/rff-rfs.md)). Outcomes:
+  - **OPFOR cancelled by DIV HQ** — 3 BN's main-gate test (FRAGO 26-05-01.2) replaces.
+  - **TACN Radio Team not provided** — DIV G6 sending 3× TACN radios + online training; 3 RGT self-trains and operates per FRAGO 26-05-01.2 S6 Tasks 1-3.
+  - **HF Radio Team not provided** — 3 RGT stands up the HF antenna and runs COMMEX itself per Annex H.
+  - **SECFOR Screen — 1 of 3 provided** (1 live + 2 notional). Patrol (12) and QRF (2) provided notionally.
+  - **§107 sUAS — adequate via internal + interagency** (5 TNSG + 5 IA pilots in TPFDD; see [Volunteer Pilots](volunteer-pilots.md)).
+  - **LNO 2 RGT + LNO 4 RGT — provided**, pending IDs.
+  - **LNO PMO ×2 — Status blank** (still TBD).
 - **S1 Task 1 — Mission roster locked** — NLT 152000RAPR26 (15 APR 26). Currently a draft with open 2/3 response, MRC-4 unknowns, PAO and 61st MED attachment TBD.
 - ~~**S1 Task 3 — RGT Orders issued**~~ — **MET 29 APR (one day early).** Order 26-04-601-3 covers 30 of 31 organic; PV1 Elrod pending name. *Source: [RGT Orders](docs/rgt-orders.md), [Comms Log 29 APR](comms.md).*
 - **S6 — SOI and Signal Annex** — NLT 302000RAPR26. Blocked on unresolved TACN radios, ATAK training, and Starlink (see [G6 Questions email](comms.md)).
