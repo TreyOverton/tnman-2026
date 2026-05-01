@@ -1,0 +1,35 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+import { GROUP_ORDER, GROUP_LABEL, GUIDE_META } from '~/lib/guideTitles';
+
+const grouped: Record<string, typeof GUIDE_META[string][]> = {};
+for (const meta of Object.values(GUIDE_META)) {
+  if (meta.slug === 'README') continue;
+  (grouped[meta.group] ??= []).push(meta);
+}
+---
+<PortalLayout title="Participant Guides" active="guides">
+  <h1>Participant Guides</h1>
+  <p class="muted">
+    Per-role handbooks for TNMAN-26. Read your role page first, then
+    <a href="/guides/common">Common Expectations</a>.
+  </p>
+
+  {GROUP_ORDER.map((group) => {
+    const items = grouped[group];
+    if (!items || !items.length) return null;
+    return (
+      <section>
+        <div class="guide-section-h">{GROUP_LABEL[group]}</div>
+        <div class="guides-list">
+          {items.map((g) => (
+            <a class="guide-card" href={`/guides/${g.slug}`}>
+              <div class="title">{g.title}</div>
+              {g.blurb && <div class="blurb">{g.blurb}</div>}
+            </a>
+          ))}
+        </div>
+      </section>
+    );
+  })}
+</PortalLayout>
