@@ -1,0 +1,48 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+---
+<PortalLayout title="ICP Wall Display" active="admin" adminOnly bodyClass="wall">
+  <p class="muted small"><a href="/admin/log">&larr; All Entries</a></p>
+  <h1>ICS-214 Live Feed — TNMAN 26</h1>
+  <p class="muted" id="status">Connecting…</p>
+  <div id="feed" class="feed"></div>
+
+  <script>
+    import { getFirebase } from '~/lib/firebase';
+    import { collection, query, orderBy, limit, onSnapshot } from 'firebase/firestore';
+
+    const feedEl = document.getElementById('feed')!;
+    const statusEl = document.getElementById('status')!;
+
+    function fmtTs(ts: any): string {
+      if (!ts) return '…';
+      const d = ts.toDate ? ts.toDate() : new Date(ts);
+      return d.toLocaleString();
+    }
+    function escapeHtml(s: string) {
+      return s.replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      } as Record<string, string>)[c]!);
+    }
+
+    document.addEventListener('portal:auth', () => {
+      const { db } = getFirebase();
+      const q = query(collection(db, 'activityLog'), orderBy('timestamp', 'desc'), limit(40));
+      onSnapshot(q, (snap) => {
+        statusEl.textContent = `Live · ${snap.docs.length} most recent · ${new Date().toLocaleTimeString()}`;
+        feedEl.innerHTML = snap.docs.map((d) => {
+          const x = d.data();
+          const gps = x.gps ? `<span class="gps">GPS ${x.gps.lat.toFixed(4)}, ${x.gps.lon.toFixed(4)}</span>` : '';
+          return `<div class="feed-entry">
+            <div class="meta">
+              <span class="who">${escapeHtml(String(x.displayName || x.email || ''))}</span>
+              <span>${fmtTs(x.timestamp)}</span>
+              ${gps}
+            </div>
+            <div class="body">${escapeHtml(String(x.message || ''))}</div>
+          </div>`;
+        }).join('');
+      });
+    }, { once: true });
+  </script>
+</PortalLayout>

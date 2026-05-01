@@ -1,0 +1,34 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+---
+<PortalLayout title="Admin" active="admin" adminOnly>
+  <h1>Admin</h1>
+  <p class="muted">Restricted to ICP staff on the admin allowlist.</p>
+
+  <div class="guides-list">
+    <a class="guide-card" href="/admin/log">
+      <div class="title">214 Activity Log (all)</div>
+      <div class="blurb">All participant entries, paginated.</div>
+    </a>
+    <a class="guide-card" href="/admin/log/display">
+      <div class="title">ICP Wall Display</div>
+      <div class="blurb">Large-format, auto-refreshing live feed for projection.</div>
+    </a>
+    <a class="guide-card" href="/admin/aar">
+      <div class="title">AAR Observations (all)</div>
+      <div class="blurb">All submitted AAR notes, attributed.</div>
+    </a>
+    <a class="guide-card" href="/admin/broadcast">
+      <div class="title">Send Broadcast</div>
+      <div class="blurb">Push a banner to every signed-in participant.</div>
+    </a>
+    <a class="guide-card" href="/admin/injects">
+      <div class="title">Manage Injects</div>
+      <div class="blurb">Activate / deactivate scenarios; edit per-role playbooks.</div>
+    </a>
+    <a class="guide-card" href="/admin/access">
+      <div class="title">Access Allowlist</div>
+      <div class="blurb">Add / remove non-TNSG email addresses.</div>
+    </a>
+  </div>
+</PortalLayout>
