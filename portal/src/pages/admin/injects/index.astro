@@ -1,0 +1,66 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+---
+<PortalLayout title="Manage Injects" active="admin" adminOnly>
+  <p class="muted small"><a href="/admin">&larr; Admin</a></p>
+  <h1>Manage Injects</h1>
+  <p class="muted">
+    Activate or retract scenarios; edit per-role playbook content. Playbooks are
+    rules-gated — participants cannot see playbook content until <code>active = true</code>.
+  </p>
+
+  <div id="list" class="feed"></div>
+  <p id="empty" class="muted" hidden>No injects seeded yet. Run <code>npm run seed</code>.</p>
+
+  <script>
+    import { getFirebase } from '~/lib/firebase';
+    import { collection, onSnapshot, doc, updateDoc } from 'firebase/firestore';
+
+    const listEl = document.getElementById('list')!;
+    const emptyEl = document.getElementById('empty')!;
+
+    function escapeHtml(s: string) {
+      return s.replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      } as Record<string, string>)[c]!);
+    }
+
+    document.addEventListener('portal:auth', () => {
+      const { db } = getFirebase();
+      onSnapshot(collection(db, 'injects'), (snap) => {
+        if (snap.empty) {
+          listEl.innerHTML = '';
+          emptyEl.hidden = false;
+          return;
+        }
+        emptyEl.hidden = true;
+        listEl.innerHTML = snap.docs.map((d) => {
+          const x = d.data();
+          const active = x.active === true;
+          return `<div class="feed-entry" data-id="${d.id}">
+            <div class="meta">
+              <span class="who">${escapeHtml(String(x.title || d.id))}</span>
+              <span>${active ? 'ACTIVE' : 'inactive'}</span>
+            </div>
+            <div class="body">${escapeHtml(String(x.scenario || ''))}</div>
+            <div class="row" style="margin-top:10px;">
+              <button data-action="toggle" data-id="${d.id}" data-active="${active ? '1' : '0'}" class="${active ? 'danger' : 'primary'}">
+                ${active ? 'Deactivate' : 'Activate'}
+              </button>
+              <a class="btn" href="/admin/injects/${d.id}">Edit playbook</a>
+            </div>
+          </div>`;
+        }).join('');
+
+        listEl.querySelectorAll('button[data-action="toggle"]').forEach((b) => {
+          b.addEventListener('click', async () => {
+            const id = b.getAttribute('data-id')!;
+            const active = b.getAttribute('data-active') === '1';
+            (b as HTMLButtonElement).disabled = true;
+            await updateDoc(doc(db, 'injects', id), { active: !active });
+          });
+        });
+      });
+    }, { once: true });
+  </script>
+</PortalLayout>

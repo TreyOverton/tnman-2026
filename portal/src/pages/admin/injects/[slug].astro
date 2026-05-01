@@ -1,0 +1,155 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+import { GUIDE_META } from '~/lib/guideTitles';
+
+export async function getStaticPaths() {
+  return [
+    { params: { slug: 'soldier-kia' } },
+    { params: { slug: 'downed-uas' } },
+    { params: { slug: 'scenario-3-tbd' } },
+  ];
+}
+
+const { slug } = Astro.params;
+const roles = Object.values(GUIDE_META)
+  .filter((m) => !['README', 'common', 'glossary', 'caltopo'].includes(m.slug))
+  .map((m) => ({ slug: m.slug, title: m.title }));
+---
+<PortalLayout title={`Edit Inject — ${slug}`} active="admin" adminOnly>
+  <p class="muted small"><a href="/admin/injects">&larr; All injects</a></p>
+  <h1>Edit Inject: <code>{slug}</code></h1>
+
+  <div class="card" id="meta-card">
+    <label for="title">Title</label>
+    <input id="title" type="text" />
+    <div class="spacer"></div>
+    <label for="scenario">Scenario summary (visible to participants when active)</label>
+    <textarea id="scenario" maxlength="2000"></textarea>
+    <div class="spacer"></div>
+    <div class="row">
+      <button id="save-meta" class="primary" type="button">Save scenario</button>
+      <span id="meta-status" class="muted small"></span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Per-role playbook</h2>
+    <p class="muted small">Author Markdown-friendly plain text. The `*` key is a fallback shown to participants who haven't set their role.</p>
+
+    <label for="role-pick">Role</label>
+    <select id="role-pick">
+      <option value="*">* (fallback / generic)</option>
+      {roles.map((r) => <option value={r.slug}>{r.title}</option>)}
+    </select>
+    <div class="spacer"></div>
+    <label for="role-content">Guidance</label>
+    <textarea id="role-content" placeholder="What this role does when this inject fires." style="min-height: 220px;"></textarea>
+    <div class="spacer"></div>
+    <div class="row">
+      <button id="save-role" class="primary" type="button">Save guidance for this role</button>
+      <span id="role-status" class="muted small"></span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Roles already authored</h2>
+    <ul id="authored-list" class="list-tight"></ul>
+    <p id="authored-empty" class="muted" hidden>No role guidance written yet.</p>
+  </div>
+
+  <script is:inline define:vars={{ slug }}>
+    window.__INJECT_SLUG = slug;
+  </script>
+  <script>
+    import { getFirebase } from '~/lib/firebase';
+    import { doc, getDoc, updateDoc, setDoc } from 'firebase/firestore';
+
+    const slug = (window as any).__INJECT_SLUG as string;
+
+    const titleEl = document.getElementById('title') as HTMLInputElement;
+    const scenarioEl = document.getElementById('scenario') as HTMLTextAreaElement;
+    const saveMetaBtn = document.getElementById('save-meta') as HTMLButtonElement;
+    const metaStatus = document.getElementById('meta-status')!;
+
+    const rolePick = document.getElementById('role-pick') as HTMLSelectElement;
+    const roleContent = document.getElementById('role-content') as HTMLTextAreaElement;
+    const saveRoleBtn = document.getElementById('save-role') as HTMLButtonElement;
+    const roleStatus = document.getElementById('role-status')!;
+    const authoredList = document.getElementById('authored-list')!;
+    const authoredEmpty = document.getElementById('authored-empty')!;
+
+    let playbook: Record<string, string> = {};
+
+    function renderAuthored() {
+      const keys = Object.keys(playbook).sort();
+      if (!keys.length) {
+        authoredList.innerHTML = '';
+        authoredEmpty.hidden = false;
+        return;
+      }
+      authoredEmpty.hidden = true;
+      authoredList.innerHTML = keys.map((k) => `<li><code>${k}</code> — ${String(playbook[k] || '').slice(0, 80)}${(playbook[k]||'').length > 80 ? '…' : ''}</li>`).join('');
+    }
+
+    document.addEventListener('portal:auth', async () => {
+      const { db } = getFirebase();
+      const metaSnap = await getDoc(doc(db, 'injects', slug));
+      if (metaSnap.exists()) {
+        titleEl.value = String(metaSnap.data().title || '');
+        scenarioEl.value = String(metaSnap.data().scenario || '');
+      }
+      const pbSnap = await getDoc(doc(db, 'injects', slug, 'private', 'playbook'));
+      playbook = (pbSnap.exists() ? pbSnap.data().playbook : {}) || {};
+      renderAuthored();
+      rolePick.dispatchEvent(new Event('change'));
+    }, { once: true });
+
+    rolePick.addEventListener('change', () => {
+      roleContent.value = playbook[rolePick.value] || '';
+    });
+
+    saveMetaBtn.addEventListener('click', async () => {
+      saveMetaBtn.disabled = true;
+      metaStatus.textContent = 'Saving…';
+      try {
+        const { db } = getFirebase();
+        await updateDoc(doc(db, 'injects', slug), {
+          title: titleEl.value.trim(),
+          scenario: scenarioEl.value.trim(),
+        });
+        metaStatus.textContent = 'Saved.';
+        setTimeout(() => (metaStatus.textContent = ''), 2000);
+      } catch (e: any) {
+        metaStatus.textContent = e.message || 'Save failed.';
+      } finally {
+        saveMetaBtn.disabled = false;
+      }
+    });
+
+    saveRoleBtn.addEventListener('click', async () => {
+      saveRoleBtn.disabled = true;
+      roleStatus.textContent = 'Saving…';
+      try {
+        const { db } = getFirebase();
+        const key = rolePick.value;
+        const content = roleContent.value;
+        if (!content.trim()) {
+          delete playbook[key];
+        } else {
+          playbook[key] = content;
+        }
+        await setDoc(doc(db, 'injects', slug, 'private', 'playbook'), {
+          playbook,
+          updatedAt: new Date().toISOString(),
+        });
+        roleStatus.textContent = 'Saved.';
+        renderAuthored();
+        setTimeout(() => (roleStatus.textContent = ''), 2000);
+      } catch (e: any) {
+        roleStatus.textContent = e.message || 'Save failed.';
+      } finally {
+        saveRoleBtn.disabled = false;
+      }
+    });
+  </script>
+</PortalLayout>

@@ -1,0 +1,105 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+import { GUIDE_META } from '~/lib/guideTitles';
+
+const roleOptions = Object.values(GUIDE_META)
+  .filter((m) => !['README', 'common', 'glossary', 'caltopo'].includes(m.slug))
+  .map((m) => ({ slug: m.slug, title: m.title }));
+---
+<PortalLayout title="Active Injects" active="injects">
+  <h1>Active Injects</h1>
+  <p class="muted">
+    Scenario events triggered by the IC. When an inject is active, your role-specific
+    guidance (a "playbook") appears here. Until then, no playbook content is visible.
+  </p>
+
+  <div class="card">
+    <label for="role-select">Show playbook for role</label>
+    <select id="role-select">
+      <option value="">— select your role —</option>
+      {roleOptions.map((r) => (
+        <option value={r.slug}>{r.title}</option>
+      ))}
+    </select>
+    <div class="hint">Your selection is remembered on this device.</div>
+  </div>
+
+  <div id="injects-list" class="feed"></div>
+  <p id="injects-empty" class="muted" hidden>No active injects right now.</p>
+
+  <script>
+    import { getFirebase } from '~/lib/firebase';
+    import { collection, query, where, onSnapshot, doc, getDoc } from 'firebase/firestore';
+
+    const listEl = document.getElementById('injects-list')!;
+    const emptyEl = document.getElementById('injects-empty')!;
+    const roleSel = document.getElementById('role-select') as HTMLSelectElement;
+
+    const STORAGE = 'portal:role';
+    const stored = localStorage.getItem(STORAGE);
+    if (stored) roleSel.value = stored;
+    roleSel.addEventListener('change', () => {
+      localStorage.setItem(STORAGE, roleSel.value);
+      rerender();
+    });
+
+    function escapeHtml(s: string) {
+      return s.replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      } as Record<string, string>)[c]!);
+    }
+
+    let activeInjects: Array<{ id: string; title: string; scenario: string }> = [];
+    const playbookCache: Record<string, Record<string, string>> = {};
+
+    async function loadPlaybook(slug: string) {
+      if (playbookCache[slug]) return playbookCache[slug];
+      try {
+        const { db } = getFirebase();
+        const snap = await getDoc(doc(db, 'injects', slug, 'private', 'playbook'));
+        const data = snap.exists() ? (snap.data().playbook || {}) : {};
+        playbookCache[slug] = data;
+        return data;
+      } catch {
+        playbookCache[slug] = {};
+        return {};
+      }
+    }
+
+    async function rerender() {
+      if (!activeInjects.length) {
+        listEl.innerHTML = '';
+        emptyEl.hidden = false;
+        return;
+      }
+      emptyEl.hidden = true;
+      const role = roleSel.value;
+      const blocks: string[] = [];
+      for (const inj of activeInjects) {
+        const pb = await loadPlaybook(inj.id);
+        const guidance = role && pb[role] ? pb[role] : '';
+        const fallback = pb['*'] || '';
+        const content = guidance || fallback;
+        blocks.push(`<div class="feed-entry">
+          <div class="meta"><span class="who">INJECT — ${escapeHtml(inj.title)}</span></div>
+          <div class="body"><strong>Scenario:</strong> ${escapeHtml(inj.scenario)}</div>
+          ${content ? `<div class="body" style="margin-top:8px; padding-top:8px; border-top:1px solid var(--color-border);"><strong>Your guidance${role ? '' : ' (select your role above for role-specific content)'}:</strong><br>${escapeHtml(content).replace(/\n/g, '<br>')}</div>` : '<div class="muted small" style="margin-top:8px;">No role-specific guidance authored yet.</div>'}
+        </div>`);
+      }
+      listEl.innerHTML = blocks.join('');
+    }
+
+    document.addEventListener('portal:auth', () => {
+      const { db } = getFirebase();
+      const q = query(collection(db, 'injects'), where('active', '==', true));
+      onSnapshot(q, (snap) => {
+        activeInjects = snap.docs.map((d) => ({
+          id: d.id,
+          title: String(d.data().title || d.id),
+          scenario: String(d.data().scenario || ''),
+        }));
+        rerender();
+      });
+    }, { once: true });
+  </script>
+</PortalLayout>
