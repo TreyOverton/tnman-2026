@@ -86,10 +86,10 @@ npm run seed
 
 The seed script writes:
 
-- `access/admins` — `{ emails: ['aaron.overton@tnstateguard.org', 'sheaf@tnstateguard.org'] }`
+- `access/admins` — `{ emails: ['aaron.overton@tnstateguard.org', 'john.sheaf@tnstateguard.org'] }`
 - `access/allowedEmails` — `{ emails: [] }`
 
-> **Heads up:** `sheaf@tnstateguard.org` is a placeholder for LTC Sheaf — confirm and correct his actual TNSG email before exercise day. Edit via the Admin → Access page (built in Phase 7), or re-run the seed after editing the script.
+Edit the admin/allowed lists at any time via the Admin → Access page (no redeploy needed).
 
 The seed script signs in via Google in your browser; the signed-in account must already be in the admin list, OR the docs must not yet exist (first-write is the bootstrap path — Firestore rules deny update by non-admins, so seeding works only when the docs are absent).
 

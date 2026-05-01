@@ -1,6 +1,10 @@
 import {
   GoogleAuthProvider,
-  signInWithPopup,
+  signInWithRedirect,
+  getRedirectResult,
+  sendSignInLinkToEmail,
+  isSignInWithEmailLink,
+  signInWithEmailLink,
   signOut as fbSignOut,
   onAuthStateChanged,
   type User,
@@ -9,6 +13,7 @@ import { doc, getDoc } from 'firebase/firestore';
 import { getFirebase } from './firebase';
 
 const TNSG_DOMAIN = 'tnstateguard.org';
+const EMAIL_LINK_STORAGE_KEY = 'tnman:emailForSignIn';
 
 export type AccessState = {
   user: User | null;
@@ -22,12 +27,43 @@ export async function signIn(): Promise<void> {
   const { auth } = getFirebase();
   const provider = new GoogleAuthProvider();
   provider.setCustomParameters({ prompt: 'select_account' });
-  await signInWithPopup(auth, provider);
+  await signInWithRedirect(auth, provider);
+}
+
+export async function completeRedirectSignInIfPresent(): Promise<boolean> {
+  const { auth } = getFirebase();
+  const result = await getRedirectResult(auth);
+  return !!result;
 }
 
 export async function signOut(): Promise<void> {
   const { auth } = getFirebase();
   await fbSignOut(auth);
+}
+
+export async function sendEmailSignInLink(email: string): Promise<void> {
+  const { auth } = getFirebase();
+  const url = window.location.origin + '/';
+  await sendSignInLinkToEmail(auth, email, {
+    url,
+    handleCodeInApp: true,
+  });
+  window.localStorage.setItem(EMAIL_LINK_STORAGE_KEY, email);
+}
+
+export async function completeEmailSignInIfPresent(): Promise<boolean> {
+  const { auth } = getFirebase();
+  const href = window.location.href;
+  if (!isSignInWithEmailLink(auth, href)) return false;
+  let email = window.localStorage.getItem(EMAIL_LINK_STORAGE_KEY);
+  if (!email) {
+    email = window.prompt('Confirm the email address that received the sign-in link:') || '';
+    if (!email) return false;
+  }
+  await signInWithEmailLink(auth, email, href);
+  window.localStorage.removeItem(EMAIL_LINK_STORAGE_KEY);
+  window.history.replaceState(null, '', window.location.pathname);
+  return true;
 }
 
 export function onAccessChange(cb: (state: AccessState) => void): () => void {

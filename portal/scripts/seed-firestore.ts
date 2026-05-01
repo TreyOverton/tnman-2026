@@ -1,23 +1,17 @@
 /**
- * Seed Firestore with initial access docs.
+ * Seed Firestore with initial access docs and inject scenarios.
  *
- * Why a script (not an admin UI bootstrap): the rules require an admin to
- * write to access/*, and there is no admin yet on a fresh project. The
- * one-time bootstrap relies on Firestore allowing writes only when the
- * docs do not yet exist (rules check `request.auth.token.email in admins`,
- * which evaluates against `get(...)` and fails closed when admins doc is
- * absent — so this script must be run once before rules are deployed, OR
- * with rules temporarily relaxed). Recommended order:
+ * Run order:
+ *   1. Firestore must be in Test Mode (open writes), OR rules not yet deployed.
+ *   2. npm run seed   (writes access/* and injects/*)
+ *   3. firebase deploy --only firestore:rules,firestore:indexes
  *
- *   1. firebase deploy --only firestore:indexes
- *   2. npm run seed   (writes access/admins, access/allowedEmails)
- *   3. firebase deploy --only firestore:rules
- *
- * Run interactively from a terminal that can open a browser for OAuth.
+ * No auth: Test Mode allows unauthenticated writes for the first 30 days.
+ * The Firebase Auth Node SDK does not support signInWithPopup, so this
+ * runs without a signed-in user and stamps `seed-script` as updatedBy.
  */
 
 import { initializeApp } from 'firebase/app';
-import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import { getFirestore, doc, setDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
@@ -29,7 +23,7 @@ const firebaseConfig = {
 
 const ADMIN_EMAILS = [
   'aaron.overton@tnstateguard.org',
-  'sheaf@tnstateguard.org',
+  'john.sheaf@tnstateguard.org',
 ];
 
 const ALLOWED_EMAILS: string[] = [];
@@ -61,30 +55,23 @@ const INJECTS = [
 async function main() {
   console.log('Initializing Firebase…');
   const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
   const db = getFirestore(app);
 
-  console.log('Sign-in: a browser window will open. Use an admin TNSG account.');
-  const provider = new GoogleAuthProvider();
-  const cred = await signInWithPopup(auth, provider);
-  const email = cred.user.email?.toLowerCase();
-  console.log(`Signed in as: ${email}`);
-  if (!email) {
-    throw new Error('No email on signed-in account.');
-  }
+  const updatedBy = 'seed-script';
+  const now = new Date().toISOString();
 
   console.log('Writing access/admins…');
   await setDoc(doc(db, 'access', 'admins'), {
     emails: ADMIN_EMAILS,
-    updatedAt: new Date().toISOString(),
-    updatedBy: email,
+    updatedAt: now,
+    updatedBy,
   });
 
   console.log('Writing access/allowedEmails…');
   await setDoc(doc(db, 'access', 'allowedEmails'), {
     emails: ALLOWED_EMAILS,
-    updatedAt: new Date().toISOString(),
-    updatedBy: email,
+    updatedAt: now,
+    updatedBy,
   });
 
   for (const inject of INJECTS) {
@@ -93,17 +80,18 @@ async function main() {
       title: inject.title,
       scenario: inject.scenario,
       active: inject.active,
-      createdAt: new Date().toISOString(),
-      createdBy: email,
+      createdAt: now,
+      createdBy: updatedBy,
     });
     await setDoc(doc(db, 'injects', inject.slug, 'private', 'playbook'), {
       playbook: {},
-      updatedAt: new Date().toISOString(),
+      updatedAt: now,
     });
   }
 
+  console.log('');
   console.log('Seed complete.');
-  console.log('Note: sheaf@tnstateguard.org is a placeholder — confirm LTC Sheaf actual email and update via /admin/access.');
+  console.log('Admin allowlist seeded with: 1LT Aaron Overton + LTC John Sheaf. Manage via /admin/access.');
   process.exit(0);
 }
 

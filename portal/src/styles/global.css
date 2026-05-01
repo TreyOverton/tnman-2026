@@ -354,9 +354,20 @@ hr {
   font-size: 0.85rem;
 }
 
-.gate {
+.gate-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  overflow-y: auto;
+}
+.gate-card {
   max-width: 480px;
-  margin: 60px auto;
+  width: 100%;
   padding: 28px;
   text-align: center;
   background: var(--color-surface);
@@ -364,12 +375,85 @@ hr {
   border-radius: var(--radius);
   box-shadow: var(--shadow-2);
 }
-.gate h1 { color: var(--color-accent); }
-.gate .sub { color: var(--color-muted); }
-.gate button {
+.gate-card h1 { color: var(--color-accent); margin-top: 0; }
+.gate-card .sub { color: var(--color-muted); }
+.gate-card button {
   width: 100%;
   font-size: 1.05rem;
+  min-height: 44px;
 }
+.gate-card input[type='email'] {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px 12px;
+  margin: 6px 0 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  color: var(--color-text);
+  box-sizing: border-box;
+}
+.gate-card .gate-label {
+  display: block;
+  text-align: left;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-top: 6px;
+}
+.gate-card .gate-divider {
+  position: relative;
+  text-align: center;
+  margin: 18px 0 10px;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+.gate-card .gate-divider::before {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; top: 50%;
+  height: 1px;
+  background: var(--color-border);
+}
+.gate-card .gate-divider span {
+  position: relative;
+  background: var(--color-surface);
+  padding: 0 10px;
+}
+.gate-card .gate-detail {
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  text-align: left;
+  word-break: break-word;
+}
+.gate-card .gate-detail.gate-error {
+  color: #fff;
+  background: var(--color-danger);
+  border: 1px solid var(--color-danger);
+  font-weight: 600;
+}
+.gate-card .gate-detail.gate-info {
+  color: var(--color-muted);
+  background: transparent;
+  border: 1px dashed var(--color-border);
+}
+.gate-card .gate-detail.gate-success {
+  color: var(--color-text);
+  background: rgba(59, 192, 203, 0.10);
+  border: 1px solid var(--color-accent);
+}
+
+body[data-auth='pending'] #access-gate { display: none; }
+body[data-auth='pending'] #access-loading { display: flex; }
+body[data-auth='pending'] .app-content { display: none; }
+
+body[data-auth='gated'] #access-gate { display: flex; }
+body[data-auth='gated'] #access-loading { display: none; }
+body[data-auth='gated'] .app-content { display: none; }
+
+body[data-auth='allowed'] #access-gate { display: none; }
+body[data-auth='allowed'] #access-loading { display: none; }
 
 .guides-list {
   display: grid;

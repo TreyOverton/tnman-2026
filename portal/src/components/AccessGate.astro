@@ -1,64 +1,94 @@
 ---
 const { adminOnly = false } = Astro.props;
 ---
-<div id="access-gate" class="gate" hidden>
-  <h1>TNMAN 2026 Participant Portal</h1>
-  <p class="sub" id="gate-msg">Sign in with your TNSG Google account to continue.</p>
-  <div class="spacer"></div>
-  <button id="gate-signin" class="primary" type="button">Sign in with Google</button>
-  <div class="spacer"></div>
-  <div class="muted small" id="gate-detail"></div>
-  <div class="spacer"></div>
-  <div class="muted small">
-    Domain: <code>tnstateguard.org</code> &middot; or you have been allowlisted by an admin.
+<div id="access-loading" class="gate-overlay">
+  <div class="gate-card">
+    <h1>Loading…</h1>
+    <p class="sub">Checking your access.</p>
   </div>
 </div>
-<div id="access-loading" class="gate">
-  <h1>Loading…</h1>
-  <p class="sub">Checking your access.</p>
+
+<div id="access-gate" class="gate-overlay">
+  <div class="gate-card">
+    <h1>TNMAN 2026 Participant Portal</h1>
+    <p class="sub" id="gate-msg" hidden></p>
+
+    <div class="spacer"></div>
+
+    <button id="gate-google" class="primary" type="button">Sign in with Google</button>
+
+    <div class="gate-divider"><span>or</span></div>
+
+    <label class="gate-label" for="gate-email">Sign in with email link</label>
+    <input id="gate-email" type="email" inputmode="email" autocomplete="email"
+           placeholder="you@example.com" />
+    <button id="gate-email-send" class="secondary" type="button">Email me a sign-in link</button>
+
+    <div id="gate-detail" class="gate-detail" hidden></div>
+
+    <div class="spacer"></div>
+    <div class="muted small">
+      Domain: <code>tnstateguard.org</code> &middot; or you have been allowlisted by an admin.
+    </div>
+  </div>
 </div>
 
 <script is:inline define:vars={{ adminOnly }}>
   window.__PORTAL_ADMIN_ONLY = !!adminOnly;
 </script>
 <script>
-  import { onAccessChange, signIn, signOut } from '~/lib/auth';
+  import { onAccessChange, signIn, signOut, sendEmailSignInLink, completeEmailSignInIfPresent, completeRedirectSignInIfPresent } from '~/lib/auth';
 
-  const gate = document.getElementById('access-gate')!;
-  const loading = document.getElementById('access-loading')!;
   const msg = document.getElementById('gate-msg')!;
-  const detail = document.getElementById('gate-detail')!;
-  const btn = document.getElementById('gate-signin') as HTMLButtonElement;
+  const detail = document.getElementById('gate-detail') as HTMLDivElement;
+  const googleBtn = document.getElementById('gate-google') as HTMLButtonElement;
+  const emailInput = document.getElementById('gate-email') as HTMLInputElement;
+  const emailBtn = document.getElementById('gate-email-send') as HTMLButtonElement;
   const adminOnly = (window as any).__PORTAL_ADMIN_ONLY === true;
 
+  function setAuthState(s: 'pending' | 'gated' | 'allowed') {
+    document.body.dataset.auth = s;
+  }
+
+  function setMsg(text: string) {
+    msg.textContent = text;
+    msg.hidden = !text;
+  }
+
+  function setDetail(text: string, kind: 'info' | 'error' | 'success' = 'info') {
+    detail.classList.remove('gate-error', 'gate-info', 'gate-success');
+    if (!text) {
+      detail.hidden = true;
+      detail.textContent = '';
+      return;
+    }
+    detail.hidden = false;
+    detail.textContent = text;
+    detail.classList.add(kind === 'error' ? 'gate-error' : kind === 'success' ? 'gate-success' : 'gate-info');
+  }
+
   function showGate(reason?: string, signedInEmail?: string) {
-    loading.hidden = true;
-    gate.hidden = false;
-    document.body.dataset.gated = '1';
+    setAuthState('gated');
     if (signedInEmail) {
-      msg.textContent = `Signed in as ${signedInEmail}, but no access.`;
-      detail.textContent = reason || '';
-      btn.textContent = 'Use a different account';
-      btn.onclick = async () => {
+      setMsg(`Signed in as ${signedInEmail}, but no access.`);
+      setDetail(reason || '', 'error');
+      googleBtn.textContent = 'Use a different Google account';
+      googleBtn.onclick = async () => {
         try { await signOut(); } catch {}
         await signIn();
       };
     } else {
-      msg.textContent = adminOnly
-        ? 'Admin sign-in required.'
-        : 'Sign in with your TNSG Google account to continue.';
-      detail.textContent = '';
-      btn.textContent = 'Sign in with Google';
-      btn.onclick = () => signIn().catch((e) => {
-        detail.textContent = e?.message || 'Sign-in failed.';
+      setMsg(adminOnly ? 'Admin sign-in required.' : '');
+      setDetail('');
+      googleBtn.textContent = 'Sign in with Google';
+      googleBtn.onclick = () => signIn().catch((e) => {
+        setDetail(e?.message || 'Sign-in failed.', 'error');
       });
     }
   }
 
   function showApp(state: any) {
-    loading.hidden = true;
-    gate.hidden = true;
-    delete document.body.dataset.gated;
+    setAuthState('allowed');
     document.body.dataset.email = state.email;
     document.body.dataset.uid = state.user.uid;
     document.body.dataset.displayName = state.user.displayName || state.email;
@@ -66,26 +96,57 @@ const { adminOnly = false } = Astro.props;
     document.dispatchEvent(new CustomEvent('portal:auth', { detail: state }));
   }
 
-  onAccessChange((state) => {
-    if (!state.user) {
-      showGate();
+  emailBtn.onclick = async () => {
+    const email = (emailInput.value || '').trim().toLowerCase();
+    if (!email || !email.includes('@')) {
+      setDetail('Enter a valid email address.', 'error');
       return;
     }
-    if (!state.hasAccess) {
-      showGate(state.reason, state.email || undefined);
-      return;
+    emailBtn.disabled = true;
+    setDetail('Sending…', 'info');
+    try {
+      await sendEmailSignInLink(email);
+      setDetail(`Link sent to ${email}. Check your inbox and click the link to finish sign-in.`, 'success');
+      setMsg('Email sent.');
+    } catch (e: any) {
+      setDetail(e?.message || 'Failed to send sign-in link.', 'error');
+    } finally {
+      emailBtn.disabled = false;
     }
-    if (adminOnly && !state.isAdmin) {
-      showGate('Admin access required for this page.', state.email || undefined);
-      return;
-    }
-    showApp(state);
-  });
-</script>
+  };
 
-<style>
-  body[data-gated='1'] .app-content { display: none; }
-  body:not([data-gated='1']) #access-gate,
-  body:not([data-gated='1']) #access-loading { display: none; }
-  body[data-gated='1'] #access-loading { display: none; }
-</style>
+  emailInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') emailBtn.click();
+  });
+
+  (async () => {
+    try {
+      await completeRedirectSignInIfPresent();
+    } catch (e: any) {
+      setDetail(e?.message || 'Google sign-in failed.', 'error');
+      setAuthState('gated');
+    }
+    try {
+      await completeEmailSignInIfPresent();
+    } catch (e: any) {
+      setDetail(e?.message || 'Email-link sign-in failed.', 'error');
+      setAuthState('gated');
+    }
+
+    onAccessChange((state) => {
+      if (!state.user) {
+        showGate();
+        return;
+      }
+      if (!state.hasAccess) {
+        showGate(state.reason, state.email || undefined);
+        return;
+      }
+      if (adminOnly && !state.isAdmin) {
+        showGate('Admin access required for this page.', state.email || undefined);
+        return;
+      }
+      showApp(state);
+    });
+  })();
+</script>

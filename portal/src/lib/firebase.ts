@@ -4,7 +4,7 @@ import { getFirestore, type Firestore } from 'firebase/firestore';
 
 export const firebaseConfig = {
   apiKey: 'AIzaSyCjjnBNxe_0cjGhvMNks8KsUmLnDrDyq_0',
-  authDomain: 'tnman-2026.firebaseapp.com',
+  authDomain: 'tnman.web.app',
   projectId: 'tnman-2026',
   appId: '1:1072049931332:web:b4fd334af14d20804d6811',
 };

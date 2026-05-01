@@ -20,7 +20,7 @@ const { title = 'TNMAN 26 Portal', active = '', adminOnly = false, bodyClass = '
     <title>{title} · TNMAN 26 Portal</title>
     <link rel="icon" type="image/png" href="/favicon.png" />
   </head>
-  <body class={bodyClass}>
+  <body class={bodyClass} data-auth="pending">
     <AccessGate adminOnly={adminOnly} />
 
     <div class="app app-content">
