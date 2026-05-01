@@ -1,0 +1,129 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+---
+<PortalLayout title="Access Allowlist" active="admin" adminOnly>
+  <p class="muted small"><a href="/admin">&larr; Admin</a></p>
+  <h1>Access Allowlist</h1>
+  <p class="muted">
+    Add Google account emails for non-TNSG participants (TNSG <code>@tnstateguard.org</code>
+    accounts are auto-allowed). Changes take effect immediately.
+  </p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Allowed Emails</h2>
+    <ul id="allow-list" class="list-tight"></ul>
+    <p id="allow-empty" class="muted" hidden>No additional emails (TNSG domain only).</p>
+    <div class="spacer"></div>
+    <div class="row">
+      <input id="new-email" type="email" placeholder="email@example.com" class="grow" />
+      <button id="add-allow" class="primary" type="button">Add</button>
+    </div>
+    <div id="allow-status" class="muted small"></div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Admins</h2>
+    <p class="muted small">Admins can edit access lists, send broadcasts, and activate injects.</p>
+    <ul id="admin-list" class="list-tight"></ul>
+    <div class="spacer"></div>
+    <div class="row">
+      <input id="new-admin" type="email" placeholder="admin@tnstateguard.org" class="grow" />
+      <button id="add-admin" class="primary" type="button">Add admin</button>
+    </div>
+    <div id="admin-status" class="muted small"></div>
+  </div>
+
+  <script>
+    import { getFirebase } from '~/lib/firebase';
+    import { doc, onSnapshot, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
+
+    const allowList = document.getElementById('allow-list')!;
+    const allowEmpty = document.getElementById('allow-empty')!;
+    const newEmail = document.getElementById('new-email') as HTMLInputElement;
+    const addAllow = document.getElementById('add-allow') as HTMLButtonElement;
+    const allowStatus = document.getElementById('allow-status')!;
+
+    const adminList = document.getElementById('admin-list')!;
+    const newAdmin = document.getElementById('new-admin') as HTMLInputElement;
+    const addAdmin = document.getElementById('add-admin') as HTMLButtonElement;
+    const adminStatus = document.getElementById('admin-status')!;
+
+    function escapeHtml(s: string) {
+      return s.replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      } as Record<string, string>)[c]!);
+    }
+
+    function bindList(ul: HTMLElement, emptyEl: HTMLElement | null, emails: string[], onRemove: (email: string) => void) {
+      if (!emails.length) {
+        ul.innerHTML = '';
+        if (emptyEl) emptyEl.hidden = false;
+        return;
+      }
+      if (emptyEl) emptyEl.hidden = true;
+      ul.innerHTML = emails.map((e) => `<li class="row"><code class="grow">${escapeHtml(e)}</code><button class="danger" data-email="${escapeHtml(e)}" type="button">Remove</button></li>`).join('');
+      ul.querySelectorAll('button[data-email]').forEach((b) => {
+        b.addEventListener('click', () => onRemove(b.getAttribute('data-email')!));
+      });
+    }
+
+    document.addEventListener('portal:auth', () => {
+      const { db } = getFirebase();
+      const allowRef = doc(db, 'access', 'allowedEmails');
+      const adminRef = doc(db, 'access', 'admins');
+
+      onSnapshot(allowRef, (snap) => {
+        const emails = ((snap.exists() ? snap.data().emails : []) || []).map((s: string) => String(s).toLowerCase());
+        bindList(allowList, allowEmpty, emails, async (email) => {
+          allowStatus.textContent = `Removing ${email}…`;
+          try { await updateDoc(allowRef, { emails: arrayRemove(email) }); allowStatus.textContent = 'Removed.'; }
+          catch (e: any) { allowStatus.textContent = e.message || 'Remove failed.'; }
+          setTimeout(() => (allowStatus.textContent = ''), 1500);
+        });
+      });
+
+      onSnapshot(adminRef, (snap) => {
+        const emails = ((snap.exists() ? snap.data().emails : []) || []).map((s: string) => String(s).toLowerCase());
+        bindList(adminList, null, emails, async (email) => {
+          if (!confirm(`Remove ${email} from admin list? They will lose admin access immediately.`)) return;
+          adminStatus.textContent = `Removing ${email}…`;
+          try { await updateDoc(adminRef, { emails: arrayRemove(email) }); adminStatus.textContent = 'Removed.'; }
+          catch (e: any) { adminStatus.textContent = e.message || 'Remove failed.'; }
+          setTimeout(() => (adminStatus.textContent = ''), 1500);
+        });
+      });
+
+      addAllow.addEventListener('click', async () => {
+        const e = newEmail.value.trim().toLowerCase();
+        if (!e || !e.includes('@')) { allowStatus.textContent = 'Enter a valid email.'; return; }
+        addAllow.disabled = true;
+        try {
+          await updateDoc(allowRef, { emails: arrayUnion(e) });
+          newEmail.value = '';
+          allowStatus.textContent = 'Added.';
+        } catch (err: any) {
+          allowStatus.textContent = err.message || 'Add failed.';
+        } finally {
+          addAllow.disabled = false;
+          setTimeout(() => (allowStatus.textContent = ''), 1500);
+        }
+      });
+
+      addAdmin.addEventListener('click', async () => {
+        const e = newAdmin.value.trim().toLowerCase();
+        if (!e || !e.includes('@')) { adminStatus.textContent = 'Enter a valid email.'; return; }
+        addAdmin.disabled = true;
+        try {
+          await updateDoc(adminRef, { emails: arrayUnion(e) });
+          newAdmin.value = '';
+          adminStatus.textContent = 'Added.';
+        } catch (err: any) {
+          adminStatus.textContent = err.message || 'Add failed.';
+        } finally {
+          addAdmin.disabled = false;
+          setTimeout(() => (adminStatus.textContent = ''), 1500);
+        }
+      });
+    }, { once: true });
+  </script>
+</PortalLayout>
