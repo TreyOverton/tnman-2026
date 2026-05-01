@@ -2,7 +2,7 @@
 
 **Issued:** 29 APR 26
 **Issued by:** S1 (1LT Fielitz-Scarbrough); signed COL Robert R. Roark
-**Authorizing OPORD:** [RGT OPORD 26-05-01](opord-rgt.md) and [FRAGO 26-05-01.1](frago-26-05-01-1.md)
+**Authorizing OPORD:** [RGT OPORD 26-05-01](/docs/opord-rgt.md) and [FRAGO 26-05-01.1](/docs/frago-26-05-01-1.md)
 **Authority:** Section 58-1-410, Tennessee State Code Annotated (sic — should read *Tennessee Code Annotated*; minor)
 **Source:** [pdf](/docs/source/RGT-Orders-26-04-601-3-TNMAN.pdf)
 
@@ -18,7 +18,7 @@
 | **Exercise window** | 0600 – 2030 EST *(should read EDT for May; minor)* |
 | **Location** | US Army Reserve Center, 399 US-11W Scenic, Mt. Carmel, TN 37645 *(canonical: Armed Forces Reserve Center, 399 A US-11W Scenic — known cosmetic difference from FRAGO drafting)* |
 | **Status** | Without pay (volunteers, IAW DIV OPORD 26-05 §4.b.(2)) |
-| **Uniform / equipment** | IAW [RGT OPORD 26-05-01](opord-rgt.md) |
+| **Uniform / equipment** | IAW [RGT OPORD 26-05-01](/docs/opord-rgt.md) |
 | **ID** | TNSG ID Card or Government picture ID required |
 | **Meals / transportation** | Service members' expense; POV |
 | **Personally Owned Weapons** | **NOT authorized to be carried** |
@@ -27,7 +27,7 @@
 
 ## Personnel Ordered (30 of 31 Organic)
 
-Names appear as printed on the order; minor spelling discrepancies vs. the [Mission Roster](../roster.md) are noted at the end.
+Names appear as printed on the order; minor spelling discrepancies vs. the [Mission Roster](/roster.md) are noted at the end.
 
 | Order # | Name | Unit (per roster) |
 |--------:|------|-------------------|
@@ -66,7 +66,7 @@ Names appear as printed on the order; minor spelling discrepancies vs. the [Miss
 
 **Not on the order (attachments — different ordering authorities):**
 
-- 61st MED Co attached medics — **3 PAX**, named so far: **MAJ Markus F. Gampe** (per [ICS-203](ics-203.md) Logistics — Medical Unit). Other 2 still TBD. Order routes through 61st MED BN, not 3 RGT.
+- 61st MED Co attached medics — **3 PAX**, named so far: **MAJ Markus F. Gampe** (per [ICS-203](/docs/ics-203.md) Logistics — Medical Unit). Other 2 still TBD. Order routes through 61st MED BN, not 3 RGT.
 - SDFF augmentee — **SFC Adam Acosta** (Pilot 3 / SDFF Agency Rep per ICS-203). Operates as TNSG IRR; SDFF order, not 3 RGT.
 - 1 RGT OPFOR (6 PAX), 2 RGT LNO (1), 4 RGT LNO (1), DIV LNOs (2), DIV PAO (1) — orders all originate at parent commands.
 
@@ -85,8 +85,8 @@ None block execution. Recommend bundling into S1's first reissue / addendum, or 
 
 ## Cross-References
 
-- [Mission Roster](../roster.md) — full personnel list (31 organic + attachments)
-- [ICS-203 — Organization Assignment List](ics-203.md) — billet-by-billet ICP assignments for these personnel
-- [DIV OPORD §4.b.(2)](opord-div.md) — unpaid-volunteer status
-- [RGT OPORD 26-05-01 §3 S1](opord-rgt.md) — S1 Task 3 (issue Regimental Orders) — **complete** as of 29 APR 26
-- [Timeline](../timeline.md) — 30 APR 26 S1 Task 3 deadline → met one day early on 29 APR
+- [Mission Roster](/roster.md) — full personnel list (31 organic + attachments)
+- [ICS-203 — Organization Assignment List](/docs/ics-203.md) — billet-by-billet ICP assignments for these personnel
+- [DIV OPORD §4.b.(2)](/docs/opord-div.md) — unpaid-volunteer status
+- [RGT OPORD 26-05-01 §3 S1](/docs/opord-rgt.md) — S1 Task 3 (issue Regimental Orders) — **complete** as of 29 APR 26
+- [Timeline](/timeline.md) — 30 APR 26 S1 Task 3 deadline → met one day early on 29 APR

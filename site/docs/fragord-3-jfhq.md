@@ -56,7 +56,7 @@
 ## Implications for 3 RGT Planning
 
 1. **Mt Carmel Armory facility provider is 278th ACR (TNARNG)** — confirms facility ownership. Our canonical form remains **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645**, but TNARNG calls it "Mt Carmel Armory, 399 Highway 11W" and 278th ACR is the facility-providing unit.
-2. **RON is explicitly authorized at Mt Carmel Armory 11-17 MAY** by TNARNG FRAGORD 3. This reduces the ambiguity on the DIV OPORD 26-05 tasking that 3 RGT provide sleeping area for 1 RGT SECFOR personnel — 278th ACR provides the building; 3 RGT manages the SG use of it. See [Consistency Review §B3](../warno-opord-review.md).
+2. **RON is explicitly authorized at Mt Carmel Armory 11-17 MAY** by TNARNG FRAGORD 3. This reduces the ambiguity on the DIV OPORD 26-05 tasking that 3 RGT provide sleeping area for 1 RGT SECFOR personnel — 278th ACR provides the building; 3 RGT manages the SG use of it. See [Consistency Review §B3](/warno-opord-review.md).
 3. **50-PAX authorization** at the Armory is below our current 124-PAX TPFDD peak. Most of the 124 are distributed across SECFOR patrol positions at HAAP rather than all inside the Armory at once, but this cap is worth flagging to S4 for billeting/workspace math.
 4. **Planning meeting history** is useful background — the TNMAN planning cycle is documented from JUL 2025 (concept) through MAR 2026 (FPM).
 5. **Time zone** — TNARNG FRAGORDs are in Sierra (Central); TNSG products use Romeo (Eastern). When cross-referencing times between documents, translate 1 hour forward (Sierra → Romeo).

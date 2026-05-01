@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Logistics Section Deputy (per [ICS-203](../docs/ics-203.md) §6) |
+| **Role** | Logistics Section Deputy (per [ICS-203](/docs/ics-203.md) §6) |
 | **Assignee** | **SFC Timothy W. Bradley** (HHC Rec NCO, MRC-1) |
 | **Reports to** | Logistics Section Chief — CPT Haddix |
 | **Section** | Logistics |
@@ -58,9 +58,9 @@ Rank-vs-role example, similar to the **Operations Deputy (1SG Collins)** dynamic
 
 ## Resources
 
-- [Logistics Section Chief](participant-guides/logistics-chief.md)
-- [Service Branch Director](participant-guides/service-branch-director.md)
-- [Communications Unit](participant-guides/comms-unit.md)
-- [Medical Unit](participant-guides/medical-unit.md)
-- [Staging Area Manager](participant-guides/staging-area-manager.md)
-- [Common Expectations](participant-guides/common.md)
+- [Logistics Section Chief](/participant-guides/participant-guides/logistics-chief.md)
+- [Service Branch Director](/participant-guides/participant-guides/service-branch-director.md)
+- [Communications Unit](/participant-guides/participant-guides/comms-unit.md)
+- [Medical Unit](/participant-guides/participant-guides/medical-unit.md)
+- [Staging Area Manager](/participant-guides/participant-guides/staging-area-manager.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

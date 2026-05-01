@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Liaison Officer (Command Staff per [ICS-203](../docs/ics-203.md) §3) — also includes integrating incoming external LNOs |
+| **Role** | Liaison Officer (Command Staff per [ICS-203](/docs/ics-203.md) §3) — also includes integrating incoming external LNOs |
 | **Assignee (TF LNO)** | **OPEN** |
 | **Incoming LNOs (attached)** | 2 RGT (1 PAX), 4 RGT (1 PAX — possibly **MAJ Thomas** or **MAJ Hamlin** per 28 APR comms meeting), DIV (2 PAX) |
 | **Reports to** | Incident Commander — COL Roark |
@@ -63,9 +63,9 @@ A few related dynamics:
 
 ## Resources
 
-- [Incident Commander](participant-guides/ic.md)
-- [Public Information Officer](participant-guides/pio.md)
-- [DIV OPORD 26-05](../docs/opord-div.md) §3.i.6 — DIV LNO taskings
-- [CG's Intent](../docs/cg-intent.md) — incoming LNO breakdown
-- [Comms Plan / Annex H](../docs/comms-plan.md) — JOC integration
-- [Common Expectations](participant-guides/common.md)
+- [Incident Commander](/participant-guides/participant-guides/ic.md)
+- [Public Information Officer](/participant-guides/participant-guides/pio.md)
+- [DIV OPORD 26-05](/docs/opord-div.md) §3.i.6 — DIV LNO taskings
+- [CG's Intent](/docs/cg-intent.md) — incoming LNO breakdown
+- [Comms Plan / Annex H](/docs/comms-plan.md) — JOC integration
+- [Common Expectations](/participant-guides/participant-guides/common.md)

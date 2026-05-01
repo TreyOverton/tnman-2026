@@ -2,7 +2,7 @@
 
 > **Purpose:** Condense DIV OPORD 26-05, CG's Intent, and RGT OPORD 26-05-01 into a single one-page view of what 3 RGT is expected to do, who gives/receives support, and the hard NLTs. Useful as a read-ahead for the CG Operational Brief (18 APR) and for leader-level SA downward.
 >
-> **Requested by:** LTC Sheaf, 17 APR 26 ([Comms Log](../comms.md)). Framed as an "Orders Brief-back (Summary) of the expectations for 3 RGT."
+> **Requested by:** LTC Sheaf, 17 APR 26 ([Comms Log](/comms.md)). Framed as an "Orders Brief-back (Summary) of the expectations for 3 RGT."
 >
 > **Status:** Draft — built from DIV OPORD 26-05 (161200RAPRIL2026, signed) and RGT OPORD 26-05-01 (141600RAPR26, issued). To be refined into the CG brief pre-read.
 
@@ -21,7 +21,7 @@
 
 1. **Establish ICP at Armed Forces Reserve Center**, 399 A US-11W Scenic, Mt Carmel, TN 37645 (DIV OPORD wording: "Mt. Carmel Armory"), with HF and TACN. **Within 6 hrs of notification.** OIC: **COL Roark**.
 2. **Provide ground and air (UAV) security** with roving patrols to support and secure the Holston Army Ammunition Depot.
-3. **Provide DIV Staff with RFFs** for capabilities over and above 3 RGT organic skills. *(See [RFF/RFS](rff-rfs.md).)*
+3. **Provide DIV Staff with RFFs** for capabilities over and above 3 RGT organic skills. *(See [RFF/RFS](/docs/rff-rfs.md).)*
 4. **Conduct DIV HF and TACN Radio COMMEX 13-15 May** (1 per day).
 5. **Establish communications** with HAAP and the TNNG JOC (through TNSG LNO at JOC).
 6. **Conduct SECFOR operations** as required with Depot Security. DIRLAUTH with Holston POC (Mr. Tony Armstrong).
@@ -85,7 +85,7 @@ Note: 61st MED BN **will not provide PHAs** during TNMAN. Units coordinate PHAs 
 | **Regimental staff / ICP support** | HHC and BN S-sections | roster-driven |
 | **Comms (TACN/HF)** | S6 + DIV support pending | radios pending |
 
-See [Mission Roster](../roster.md) and [Task Organization](../taskorg.md) for personnel specifics.
+See [Mission Roster](/roster.md) and [Task Organization](/taskorg.md) for personnel specifics.
 
 ## 8. Hard NLTs (Planning-Phase)
 
@@ -124,10 +124,10 @@ See [Mission Roster](../roster.md) and [Task Organization](../taskorg.md) for pe
 
 ## Cross-References
 
-- [DIV OPORD 26-05](opord-div.md)
-- [RGT OPORD 26-05-01](opord-rgt.md)
-- [CG's Intent](cg-intent.md)
-- [RFF / RFS](rff-rfs.md)
-- [Operational / NAI Graphics](ops-graphics.md)
-- [Orders Consistency Review](../warno-opord-review.md)
-- [Mission Roster](../roster.md) · [Task Organization](../taskorg.md) · [Planning Gaps](../planning-gaps.md)
+- [DIV OPORD 26-05](/docs/opord-div.md)
+- [RGT OPORD 26-05-01](/docs/opord-rgt.md)
+- [CG's Intent](/docs/cg-intent.md)
+- [RFF / RFS](/docs/rff-rfs.md)
+- [Operational / NAI Graphics](/docs/ops-graphics.md)
+- [Orders Consistency Review](/warno-opord-review.md)
+- [Mission Roster](/roster.md) · [Task Organization](/taskorg.md) · [Planning Gaps](/planning-gaps.md)

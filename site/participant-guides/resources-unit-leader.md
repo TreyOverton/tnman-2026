@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Resources Unit Leader (per [ICS-203](../docs/ics-203.md) §5) |
+| **Role** | Resources Unit Leader (per [ICS-203](/docs/ics-203.md) §5) |
 | **Assignee** | **1LT Cheryl A. Fielitz-Scarbrough** (3 RGT S1 Officer, MRC-2) — also **preparer of the ICS-203** |
 | **Reports to** | Planning Section Chief — 1LT Overton |
 | **Section** | Planning |
@@ -61,10 +61,10 @@ The Resources Unit Leader (RUL) owns **personnel and resource accountability** f
 
 ## Resources
 
-- [Planning Section Chief](participant-guides/planning-chief.md)
-- [Situation Unit Leader](participant-guides/situation-unit-leader.md)
-- [Documentation Unit](participant-guides/documentation-unit.md)
-- [Staging Area Manager](participant-guides/staging-area-manager.md)
-- [ICS-203](../docs/ics-203.md) — your 12 MAY 1400 prepared form
-- [Mission Roster](../roster.md)
-- [Common Expectations](participant-guides/common.md)
+- [Planning Section Chief](/participant-guides/participant-guides/planning-chief.md)
+- [Situation Unit Leader](/participant-guides/participant-guides/situation-unit-leader.md)
+- [Documentation Unit](/participant-guides/participant-guides/documentation-unit.md)
+- [Staging Area Manager](/participant-guides/participant-guides/staging-area-manager.md)
+- [ICS-203](/docs/ics-203.md) — your 12 MAY 1400 prepared form
+- [Mission Roster](/roster.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

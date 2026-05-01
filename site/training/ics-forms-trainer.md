@@ -3,7 +3,7 @@
 ## Trainer Notes
 
 > **For:** Facilitator (OIC) and NCOIC. 10-15 participants, ~90-min block during an IDT or training day.<br>
-> **Companion document:** [Participant Notes](ics-forms-participant.md) — share via the QR code below.
+> **Companion document:** [Participant Notes](/training/ics-forms-participant.md) — share via the QR code below.
 
 ## Quick-Share QR for Participants
 
@@ -29,14 +29,14 @@ Project, post, or pass around — points directly to the participant notes page 
 
 | Min | Phase | OIC | NCOIC |
 |----:|-------|-------------------|-------------------|
-| -15 | Pre-arrival | Build the substantive plan; review participant page | **Set up room** (chairs, tables, whiteboard). **Whiteboard the [Command Roster](ics-forms-participant.md#command-roster)** + [Partner POCs](ics-forms-participant.md#inter-agency-partner-pocs). Pre-count paper forms (15× 214, 4× each of 205/205A/206/209/213). |
-| 0 | Welcome + scenario | Read the [Scenario Brief](ics-forms-participant.md#scenario-brief) aloud. Confirm fictional framing. Show QR. | Sign-in / attendance roster. Hand out paper forms (one 214 to each, plus stack of others on side tables). |
-| 5 | Pick a Role | Walk participants through the [role list](ics-forms-participant.md#pick-your-ics-role-if-you-werent-assigned-one). Help the indecisive pick. | Help anyone who didn't get a form. Note who picked which role. |
+| -15 | Pre-arrival | Build the substantive plan; review participant page | **Set up room** (chairs, tables, whiteboard). **Whiteboard the [Command Roster](/training/ics-forms-participant.md#command-roster)** + [Partner POCs](/training/ics-forms-participant.md#inter-agency-partner-pocs). Pre-count paper forms (15× 214, 4× each of 205/205A/206/209/213). |
+| 0 | Welcome + scenario | Read the [Scenario Brief](/training/ics-forms-participant.md#scenario-brief) aloud. Confirm fictional framing. Show QR. | Sign-in / attendance roster. Hand out paper forms (one 214 to each, plus stack of others on side tables). |
+| 5 | Pick a Role | Walk participants through the [role list](/training/ics-forms-participant.md#pick-your-ics-role-if-you-werent-assigned-one). Help the indecisive pick. | Help anyone who didn't get a form. Note who picked which role. |
 | 10 | ICS 214 individual fill | Walk the room. Field substantive ICS questions. | Time-keeper. Walk the room for **mechanical** questions only ("where does the time go?"). |
 | 25 | **Round 1** — group fill (205, 205A, 206, 209) | Float between groups. Coach without filling for them. | Time-keeper (announce 5-min remaining). Walk the room. |
-| 45 | Brief-backs (Round 1) | Ask the [substantive brief-back questions](#brief-back-questions-by-form) below. | **Run the room from the front** ([rules](#brief-back-facilitation-ncoic)): frame each brief, prompt other groups for acknowledgement, time-box at 4 min each. Capture quotes / notable moments for [AAR](buttermilk-aar.md). |
+| 45 | Brief-backs (Round 1) | Ask the [substantive brief-back questions](#brief-back-questions-by-form) below. | **Run the room from the front** ([rules](#brief-back-facilitation-ncoic)): frame each brief, prompt other groups for acknowledgement, time-box at 4 min each. Capture quotes / notable moments for [AAR](/training/buttermilk-aar.md). |
 | 60 | **Round 2** — rotate to a new form (213 enters) | Float. Time the rotation. | Manage the rotation. Hand out fresh forms. Continue notable-moment capture. |
-| 80 | Wrap-up | Walk the [takeaways](ics-forms-participant.md#wrap-up-takeaways). Hot wash. | Photograph the whiteboard. Begin collection of completed forms. |
+| 80 | Wrap-up | Walk the [takeaways](/training/ics-forms-participant.md#wrap-up-takeaways). Hot wash. | Photograph the whiteboard. Begin collection of completed forms. |
 | 90 | End | Acknowledge participants. | Bundle 214s + group fills by group, label, hand to OIC. Final sign-out. |
 
 
@@ -49,14 +49,14 @@ These tasks are designed so the OIC can stay focused on substance while the NCOI
 - [ ] **Set up the room.** Chairs in a U or open horseshoe; 4 tables for groups; whiteboard accessible; projector ready if showing the page.
 - [ ] **Whiteboard the Command Roster + Partner POCs** *(saves the OIC ~10 min and frees the OIC to finalize lesson plan)*. Two boards if available — one for NSG roster, one for partner agencies.
 - [ ] **Count and stage paper forms:** 15× ICS 214 in a stack near the door (one per arrival); 4× each of 205, 205A, 206, 209, 213 on the side tables in labeled stacks. Spare 5× of each.
-- [ ] **Print the [Pick-Your-Role list](ics-forms-participant.md#pick-your-ics-role-if-you-werent-assigned-one)** as a one-pager handout (time permitting; otherwise direct participants to the QR / their phones).
+- [ ] **Print the [Pick-Your-Role list](/training/ics-forms-participant.md#pick-your-ics-role-if-you-werent-assigned-one)** as a one-pager handout (time permitting; otherwise direct participants to the QR / their phones).
 - [ ] **Verify projector / screen** if showing the participant page during the session. Have the QR loaded full-screen as a backup display.
 - [ ] **NCOIC device check.** Verify the NCOIC can sign in to a tnstateguard.org Google account on whatever device they'll be using during the session. **Fallback procedure (field-validated):** if the NCOIC's primary device fails sign-in, the OIC pulls out a clean tablet, signs in once, **disables auto-lock**, loads this Trainer Notes page, and hands the tablet over. Carry a clean tablet in the planning kit for this purpose.
-- [ ] **Clarify NCOIC role at handoff.** Say it explicitly when handing the device over: *"You're the training NCOIC. The scenario roster is for the participants to inhabit — you stay you."* This is a real failure mode: when the participant-page command roster lists a scenario role (e.g., 1SG Reece as Situation Unit Leader in the [Command Roster](ics-forms-participant.md#command-roster)) that happens to share rank/role-name with the actual NCOIC, the NCOIC may unconsciously read themselves into that line and conflate their two roles. Pre-empt it with one sentence at handoff.
+- [ ] **Clarify NCOIC role at handoff.** Say it explicitly when handing the device over: *"You're the training NCOIC. The scenario roster is for the participants to inhabit — you stay you."* This is a real failure mode: when the participant-page command roster lists a scenario role (e.g., 1SG Reece as Situation Unit Leader in the [Command Roster](/training/ics-forms-participant.md#command-roster)) that happens to share rank/role-name with the actual NCOIC, the NCOIC may unconsciously read themselves into that line and conflate their two roles. Pre-empt it with one sentence at handoff.
 
 ### During Training
 
-- [ ] **Welcome and sign-in.** Capture rank, name, unit on the attendance roster (lives on the [AAR](buttermilk-aar.md#attendance) page after).
+- [ ] **Welcome and sign-in.** Capture rank, name, unit on the attendance roster (lives on the [AAR](/training/buttermilk-aar.md#attendance) page after).
 - [ ] **Hand out forms** as participants are seated.
 - [ ] **Time-keeper.** Announce "5 minutes remaining" at every phase break. Call rotations. Watch the clock so the OIC doesn't have to.
 - [ ] **Walk the room during fills.** Answer **mechanical** questions only ("where does the time go on the 214?", "is this the right block for the channel name?"). **Do not** answer substantive ICS questions — that's the OIC's job, and the answer needs to be consistent.
@@ -73,7 +73,7 @@ These tasks are designed so the OIC can stay focused on substance while the NCOI
 - [ ] **214s = attendance roster + AAR feedback channel + per-form participation record** *(this iteration)*. Verify each 214 carries:
   - **Front:** rank, name, ICS role chosen — this is the attendance record
   - **Back:** AAR comments + a short list of forms the participant **Filled (P)** vs. **Observed (O)** — tells the OIC which forms each Soldier actually engaged with, without needing a separate capture sheet
-  - Flag any 214s with substantive AAR comments for the OIC's [AAR](buttermilk-aar.md) writeup.
+  - Flag any 214s with substantive AAR comments for the OIC's [AAR](/training/buttermilk-aar.md) writeup.
 - [ ] **Hand the bundle to the OIC** with a 60-second debrief: who participated, who stood out, anything that didn't go as planned.
 
 ### Brief-Back Facilitation (NCOIC)
@@ -183,7 +183,7 @@ Either way: **timeliness over polish.** A messy entry made now beats a tidy entr
 
 ### "Can't we have something where all the timestamps are automatic and we can type the notes?"
 
-**Answer:** That's the goal. A digital ICS 214 with GPS + auto-timestamp + typed entries is on the [recommendations list](buttermilk-aar.md#recommendations--way-forward) coming out of this iteration of the training. **Caveat:** the paper-and-pen path must remain. Power outage and no-network conditions are exactly when activity-logging matters most, so digital and paper coexist — they don't replace each other.
+**Answer:** That's the goal. A digital ICS 214 with GPS + auto-timestamp + typed entries is on the [recommendations list](/training/buttermilk-aar.md#recommendations--way-forward) coming out of this iteration of the training. **Caveat:** the paper-and-pen path must remain. Power outage and no-network conditions are exactly when activity-logging matters most, so digital and paper coexist — they don't replace each other.
 
 ### "Two of us picked the same role — is that wrong?"
 
@@ -207,7 +207,7 @@ Pre-print on index cards. NCOIC delivers at OIC's signal.
 
 ## After-Action
 
-Capture observations on the [Op BUTTERMILK AAR](buttermilk-aar.md) page (pre-formatted for handoff to the XO). Specific things to look for during the rotations:
+Capture observations on the [Op BUTTERMILK AAR](/training/buttermilk-aar.md) page (pre-formatted for handoff to the XO). Specific things to look for during the rotations:
 
 - Which forms did groups breeze through? Which stalled?
 - Did any group treat 214 like 213 (or vice versa)?
@@ -215,4 +215,4 @@ Capture observations on the [Op BUTTERMILK AAR](buttermilk-aar.md) page (pre-for
 - Did 206 include capabilities + distance, or just hospital names?
 - Did the 213 sender + recipient include **titles**, or just names?
 
-That feedback shapes the next iteration of this drill — and informs how 3 RGT will use the same forms when [TNMAN 26](../README.md) executes.
+That feedback shapes the next iteration of this drill — and informs how 3 RGT will use the same forms when [TNMAN 26](/README.md) executes.

@@ -4,9 +4,9 @@
 > - [ops-nai-graphics.pptx](/docs/source/ops-graphics/ops-nai-graphics.pptx)
 > - [base-map.jpeg](/docs/source/ops-graphics/base-map.jpeg)
 >
-> **Source files (current — 21 APR 26, Enclosure A to [FRAGO 26-05-01.1](frago-26-05-01-1.md)):**
+> **Source files (current — 21 APR 26, Enclosure A to [FRAGO 26-05-01.1](/docs/frago-26-05-01-1.md)):**
 > - [OPS-NAI-Graphics.pptx](/docs/source/OPS-NAI-Graphics.pptx) — SECFOR / sUAS overlays with NO-GO Line; minor position-label refinement vs. 20 APR
-> - [TPFDD-Ops-Sequence.xlsx](/docs/source/TPFDD-Ops-Sequence.xlsx) — hour-by-hour personnel sequencing 13-17 MAY, **now includes preliminary scenario event row** (see [FRAGO page](frago-26-05-01-1.md#editors-notes))
+> - [TPFDD-Ops-Sequence.xlsx](/docs/source/TPFDD-Ops-Sequence.xlsx) — hour-by-hour personnel sequencing 13-17 MAY, **now includes preliminary scenario event row** (see [FRAGO page](/docs/frago-26-05-01-1.md#editors-notes))
 > - [TNSG-TNMAN-Calendar-20APR26.xlsx](/docs/source/TNSG-TNMAN-Calendar-20APR26.xlsx) — DIV synch matrix
 >
 > **Status:** **Enclosure A to FRAGO 26-05-01.1.** Initial overlay distributed by LTC Sheaf 17 APR 26 to COL Roark, CSM Seals, LTC Smith, 1LT Overton (cc: LTC Smith Scott, CSM Rutherford, CPT Borrilez, MAJ Crosby, CPT Haddix, CW4 Simpson, 1LT Fielitz-Scarbrough, SFC Bradley). Updated 20 APR 26 after LTC Sheaf call with Mr. Armstrong (HAAP POC); 21 APR 26 re-issued with FRAGO.
@@ -40,11 +40,11 @@ Operational / intelligence graphic for use during TNMAN-26 execution at Holston 
 ## Employment Notes
 
 - NAIs align with the DIV OPORD 26-05 tasking for 3 RGT: *"Provide ground and air (UAV) security with roving patrols to support and secure the Holston Army Ammunition Depot"* and the end-state language *"well-developed and supportive perimeter ground and air security."*
-- The Screen (S) and Patrol (P) posture maps cleanly to the [RFF/RFS](rff-rfs.md) SECFOR breakdown: **12 foot patrol + 3 screen + 2 QRF = 17 pax** total on the perimeter.
+- The Screen (S) and Patrol (P) posture maps cleanly to the [RFF/RFS](/docs/rff-rfs.md) SECFOR breakdown: **12 foot patrol + 3 screen + 2 QRF = 17 pax** total on the perimeter.
 - **Perimeter-only constraint** still governs: no TNSG personnel enter HAAP premises. NAI 3001 (ICP) sits outside the perimeter at the **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645** (referred to in DIV OPORD as "Mt. Carmel Armory" and in RGT OPORD as "US Army Reserve Center, Mt Carmel" — same facility).
-- sUAS reconnaissance at HAAP (per [Imagery guidance 11 APR](../comms.md)) does **not** generate retained imagery — the sUAS mission tests the installation's drone detection system. NAIs inform sUAS patrol patterns but no NAI imagery products are produced.
+- sUAS reconnaissance at HAAP (per [Imagery guidance 11 APR](/comms.md)) does **not** generate retained imagery — the sUAS mission tests the installation's drone detection system. NAIs inform sUAS patrol patterns but no NAI imagery products are produced.
 
-### Mr. Armstrong guidance (20 APR phone call — see [Comms Log](../comms.md))
+### Mr. Armstrong guidance (20 APR phone call — see [Comms Log](/comms.md))
 
 The HAAP POC added constraints that **physically tighten** the SECFOR / sUAS / OPFOR footprint beyond the graphics alone:
 
@@ -55,9 +55,9 @@ The HAAP POC added constraints that **physically tighten** the SECFOR / sUAS / O
 
 ## Open Items
 
-- **S2 refinement** — LTC Sheaf explicitly invited S2 refinement. 1SG Snow (HHC S2 NCO) is tasked to develop the SA brief and further NAI work. [SA Brief](sabrief.md) is the parent product.
+- **S2 refinement** — LTC Sheaf explicitly invited S2 refinement. 1SG Snow (HHC S2 NCO) is tasked to develop the SA brief and further NAI work. [SA Brief](/docs/sabrief.md) is the parent product.
 - **Weather overlay** — the 1SG Snow SA brief is expected to layer weather considerations onto this graphic.
-- **Integration into Back-Brief** — the [Orders Back-Brief](back-brief.md) references this NAI scheme as the graphical representation of the 3 RGT SECFOR concept.
+- **Integration into Back-Brief** — the [Orders Back-Brief](/docs/back-brief.md) references this NAI scheme as the graphical representation of the 3 RGT SECFOR concept.
 
 ## Base Imagery
 
@@ -83,7 +83,7 @@ The 17 APR "Screen + 3 Patrols" posture was expanded to **15 × 5-PAX SECFOR tea
 | Patrol West | 4 | Patrols 12–15 |
 | Reserve / QRF | 2 | QRF 16, QRF 17 |
 
-This expanded posture is what the [RFF / RFS](rff-rfs.md) requests from DIV.
+This expanded posture is what the [RFF / RFS](/docs/rff-rfs.md) requests from DIV.
 
 ### Patrol-Zone Distances (24 APR update)
 
@@ -95,7 +95,7 @@ A **NO-GO Line** along the HAAP perimeter fence is absolute — no TNSG personne
 
 ### TPFDD — 42-50 Actual / 73-83 Notional / 120-125 Total *(30 APR refinement)*
 
-The **30 APR TPFDD** (Encl C to [FRAGO 26-05-01.2](frago-26-05-01-2.md)) refines the prior flat 54/70/124 split into hour-by-hour bands as Sheaf has placed pilots / medics / LNOs more precisely:
+The **30 APR TPFDD** (Encl C to [FRAGO 26-05-01.2](/docs/frago-26-05-01-2.md)) refines the prior flat 54/70/124 split into hour-by-hour bands as Sheaf has placed pilots / medics / LNOs more precisely:
 
 | Line | PAX | Meaning |
 |------|----:|---------|
@@ -105,7 +105,7 @@ The **30 APR TPFDD** (Encl C to [FRAGO 26-05-01.2](frago-26-05-01-2.md)) refines
 
 **ADVON line** went from 11 → **25 PAX** in the 30 APR TPFDD — likely reflects placement of the IA pilots (SDFF + adjacent-RGT) and 61st MED Co medics into the ADVON line rather than a separate bucket. The 13 MAY ADVON arrival therefore looks much heavier on the 30 APR TPFDD than on prior versions.
 
-**§107 sUAS lane expanded**: now **5 TNSG pilots + 5 IA (interagency) pilots** = 10 total. RFF asked for 3; Sheaf has 10 lined up. See [Volunteer Pilots](../volunteer-pilots.md) for the SDFF integration.
+**§107 sUAS lane expanded**: now **5 TNSG pilots + 5 IA (interagency) pilots** = 10 total. RFF asked for 3; Sheaf has 10 lined up. See [Volunteer Pilots](/volunteer-pilots.md) for the SDFF integration.
 
 Element composition (unchanged from 21 APR):
 

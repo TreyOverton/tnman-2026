@@ -2,13 +2,13 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Public Information Officer (Command Staff per [ICS-203](../docs/ics-203.md) §3) |
+| **Role** | Public Information Officer (Command Staff per [ICS-203](/docs/ics-203.md) §3) |
 | **Assignee** | **OPEN** — pending DIV PAO assignment via **LTC Daniel Epright** |
 | **Reports to** | Incident Commander — COL Roark |
 | **Section** | Command Staff |
 | **Operational period** | 13-15 MAY 26 |
 
-> **Status:** This billet is open as of 30 APR 26. LTC Sheaf has reached out to LTC Epright (DIV PAO) on the assignment path. Per [DIV OPORD 26-05](../docs/opord-div.md) §3.i.6.(g), DIV PMO provides **1 PAO** consolidating with TNARNG PAO.
+> **Status:** This billet is open as of 30 APR 26. LTC Sheaf has reached out to LTC Epright (DIV PAO) on the assignment path. Per [DIV OPORD 26-05](/docs/opord-div.md) §3.i.6.(g), DIV PMO provides **1 PAO** consolidating with TNARNG PAO.
 
 ## What this role is
 
@@ -52,8 +52,8 @@ N/A pending fill. Once assigned, the PIO is typically a CPT-MAJ in DIV PAO or a 
 
 ## Resources
 
-- [Incident Commander](participant-guides/ic.md)
-- [Liaison Officer](participant-guides/liaison-officer.md)
-- [DIV OPORD 26-05](../docs/opord-div.md) §3.i.6.(g) — DIV PAO tasking
-- [CG's Intent](../docs/cg-intent.md) — PAO consolidation with TNARNG PAO
-- [Common Expectations](participant-guides/common.md)
+- [Incident Commander](/participant-guides/participant-guides/ic.md)
+- [Liaison Officer](/participant-guides/participant-guides/liaison-officer.md)
+- [DIV OPORD 26-05](/docs/opord-div.md) §3.i.6.(g) — DIV PAO tasking
+- [CG's Intent](/docs/cg-intent.md) — PAO consolidation with TNARNG PAO
+- [Common Expectations](/participant-guides/participant-guides/common.md)

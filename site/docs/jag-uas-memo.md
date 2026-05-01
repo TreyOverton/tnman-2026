@@ -6,7 +6,7 @@
 **Re:** Legal Framework and Operational Guidance for Use of Unmanned Aircraft Systems (UAS) by the Tennessee State Guard
 **Source:** [pdf](/docs/source/JAG-UAS-Memo-Harris-18APR26.pdf)
 
-> **Note:** This is a JAG legal opinion authored by CPT Harris (TNSG JAG) and addressed to COL Williams (DIV PMO). It is **not a response to either of our pre-briefs** — it is a parallel, foundational legal review of TNSG UAS authority. Treat it as authoritative reference for both [JAG Pre-Brief — Command Authority & Mission Sets](jag-brief.md) and the [JAG Pre-Brief — DJI Personal Use](jag-brief-dji.md).
+> **Note:** This is a JAG legal opinion authored by CPT Harris (TNSG JAG) and addressed to COL Williams (DIV PMO). It is **not a response to either of our pre-briefs** — it is a parallel, foundational legal review of TNSG UAS authority. Treat it as authoritative reference for both [JAG Pre-Brief — Command Authority & Mission Sets](/docs/jag-brief.md) and the [JAG Pre-Brief — DJI Personal Use](/docs/jag-brief-dji.md).
 
 ## Issue Presented
 
@@ -90,7 +90,7 @@ The principal legal risks arise from unauthorized surveillance, improper data co
 
 ## Implications for TNMAN-26
 
-- **Compliance posture is well-aligned.** Mr. Armstrong's 20 APR guidance — that **sUAS detection is the primary objective** and TNSG will **NOT take imagery or video of anything within the HAAP perimeter fence line** (per LTC Sheaf's 11 APR Imagery email to 1SG Snow) — naturally complies with both the *no-imaging-of-critical-infrastructure* limb (§ 39-13-903) and the *purpose-driven data collection* best practice. See [Risk Assessment L-2](../risk.md) and [Comms Log 11 APR](../comms.md).
-- **Part 107 remains the controlling regime** for our operators (CPT Widner organic; LT Hoskins lost in 23 APR roster cut; 1LT Riley restored 29 APR — see [Roster](../roster.md)). RFF requests 3 sUAS operators; SDFF augmentation pool may close the gap (see [Volunteer Pilots](../volunteer-pilots.md)).
-- **The JAG memo does not address the DJI / Section 889 / TCA § 12-4-120 question.** That gap is the basis for [JAG Pre-Brief — DJI Personal Use](jag-brief-dji.md).
-- **The JAG memo does not address the Title 10 / SAD command-authority seam.** That is the basis for [JAG Pre-Brief — Command Authority & Mission Sets](jag-brief.md).
+- **Compliance posture is well-aligned.** Mr. Armstrong's 20 APR guidance — that **sUAS detection is the primary objective** and TNSG will **NOT take imagery or video of anything within the HAAP perimeter fence line** (per LTC Sheaf's 11 APR Imagery email to 1SG Snow) — naturally complies with both the *no-imaging-of-critical-infrastructure* limb (§ 39-13-903) and the *purpose-driven data collection* best practice. See [Risk Assessment L-2](/risk.md) and [Comms Log 11 APR](/comms.md).
+- **Part 107 remains the controlling regime** for our operators (CPT Widner organic; LT Hoskins lost in 23 APR roster cut; 1LT Riley restored 29 APR — see [Roster](/roster.md)). RFF requests 3 sUAS operators; SDFF augmentation pool may close the gap (see [Volunteer Pilots](/volunteer-pilots.md)).
+- **The JAG memo does not address the DJI / Section 889 / TCA § 12-4-120 question.** That gap is the basis for [JAG Pre-Brief — DJI Personal Use](/docs/jag-brief-dji.md).
+- **The JAG memo does not address the Title 10 / SAD command-authority seam.** That is the basis for [JAG Pre-Brief — Command Authority & Mission Sets](/docs/jag-brief.md).

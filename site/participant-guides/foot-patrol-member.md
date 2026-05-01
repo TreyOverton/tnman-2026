@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Foot Patrol Member — physical SECFOR squad on US-11W (per [ICS-203 SECFOR math](../docs/ics-203.md)) |
+| **Role** | Foot Patrol Member — physical SECFOR squad on US-11W (per [ICS-203 SECFOR math](/docs/ics-203.md)) |
 | **Assignees** | **SSG John R. Whalen** (4 BN, A Co 1SG Acting, MRC-1) — squad leader<br>**PFC Nicholas J. Human** (3 BN, A Co MP, MRC-1)<br>**PV2 Charles E. Elrod** (3 BN, B Co MP, MRC-1) |
 | **Reports to** | Screen Division/Group Leader — 2LT Garrison (and SECFOR Branch Director — MAJ Crosby) |
 | **Section** | Operations / SECFOR Branch / Screen Division |
@@ -14,11 +14,11 @@ You are the **boots on the ground** for this exercise. The 3-PAX squad is the on
 
 - **Physical perimeter presence** parallel to the southernmost side of US-11W (outside the HAAP fence)
 - **Observation and reporting** — anything you see at NAIs 3001-3010, civilians, vehicles, activity
-- **Comms node** — at least one TACN/VHF radio carried by the squad; ICS-213 message format with `EXERCISE EXERCISE EXERCISE` per [Annex H](../docs/comms-plan.md)
+- **Comms node** — at least one TACN/VHF radio carried by the squad; ICS-213 message format with `EXERCISE EXERCISE EXERCISE` per [Annex H](/docs/comms-plan.md)
 - **CalTopo location dot** — the ICP watches your position via the team map
 - **Civilian-interaction restraint** — presence only, no detention, no law-enforcement function
 
-The squad is **2 PAX short of a doctrinal 5-man squad** (PV1 Elrod was removed 30 APR — see [Roster](../roster.md)). Sheaf's framing: *"one almost-actual patrol and two notional on the screen line."*
+The squad is **2 PAX short of a doctrinal 5-man squad** (PV1 Elrod was removed 30 APR — see [Roster](/roster.md)). Sheaf's framing: *"one almost-actual patrol and two notional on the screen line."*
 
 ## Expectations during TNMAN-26
 
@@ -62,14 +62,14 @@ The squad has **no officer in the foot-patrol element itself.** SSG Whalen leads
 - **DO NOT** capture imagery within the HAAP fence (per LTC Sheaf 11 APR).
 - **DO NOT** engage sUAS during the 1400-1430 event — observe and report only.
 - **DO NOT** leave the assigned screen segment without SECFOR Branch direction.
-- **DO NOT** carry Personally Owned Weapons — explicitly NOT authorized per [RGT Orders 26-04-601-3](../docs/rgt-orders.md).
+- **DO NOT** carry Personally Owned Weapons — explicitly NOT authorized per [RGT Orders 26-04-601-3](/docs/rgt-orders.md).
 
 ## Resources
 
-- [Screen Division/Group Leader](participant-guides/screen-division-leader.md) — 2LT Garrison
-- [SECFOR Branch Director](participant-guides/secfor-director.md) — MAJ Crosby
-- [SECFOR Branch Deputy](participant-guides/secfor-deputy.md) — SFC Ferguson
-- [Comms Plan / Annex H](../docs/comms-plan.md) — radio freqs, ICS-213 conventions
-- [Ops Graphics](../docs/ops-graphics.md) — NO-GO Line, screen positions, NAIs
-- [Safety Officer](participant-guides/safety-officer.md) — SFC Sturgill
-- [Common Expectations](participant-guides/common.md)
+- [Screen Division/Group Leader](/participant-guides/participant-guides/screen-division-leader.md) — 2LT Garrison
+- [SECFOR Branch Director](/participant-guides/participant-guides/secfor-director.md) — MAJ Crosby
+- [SECFOR Branch Deputy](/participant-guides/participant-guides/secfor-deputy.md) — SFC Ferguson
+- [Comms Plan / Annex H](/docs/comms-plan.md) — radio freqs, ICS-213 conventions
+- [Ops Graphics](/docs/ops-graphics.md) — NO-GO Line, screen positions, NAIs
+- [Safety Officer](/participant-guides/participant-guides/safety-officer.md) — SFC Sturgill
+- [Common Expectations](/participant-guides/participant-guides/common.md)

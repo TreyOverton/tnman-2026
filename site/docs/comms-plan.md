@@ -123,6 +123,6 @@ After several telecoms with S6/G6 personnel, the agreed direction is:
 - [Reference Index → Annex H source](/docs/source/TNMAN-Annex-H.docx)
 - [Reference Index → 28 APR meeting notes](/docs/source/TNMAN-Comms-Discussion-Notes-28APR.docx)
 - [Reference Index → TNSG Radio Contacts (12 MAY 25)](/docs/source/TNSG-Radio-Contacts.xlsx)
-- [Comms Log](../comms.md) — full traffic on 27-28 APR
-- [Planning Gaps](../planning-gaps.md) — HF/TACN/Starlink open items
-- [Execution Matrix](execution-matrix.md) — Comms swim-lane
+- [Comms Log](/comms.md) — full traffic on 27-28 APR
+- [Planning Gaps](/planning-gaps.md) — HF/TACN/Starlink open items
+- [Execution Matrix](/docs/execution-matrix.md) — Comms swim-lane

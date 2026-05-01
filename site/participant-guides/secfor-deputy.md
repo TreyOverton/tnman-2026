@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | SECFOR Branch Deputy (per [ICS-203](../docs/ics-203.md) §7) |
+| **Role** | SECFOR Branch Deputy (per [ICS-203](/docs/ics-203.md) §7) |
 | **Assignee** | **SFC Joshua P. Ferguson** (3 BN HQ Co 1SG, MRC pending verification) |
 | **Reports to** | SECFOR Branch Director — MAJ Crosby (and Operations Section Chief — LTC Sheaf) |
 | **Section** | Operations |
@@ -56,9 +56,9 @@ This is a rank-vs-role example. **SFC is the standard rank for a senior SECFOR N
 
 ## Resources
 
-- [SECFOR Branch Director](participant-guides/secfor-director.md)
-- [Screen Division/Group Leader](participant-guides/screen-division-leader.md)
-- [Foot Patrol Member](participant-guides/foot-patrol-member.md)
-- [Operations Section Chief](participant-guides/ops-chief.md)
-- [Ops Graphics](../docs/ops-graphics.md) — NO-GO Line, NAIs
-- [Common Expectations](participant-guides/common.md)
+- [SECFOR Branch Director](/participant-guides/participant-guides/secfor-director.md)
+- [Screen Division/Group Leader](/participant-guides/participant-guides/screen-division-leader.md)
+- [Foot Patrol Member](/participant-guides/participant-guides/foot-patrol-member.md)
+- [Operations Section Chief](/participant-guides/participant-guides/ops-chief.md)
+- [Ops Graphics](/docs/ops-graphics.md) — NO-GO Line, NAIs
+- [Common Expectations](/participant-guides/participant-guides/common.md)

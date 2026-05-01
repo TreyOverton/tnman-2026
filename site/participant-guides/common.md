@@ -4,7 +4,7 @@ What every TNMAN-26 participant does regardless of role. **Read your role page f
 
 If your role page contradicts this page on a detail, follow the role page — it has been tailored to your responsibilities.
 
-> **Lost in abbreviations?** See the **[Glossary](participant-guides/glossary.md)** — every term used across the planning portal, organized by category.
+> **Lost in abbreviations?** See the **[Glossary](/participant-guides/participant-guides/glossary.md)** — every term used across the planning portal, organized by category.
 
 ## Reporting
 
@@ -12,10 +12,10 @@ If your role page contradicts this page on a detail, follow the role page — it
 |------|-------|
 | **Dates** | 13-15 MAY 26 |
 | **Daily report time** | 0600 |
-| **Location** | Armed Forces Reserve Center, 399 A US-11W Scenic, Mt. Carmel, TN 37645 *(your [RGT Orders](../docs/rgt-orders.md) read "US Army Reserve Center, 399 US-11W Scenic" — same facility; cosmetic difference)* |
+| **Location** | Armed Forces Reserve Center, 399 A US-11W Scenic, Mt. Carmel, TN 37645 *(your [RGT Orders](/docs/rgt-orders.md) read "US Army Reserve Center, 399 US-11W Scenic" — same facility; cosmetic difference)* |
 | **ID** | TNSG ID Card or Government picture ID — carry on person |
-| **Uniform / equipment** | IAW [RGT OPORD 26-05-01](../docs/opord-rgt.md) |
-| **Status** | Without pay (volunteer) — IAW [DIV OPORD 26-05](../docs/opord-div.md) §4.b.(2) |
+| **Uniform / equipment** | IAW [RGT OPORD 26-05-01](/docs/opord-rgt.md) |
+| **Status** | Without pay (volunteer) — IAW [DIV OPORD 26-05](/docs/opord-div.md) §4.b.(2) |
 | **Personally Owned Weapons** | **NOT authorized** |
 | **Transportation** | POV at individual expense; coordinate carpools where helpful |
 | **Meals** | Service members' expense |
@@ -49,7 +49,7 @@ The same web portal will accept AAR notes. **Until it's live**, capture in your 
 
 The ICP needs to be able to see where personnel are during the exercise window. Every participant runs **CalTopo** on a personal mobile device. This is non-negotiable for accountability and for the **Safety Officer (SFC Sturgill)**.
 
-See **[CalTopo Guide](participant-guides/caltopo.md)** for full setup. Critical points:
+See **[CalTopo Guide](/participant-guides/participant-guides/caltopo.md)** for full setup. Critical points:
 
 - Install before 12 MAY
 - Allow location **"Always"** (not "While Using App") — iOS in particular requires this
@@ -100,7 +100,7 @@ If you have a **medical concern** (hydration, heat injury, MRC-related issue), n
 | End of day | ICS-214 close, AAR notes captured, debrief, sign out |
 | ~2030 | Departure — RON at home (per CG dawn-to-dusk policy) |
 
-Specific timings on **14 MAY** are inject-driven (UAS 1400-1430, OPFOR main-gate 1300, waterway breach notional 1200, ICP IOC 1600) — see [Execution Matrix](../docs/execution-matrix.md).
+Specific timings on **14 MAY** are inject-driven (UAS 1400-1430, OPFOR main-gate 1300, waterway breach notional 1200, ICP IOC 1600) — see [Execution Matrix](/docs/execution-matrix.md).
 
 ## Where to Get Help
 
@@ -125,9 +125,9 @@ This is also a TNNG exercise on a federal facility. Mr. Armstrong's team is the 
 
 ## Related
 
-- [Mission Roster](../roster.md)
-- [Chain of Command](../coc.md)
-- [Key Contacts](../contacts.md)
-- [Execution Matrix](../docs/execution-matrix.md)
-- [Orders Back-Brief](../docs/back-brief.md)
-- [Risk Assessment](../risk.md)
+- [Mission Roster](/roster.md)
+- [Chain of Command](/coc.md)
+- [Key Contacts](/contacts.md)
+- [Execution Matrix](/docs/execution-matrix.md)
+- [Orders Back-Brief](/docs/back-brief.md)
+- [Risk Assessment](/risk.md)

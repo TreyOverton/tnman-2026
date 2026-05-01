@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Operations Section Deputy (per [ICS-203](../docs/ics-203.md) §7) |
+| **Role** | Operations Section Deputy (per [ICS-203](/docs/ics-203.md) §7) |
 | **Assignee** | **1SG Jeffrey S. Collins** (2 BN HQ Co 1SG, MRC-1) |
 | **Reports to** | Operations Section Chief — LTC Sheaf |
 | **Section** | Operations |
@@ -58,9 +58,9 @@ The same dynamic applies to **SFC Bradley as Logistics Deputy** (under CPT Haddi
 
 ## Resources
 
-- [Operations Section Chief](participant-guides/ops-chief.md)
-- [Asst Ops Specialist](participant-guides/asst-ops.md)
-- [SECFOR Branch Director](participant-guides/secfor-director.md)
-- [Air Ops Branch Director](participant-guides/air-ops-director.md)
-- [Execution Matrix](../docs/execution-matrix.md)
-- [Common Expectations](participant-guides/common.md)
+- [Operations Section Chief](/participant-guides/participant-guides/ops-chief.md)
+- [Asst Ops Specialist](/participant-guides/participant-guides/asst-ops.md)
+- [SECFOR Branch Director](/participant-guides/participant-guides/secfor-director.md)
+- [Air Ops Branch Director](/participant-guides/participant-guides/air-ops-director.md)
+- [Execution Matrix](/docs/execution-matrix.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

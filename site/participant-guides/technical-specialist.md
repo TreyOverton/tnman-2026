@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Technical Specialist (per [ICS-203](../docs/ics-203.md) §5) |
+| **Role** | Technical Specialist (per [ICS-203](/docs/ics-203.md) §5) |
 | **Assignees** | **SSG Matthew E. Miles** (4 BN MP Sqd Ldr, **MRC-3** — single-day on 14 MAY) — *Tech Spec: SECFOR*<br>**WO1 Shaleigh D. Hendon** (4 BN BN S1 NCO, MRC-4 — verification pending) — *Tech Spec: general* |
 | **Reports to** | Planning Section Chief — 1LT Overton |
 | **Section** | Planning |
@@ -41,7 +41,7 @@ Two distinct rank dynamics in this billet:
 - **SSG and WO1 are different communities** — NCO and Warrant Officer respectively — both serving the same role of "expert called on demand." Neither outranks the other in this billet; both report to 1LT Overton.
 - **Technical Specialists are doctrinal-equal advisors** regardless of rank. A junior NCO or a Warrant Officer specialist can advise an LTC Section Chief or the IC without the rank distance compromising the input. The role exists precisely because incident-relevant expertise doesn't always live at officer rank.
 - **You both report to 1LT Overton** within the Section — Section Chief authority runs through the role.
-- **MRC verifications pending** — Hendon MRC-4, Miles MRC-3 confirmed (single-day 14 MAY). See [Roster Open Items](../roster.md) and [DD 2977 Block 4](../docs/dd2977.md).
+- **MRC verifications pending** — Hendon MRC-4, Miles MRC-3 confirmed (single-day 14 MAY). See [Roster Open Items](/roster.md) and [DD 2977 Block 4](/docs/dd2977.md).
 
 ## Out of scope (do NOT do)
 
@@ -52,9 +52,9 @@ Two distinct rank dynamics in this billet:
 
 ## Resources
 
-- [Planning Section Chief](participant-guides/planning-chief.md)
-- [Resources Unit Leader](participant-guides/resources-unit-leader.md)
-- [Situation Unit Leader](participant-guides/situation-unit-leader.md)
-- [Documentation Unit](participant-guides/documentation-unit.md)
-- [DD Form 2977 Block 4](../docs/dd2977.md) — MRC-3 / MRC-4 mitigations
-- [Common Expectations](participant-guides/common.md)
+- [Planning Section Chief](/participant-guides/participant-guides/planning-chief.md)
+- [Resources Unit Leader](/participant-guides/participant-guides/resources-unit-leader.md)
+- [Situation Unit Leader](/participant-guides/participant-guides/situation-unit-leader.md)
+- [Documentation Unit](/participant-guides/participant-guides/documentation-unit.md)
+- [DD Form 2977 Block 4](/docs/dd2977.md) — MRC-3 / MRC-4 mitigations
+- [Common Expectations](/participant-guides/participant-guides/common.md)

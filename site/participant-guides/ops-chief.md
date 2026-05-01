@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Operations Section Chief (per [ICS-203](../docs/ics-203.md) §7) |
+| **Role** | Operations Section Chief (per [ICS-203](/docs/ics-203.md) §7) |
 | **Assignee** | **LTC John T. Sheaf** (3 RGT S3, MRC-2) |
 | **Reports to** | Incident Commander — COL Roark |
 | **Section** | Operations |
@@ -41,7 +41,7 @@ In a SECFOR-and-sUAS exercise like TNMAN, the Ops Chief is the busiest billet in
   - **1400-1430** — sUAS attack / detection / response
   - **1600** — ICP IOC
 - Receive **Section Chief inputs** at the rail; route IC decisions back down.
-- Coordinate the **HF Net check-in** at 1300-1330 CST per [Annex H](../docs/comms-plan.md).
+- Coordinate the **HF Net check-in** at 1300-1330 CST per [Annex H](/docs/comms-plan.md).
 - Brief the **IC** at any operational change.
 
 ### 15 MAY
@@ -66,9 +66,9 @@ LTC is the appropriate rank for an Ops Section Chief on a TF this size. **No int
 
 ## Resources
 
-- [Incident Commander](participant-guides/ic.md)
-- [SECFOR Branch Director](participant-guides/secfor-director.md)
-- [Air Ops Branch Director](participant-guides/air-ops-director.md)
-- [Staging Area Manager](participant-guides/staging-area-manager.md)
-- [Execution Matrix](../docs/execution-matrix.md)
-- [Common Expectations](participant-guides/common.md)
+- [Incident Commander](/participant-guides/participant-guides/ic.md)
+- [SECFOR Branch Director](/participant-guides/participant-guides/secfor-director.md)
+- [Air Ops Branch Director](/participant-guides/participant-guides/air-ops-director.md)
+- [Staging Area Manager](/participant-guides/participant-guides/staging-area-manager.md)
+- [Execution Matrix](/docs/execution-matrix.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

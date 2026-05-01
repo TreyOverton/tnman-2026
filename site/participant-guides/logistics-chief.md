@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Logistics Section Chief (per [ICS-203](../docs/ics-203.md) §6) |
+| **Role** | Logistics Section Chief (per [ICS-203](/docs/ics-203.md) §6) |
 | **Assignee** | **CPT Terrence S. Haddix** (4 BN CMDR, MRC-2) |
 | **Reports to** | Incident Commander — COL Roark |
 | **Section** | Logistics |
@@ -35,7 +35,7 @@ The Logistics Section Chief runs the section that **keeps the team operating** �
 ### 14 MAY
 
 - **Continuous presence at the Logistics position** at the ICP.
-- Manage the **all-day HF Net** — antenna live, WINLINK active, A4U Net at 1300-1330 CST per [Annex H](../docs/comms-plan.md).
+- Manage the **all-day HF Net** — antenna live, WINLINK active, A4U Net at 1300-1330 CST per [Annex H](/docs/comms-plan.md).
 - Coordinate with **Medical Unit** during inject windows on injury-response readiness.
 - Coordinate with **2LT Neisler (Service Branch)** on hot-spot logistics — water resupply, charging strip rotation, vehicle moves.
 - Brief the IC and Ops Chief on any logistics shortfall.
@@ -63,10 +63,10 @@ CPT is appropriate rank for a Logistics Section Chief on this TF. **No internal 
 
 ## Resources
 
-- [Incident Commander](participant-guides/ic.md)
-- [Logistics Section Deputy](participant-guides/logistics-deputy.md)
-- [Service Branch Director](participant-guides/service-branch-director.md)
-- [Communications Unit](participant-guides/comms-unit.md)
-- [Medical Unit](participant-guides/medical-unit.md)
-- [Comms Plan / Annex H](../docs/comms-plan.md)
-- [Common Expectations](participant-guides/common.md)
+- [Incident Commander](/participant-guides/participant-guides/ic.md)
+- [Logistics Section Deputy](/participant-guides/participant-guides/logistics-deputy.md)
+- [Service Branch Director](/participant-guides/participant-guides/service-branch-director.md)
+- [Communications Unit](/participant-guides/participant-guides/comms-unit.md)
+- [Medical Unit](/participant-guides/participant-guides/medical-unit.md)
+- [Comms Plan / Annex H](/docs/comms-plan.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Situation Unit Leader (within the Planning Section, per [ICS-203](../docs/ics-203.md)) |
+| **Role** | Situation Unit Leader (within the Planning Section, per [ICS-203](/docs/ics-203.md)) |
 | **Assignee** | **1SG Michael E. Snow** (HHC S2 NCO, MRC-1) |
 | **Reports to** | Planning Section Chief — **1LT Aaron Overton** |
 | **Section** | Planning |
@@ -14,7 +14,7 @@ The Situation Unit Leader (SITL) owns the **operational picture** for the task f
 
 - Maintains the **common operational picture (COP)** displayed in the ICP — boards, maps, NAI status, threat picture
 - Produces and distributes **SITREPs** at regular intervals and on significant events
-- Tracks the **NAI overlay** (3001 ICP through 3010 US-11W per [Ops Graphics](../docs/ops-graphics.md)) and any reported activity at each NAI
+- Tracks the **NAI overlay** (3001 ICP through 3010 US-11W per [Ops Graphics](/docs/ops-graphics.md)) and any reported activity at each NAI
 - Integrates **observations from SECFOR, Air Ops, Comms, and external partners** into the picture
 - Hands the IC and Operations Section Chief a **timely, accurate read** that supports their decisions
 - Watches the **CalTopo team map** alongside the Safety Officer for personnel disposition
@@ -29,7 +29,7 @@ This is doctrinally an **S2 (Intelligence) function** at unit echelon. In ICS, i
 - Brief the **AO and NAIs** at the morning brief.
 - With the **RUL (1LT Fielitz-Scarbrough)**, verify each participant's **CalTopo dot is live** at sign-in.
 - Capture the **initial picture** by 1200; first SITREP out by 1300.
-- Confirm the **HF Net check-in cadence** with the Comms Unit — 1300-1330 CST per [Annex H](../docs/comms-plan.md).
+- Confirm the **HF Net check-in cadence** with the Comms Unit — 1300-1330 CST per [Annex H](/docs/comms-plan.md).
 
 ### 14 MAY (Main Day)
 
@@ -70,15 +70,15 @@ The same dynamic applies in reverse to **1LT Overton (Planning Section Chief)** 
 - **Do not own personnel rosters.** That's the **Resources Unit (RUL: 1LT Fielitz-Scarbrough)**. The SITL uses RUL data to keep the picture current; doesn't maintain the source.
 - **Do not own the AAR record.** That's the **Documentation Unit (CPT McCroskey)**. The SITL captures observations and submits them; the Documentation Unit archives and routes.
 - **Do not run MSEL or schedule injects.** That's exercise control / DIV. The SITL responds to injects; doesn't drive them.
-- **Do not carry imagery off-station.** Per [LTC Sheaf 11 APR](../comms.md) — no imagery within the HAAP fence; what is captured stays controlled within the ICP per the [JAG UAS Memo](../docs/jag-uas-memo.md) guidance.
+- **Do not carry imagery off-station.** Per [LTC Sheaf 11 APR](/comms.md) — no imagery within the HAAP fence; what is captured stays controlled within the ICP per the [JAG UAS Memo](/docs/jag-uas-memo.md) guidance.
 - **Do not operate sUAS or radios as a primary.** **Air Ops** and the **Comms Unit** are separate teams. The SITL is a consumer of their products.
 
 ## Resources
 
-- [ICS-203](../docs/ics-203.md) — full ICP staffing
-- [Ops Graphics](../docs/ops-graphics.md) — NAI overlay (3001-3010), SECFOR boundaries, NO-GO Line, sUAS zone
-- [SA Brief](../docs/sabrief.md) — AO picture, weather, sUAS posture, friendly picture
-- [Execution Matrix](../docs/execution-matrix.md) — 13-15 MAY playbook with inject windows
-- [Comms Plan / Annex H](../docs/comms-plan.md) — A4U Net schedule, HF / VHF freqs, ICS-213 conventions
-- [CalTopo Guide](participant-guides/caltopo.md) — team map for personnel disposition
-- [Common Expectations](participant-guides/common.md)
+- [ICS-203](/docs/ics-203.md) — full ICP staffing
+- [Ops Graphics](/docs/ops-graphics.md) — NAI overlay (3001-3010), SECFOR boundaries, NO-GO Line, sUAS zone
+- [SA Brief](/docs/sabrief.md) — AO picture, weather, sUAS posture, friendly picture
+- [Execution Matrix](/docs/execution-matrix.md) — 13-15 MAY playbook with inject windows
+- [Comms Plan / Annex H](/docs/comms-plan.md) — A4U Net schedule, HF / VHF freqs, ICS-213 conventions
+- [CalTopo Guide](/participant-guides/participant-guides/caltopo.md) — team map for personnel disposition
+- [Common Expectations](/participant-guides/participant-guides/common.md)

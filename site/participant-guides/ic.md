@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Incident Commander (per [ICS-203](../docs/ics-203.md)) / TF Commander |
+| **Role** | Incident Commander (per [ICS-203](/docs/ics-203.md)) / TF Commander |
 | **Assignee** | **COL Robert R. Roark** (3 RGT CO) |
 | **Reports to** | DIV CG (BG Stewart) — operationally via LTC Estes (DIV TNMAN PM); coordinates with HAAP POC (Mr. Tony Armstrong) |
 | **Section** | Command Staff |
@@ -16,7 +16,7 @@ The Incident Commander commands the Mt. Carmel Site Defense task force. Within t
 - **Approves and signs the daily IAP** — the ICS-203 has already been approved (29-30 APR); operational period ICS-202s and follow-on ICS-203s will be signed during execution
 - Owns **risk acceptance** — final say on safety calls, scope changes, stop-work authority
 - **Interfaces externally** with the HAAP POC, DIV CG, LTC Estes, and any visiting LNOs or distinguished visitors
-- **Receives and routes CCIRs** (per [DIV OPORD 26-05](../docs/opord-div.md) §3.f.(2) — FFIRs / PIRs / EEFIs)
+- **Receives and routes CCIRs** (per [DIV OPORD 26-05](/docs/opord-div.md) §3.f.(2) — FFIRs / PIRs / EEFIs)
 - Holds **succession of command** per SOP if commitment requires
 
 The IC role is broader than the TF Commander role in pure ICS doctrine, but for our purposes the two are the same person: COL Roark commands the TNSG TF and runs the ICP.
@@ -70,11 +70,11 @@ The IC is doctrinally an officer, and COL Roark is the appropriate rank for this
 
 ## Resources
 
-- [ICS-203](../docs/ics-203.md) — full ICP staffing
-- [RGT OPORD 26-05-01](../docs/opord-rgt.md) and [FRAGO 26-05-01.1](../docs/frago-26-05-01-1.md) — authorizing orders. **FRAGO 26-05-01.2** (in draft, NLT 2 MAY) will incorporate the ICS-203.
-- [CG's Intent](../docs/cg-intent.md) — BG Stewart's framing of TNMAN
-- [DIV OPORD 26-05](../docs/opord-div.md) — division scheme of operations
-- [Execution Matrix](../docs/execution-matrix.md) — 13-15 MAY blue-force playbook
-- [Risk Assessment](../risk.md) — overall residual risk: Moderate
-- [Orders Back-Brief](../docs/back-brief.md) — summary of 3 RGT expectations across DIV/CG/RGT orders
-- [Common Expectations](participant-guides/common.md)
+- [ICS-203](/docs/ics-203.md) — full ICP staffing
+- [RGT OPORD 26-05-01](/docs/opord-rgt.md) and [FRAGO 26-05-01.1](/docs/frago-26-05-01-1.md) — authorizing orders. **FRAGO 26-05-01.2** (in draft, NLT 2 MAY) will incorporate the ICS-203.
+- [CG's Intent](/docs/cg-intent.md) — BG Stewart's framing of TNMAN
+- [DIV OPORD 26-05](/docs/opord-div.md) — division scheme of operations
+- [Execution Matrix](/docs/execution-matrix.md) — 13-15 MAY blue-force playbook
+- [Risk Assessment](/risk.md) — overall residual risk: Moderate
+- [Orders Back-Brief](/docs/back-brief.md) — summary of 3 RGT expectations across DIV/CG/RGT orders
+- [Common Expectations](/participant-guides/participant-guides/common.md)

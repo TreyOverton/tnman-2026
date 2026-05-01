@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Staging Area Manager (per [ICS-203](../docs/ics-203.md) §7) |
+| **Role** | Staging Area Manager (per [ICS-203](/docs/ics-203.md) §7) |
 | **Assignee** | **MAJ Curtis R. Rookard** (HHC Eng Officer, MRC-1) |
 | **Reports to** | Operations Section Chief — LTC Sheaf |
 | **Section** | Operations |
@@ -60,8 +60,8 @@ MAJ is high rank for a Staging Area Manager — typical ICS doctrine has this ro
 
 ## Resources
 
-- [Operations Section Chief](participant-guides/ops-chief.md)
-- [Resources Unit Leader](participant-guides/resources-unit-leader.md) — sign-in coordination
-- [Logistics Section Chief](participant-guides/logistics-chief.md) and [Logistics Deputy](participant-guides/logistics-deputy.md) — physical setup
-- [Situation Unit Leader](participant-guides/situation-unit-leader.md) — CalTopo verification at sign-in
-- [Common Expectations](participant-guides/common.md)
+- [Operations Section Chief](/participant-guides/participant-guides/ops-chief.md)
+- [Resources Unit Leader](/participant-guides/participant-guides/resources-unit-leader.md) — sign-in coordination
+- [Logistics Section Chief](/participant-guides/participant-guides/logistics-chief.md) and [Logistics Deputy](/participant-guides/participant-guides/logistics-deputy.md) — physical setup
+- [Situation Unit Leader](/participant-guides/participant-guides/situation-unit-leader.md) — CalTopo verification at sign-in
+- [Common Expectations](/participant-guides/participant-guides/common.md)

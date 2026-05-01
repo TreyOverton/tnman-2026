@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Medical Unit (per [ICS-203](../docs/ics-203.md) §6) |
+| **Role** | Medical Unit (per [ICS-203](/docs/ics-203.md) §6) |
 | **Assignees** | **MAJ Markus F. Gampe** (61st MED Co attachment — first named medic on the team) — Unit Leader<br>**Two additional 61st MED Co medics** — names pending |
 | **Reports to** | Logistics Section Chief — CPT Haddix (and DIV chain through 61st MED BN) |
 | **Section** | Logistics |
@@ -65,9 +65,9 @@ Two distinct rank dynamics:
 
 ## Resources
 
-- [Logistics Section Chief](participant-guides/logistics-chief.md)
-- [Safety Officer](participant-guides/safety-officer.md) — coordinate continuously on heat / hydration
-- [Foot Patrol Member](participant-guides/foot-patrol-member.md) — primary outdoor risk population
-- [DIV OPORD 26-05](../docs/opord-div.md) §3.b.(1) and §4.c.(4) — 61st MED Co tasking; PHA constraint
-- [DD Form 2977](../docs/dd2977.md) — Block 4 medical mitigations
-- [Common Expectations](participant-guides/common.md)
+- [Logistics Section Chief](/participant-guides/participant-guides/logistics-chief.md)
+- [Safety Officer](/participant-guides/participant-guides/safety-officer.md) — coordinate continuously on heat / hydration
+- [Foot Patrol Member](/participant-guides/participant-guides/foot-patrol-member.md) — primary outdoor risk population
+- [DIV OPORD 26-05](/docs/opord-div.md) §3.b.(1) and §4.c.(4) — 61st MED Co tasking; PHA constraint
+- [DD Form 2977](/docs/dd2977.md) — Block 4 medical mitigations
+- [Common Expectations](/participant-guides/participant-guides/common.md)

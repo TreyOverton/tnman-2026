@@ -6,7 +6,7 @@
 >
 > **Caveats:**
 > - Slide names COL Roark as **"COL Noah Roark"** — source-document error; correct name is **COL Robert R Roark**.
-> - Estimated SG support of **10 PAX** is obsolete. The 21 APR [TPFDD](ops-graphics.md) has **124 PAX peak** on 14 MAY.
+> - Estimated SG support of **10 PAX** is obsolete. The 21 APR [TPFDD](/docs/ops-graphics.md) has **124 PAX peak** on 14 MAY.
 > - Role Players shown as "?" — now resolved: 1 RGT provides 6-8 OPFOR per DIV OPORD 26-05.
 
 ## Overview (Slide 1)
@@ -45,13 +45,13 @@
   - Base entrance inject (3 SG)
   - Waterway protection at Netherland Park (2-4 SG)
   - Medical Support (2 SG)
-- **Note:** These early estimates total 10 SG PAX. Current [TPFDD](ops-graphics.md) grew the TNSG footprint to 124 PAX peak.
+- **Note:** These early estimates total 10 SG PAX. Current [TPFDD](/docs/ops-graphics.md) grew the TNSG footprint to 124 PAX peak.
 - **Realism:** Mixture of FTX (Field Training Exercise) and TTX (Tabletop)
 - **Trigger flow:** Limited MOU/MOA resources → request via DCO/DCE → Fed tasking to state to support
 
 ## Inject Timeline — 14 MAY Detail (Slide 3)
 
-Still useful — these are specific exercise-execution injects not captured in the OPORD or CG Intent. Candidates for inclusion in the [Execution Matrix](execution-matrix.md) or the DIV MSEL.
+Still useful — these are specific exercise-execution injects not captured in the OPORD or CG Intent. Candidates for inclusion in the [Execution Matrix](/docs/execution-matrix.md) or the DIV MSEL.
 
 ### 13 MAY
 
@@ -83,7 +83,7 @@ Still useful — these are specific exercise-execution injects not captured in t
 
 ## Implications for 3 RGT Planning
 
-1. **The 14 MAY inject timeline is granular exercise-execution detail** — Times specific events are likely to occur (waterway breach @ 1200, entry-control test @ 1300, drone approval test @ 1430). Useful input for the [Execution Matrix](execution-matrix.md) and for LTC Sheaf's TNMAN Ops Brief on 25 APR.
+1. **The 14 MAY inject timeline is granular exercise-execution detail** — Times specific events are likely to occur (waterway breach @ 1200, entry-control test @ 1300, drone approval test @ 1430). Useful input for the [Execution Matrix](/docs/execution-matrix.md) and for LTC Sheaf's TNMAN Ops Brief on 25 APR.
 2. **The 13 MAY 0700 "drone attack on Holston"** — this is the trigger event that initiates the scenario. 3 RGT's ADVON move at 1000 is in response to this.
 3. **ICP IOC target of 13 MAY 1600** — from WARNORD @ 0900 to IOC @ 1600 is 7 hours, roughly matching the **6-hour ICP establishment clock** in the DIV OPORD.
 4. **Netherland Park waterway protection** — re-confirmed as a specific protection objective (named in the OPORD Encl A Storyboard and this slide).

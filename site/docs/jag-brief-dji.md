@@ -16,7 +16,7 @@ Does any currently enforceable federal statute, Tennessee state statute, or know
 
 ## Why This Matters for TNMAN-26
 
-3 RGT's RFF requests **3 Part 107 sUAS operators**, of whom only **CPT Widner** is organic. The State Defense Force Foundation (SDFF) augmentation pool — see [Volunteer Pilots](../volunteer-pilots.md) — could close the gap, but a portion of those volunteers may bring **personally-owned DJI airframes**. The Section 889 / TCA § 12-4-120 / ASDA layering is not obvious from a single statute, and Mr. Armstrong (HAAP POC) has emphasized that **sUAS detection is the chief training objective** — implying drones will be flown. The unit needs a JAG opinion before equipment commitments are made.
+3 RGT's RFF requests **3 Part 107 sUAS operators**, of whom only **CPT Widner** is organic. The State Defense Force Foundation (SDFF) augmentation pool — see [Volunteer Pilots](/volunteer-pilots.md) — could close the gap, but a portion of those volunteers may bring **personally-owned DJI airframes**. The Section 889 / TCA § 12-4-120 / ASDA layering is not obvious from a single statute, and Mr. Armstrong (HAAP POC) has emphasized that **sUAS detection is the chief training objective** — implying drones will be flown. The unit needs a JAG opinion before equipment commitments are made.
 
 ## Scope and Limitations
 
@@ -172,7 +172,7 @@ The unit respectfully requests JAG confirm, correct, or qualify the following:
 
 ## Cross-References
 
-- [JAG Pre-Brief — Command Authority & Mission Sets](jag-brief.md) — original JAG pre-brief (Title 10/SAD seam, SECFOR/surveillance/UAS missions)
-- [JAG UAS Memorandum (CPT Harris, 18 APR 26)](jag-uas-memo.md) — JAG legal memo to COL Williams on UAS use generally (foundational authorities, FAA Part 107, TCA §§ 39-13-902/903) — **not a response to this brief**
-- [Volunteer Pilots](../volunteer-pilots.md) — SDFF Part 107 pilot augmentation pool
-- [RFF / RFS](rff-rfs.md) — 3 Part 107 sUAS operators requested
+- [JAG Pre-Brief — Command Authority & Mission Sets](/docs/jag-brief.md) — original JAG pre-brief (Title 10/SAD seam, SECFOR/surveillance/UAS missions)
+- [JAG UAS Memorandum (CPT Harris, 18 APR 26)](/docs/jag-uas-memo.md) — JAG legal memo to COL Williams on UAS use generally (foundational authorities, FAA Part 107, TCA §§ 39-13-902/903) — **not a response to this brief**
+- [Volunteer Pilots](/volunteer-pilots.md) — SDFF Part 107 pilot augmentation pool
+- [RFF / RFS](/docs/rff-rfs.md) — 3 Part 107 sUAS operators requested

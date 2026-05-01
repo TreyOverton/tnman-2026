@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Division/Group Leader, Screen line (per [ICS-203](../docs/ics-203.md) §7) |
+| **Role** | Division/Group Leader, Screen line (per [ICS-203](/docs/ics-203.md) §7) |
 | **Assignee** | **2LT Aaron E. Garrison** (3 BN S4, MRC-1) |
 | **Reports to** | SECFOR Branch Director — MAJ Crosby (and SECFOR Deputy — SFC Ferguson) |
 | **Section** | Operations / SECFOR Branch |
@@ -54,8 +54,8 @@ The Screen Division/Group Leader runs the **screen-line element** of the SECFOR 
 
 ## Resources
 
-- [SECFOR Branch Director](participant-guides/secfor-director.md)
-- [SECFOR Branch Deputy](participant-guides/secfor-deputy.md)
-- [Foot Patrol Member](participant-guides/foot-patrol-member.md)
-- [Ops Graphics](../docs/ops-graphics.md) — NO-GO Line, NAIs, screen positions
-- [Common Expectations](participant-guides/common.md)
+- [SECFOR Branch Director](/participant-guides/participant-guides/secfor-director.md)
+- [SECFOR Branch Deputy](/participant-guides/participant-guides/secfor-deputy.md)
+- [Foot Patrol Member](/participant-guides/participant-guides/foot-patrol-member.md)
+- [Ops Graphics](/docs/ops-graphics.md) — NO-GO Line, NAIs, screen positions
+- [Common Expectations](/participant-guides/participant-guides/common.md)

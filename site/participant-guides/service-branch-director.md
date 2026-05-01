@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Service Branch Director (per [ICS-203](../docs/ics-203.md) §6) |
+| **Role** | Service Branch Director (per [ICS-203](/docs/ics-203.md) §6) |
 | **Assignee** | **2LT Mark S. Neisler** (4 BN BN S4, MRC-4 — verification pending) |
 | **Reports to** | Logistics Section Chief — CPT Haddix |
 | **Section** | Logistics |
@@ -45,7 +45,7 @@ The role exists to keep the Logistics Section responsive when CPT Haddix and SFC
 2LT is junior officer rank; this is appropriate for a Service Branch Director on a TF this size. **No significant rank-vs-role tension within the role.** Two related dynamics:
 
 - **You're dual-hatted as 4 BN BN S4** — primary duty perspective is logistics-supply, which fits the role naturally.
-- **You're MRC-4 — verification pending.** See [Roster Open Items](../roster.md). If MRC-4 status holds at execution, DD 2977 mitigations apply (ICP-interior posture).
+- **You're MRC-4 — verification pending.** See [Roster Open Items](/roster.md). If MRC-4 status holds at execution, DD 2977 mitigations apply (ICP-interior posture).
 
 ## Out of scope (do NOT do)
 
@@ -56,9 +56,9 @@ The role exists to keep the Logistics Section responsive when CPT Haddix and SFC
 
 ## Resources
 
-- [Logistics Section Chief](participant-guides/logistics-chief.md)
-- [Logistics Section Deputy](participant-guides/logistics-deputy.md)
-- [Communications Unit](participant-guides/comms-unit.md)
-- [Medical Unit](participant-guides/medical-unit.md)
-- [Staging Area Manager](participant-guides/staging-area-manager.md)
-- [Common Expectations](participant-guides/common.md)
+- [Logistics Section Chief](/participant-guides/participant-guides/logistics-chief.md)
+- [Logistics Section Deputy](/participant-guides/participant-guides/logistics-deputy.md)
+- [Communications Unit](/participant-guides/participant-guides/comms-unit.md)
+- [Medical Unit](/participant-guides/participant-guides/medical-unit.md)
+- [Staging Area Manager](/participant-guides/participant-guides/staging-area-manager.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

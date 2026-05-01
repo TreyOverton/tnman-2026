@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Assistant Ops Specialist (per [ICS-203](../docs/ics-203.md) §7, "Alternate" row) |
+| **Role** | Assistant Ops Specialist (per [ICS-203](/docs/ics-203.md) §7, "Alternate" row) |
 | **Assignee** | **SGT Tony W. Malone** (3 BN A Co MP, **MRC-3** — single-day participation on 14 MAY) |
 | **Reports to** | Operations Section Chief — LTC Sheaf (and Ops Deputy — 1SG Collins) |
 | **Section** | Operations |
@@ -33,7 +33,7 @@ The Asst Ops Specialist supports the Operations Section in close-in activity tra
 
 ### Single-day MRC-3 considerations
 
-- You are **not on duty** on 13 or 15 MAY per the MRC-3 deviation (BG Cox concurrence required, [DD 2977 Block 4](../docs/dd2977.md)). The Ops Deputy (1SG Collins) covers Asst Ops functions on those days.
+- You are **not on duty** on 13 or 15 MAY per the MRC-3 deviation (BG Cox concurrence required, [DD 2977 Block 4](/docs/dd2977.md)). The Ops Deputy (1SG Collins) covers Asst Ops functions on those days.
 - **Hydration / heat awareness** is non-negotiable — single-day participation does not mean reduced safety attention. Coordinate with the **Safety Officer (SFC Sturgill)** if you feel any heat / fatigue effect.
 - Bring your **ICS-214 hardcopy or laptop** at 0600 sign-in — once the web portal is live, hardcopy is fallback only.
 
@@ -52,9 +52,9 @@ One related dynamic: as an A Co MP NCO, you may be asked by **MAJ Crosby (SECFOR
 
 ## Resources
 
-- [Operations Section Chief](participant-guides/ops-chief.md)
-- [Operations Section Deputy](participant-guides/ops-deputy.md)
-- [SECFOR Branch Director](participant-guides/secfor-director.md)
-- [Execution Matrix](../docs/execution-matrix.md)
-- [DD Form 2977 Block 4](../docs/dd2977.md) — MRC-3 single-day mitigation
-- [Common Expectations](participant-guides/common.md)
+- [Operations Section Chief](/participant-guides/participant-guides/ops-chief.md)
+- [Operations Section Deputy](/participant-guides/participant-guides/ops-deputy.md)
+- [SECFOR Branch Director](/participant-guides/participant-guides/secfor-director.md)
+- [Execution Matrix](/docs/execution-matrix.md)
+- [DD Form 2977 Block 4](/docs/dd2977.md) — MRC-3 single-day mitigation
+- [Common Expectations](/participant-guides/participant-guides/common.md)

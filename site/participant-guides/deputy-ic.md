@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Deputy Incident Commander (per [ICS-203](../docs/ics-203.md)) |
+| **Role** | Deputy Incident Commander (per [ICS-203](/docs/ics-203.md)) |
 | **Assignee** | **LTC Joseph S. (Scott) Smith** (3 RGT XO) |
 | **Reports to** | Incident Commander — COL Roark |
 | **Section** | Command Staff |
@@ -54,7 +54,7 @@ LTC is the appropriate rank for Deputy IC; this is a clean officer billet. Two r
 
 ## Resources
 
-- [Incident Commander](participant-guides/ic.md) — the primary you support
-- [ICS-203](../docs/ics-203.md)
-- [Orders Back-Brief](../docs/back-brief.md)
-- [Common Expectations](participant-guides/common.md)
+- [Incident Commander](/participant-guides/participant-guides/ic.md) — the primary you support
+- [ICS-203](/docs/ics-203.md)
+- [Orders Back-Brief](/docs/back-brief.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

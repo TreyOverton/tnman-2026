@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Planning Section Deputy (per [ICS-203](../docs/ics-203.md) §5) |
+| **Role** | Planning Section Deputy (per [ICS-203](/docs/ics-203.md) §5) |
 | **Assignee** | **2LT Scott T. Sobel** (2 BN XO, MRC-1) |
 | **Reports to** | Planning Section Chief — 1LT Overton |
 | **Section** | Planning |
@@ -58,9 +58,9 @@ The more interesting dynamic in this Section is who you *both* direct — a CPT 
 
 ## Resources
 
-- [Planning Section Chief](participant-guides/planning-chief.md)
-- [Resources Unit Leader](participant-guides/resources-unit-leader.md)
-- [Situation Unit Leader](participant-guides/situation-unit-leader.md)
-- [Documentation Unit](participant-guides/documentation-unit.md)
-- [Technical Specialist](participant-guides/technical-specialist.md)
-- [Common Expectations](participant-guides/common.md)
+- [Planning Section Chief](/participant-guides/participant-guides/planning-chief.md)
+- [Resources Unit Leader](/participant-guides/participant-guides/resources-unit-leader.md)
+- [Situation Unit Leader](/participant-guides/participant-guides/situation-unit-leader.md)
+- [Documentation Unit](/participant-guides/participant-guides/documentation-unit.md)
+- [Technical Specialist](/participant-guides/participant-guides/technical-specialist.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

@@ -14,7 +14,7 @@
 >
 > **Fictional framing:** Set in the **Nolichucky State Guard (NSG)** — a fictional state-guard analog used strictly for training. NSG mirrors real TNSG organization and constraints (unarmed, dawn-to-dusk, perimeter-only) so the form-fills produce realistic content but no one confuses the scenario with real-world operations.
 >
-> **Trainer's notes** (run-of-show, common mistakes to watch for, optional injects) are on a separate [Trainer Notes](ics-forms-trainer.md) page.
+> **Trainer's notes** (run-of-show, common mistakes to watch for, optional injects) are on a separate [Trainer Notes](/training/ics-forms-trainer.md) page.
 
 ## Today's Agenda (90 min)
 
@@ -292,14 +292,14 @@ Everything goes to the NCOIC at the end. They'll bundle and hand to the OIC. Thr
 5. **213 is for when email is broken or someone needs a paper trail.**
 
 
-*Trainer's notes (run-of-show, NCOIC tasks, brief-back questions, optional injects): see [Trainer Notes](ics-forms-trainer.md).*
+*Trainer's notes (run-of-show, NCOIC tasks, brief-back questions, optional injects): see [Trainer Notes](/training/ics-forms-trainer.md).*
 
 
 ## Take This Training Back to Your Battalion
 
 > **For Battalion Commanders, XOs, S3s, and any NCO who runs unit training.**
 
-These materials are designed to be **fully transferable**. The training can be led by anyone willing to read through both the participant page (this one) and the [Trainer Notes](ics-forms-trainer.md) — no special prep, no dedicated subject-matter expert required.
+These materials are designed to be **fully transferable**. The training can be led by anyone willing to read through both the participant page (this one) and the [Trainer Notes](/training/ics-forms-trainer.md) — no special prep, no dedicated subject-matter expert required.
 
 If you took this at Regiment, **take it back and run it during your Battalion drill.** The whole package — scenario, command roster, form-by-form reference, run-of-show, NCOIC delegation list, brief-back questions, optional injects — is on this site, owned by 3 RGT, and can be delivered to your formation with the same ~90-minute footprint.
 

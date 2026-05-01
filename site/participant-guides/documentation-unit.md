@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Documentation Unit Leader (per [ICS-203](../docs/ics-203.md) §5) |
+| **Role** | Documentation Unit Leader (per [ICS-203](/docs/ics-203.md) §5) |
 | **Assignee** | **CPT Travis D. McCroskey** (3 RGT ASST JAG, MRC-4 — verification pending) |
 | **Reports to** | Planning Section Chief — 1LT Overton |
 | **Section** | Planning |
@@ -50,8 +50,8 @@ This is a rank-vs-role billet. **CPT McCroskey is rank-senior to the Planning Se
 
 - **Within the Planning Section, the role governs.** McCroskey takes Section direction from 1LT Overton on Section work — meetings, deliverables, AAR collation timing — even though Overton is rank-junior.
 - **In NCO-channel and officer-development matters**, normal rank deference applies. McCroskey's CPT carries weight outside Section operational direction.
-- **The role is also a JAG-track billet by primary duty** — McCroskey is the 3 RGT ASST JAG. On this exercise, the legal review channel runs through **COL Williams (DIV PMO)** per DIV OPORD §3.i.6.(h); McCroskey's exercise role is Documentation, not legal advisor. If a JAG question lands, McCroskey routes through Williams (and the [JAG UAS Memo](../docs/jag-uas-memo.md) authored by CPT Harris is a useful baseline).
-- **MRC-4 verification pending** — see [Roster Open Items](../roster.md). If MRC-4 status holds, DD 2977 considerations apply (Block 4 mitigation).
+- **The role is also a JAG-track billet by primary duty** — McCroskey is the 3 RGT ASST JAG. On this exercise, the legal review channel runs through **COL Williams (DIV PMO)** per DIV OPORD §3.i.6.(h); McCroskey's exercise role is Documentation, not legal advisor. If a JAG question lands, McCroskey routes through Williams (and the [JAG UAS Memo](/docs/jag-uas-memo.md) authored by CPT Harris is a useful baseline).
+- **MRC-4 verification pending** — see [Roster Open Items](/roster.md). If MRC-4 status holds, DD 2977 considerations apply (Block 4 mitigation).
 
 ## Out of scope (do NOT do)
 
@@ -62,9 +62,9 @@ This is a rank-vs-role billet. **CPT McCroskey is rank-senior to the Planning Se
 
 ## Resources
 
-- [Planning Section Chief](participant-guides/planning-chief.md)
-- [Resources Unit Leader](participant-guides/resources-unit-leader.md)
-- [Situation Unit Leader](participant-guides/situation-unit-leader.md)
-- [Comms Unit](participant-guides/comms-unit.md) — ICS-309 station logs
-- [JAG UAS Memo](../docs/jag-uas-memo.md) — for JAG-track context
-- [Common Expectations](participant-guides/common.md)
+- [Planning Section Chief](/participant-guides/participant-guides/planning-chief.md)
+- [Resources Unit Leader](/participant-guides/participant-guides/resources-unit-leader.md)
+- [Situation Unit Leader](/participant-guides/participant-guides/situation-unit-leader.md)
+- [Comms Unit](/participant-guides/participant-guides/comms-unit.md) — ICS-309 station logs
+- [JAG UAS Memo](/docs/jag-uas-memo.md) — for JAG-track context
+- [Common Expectations](/participant-guides/participant-guides/common.md)

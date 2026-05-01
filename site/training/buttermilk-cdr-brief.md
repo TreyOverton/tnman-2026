@@ -5,7 +5,7 @@
 > **Audience:** XO · S3 · CO · visiting senior leadership *(any subset)*<br>
 > **Brief by:** 1LT Aaron L. Overton III, ASST S3, 3 RGT TNSG<br>
 > **Date:** 25 APR 26 · **Length:** 5-min walkaround<br>
-> **Companion docs:** [Participant Notes](ics-forms-participant.md) · [Trainer Notes](ics-forms-trainer.md) · [AAR for XO](buttermilk-aar.md)
+> **Companion docs:** [Participant Notes](/training/ics-forms-participant.md) · [Trainer Notes](/training/ics-forms-trainer.md) · [AAR for XO](/training/buttermilk-aar.md)
 
 
 ## BLUF *(~30 sec)*
@@ -24,7 +24,7 @@
 
 ## How It Went *(~60 sec)*
 
-**What worked** *(more on the [AAR](buttermilk-aar.md))*:
+**What worked** *(more on the [AAR](/training/buttermilk-aar.md))*:
 - **Tooling allowed real-time training prep in the moment.** ~20 min to a usable starting kit; OIC + NCOIC expanded and adjusted materials in parallel during delivery — every refinement was live on the planning portal within minutes and visible on every participant's phone. Same tooling that produced the TNMAN-26 OPORD package and FRAGO 26-05-01.1 enclosures.
 - **Parallel ICS 214 throughout:** Strong conditioning aid — the muscle every Soldier needs at HAAP on 14 MAY.
 - **214 doubled as attendance + AAR comments on the back:** Three artifacts collapsed into one workflow.
@@ -62,8 +62,8 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 
 ## What's Next *(~30 sec)*
 
-- **Hand-off to XO:** Completed [AAR](buttermilk-aar.md) page (BLUF, Sustain/Improve, by-form rubric, attendance, recommendations) — submitted **251500RAPR26**.
-- **Materials disposition:** Paper 214s + group-fills not retained — all content (attendance, AAR comments, P/O markers, group-fill insights) transcribed into the [AAR](buttermilk-aar.md). Physical paper destroyed; no whiteboard used this iteration.
+- **Hand-off to XO:** Completed [AAR](/training/buttermilk-aar.md) page (BLUF, Sustain/Improve, by-form rubric, attendance, recommendations) — submitted **251500RAPR26**.
+- **Materials disposition:** Paper 214s + group-fills not retained — all content (attendance, AAR comments, P/O markers, group-fill insights) transcribed into the [AAR](/training/buttermilk-aar.md). Physical paper destroyed; no whiteboard used this iteration.
 - **Next iteration:** Author a 30-min ICS-forms self-paced refresher under Training Materials so the next iteration starts from a higher baseline. The package is now standing on the planning portal — running it again is mostly delivery, not authoring.
 - **TNMAN-26 connection:** Today's gaps (paper-only 214, single-source map/QR production, trainer pre-familiarity) are pre-mitigations against the same pain at HAAP on 14 MAY. The work is portable.
 
@@ -78,7 +78,7 @@ No separate sign-in sheet. No separate participation log. No extra NCOIC capture
 | "What does 'digital 214' actually mean — an app?" | Phone-accessible web form, same auth gate (tnstateguard.org), GPS + timestamp pre-filled, free-text body, submits to a server-side log. Could be prototyped on the existing planning-portal stack. |
 | "Why does the SFC Ferguson concentration matter?" | If he's unavailable on the day TNMAN spins up, we have no map and no QR distribution channel. That's a brittle link; cross-train is cheap insurance. |
 | "What's the cost of doing nothing on the digital 214?" | Continued reliance on paper; 214s get lost or skipped under load; AAR quality suffers; legal/incident reporting suffers. The paper version is acceptable for training; not great for an actual incident. |
-| "What did the participants ask for?" | Most-cited: digital 214 with auto-timestamps + typed notes (Elroy, Sobel, the room generally — paperwork friction is real); a worked-example reference set with all forms filled out (Lillard); the ability to access the materials in advance (Sobel); a CalTopo map link in the participant notes (Sobel, twice); official FEMA instructions alongside the local notes (Garrison). All in [AAR Recommendations](buttermilk-aar.md#recommendations--way-forward). |
+| "What did the participants ask for?" | Most-cited: digital 214 with auto-timestamps + typed notes (Elroy, Sobel, the room generally — paperwork friction is real); a worked-example reference set with all forms filled out (Lillard); the ability to access the materials in advance (Sobel); a CalTopo map link in the participant notes (Sobel, twice); official FEMA instructions alongside the local notes (Garrison). All in [AAR Recommendations](/training/buttermilk-aar.md#recommendations--way-forward). |
 | "How would 'annual recurrence' fit our training calendar?" | Once the supporting assets are authored, each delivery is ~90 min — a manageable slot during any IDT. Suggest one Regiment-level run per year to certify a fresh cohort of facilitators, then those facilitators run BN-level deliveries in their own drill blocks, with feedback flowing back to the [single living source on the planning portal](https://tnman-2026.web.app/#/training/ics-forms-participant.md). |
 | "What's the worked-example reference, and why SAR?" | A second set of all six forms filled completely from a different scenario, so participants have a model answer to study after the session. SAR fits because it's distinct enough from a SECFOR-cordon training that participants encounter the forms in fresh context, but operationally familiar enough that the content is intuitive. Estimated effort: 4-6 hrs of authoring. |
 

@@ -112,6 +112,6 @@ Real-time team tracking lets the **Safety Officer** find anyone who needs help f
 
 ## Related
 
-- [Common Expectations](participant-guides/common.md) — full participant baseline
-- [Execution Matrix](../docs/execution-matrix.md) — what's happening when, so you know if your dot should be moving
-- [Situation Unit Leader role](participant-guides/situation-unit-leader.md) — who watches the team map
+- [Common Expectations](/participant-guides/participant-guides/common.md) — full participant baseline
+- [Execution Matrix](/docs/execution-matrix.md) — what's happening when, so you know if your dot should be moving
+- [Situation Unit Leader role](/participant-guides/participant-guides/situation-unit-leader.md) — who watches the team map

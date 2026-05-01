@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | RCSM as Command-Staff advisor (per [ICS-203](../docs/ics-203.md) §3, second-row entry) |
+| **Role** | RCSM as Command-Staff advisor (per [ICS-203](/docs/ics-203.md) §3, second-row entry) |
 | **Assignee** | **CSM Michael L. Seals** (3 RGT RCSM) |
 | **Reports to** | Incident Commander — COL Roark |
 | **Section** | Command Staff |
@@ -56,6 +56,6 @@ The RCSM is the senior NCO on the task force. The role is a Command Staff adviso
 
 ## Resources
 
-- [Incident Commander](participant-guides/ic.md)
-- [ICS-203](../docs/ics-203.md)
-- [Common Expectations](participant-guides/common.md)
+- [Incident Commander](/participant-guides/participant-guides/ic.md)
+- [ICS-203](/docs/ics-203.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

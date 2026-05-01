@@ -177,7 +177,7 @@ The numbered staff system designates **functional staff officers** at each echel
 
 ## ICS / NIMS Structure & Forms
 
-Incident Command System (ICS) / National Incident Management System (NIMS) is the framework used for the TNMAN-26 ICP. See [ICP Org Reference](../icp-org-reference.md) for the full ICS structure.
+Incident Command System (ICS) / National Incident Management System (NIMS) is the framework used for the TNMAN-26 ICP. See [ICP Org Reference](/icp-org-reference.md) for the full ICS structure.
 
 ### ICS Sections & Roles
 
@@ -355,7 +355,7 @@ Incident Command System (ICS) / National Incident Management System (NIMS) is th
 | **ATAK** / **TAK** | Android Team Awareness Kit / Team Awareness Kit | Tactical mapping/comms app |
 | **GPS** | Global Positioning System | |
 | **PC** | Personal Computer | |
-| **CalTopo** | CalTopo (mobile mapping app) | TNMAN-26 location-sharing tool — see [CalTopo Guide](participant-guides/caltopo.md) |
+| **CalTopo** | CalTopo (mobile mapping app) | TNMAN-26 location-sharing tool — see [CalTopo Guide](/participant-guides/participant-guides/caltopo.md) |
 
 ## Legal & Regulatory
 
@@ -369,7 +369,7 @@ Incident Command System (ICS) / National Incident Management System (NIMS) is th
 | **UCMJ** | Uniform Code of Military Justice | Federal-component law; **does not apply to TNSG** under SAD |
 | **Title 10** | Federal armed forces authority | Active military, federalized NG |
 | **Title 32** | Hybrid federal/state NG authority | Federal-funded, governor-commanded |
-| **JAG** | Judge Advocate General | Legal officer; see also [JAG UAS Memo](../docs/jag-uas-memo.md) |
+| **JAG** | Judge Advocate General | Legal officer; see also [JAG UAS Memo](/docs/jag-uas-memo.md) |
 | **ROE** | Rules of Engagement | Federal/military framing |
 | **RUF** | Rules for the Use of Force | Domestic / civil framing — applies to TNSG SAD |
 | **FASC** | Federal Acquisition Security Council | Maintains FASC-Prohibited UAS List |
@@ -430,8 +430,8 @@ Incident Command System (ICS) / National Incident Management System (NIMS) is th
 | **AFRC** | Armed Forces Reserve Center | Mt. Carmel facility (the ICP) — 399 A US-11W Scenic |
 | **Mt. Carmel** | Mt. Carmel Armory / AFRC | Same facility, common shorthand |
 | **US-11W** | U.S. Highway 11W | Road bordering HAAP; SECFOR foot-patrol position is parallel to its southernmost side |
-| **NO-GO Line** | sUAS NO-GO line | Boundary on the [Ops Graphics](../docs/ops-graphics.md) — drones do not cross |
-| **NAI 3001-3010** | Named Areas of Interest 3001 through 3010 | Defined points on the AO; see [Ops Graphics](../docs/ops-graphics.md) |
+| **NO-GO Line** | sUAS NO-GO line | Boundary on the [Ops Graphics](/docs/ops-graphics.md) — drones do not cross |
+| **NAI 3001-3010** | Named Areas of Interest 3001 through 3010 | Defined points on the AO; see [Ops Graphics](/docs/ops-graphics.md) |
 | **FCF** | Fall Creek Falls | 2 RGT mapping mission location |
 | **VTS** | Volunteer Training Site | TNARNG training facility designations (T, S, M variants) |
 
@@ -449,7 +449,7 @@ Incident Command System (ICS) / National Incident Management System (NIMS) is th
 | **TDY** | Temporary Duty | Travel away from home station |
 | **IRR** | Inactive Ready Reserve | Reserve status; not currently drilling |
 | **TBD** / **TBP** | (above) | |
-| **DJI** | DJI / Da-Jiang Innovations | Chinese drone manufacturer; subject of legal restrictions — see [DJI Pre-Brief](../docs/jag-brief-dji.md) |
+| **DJI** | DJI / Da-Jiang Innovations | Chinese drone manufacturer; subject of legal restrictions — see [DJI Pre-Brief](/docs/jag-brief-dji.md) |
 
 ## Conventions Used Throughout
 
@@ -461,9 +461,9 @@ Incident Command System (ICS) / National Incident Management System (NIMS) is th
 
 ## Related
 
-- [Common Expectations](participant-guides/common.md) — what every participant does
-- [CalTopo Guide](participant-guides/caltopo.md) — location-sharing app
-- [Mission Roster](../roster.md) — full personnel list
-- [ICS-203](../docs/ics-203.md) — billet-by-billet assignment
-- [Operations Graphics](../docs/ops-graphics.md) — NAI overlay, NO-GO Line, NAIs 3001-3010
-- [Comms Plan / Annex H](../docs/comms-plan.md) — call signs, frequencies, A4U Net
+- [Common Expectations](/participant-guides/participant-guides/common.md) — what every participant does
+- [CalTopo Guide](/participant-guides/participant-guides/caltopo.md) — location-sharing app
+- [Mission Roster](/roster.md) — full personnel list
+- [ICS-203](/docs/ics-203.md) — billet-by-billet assignment
+- [Operations Graphics](/docs/ops-graphics.md) — NAI overlay, NO-GO Line, NAIs 3001-3010
+- [Comms Plan / Annex H](/docs/comms-plan.md) — call signs, frequencies, A4U Net

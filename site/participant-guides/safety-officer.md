@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Safety Officer (Command Staff per [ICS-203](../docs/ics-203.md) §3) |
+| **Role** | Safety Officer (Command Staff per [ICS-203](/docs/ics-203.md) §3) |
 | **Assignee** | **SFC DeWayne D. Sturgill** (3 BN S3 Ops NCO, MRC-2) |
 | **Reports to** | Incident Commander — COL Roark |
 | **Section** | Command Staff |
@@ -16,7 +16,7 @@ The Safety Officer is the IC's risk-reduction authority. In ICS, the SO holds **
 - **Has stop-work authority** for any activity creating an unacceptable safety risk; the IC backs the call
 - **Coordinates with the Medical Unit** (MAJ Gampe) on injury, exposure, hydration response
 - **Briefs safety considerations** at the morning brief and at any change in conditions (weather, tempo)
-- **Owns the [DD Form 2977](../docs/dd2977.md)** posture for the operational period — overall residual risk is **Moderate**
+- **Owns the [DD Form 2977](/docs/dd2977.md)** posture for the operational period — overall residual risk is **Moderate**
 
 ## Expectations during TNMAN-26
 
@@ -60,9 +60,9 @@ This dynamic also applies in spirit to the RUL (1LT Fielitz-Scarbrough) directin
 
 ## Resources
 
-- [Incident Commander](participant-guides/ic.md)
-- [ICS-203](../docs/ics-203.md)
-- [DD Form 2977](../docs/dd2977.md) — Deliberate Risk Assessment, residual risk Moderate
-- [Risk Assessment](../risk.md)
-- [Common Expectations](participant-guides/common.md)
-- [Medical Unit](participant-guides/medical-unit.md)
+- [Incident Commander](/participant-guides/participant-guides/ic.md)
+- [ICS-203](/docs/ics-203.md)
+- [DD Form 2977](/docs/dd2977.md) — Deliberate Risk Assessment, residual risk Moderate
+- [Risk Assessment](/risk.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)
+- [Medical Unit](/participant-guides/participant-guides/medical-unit.md)

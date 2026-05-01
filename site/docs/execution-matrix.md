@@ -4,7 +4,7 @@
 >
 > **What this is:** An **Exercise Execution Matrix** (also called a **Synchronization Matrix** in military doctrine). This is distinct from a **Master Scenario Events List (MSEL)**, which is the *controller's* inject list and is a DIV product (final MSEL review 30 APR 26). This matrix is *blue-force-facing* — what 3 RGT does in response to or in anticipation of scenario events.
 >
-> **Scope:** 13-15 MAY 26 (ADVON, main day, AAR). Time anchors from [RGT OPORD](opord-rgt.md) phases and [Encl A Storyboard](opord-encl-a.md) objectives.
+> **Scope:** 13-15 MAY 26 (ADVON, main day, AAR). Time anchors from [RGT OPORD](/docs/opord-rgt.md) phases and [Encl A Storyboard](/docs/opord-encl-a.md) objectives.
 >
 > **Prepared by:** 1LT Overton, ASST S3, 3 RGT · **Date prepared:** 18 APR 26
 
@@ -70,7 +70,7 @@ timeline
 
 *Goal: Full SECFOR posture on the HAAP perimeter; sUAS detection testing; absorb and respond to the full set of scenario injects (kinetic attack on HAAP + cyber attack on ORNL Eagle-I — the latter affecting DIV G6 / Y-12 / ORNL, not 3 RGT directly).*
 
-> **DIV-issued 14 MAY beats** *(BG Cox AAR from 25 APR 3 RGT planning meeting, forwarded by LTC Estes 26 APR — see [Comms Log](../comms.md))*. These are the authoritative DIV inject times and supersede any `{inject}` placeholders below where they conflict.
+> **DIV-issued 14 MAY beats** *(BG Cox AAR from 25 APR 3 RGT planning meeting, forwarded by LTC Estes 26 APR — see [Comms Log](/comms.md))*. These are the authoritative DIV inject times and supersede any `{inject}` placeholders below where they conflict.
 >
 > | Time (R) | DIV-level event |
 > |----------|-----------------|
@@ -115,14 +115,14 @@ timeline
 |----------|--------|--------|-----------|-------|------------------------------|-------------|
 | **0700-0900** | Half-day opens; sections present for hot-wash; ICP watch-standing minimized | **Light perimeter posture** — reduced patrol footprint; maintain Main Gate + Bridge coverage only | No sUAS sorties by default (mission complete D+1); airspace closed | **{inject}** Comms blackout — JFHQ exercises PACE / Emergency Comms Plan | — | Breakfast |
 | **0900-1030** | **Hot-wash** at ICP — section chiefs + LTC Sheaf + COL Roark | Residual perimeter coverage | — | PACE exercise — alternates (FirstNet ePTT, cell, satellite, JISCC) tested | Comms-blackout exercise in progress | — |
-| **1030-1200** | **Local AAR** session — structured AAR by swim lane; notes captured to [AAR Notes](../aar-draft.md) | Begin equipment turn-in | — | Begin comms teardown | — | Late morning snacks |
+| **1030-1200** | **Local AAR** session — structured AAR by swim lane; notes captured to [AAR Notes](/aar-draft.md) | Begin equipment turn-in | — | Begin comms teardown | — | Late morning snacks |
 | **1200-1400** | AAR close-out; DIV report drafted | Demob convoy prep; route brief | — | Signal Annex recovery | — | Lunch |
-| **1400-1600** | Section chiefs sign off; SITREP to DIV G3; [Comms Log](../comms.md) finalized | Convoy departure; home-station return begins | — | Final check-in on arrival at home station | — | — |
+| **1400-1600** | Section chiefs sign off; SITREP to DIV G3; [Comms Log](/comms.md) finalized | Convoy departure; home-station return begins | — | Final check-in on arrival at home station | — | — |
 | **NLT 2131R** | **Phase III initial actions complete** per RGT OPORD (24 hrs post-ENDEX) | Home-station arrival; 2-hr NLT closure report to G3 per DIV TACSOP | — | Final comms check at home station | — | — |
 
 ### D+2 Key Reports
 
-- **AAR Observations** captured to [AAR Notes](../aar-draft.md) (use `/aar` skill during execution).
+- **AAR Observations** captured to [AAR Notes](/aar-draft.md) (use `/aar` skill during execution).
 - **Home-Station Closure / Sensitive-Item Report** NLT 2 hrs after arrival (per DIV TACSOP).
 - **DIV AAR submission** follows the +90-day admin close-out cycle.
 
@@ -185,14 +185,14 @@ gantt
 1. DIV MSEL (final 30 APR) will broadly align with the HDWG storyboard objectives (base-entrance, drone approval, waterway protection, OPFOR probes). Re-baseline after MSEL receipt.
 2. ADVON notification (start of the 6-hr ICP-establishment clock) occurs at 0519R / BMNT on 13 MAY.
 3. 1 RGT OPFOR (6 pax) are on site at HAAP for all 3 exercise days, 13-15 MAY, subordinate to COL Roark.
-4. Dawn-to-dusk + RON-at-home remains in effect; no overnight posture at the ICP (pending resolution of the [1 RGT OPFOR billeting question](../warno-opord-review.md#b3-provide-sleeping-area-for-1st-regt-secfor-personnel-at-icp---open-tension-with-cg-policy)).
+4. Dawn-to-dusk + RON-at-home remains in effect; no overnight posture at the ICP (pending resolution of the [1 RGT OPFOR billeting question](/warno-opord-review.md#b3-provide-sleeping-area-for-1st-regt-secfor-personnel-at-icp---open-tension-with-cg-policy)).
 5. sUAS mission tests the HAAP drone-detection system — no retained imagery per the 11 APR imagery guidance.
-6. Full SECFOR posture (17 pax: 12 foot + 3 screen + 2 QRF) is available once the [Mission Roster](../roster.md) locks and [RFF/RFS](rff-rfs.md) augmentation arrives.
+6. Full SECFOR posture (17 pax: 12 foot + 3 screen + 2 QRF) is available once the [Mission Roster](/roster.md) locks and [RFF/RFS](/docs/rff-rfs.md) augmentation arrives.
 
 **Gaps this matrix does not yet resolve (planning items):**
 
 - **No DIV MSEL yet** — the "{inject}" entries are 3 RGT's best guess based on the HDWG storyboard; DIV will supersede.
-- **Patrol rotation schedule** — specific 4-hour sector rotations not yet allocated by name. Fill once [Task Org SECFOR composition](../taskorg.md#secfor-tf-subordinate-composition-draft) locks.
+- **Patrol rotation schedule** — specific 4-hour sector rotations not yet allocated by name. Fill once [Task Org SECFOR composition](/taskorg.md#secfor-tf-subordinate-composition-draft) locks.
 - **sUAS sortie count and duration** — 4 sorties/day is a planning placeholder; actual cadence depends on battery budget and Part 107 pilot availability.
 - **Cyber TTX windows** — precise timing owned by DIV G6; 3 RGT only needs SA, no active participation.
 - **ICP watch schedule (overnight)** — 13→14 and 14→15 MAY overnight periods are **uncovered** under dawn-to-dusk policy. Any overnight monitoring (e.g., real-world weather watch, comms handoffs) would require CG policy exception.
@@ -201,8 +201,8 @@ gantt
 
 ## Cross-References
 
-- [RGT OPORD 26-05-01](opord-rgt.md) · [DIV OPORD 26-05](opord-div.md) · [CG's Intent](cg-intent.md)
-- [Encl A HDWG Storyboard](opord-encl-a.md) · [Operational / NAI Graphics](ops-graphics.md)
-- [RFF / RFS](rff-rfs.md) · [Back-Brief](back-brief.md)
-- [Timeline](../timeline.md) · [Task Organization](../taskorg.md) · [Mission Roster](../roster.md)
-- [DD Form 2977](dd2977.md) · [Risk Assessment](../risk.md)
+- [RGT OPORD 26-05-01](/docs/opord-rgt.md) · [DIV OPORD 26-05](/docs/opord-div.md) · [CG's Intent](/docs/cg-intent.md)
+- [Encl A HDWG Storyboard](/docs/opord-encl-a.md) · [Operational / NAI Graphics](/docs/ops-graphics.md)
+- [RFF / RFS](/docs/rff-rfs.md) · [Back-Brief](/docs/back-brief.md)
+- [Timeline](/timeline.md) · [Task Organization](/taskorg.md) · [Mission Roster](/roster.md)
+- [DD Form 2977](/docs/dd2977.md) · [Risk Assessment](/risk.md)

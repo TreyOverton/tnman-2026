@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Chaplain (Command Staff per [ICS-203](../docs/ics-203.md) §3, third-row entry) |
+| **Role** | Chaplain (Command Staff per [ICS-203](/docs/ics-203.md) §3, third-row entry) |
 | **Assignee** | **MAJ Richard A. Bennett** (4 BN Chaplain, MRC-4 — verification pending) |
 | **Reports to** | Incident Commander — COL Roark |
 | **Section** | Command Staff |
@@ -44,7 +44,7 @@ MAJ is appropriate rank for the Chaplain billet. The Chaplain operates under **c
 
 - **Chaplain authority comes from the role**, not the rank. Personnel of any rank may approach the Chaplain in confidence regardless of rank distance.
 - **Privileged communication** is honored across the chain — the Chaplain does not relay confidential conversations to the IC, RCSM, or Section Chiefs without consent (or the narrow exceptions chaplain-corps doctrine carves out for safety / mandatory-report situations).
-- The Chaplain's MRC-4 status is being verified separately (see [Roster](../roster.md) Open Items).
+- The Chaplain's MRC-4 status is being verified separately (see [Roster](/roster.md) Open Items).
 
 ## Out of scope (do NOT do)
 
@@ -55,6 +55,6 @@ MAJ is appropriate rank for the Chaplain billet. The Chaplain operates under **c
 
 ## Resources
 
-- [Incident Commander](participant-guides/ic.md)
-- [ICS-203](../docs/ics-203.md)
-- [Common Expectations](participant-guides/common.md)
+- [Incident Commander](/participant-guides/participant-guides/ic.md)
+- [ICS-203](/docs/ics-203.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

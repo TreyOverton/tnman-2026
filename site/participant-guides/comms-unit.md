@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Communications Unit (per [ICS-203](../docs/ics-203.md) §6) |
+| **Role** | Communications Unit (per [ICS-203](/docs/ics-203.md) §6) |
 | **Assignees** | **CSM Michael J. Rutherford** (3 RGT S6 NCO, MRC-2) — Unit Leader<br>**SSG Krishna Singh** (3 BN BN S6, MRC-1) |
 | **Reports to** | Logistics Section Chief — CPT Haddix |
 | **Section** | Logistics |
@@ -12,7 +12,7 @@
 
 The Comms Unit runs **all task-force communications** for the operational period:
 
-- **HF Net participation** per [Annex H](../docs/comms-plan.md) — 3 RGT call sign **AAN4ZR** (HHC AAN4ZX, 3 BN AAN4AB, 2 BN AAN4AH)
+- **HF Net participation** per [Annex H](/docs/comms-plan.md) — 3 RGT call sign **AAN4ZR** (HHC AAN4ZX, 3 BN AAN4AB, 2 BN AAN4AH)
 - **A4U Net check-in** at 1300-1330 CST on 14 MAY and 15 MAY (Net Control: AAN4YR at TNG JOC)
 - **WINLINK** account active and password current — secondary to HF voice per PACE
 - **VHF channel TNSG04** for Mt. Carmel Site Defense per Annex H
@@ -69,10 +69,10 @@ Notable rank dynamic. **CSM Rutherford is E-9, the most senior NCO rank in the u
 
 ## Resources
 
-- [Logistics Section Chief](participant-guides/logistics-chief.md)
-- [Comms Plan / Annex H](../docs/comms-plan.md) — frequencies, call signs, A4U Net schedule, ICS-213 conventions
-- [Documentation Unit](participant-guides/documentation-unit.md) — receives ICS-309 archive
-- [SECFOR Branch Director](participant-guides/secfor-director.md) — coordinates foot-patrol comms
-- [Air Ops Branch Director](participant-guides/air-ops-director.md) — coordinates flight comms
+- [Logistics Section Chief](/participant-guides/participant-guides/logistics-chief.md)
+- [Comms Plan / Annex H](/docs/comms-plan.md) — frequencies, call signs, A4U Net schedule, ICS-213 conventions
+- [Documentation Unit](/participant-guides/participant-guides/documentation-unit.md) — receives ICS-309 archive
+- [SECFOR Branch Director](/participant-guides/participant-guides/secfor-director.md) — coordinates foot-patrol comms
+- [Air Ops Branch Director](/participant-guides/participant-guides/air-ops-director.md) — coordinates flight comms
 - [TNSG Radio Contacts (12 MAY 25)](/docs/source/TNSG-Radio-Contacts.xlsx) — operator-level call signs
-- [Common Expectations](participant-guides/common.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

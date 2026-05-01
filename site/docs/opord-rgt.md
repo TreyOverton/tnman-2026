@@ -8,7 +8,7 @@
 >
 > This page is a Markdown transcription for in-site reading.
 >
-> **Status:** Final, issued. **[FRAGO 26-05-01.1](frago-26-05-01-1.md) issued 21 APR 26** — adds TAK/TACN VTC, 2 MAY CG confirmation brief, 5-7 MAY Leader's Recon; does not yet address all [consistency-review](../warno-opord-review.md) items (expect a follow-on FRAGO).
+> **Status:** Final, issued. **[FRAGO 26-05-01.1](/docs/frago-26-05-01-1.md) issued 21 APR 26** — adds TAK/TACN VTC, 2 MAY CG confirmation brief, 5-7 MAY Leader's Recon; does not yet address all [consistency-review](/warno-opord-review.md) items (expect a follow-on FRAGO).
 >
 > **Editor's note (18 APR):** The ICP facility is referenced throughout this OPORD as *"US Army Reserve Center, 399 US-11W Scenic, Mt Carmel, TN 37645"*. The official name and address is **Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel, TN 37645**. Use the official form in new 3 RGT products; the FRAGO will correct the OPORD wording. This is the same facility referred to as "Mt. Carmel Armory" in DIV OPORD 26-05 and "Kingsport Readiness Center" in CG's Intent.
 
@@ -32,7 +32,7 @@ Greeneville, TN
 
 ## 1. Situation
 
-See [OPORD Enclosure A — TNMAN-26 Overview (Storyboard)](opord-encl-a.md).
+See [OPORD Enclosure A — TNMAN-26 Overview (Storyboard)](/docs/opord-encl-a.md).
 
 ### Area of Interest
 
@@ -196,6 +196,6 @@ S3
 
 **ENCLS:**
 
-- [A — RO 26-05-01 HDWG TNMAN-26 Overview](opord-encl-a.md) ([source .pptx](/docs/source/ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx))
+- [A — RO 26-05-01 HDWG TNMAN-26 Overview](/docs/opord-encl-a.md) ([source .pptx](/docs/source/ENCL-A-RO-26-05-01-HDWG-TNMAN-26.pptx))
 
 **DISTRIBUTION:** 2 MP BN · 3 MP BN · 4 MP BN · HHC / Staff, 3 RGT

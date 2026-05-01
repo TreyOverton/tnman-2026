@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Role** | Planning Section Chief (per [ICS-203](../docs/ics-203.md) §5) |
+| **Role** | Planning Section Chief (per [ICS-203](/docs/ics-203.md) §5) |
 | **Assignee** | **1LT Aaron L. Overton III** (3 RGT ASST S3, MRC-1) |
 | **Reports to** | Incident Commander — COL Roark |
 | **Section** | Planning |
@@ -16,7 +16,7 @@ The Planning Section Chief runs the section that produces the **picture** the IC
 - **Produces the IAP** for each operational period — the Section turns inputs into an ICS-202/203/214/etc. set
 - **Synchronizes Section Chief inputs** at planning meetings; translates to a coherent plan
 - **Owns documentation discipline** — that the unit's records of decisions, observations, and outcomes survive the exercise
-- **Acts as battle captain alternate** for the Operations Section if needed (see [Common](participant-guides/common.md) "Where to Get Help")
+- **Acts as battle captain alternate** for the Operations Section if needed (see [Common](/participant-guides/participant-guides/common.md) "Where to Get Help")
 
 ## Expectations during TNMAN-26
 
@@ -48,7 +48,7 @@ This is a substantial rank-vs-role billet. **1LT Overton — a junior officer �
 
 - **Within the Planning Section, authority runs through the role.** Section Chief decisions on resource allocation, rotation, AAR submission cadence, and demobilization sequencing carry the weight of the Section regardless of rank distance to subordinates.
 - **You direct CPT McCroskey** (Documentation Unit) — a CPT-rank subordinate to a 1LT Section Chief by ICS assignment. McCroskey owns Documentation; you own Section direction. Both work the assignment.
-- **You direct 1SG Snow** (Situation Unit Leader) — a 1SG NCO subordinate to a 1LT Section Chief by ICS assignment. The dynamic is also covered in [1SG Snow's role page](participant-guides/situation-unit-leader.md).
+- **You direct 1SG Snow** (Situation Unit Leader) — a 1SG NCO subordinate to a 1LT Section Chief by ICS assignment. The dynamic is also covered in [1SG Snow's role page](/participant-guides/participant-guides/situation-unit-leader.md).
 - **You report to COL Roark (IC)** through the standard Section Chief → IC line. No rank-line oddity there.
 - **Across the IC, Section Chiefs include LTC Sheaf (Ops) and CPT Haddix (Logistics)** — peer-rank or senior. You're the lowest-ranked Section Chief; the role is what governs in Section-Chief-to-Section-Chief coordination.
 - **In NCO-channel matters**, normal rank deference still applies. The 1SG and the CPT carry rank weight outside Section operational direction; you carry it inside.
@@ -64,10 +64,10 @@ This is a substantial rank-vs-role billet. **1LT Overton — a junior officer �
 
 ## Resources
 
-- [Incident Commander](participant-guides/ic.md)
-- [Planning Section Deputy](participant-guides/planning-deputy.md)
-- [Resources Unit Leader](participant-guides/resources-unit-leader.md)
-- [Situation Unit Leader](participant-guides/situation-unit-leader.md)
-- [Documentation Unit](participant-guides/documentation-unit.md)
-- [Technical Specialist](participant-guides/technical-specialist.md)
-- [Common Expectations](participant-guides/common.md)
+- [Incident Commander](/participant-guides/participant-guides/ic.md)
+- [Planning Section Deputy](/participant-guides/participant-guides/planning-deputy.md)
+- [Resources Unit Leader](/participant-guides/participant-guides/resources-unit-leader.md)
+- [Situation Unit Leader](/participant-guides/participant-guides/situation-unit-leader.md)
+- [Documentation Unit](/participant-guides/participant-guides/documentation-unit.md)
+- [Technical Specialist](/participant-guides/participant-guides/technical-specialist.md)
+- [Common Expectations](/participant-guides/participant-guides/common.md)

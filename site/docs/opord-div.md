@@ -6,7 +6,7 @@
 >
 > This page is a Markdown transcription for in-site reading.
 >
-> **Status:** Received 17 APR 26 (forwarded from LTC Sheaf). Signed 161200RAPRIL2026 — issued **2 days ahead** of the CG-stated NLT 1000 hrs, 18 APR 26. Triggers FRAGO action to [RGT OPORD 26-05-01](opord-rgt.md) per LTC Sheaf.
+> **Status:** Received 17 APR 26 (forwarded from LTC Sheaf). Signed 161200RAPRIL2026 — issued **2 days ahead** of the CG-stated NLT 1000 hrs, 18 APR 26. Triggers FRAGO action to [RGT OPORD 26-05-01](/docs/opord-rgt.md) per LTC Sheaf.
 
 COPY ___ OF ___
 TNSG

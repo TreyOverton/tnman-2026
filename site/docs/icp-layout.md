@@ -4,13 +4,13 @@
 >
 > **Author:** 1LT Aaron L. Overton III, ASST S3, 3 RGT TNSG
 > **Date drafted:** 26 APR 26
-> **Driver:** LTC Sheaf 26 APR forward of [TNMAN Update](../comms.md): *"I need to start thinking about what the ICP will look like and the work flow of information."*
+> **Driver:** LTC Sheaf 26 APR forward of [TNMAN Update](/comms.md): *"I need to start thinking about what the ICP will look like and the work flow of information."*
 >
 > **Caveats up front:**
 >
-> - **Recon hasn't happened yet** — scheduled 6 MAY 1500R per [BG Cox AAR](../comms.md). This is a paper-design first pass that assumes a single open bay or room-and-corridor configuration; the actual building plan at the [Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel](../docs/opord-rgt.md) will likely require adjustment.
-> - **DIV FRAGO is publishing this week** (per [LTC Estes 26 APR](../comms.md)). May refine HHC LNO posture, the JOC integration, and the 14 MAY inject sequence.
-> - **All names below come from the current [Task Organization](../taskorg.md)**; treat any TBD slot here as a re-pointer to the open dependency in that page, not a new gap.
+> - **Recon hasn't happened yet** — scheduled 6 MAY 1500R per [BG Cox AAR](/comms.md). This is a paper-design first pass that assumes a single open bay or room-and-corridor configuration; the actual building plan at the [Armed Forces Reserve Center, 399 A US-11W Scenic, Mt Carmel](/docs/opord-rgt.md) will likely require adjustment.
+> - **DIV FRAGO is publishing this week** (per [LTC Estes 26 APR](/comms.md)). May refine HHC LNO posture, the JOC integration, and the 14 MAY inject sequence.
+> - **All names below come from the current [Task Organization](/taskorg.md)**; treat any TBD slot here as a re-pointer to the open dependency in that page, not a new gap.
 
 ---
 
@@ -32,11 +32,11 @@ Based on what's already been decided or implied by the orders:
 | # | Assumption | Source |
 |---|------------|--------|
 | 1 | **Single open bay** is the most likely configuration at Mt Carmel AFRC. Drill halls / armories typically present this way. Plan for one open room with zone separation by furniture, not walls. | Inferred — confirm 6 MAY recon. |
-| 2 | **31 PAX peak on 14 MAY** = 28 organic 3 RGT + 3 attached medics. Of those, ~5 are physically deployed as the live SECFOR patrol on US 11W; the remaining ~26 are at the ICP. | [Estes 26 APR](../comms.md), [BG Cox AAR](../comms.md). |
-| 3 | **Dawn-to-dusk operation, no overnight.** ICP shuts down each evening; PACE plan covers any after-hours real-world traffic. | [CG Intent](cg-intent.md). |
-| 4 | **HF antenna and Starlink stood up at the ICP** — comms footprint is heavier than a typical 30-PAX ICP because we're testing propagation. | [Estes 26 APR](../comms.md). |
-| 5 | **PERSTATs flow up to LTC Hogan (HHC)** throughout 14 MAY — HHC tracking participation, not 3 RGT independently. | [Estes 26 APR](../comms.md). |
-| 6 | **JOC at Sidco** has TNSG LNOs at the table behind the desks; we don't run a JOC at Mt Carmel — we report into one. | [Estes 26 APR](../comms.md). |
+| 2 | **31 PAX peak on 14 MAY** = 28 organic 3 RGT + 3 attached medics. Of those, ~5 are physically deployed as the live SECFOR patrol on US 11W; the remaining ~26 are at the ICP. | [Estes 26 APR](/comms.md), [BG Cox AAR](/comms.md). |
+| 3 | **Dawn-to-dusk operation, no overnight.** ICP shuts down each evening; PACE plan covers any after-hours real-world traffic. | [CG Intent](/docs/cg-intent.md). |
+| 4 | **HF antenna and Starlink stood up at the ICP** — comms footprint is heavier than a typical 30-PAX ICP because we're testing propagation. | [Estes 26 APR](/comms.md). |
+| 5 | **PERSTATs flow up to LTC Hogan (HHC)** throughout 14 MAY — HHC tracking participation, not 3 RGT independently. | [Estes 26 APR](/comms.md). |
+| 6 | **JOC at Sidco** has TNSG LNOs at the table behind the desks; we don't run a JOC at Mt Carmel — we report into one. | [Estes 26 APR](/comms.md). |
 
 ---
 
@@ -233,7 +233,7 @@ flowchart LR
    - *Personnel / accountability:* Resource Unit
    - *Medical:* Medical Unit
    - *Press / public:* PAO
-3. LNO Desk holds the master partner-LNO contact list (extracts from [Key Contacts](../contacts.md)).
+3. LNO Desk holds the master partner-LNO contact list (extracts from [Key Contacts](/contacts.md)).
 
 **E. DIV Exercise Control / MSEL injects**
 
@@ -249,7 +249,7 @@ flowchart LR
 | **PERSTAT** | Throughout 14 MAY | Resource Unit (1LT Fielitz-Scarbrough) | LTC Hogan (HHC) — per Estes 26 APR | DIV-tracking spreadsheet (Estes' Google Sheet) + radio voice |
 | **SITREP** | ICP-IOC + every 4 hr + on event | OSC drafts, IC approves | DIV G3 / TEMA | ICS 209 |
 | **Daily Hot-Wash** | 1700-1730R 14 MAY | OSC | All ICP staff (in-room) | 30-min structured AAR |
-| **TNMAN AAR** | 15 MAY 0700-1200 | OIC (TBD) + OSC | DIV staff | Format TBD; companion to [AAR Notes](../aar-draft.md) |
+| **TNMAN AAR** | 15 MAY 0700-1200 | OIC (TBD) + OSC | DIV staff | Format TBD; companion to [AAR Notes](/aar-draft.md) |
 
 ---
 
@@ -282,11 +282,11 @@ This page revs after the recon. Ahead of 12 MAY ICP assembly, version is "draft 
 
 ## Related
 
-- [Task Organization](../taskorg.md) — names and roles
-- [ICP Org Reference](../icp-org-reference.md) — ICS structural template
-- [Execution Matrix](execution-matrix.md) — what happens, when (BG Cox 14 MAY beats)
-- [Operational / NAI Graphics](ops-graphics.md) — SECFOR posture and NO-GO Line
-- [Mission Roster](../roster.md) — 28 organic + 3 attached medics
-- [Chain of Command](../coc.md) — formal CoC (separate from ICP task org)
-- [FRAGO 26-05-01.1](frago-26-05-01-1.md) — TAK/TACN VTC, CG brief, Leader's Recon
-- [Comms Log 26 APR](../comms.md) — BG Cox 14 MAY beats, Estes DIV-wide update, HF freq request
+- [Task Organization](/taskorg.md) — names and roles
+- [ICP Org Reference](/icp-org-reference.md) — ICS structural template
+- [Execution Matrix](/docs/execution-matrix.md) — what happens, when (BG Cox 14 MAY beats)
+- [Operational / NAI Graphics](/docs/ops-graphics.md) — SECFOR posture and NO-GO Line
+- [Mission Roster](/roster.md) — 28 organic + 3 attached medics
+- [Chain of Command](/coc.md) — formal CoC (separate from ICP task org)
+- [FRAGO 26-05-01.1](/docs/frago-26-05-01-1.md) — TAK/TACN VTC, CG brief, Leader's Recon
+- [Comms Log 26 APR](/comms.md) — BG Cox 14 MAY beats, Estes DIV-wide update, HF freq request
