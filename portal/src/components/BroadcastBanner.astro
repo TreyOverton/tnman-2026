@@ -1,0 +1,61 @@
+---
+---
+<div id="broadcast-stack" class="banner-stack" aria-live="polite"></div>
+
+<script>
+  import { getFirebase } from '~/lib/firebase';
+  import { collection, onSnapshot, query, where, orderBy, limit } from 'firebase/firestore';
+
+  const stack = document.getElementById('broadcast-stack')!;
+  const dismissed = new Set<string>(JSON.parse(sessionStorage.getItem('portal:dismissed') || '[]'));
+
+  function persistDismissed() {
+    sessionStorage.setItem('portal:dismissed', JSON.stringify([...dismissed]));
+  }
+
+  function render(items: Array<{ id: string; message: string; severity: string }>) {
+    stack.innerHTML = '';
+    for (const it of items) {
+      if (dismissed.has(it.id)) continue;
+      const el = document.createElement('div');
+      el.className = `banner ${it.severity || 'info'}`;
+      el.innerHTML = `
+        <div class="msg">
+          <span class="severity">${(it.severity || 'info').toUpperCase()}</span>
+          <span>${escapeHtml(it.message)}</span>
+        </div>
+        <button class="dismiss ghost" type="button" aria-label="Dismiss">Dismiss</button>
+      `;
+      el.querySelector('button')?.addEventListener('click', () => {
+        dismissed.add(it.id);
+        persistDismissed();
+        el.remove();
+      });
+      stack.appendChild(el);
+    }
+  }
+
+  function escapeHtml(s: string) {
+    return s.replace(/[&<>"']/g, (c) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+    } as Record<string, string>)[c]!);
+  }
+
+  document.addEventListener('portal:auth', () => {
+    const { db } = getFirebase();
+    const q = query(
+      collection(db, 'broadcasts'),
+      where('active', '==', true),
+      orderBy('timestamp', 'desc'),
+      limit(5)
+    );
+    onSnapshot(q, (snap) => {
+      const items = snap.docs.map((d) => ({
+        id: d.id,
+        message: String(d.data().message || ''),
+        severity: String(d.data().severity || 'info'),
+      }));
+      render(items);
+    }, () => {});
+  }, { once: true });
+</script>

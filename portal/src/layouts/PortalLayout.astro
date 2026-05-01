@@ -1,0 +1,88 @@
+---
+import '../styles/global.css';
+import AccessGate from '~/components/AccessGate.astro';
+import BroadcastBanner from '~/components/BroadcastBanner.astro';
+
+interface Props {
+  title?: string;
+  active?: string;
+  adminOnly?: boolean;
+  bodyClass?: string;
+}
+const { title = 'TNMAN 26 Portal', active = '', adminOnly = false, bodyClass = '' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b1220" />
+    <title>{title} · TNMAN 26 Portal</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+  <body class={bodyClass}>
+    <AccessGate adminOnly={adminOnly} />
+
+    <div class="app app-content">
+      <header class="app-header">
+        <div class="app-header-inner">
+          <a class="brand" href="/">
+            <span class="dot" aria-hidden="true"></span>
+            <span>
+              <span class="name">TNMAN 26</span>
+              <span class="tag" style="margin-left:6px;">Field Portal</span>
+            </span>
+          </a>
+          <span class="user-chip" id="user-chip">
+            <span id="user-email">…</span>
+            <span id="user-admin-badge" class="badge-admin" hidden>ADMIN</span>
+          </span>
+        </div>
+      </header>
+
+      <BroadcastBanner />
+
+      <nav class="app-nav">
+        <div class="app-nav-inner">
+          <a href="/" class={active === 'home' ? 'active' : ''}>Home</a>
+          <a href="/guides" class={active === 'guides' ? 'active' : ''}>Guides</a>
+          <a href="/guides/glossary" class={active === 'glossary' ? 'active' : ''}>Glossary</a>
+          <a href="/guides/caltopo" class={active === 'caltopo' ? 'active' : ''}>CalTopo</a>
+          <a href="/log" class={active === 'log' ? 'active' : ''}>214 Log</a>
+          <a href="/aar" class={active === 'aar' ? 'active' : ''}>AAR</a>
+          <a href="/injects" class={active === 'injects' ? 'active' : ''}>Injects</a>
+          <a href="/admin" class={`admin admin-only ${active === 'admin' ? 'active' : ''}`} hidden>Admin</a>
+        </div>
+      </nav>
+
+      <main class="main">
+        <slot />
+      </main>
+
+      <footer class="app-footer">
+        TNMAN 2026 &middot; Tennessee State Guard &middot;
+        <a href="#" id="signout-link">Sign out</a>
+      </footer>
+    </div>
+
+    <script>
+      import { signOut } from '~/lib/auth';
+
+      document.addEventListener('portal:auth', (e: any) => {
+        const s = e.detail;
+        const emailEl = document.getElementById('user-email');
+        if (emailEl) emailEl.textContent = s.email;
+        const badge = document.getElementById('user-admin-badge');
+        if (badge) badge.hidden = !s.isAdmin;
+        document.querySelectorAll('.admin-only').forEach((el) => {
+          (el as HTMLElement).hidden = !s.isAdmin;
+        });
+      });
+
+      document.getElementById('signout-link')?.addEventListener('click', (e) => {
+        e.preventDefault();
+        signOut().then(() => location.assign('/'));
+      });
+    </script>
+  </body>
+</html>

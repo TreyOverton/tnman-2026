@@ -1,0 +1,26 @@
+{
+  "name": "tnman-2026-portal",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TNMAN 2026 Participant Portal — field-side tablet/phone app for participant guides, ICS-214 logging, AAR capture, broadcasts, and inject playbooks.",
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0 --port 4321",
+    "start": "astro dev --host 0.0.0.0 --port 4321",
+    "build": "astro build",
+    "preview": "astro preview --host 0.0.0.0 --port 4321",
+    "astro": "astro",
+    "typecheck": "astro check",
+    "seed": "tsx scripts/seed-firestore.ts"
+  },
+  "dependencies": {
+    "astro": "^5.1.0",
+    "firebase": "^11.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

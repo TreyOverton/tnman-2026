@@ -1,0 +1,91 @@
+---
+const { adminOnly = false } = Astro.props;
+---
+<div id="access-gate" class="gate" hidden>
+  <h1>TNMAN 2026 Participant Portal</h1>
+  <p class="sub" id="gate-msg">Sign in with your TNSG Google account to continue.</p>
+  <div class="spacer"></div>
+  <button id="gate-signin" class="primary" type="button">Sign in with Google</button>
+  <div class="spacer"></div>
+  <div class="muted small" id="gate-detail"></div>
+  <div class="spacer"></div>
+  <div class="muted small">
+    Domain: <code>tnstateguard.org</code> &middot; or you have been allowlisted by an admin.
+  </div>
+</div>
+<div id="access-loading" class="gate">
+  <h1>Loading…</h1>
+  <p class="sub">Checking your access.</p>
+</div>
+
+<script is:inline define:vars={{ adminOnly }}>
+  window.__PORTAL_ADMIN_ONLY = !!adminOnly;
+</script>
+<script>
+  import { onAccessChange, signIn, signOut } from '~/lib/auth';
+
+  const gate = document.getElementById('access-gate')!;
+  const loading = document.getElementById('access-loading')!;
+  const msg = document.getElementById('gate-msg')!;
+  const detail = document.getElementById('gate-detail')!;
+  const btn = document.getElementById('gate-signin') as HTMLButtonElement;
+  const adminOnly = (window as any).__PORTAL_ADMIN_ONLY === true;
+
+  function showGate(reason?: string, signedInEmail?: string) {
+    loading.hidden = true;
+    gate.hidden = false;
+    document.body.dataset.gated = '1';
+    if (signedInEmail) {
+      msg.textContent = `Signed in as ${signedInEmail}, but no access.`;
+      detail.textContent = reason || '';
+      btn.textContent = 'Use a different account';
+      btn.onclick = async () => {
+        try { await signOut(); } catch {}
+        await signIn();
+      };
+    } else {
+      msg.textContent = adminOnly
+        ? 'Admin sign-in required.'
+        : 'Sign in with your TNSG Google account to continue.';
+      detail.textContent = '';
+      btn.textContent = 'Sign in with Google';
+      btn.onclick = () => signIn().catch((e) => {
+        detail.textContent = e?.message || 'Sign-in failed.';
+      });
+    }
+  }
+
+  function showApp(state: any) {
+    loading.hidden = true;
+    gate.hidden = true;
+    delete document.body.dataset.gated;
+    document.body.dataset.email = state.email;
+    document.body.dataset.uid = state.user.uid;
+    document.body.dataset.displayName = state.user.displayName || state.email;
+    document.body.dataset.admin = state.isAdmin ? '1' : '0';
+    document.dispatchEvent(new CustomEvent('portal:auth', { detail: state }));
+  }
+
+  onAccessChange((state) => {
+    if (!state.user) {
+      showGate();
+      return;
+    }
+    if (!state.hasAccess) {
+      showGate(state.reason, state.email || undefined);
+      return;
+    }
+    if (adminOnly && !state.isAdmin) {
+      showGate('Admin access required for this page.', state.email || undefined);
+      return;
+    }
+    showApp(state);
+  });
+</script>
+
+<style>
+  body[data-gated='1'] .app-content { display: none; }
+  body:not([data-gated='1']) #access-gate,
+  body:not([data-gated='1']) #access-loading { display: none; }
+  body[data-gated='1'] #access-loading { display: none; }
+</style>
