@@ -98,6 +98,19 @@ The 30 APR 26 date is driven by the OPORD's hard deadlines for Regimental Orders
 - **Feeding, billeting, transportation plan** — RGT OPORD §3 S4 task is "establish... ICW DIV MOB Cell, DIV G4, and supporting agencies." With dawn-to-dusk / RON-at-home policy, billeting is simpler (home or self-funded hotel) but feeding and transportation to Mt Carmel need planning.
 - **Self-funded hotel policy communication** — confirm to Soldiers with long commutes that the CG-authorized self-funded hotel option exists.
 
+### ICP Setup (from 2 MAY [Gap Analysis](icp-gap-analysis.md))
+
+Surfaced by populating columns 3–4 of the [ICP Notional Structure vs. Delivered Capability](icp-gap-analysis.md) worksheet. Items already tracked elsewhere (PIO, LNOs, HF frequencies, Starlink procurement, MRC-4 verification) are not duplicated here.
+
+- **IAP packet ownership and NLT timeline** — Have ICS-203, Annex H (205), 209/213/214/309 conventions. Missing 201 / 202 / 204 / 206 / 207 / 208 / 215 / 215A / 230. **[NEEDS INPUT: assign packet-assembly owner (Documentation Unit / CPT McCroskey?) and set NLT-time before 13 MAY 0600 ops brief.]** *Source: [Gap Analysis row 13](icp-gap-analysis.md).*
+- **ICS 211 check-in mechanism + physical check-in point at AFRC** — No 211 referenced in current artifacts; no procedure for partner-agency / LNO arrivals or 1 RGT OPFOR check-in coordination. **[NEEDS INPUT: confirm 211 vs. PERSTAT-spreadsheet substitute and identify physical check-in location.]** *Source: [Gap Analysis row 16](icp-gap-analysis.md).*
+- **Demobilization Unit owner** — OPEN per [ICS-203 §5](docs/ics-203.md). No demob plan; TACN return / AFRC building turnover / personnel release procedures undocumented. *Source: [Gap Analysis row 19](icp-gap-analysis.md).*
+- **Documentation Unit single point of failure** — CPT McCroskey is MRC-4 / PHA non-compliant per [DD 2977](docs/dd2977.md); no alternate. Identify a backup before 13 MAY. *Source: [Gap Analysis row 6](icp-gap-analysis.md).*
+- **Standalone ICS 205 form** — Annex H workbook stands in. Partner agencies expecting an ICS-format comms plan would not see one. Decide whether to generate a 205 from Annex H content. *Source: [Gap Analysis row 15](icp-gap-analysis.md).*
+- **HF antenna feed path / Starlink LOS / Starlink throughput** — Survey items for the **6 MAY 1500R recon**. Add to recon checklist: window/wall pass and ground for HF; sky LOS for Starlink dish; concurrent-throughput test plan for ~26 PAX in-bay. *Source: [Gap Analysis row 11](icp-gap-analysis.md), [ICP Layout](docs/icp-layout.md).*
+- **ICS course completions for named ICP billets** — No 100/200/300/400 completion data captured for any of the 20 billets above. **[NEEDS INPUT: should S1 (1LT Fielitz-Scarbrough) collect this before 13 MAY?]** No PTB tracker exists; PTB-tracking decision is a longer-arc training question. *Source: [Gap Analysis rows 1, 20](icp-gap-analysis.md).*
+- **CDR-decision items from gap analysis** — formally surface the four `[CDR DECISION]` items at the next CG/IC sync: Finance/Admin not required (row 8), Intel/Investigations not required (row 9), Facilities Unit absence accepted vs. acting designation (row 12), 24-hr sustainment requirement waived (row 18). *Source: [Gap Analysis](icp-gap-analysis.md).*
+
 ### Coordination
 
 - ~~**Leader's Recon — 6 MAY 1500R**~~ — **LOCKED 28 APR.** LTC Sheaf's formal recon email confirms link-up at **Walgreens 4500 W Stone Dr, Kingsport TN 37660 NLT 061455RMAY26**, then movement as a group to HAAP Main Gate. **7-PAX team:** COL Roark, LTC Estes, CSM Seals, LTC Sheaf, MAJ Crosby, 1LT Overton, SFC Acosta. *Source: [Comms Log 28 APR](comms.md).*
