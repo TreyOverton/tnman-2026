@@ -1,0 +1,101 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+---
+<PortalLayout title="All 214 Entries" active="admin" adminOnly>
+  <p class="muted small"><a href="/admin">&larr; Admin</a></p>
+  <h1>ICS-214 — All Entries</h1>
+  <p class="muted">
+    Every participant's logged activity, newest first. Updates live via Firestore.
+    For projection on a wall TV, use the <a href="/admin/log/display">ICP Wall Display</a>.
+  </p>
+
+  <div class="row">
+    <input id="filter" type="search" placeholder="Filter by name, email, or text…" class="grow" />
+    <button id="loadmore" type="button">Load older</button>
+  </div>
+
+  <div id="feed" class="feed"></div>
+  <p id="empty" class="muted" hidden>No entries yet.</p>
+
+  <script>
+    import { getFirebase } from '~/lib/firebase';
+    import {
+      collection, query, orderBy, limit, onSnapshot, getDocs, startAfter,
+    } from 'firebase/firestore';
+
+    const feedEl = document.getElementById('feed')!;
+    const emptyEl = document.getElementById('empty')!;
+    const filterEl = document.getElementById('filter') as HTMLInputElement;
+    const moreBtn = document.getElementById('loadmore') as HTMLButtonElement;
+
+    let allDocs: Array<{ id: string; data: any }> = [];
+    let lastSnap: any = null;
+
+    function fmtTs(ts: any): string {
+      if (!ts) return '…';
+      const d = ts.toDate ? ts.toDate() : new Date(ts);
+      return d.toLocaleString();
+    }
+    function escapeHtml(s: string) {
+      return s.replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      } as Record<string, string>)[c]!);
+    }
+
+    function render() {
+      const f = filterEl.value.trim().toLowerCase();
+      const items = !f ? allDocs : allDocs.filter((d) => {
+        const x = d.data;
+        return [x.message, x.email, x.displayName].some((v) => String(v || '').toLowerCase().includes(f));
+      });
+      if (!items.length) {
+        feedEl.innerHTML = '';
+        emptyEl.hidden = false;
+        return;
+      }
+      emptyEl.hidden = true;
+      feedEl.innerHTML = items.map((d) => {
+        const x = d.data;
+        const gps = x.gps ? `<span class="gps">GPS ${x.gps.lat.toFixed(5)}, ${x.gps.lon.toFixed(5)} ±${Math.round(x.gps.accuracy)}m</span>` : '';
+        return `<div class="feed-entry">
+          <div class="meta">
+            <span class="who">${escapeHtml(String(x.displayName || x.email || ''))}</span>
+            <span>${escapeHtml(String(x.email || ''))}</span>
+            <span>${fmtTs(x.timestamp)}</span>
+            ${gps}
+          </div>
+          <div class="body">${escapeHtml(String(x.message || ''))}</div>
+        </div>`;
+      }).join('');
+    }
+
+    filterEl.addEventListener('input', render);
+
+    document.addEventListener('portal:auth', () => {
+      const { db } = getFirebase();
+      const q = query(collection(db, 'activityLog'), orderBy('timestamp', 'desc'), limit(100));
+      onSnapshot(q, (snap) => {
+        allDocs = snap.docs.map((d) => ({ id: d.id, data: d.data() }));
+        if (snap.docs.length) lastSnap = snap.docs[snap.docs.length - 1];
+        render();
+      });
+    }, { once: true });
+
+    moreBtn.addEventListener('click', async () => {
+      if (!lastSnap) return;
+      const { db } = getFirebase();
+      moreBtn.disabled = true;
+      try {
+        const q = query(collection(db, 'activityLog'), orderBy('timestamp', 'desc'), startAfter(lastSnap), limit(100));
+        const snap = await getDocs(q);
+        if (snap.docs.length) {
+          lastSnap = snap.docs[snap.docs.length - 1];
+          for (const d of snap.docs) allDocs.push({ id: d.id, data: d.data() });
+          render();
+        }
+      } finally {
+        moreBtn.disabled = false;
+      }
+    });
+  </script>
+</PortalLayout>

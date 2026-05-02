@@ -1,0 +1,108 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+---
+<PortalLayout title="AAR Observation" active="aar">
+  <h1>After-Action Observation</h1>
+  <p class="muted">
+    Capture one observation at a time, in your own words. Things that worked, things
+    that didn't, things to start doing differently. Honest comments on training value,
+    equipment, comms, schedule, briefing quality. Your name is attached automatically.
+  </p>
+
+  <form id="aar-form" class="card" onsubmit="return false;">
+    <label for="aar-msg">Observation</label>
+    <textarea id="aar-msg" placeholder="What happened, when, why it matters." maxlength="8000" required></textarea>
+
+    <div class="spacer"></div>
+    <div class="row">
+      <button id="aar-submit" class="primary" type="submit">Submit observation</button>
+      <span id="aar-submit-status" class="muted small"></span>
+    </div>
+  </form>
+
+  <h2>My recent observations</h2>
+  <div id="aar-feed" class="feed"></div>
+  <p id="aar-empty" class="muted" hidden>No observations yet.</p>
+
+  <script>
+    import { getFirebase } from '~/lib/firebase';
+    import {
+      collection, addDoc, serverTimestamp, query, where, orderBy, limit, onSnapshot,
+    } from 'firebase/firestore';
+
+    const msgEl = document.getElementById('aar-msg') as HTMLTextAreaElement;
+    const submitBtn = document.getElementById('aar-submit') as HTMLButtonElement;
+    const submitStatus = document.getElementById('aar-submit-status')!;
+    const feedEl = document.getElementById('aar-feed')!;
+    const emptyEl = document.getElementById('aar-empty')!;
+
+    function fmtTs(ts: any): string {
+      if (!ts) return '…';
+      const d = ts.toDate ? ts.toDate() : new Date(ts);
+      return d.toLocaleString();
+    }
+    function escapeHtml(s: string) {
+      return s.replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      } as Record<string, string>)[c]!);
+    }
+
+    submitBtn.addEventListener('click', async () => {
+      const observation = msgEl.value.trim();
+      if (!observation) {
+        submitStatus.textContent = 'Enter something first.';
+        return;
+      }
+      const uid = document.body.dataset.uid;
+      const email = document.body.dataset.email;
+      const displayName = document.body.dataset.displayName || email;
+      if (!uid || !email) {
+        submitStatus.textContent = 'Sign in first.';
+        return;
+      }
+      submitBtn.disabled = true;
+      submitStatus.textContent = 'Submitting…';
+      try {
+        const { db } = getFirebase();
+        await addDoc(collection(db, 'aar'), {
+          uid, email, displayName,
+          observation,
+          timestamp: serverTimestamp(),
+        });
+        msgEl.value = '';
+        submitStatus.textContent = 'Submitted.';
+        setTimeout(() => (submitStatus.textContent = ''), 2200);
+      } catch (e: any) {
+        submitStatus.textContent = e.message || 'Submit failed.';
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+
+    document.addEventListener('portal:auth', (e: any) => {
+      const uid = e.detail.user.uid;
+      const { db } = getFirebase();
+      const q = query(
+        collection(db, 'aar'),
+        where('uid', '==', uid),
+        orderBy('timestamp', 'desc'),
+        limit(50)
+      );
+      onSnapshot(q, (snap) => {
+        if (snap.empty) {
+          feedEl.innerHTML = '';
+          emptyEl.hidden = false;
+          return;
+        }
+        emptyEl.hidden = true;
+        feedEl.innerHTML = snap.docs.map((d) => {
+          const x = d.data();
+          return `<div class="feed-entry">
+            <div class="meta"><span>${fmtTs(x.timestamp)}</span></div>
+            <div class="body">${escapeHtml(String(x.observation || ''))}</div>
+          </div>`;
+        }).join('');
+      });
+    }, { once: true });
+  </script>
+</PortalLayout>

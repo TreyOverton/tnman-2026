@@ -1,5 +1,17 @@
 {
   "projects": {
-    "default": "YOUR_FIREBASE_PROJECT_ID"
+    "default": "tnman-2026"
+  },
+  "targets": {
+    "tnman-2026": {
+      "hosting": {
+        "planner": [
+          "tnman-2026"
+        ],
+        "portal": [
+          "tnman"
+        ]
+      }
+    }
   }
 }

@@ -1,0 +1,88 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null && request.auth.token.email != null;
+    }
+
+    function callerEmail() {
+      return request.auth.token.email.lower();
+    }
+
+    function emailDomain(e) {
+      return e.split('@').size() == 2 ? e.split('@')[1] : '';
+    }
+
+    function isTNSGDomain() {
+      return isSignedIn() && emailDomain(callerEmail()) == 'tnstateguard.org';
+    }
+
+    function isAllowlisted() {
+      return isSignedIn() && exists(/databases/$(database)/documents/access/allowedEmails) &&
+             callerEmail() in get(/databases/$(database)/documents/access/allowedEmails).data.emails;
+    }
+
+    function hasAccess() {
+      return isTNSGDomain() || isAllowlisted();
+    }
+
+    function isAdmin() {
+      return isSignedIn() && exists(/databases/$(database)/documents/access/admins) &&
+             callerEmail() in get(/databases/$(database)/documents/access/admins).data.emails;
+    }
+
+    match /access/{docId} {
+      allow read: if hasAccess();
+      allow write: if isAdmin();
+    }
+
+    match /activityLog/{entryId} {
+      allow read: if isAdmin() || (hasAccess() && resource.data.uid == request.auth.uid);
+      allow create: if hasAccess()
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.email == callerEmail()
+                    && request.resource.data.message is string
+                    && request.resource.data.message.size() > 0
+                    && request.resource.data.message.size() <= 4000;
+      allow update, delete: if false;
+    }
+
+    match /aar/{entryId} {
+      allow read: if isAdmin() || (hasAccess() && resource.data.uid == request.auth.uid);
+      allow create: if hasAccess()
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.email == callerEmail()
+                    && request.resource.data.observation is string
+                    && request.resource.data.observation.size() > 0
+                    && request.resource.data.observation.size() <= 8000;
+      allow update, delete: if false;
+    }
+
+    match /broadcasts/{entryId} {
+      allow read: if hasAccess();
+      allow create: if isAdmin();
+      allow update, delete: if isAdmin();
+    }
+
+    match /injects/{slug} {
+      allow read: if hasAccess()
+                  && (resource == null || resource.data.active == true || isAdmin());
+      allow write: if isAdmin();
+
+      match /private/{docId} {
+        allow read: if isAdmin() || (
+          hasAccess()
+          && exists(/databases/$(database)/documents/injects/$(slug))
+          && get(/databases/$(database)/documents/injects/$(slug)).data.active == true
+        );
+        allow write: if isAdmin();
+      }
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

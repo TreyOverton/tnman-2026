@@ -1,0 +1,54 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+---
+<PortalLayout title="All AAR Observations" active="admin" adminOnly>
+  <p class="muted small"><a href="/admin">&larr; Admin</a></p>
+  <h1>AAR Observations — All</h1>
+  <p class="muted">Always attributed. Newest first.</p>
+
+  <div id="feed" class="feed"></div>
+  <p id="empty" class="muted" hidden>No observations yet.</p>
+
+  <script>
+    import { getFirebase } from '~/lib/firebase';
+    import { collection, query, orderBy, limit, onSnapshot } from 'firebase/firestore';
+
+    const feedEl = document.getElementById('feed')!;
+    const emptyEl = document.getElementById('empty')!;
+
+    function fmtTs(ts: any): string {
+      if (!ts) return '…';
+      const d = ts.toDate ? ts.toDate() : new Date(ts);
+      return d.toLocaleString();
+    }
+    function escapeHtml(s: string) {
+      return s.replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      } as Record<string, string>)[c]!);
+    }
+
+    document.addEventListener('portal:auth', () => {
+      const { db } = getFirebase();
+      const q = query(collection(db, 'aar'), orderBy('timestamp', 'desc'), limit(200));
+      onSnapshot(q, (snap) => {
+        if (snap.empty) {
+          feedEl.innerHTML = '';
+          emptyEl.hidden = false;
+          return;
+        }
+        emptyEl.hidden = true;
+        feedEl.innerHTML = snap.docs.map((d) => {
+          const x = d.data();
+          return `<div class="feed-entry">
+            <div class="meta">
+              <span class="who">${escapeHtml(String(x.displayName || x.email || ''))}</span>
+              <span>${escapeHtml(String(x.email || ''))}</span>
+              <span>${fmtTs(x.timestamp)}</span>
+            </div>
+            <div class="body">${escapeHtml(String(x.observation || ''))}</div>
+          </div>`;
+        }).join('');
+      });
+    }, { once: true });
+  </script>
+</PortalLayout>

@@ -1,0 +1,50 @@
+---
+import { getCollection, render } from 'astro:content';
+import PortalLayout from '~/layouts/PortalLayout.astro';
+import { getGuideMeta } from '~/lib/guideTitles';
+
+export async function getStaticPaths() {
+  const all = await getCollection('guides');
+  return all
+    .filter((g) => g.id.toLowerCase() !== 'readme')
+    .map((g) => ({ params: { slug: g.id }, props: { entry: g } }));
+}
+
+const { entry } = Astro.props;
+const slug = entry.id;
+const meta = getGuideMeta(slug);
+const { Content } = await render(entry);
+
+let active = 'guides';
+if (slug === 'glossary') active = 'glossary';
+else if (slug === 'caltopo') active = 'caltopo';
+---
+<PortalLayout title={meta.title} active={active}>
+  <p class="muted small"><a href="/guides">&larr; All guides</a></p>
+  <article id="guide-article">
+    <Content />
+  </article>
+
+  <script>
+    import { rewriteMarkdownLink } from '~/lib/links';
+    const article = document.getElementById('guide-article');
+    if (article) {
+      article.querySelectorAll('a[href]').forEach((a) => {
+        const el = a as HTMLAnchorElement;
+        const href = el.getAttribute('href') || '';
+        if (!href || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('#')) return;
+        const { href: out, portal } = rewriteMarkdownLink(href);
+        if (out !== href) el.setAttribute('href', out);
+        if (!portal && !out.startsWith('http') && !out.startsWith('mailto:') && !out.startsWith('tel:') && !out.startsWith('#') && !out.startsWith('/guides')) {
+          el.classList.add('disabled-link');
+          el.title = 'This page is on the planning site, not the participant portal.';
+          el.addEventListener('click', (ev) => {
+            ev.preventDefault();
+            const ok = confirm('That link points to the full planning site (tnman-2026.web.app), not this participant portal. Open it there?');
+            if (ok) window.open('https://tnman-2026.web.app/#/' + out.replace(/^\//, ''), '_blank', 'noopener');
+          });
+        }
+      });
+    }
+  </script>
+</PortalLayout>

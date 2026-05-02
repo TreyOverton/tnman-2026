@@ -1,0 +1,145 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+---
+<PortalLayout title="214 Activity Log" active="log">
+  <h1>ICS-214 Activity Log</h1>
+  <p class="muted">
+    Log major task starts/completions, personnel encountered, equipment, incidents,
+    and AAR-worthy observations. Submit each entry in real time. Submit your closed
+    214 to the Documentation Unit (CPT McCroskey) at end of operational period.
+  </p>
+
+  <form id="log-form" class="card" onsubmit="return false;">
+    <label for="log-msg">Activity entry</label>
+    <textarea id="log-msg" placeholder="e.g. 0612 — Reported to ICP. CalTopo verified. Issued radio #14 from Comms Unit (SSG Singh)." maxlength="4000" required></textarea>
+
+    <div class="spacer"></div>
+    <div class="row">
+      <button id="log-gps" type="button">Add my location</button>
+      <span id="log-gps-status" class="muted small"></span>
+    </div>
+
+    <div class="spacer"></div>
+    <div class="row">
+      <button id="log-submit" class="primary" type="submit">Submit entry</button>
+      <span id="log-submit-status" class="muted small"></span>
+    </div>
+  </form>
+
+  <h2>My recent entries</h2>
+  <div id="log-feed" class="feed"></div>
+  <p id="log-empty" class="muted" hidden>No entries yet.</p>
+
+  <script>
+    import { getFirebase } from '~/lib/firebase';
+    import {
+      collection, addDoc, serverTimestamp, query, where, orderBy, limit, onSnapshot,
+    } from 'firebase/firestore';
+    import { getCurrentPosition, formatLatLon } from '~/lib/geo';
+
+    let currentGps: { lat: number; lon: number; accuracy: number } | null = null;
+
+    const msgEl = document.getElementById('log-msg') as HTMLTextAreaElement;
+    const gpsBtn = document.getElementById('log-gps') as HTMLButtonElement;
+    const gpsStatus = document.getElementById('log-gps-status')!;
+    const submitBtn = document.getElementById('log-submit') as HTMLButtonElement;
+    const submitStatus = document.getElementById('log-submit-status')!;
+    const feedEl = document.getElementById('log-feed')!;
+    const emptyEl = document.getElementById('log-empty')!;
+
+    gpsBtn.addEventListener('click', async () => {
+      gpsBtn.disabled = true;
+      gpsStatus.textContent = 'Getting location…';
+      try {
+        currentGps = await getCurrentPosition();
+        gpsStatus.textContent = formatLatLon(currentGps);
+        gpsBtn.textContent = 'Update location';
+      } catch (e: any) {
+        gpsStatus.textContent = e.message || 'Location failed.';
+        currentGps = null;
+      } finally {
+        gpsBtn.disabled = false;
+      }
+    });
+
+    submitBtn.addEventListener('click', async () => {
+      const message = msgEl.value.trim();
+      if (!message) {
+        submitStatus.textContent = 'Enter something first.';
+        return;
+      }
+      const uid = document.body.dataset.uid;
+      const email = document.body.dataset.email;
+      const displayName = document.body.dataset.displayName || email;
+      if (!uid || !email) {
+        submitStatus.textContent = 'Sign in first.';
+        return;
+      }
+      submitBtn.disabled = true;
+      submitStatus.textContent = 'Submitting…';
+      try {
+        const { db } = getFirebase();
+        const entry: any = {
+          uid,
+          email,
+          displayName,
+          message,
+          timestamp: serverTimestamp(),
+        };
+        if (currentGps) entry.gps = currentGps;
+        await addDoc(collection(db, 'activityLog'), entry);
+        msgEl.value = '';
+        currentGps = null;
+        gpsStatus.textContent = '';
+        gpsBtn.textContent = 'Add my location';
+        submitStatus.textContent = 'Logged.';
+        setTimeout(() => (submitStatus.textContent = ''), 2200);
+      } catch (e: any) {
+        submitStatus.textContent = e.message || 'Submit failed.';
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+
+    function fmtTs(ts: any): string {
+      if (!ts) return '…';
+      const d = ts.toDate ? ts.toDate() : new Date(ts);
+      return d.toLocaleString(undefined, {
+        month: 'short', day: 'numeric',
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+      });
+    }
+    function escapeHtml(s: string) {
+      return s.replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      } as Record<string, string>)[c]!);
+    }
+
+    document.addEventListener('portal:auth', (e: any) => {
+      const uid = e.detail.user.uid;
+      const { db } = getFirebase();
+      const q = query(
+        collection(db, 'activityLog'),
+        where('uid', '==', uid),
+        orderBy('timestamp', 'desc'),
+        limit(50)
+      );
+      onSnapshot(q, (snap) => {
+        if (snap.empty) {
+          feedEl.innerHTML = '';
+          emptyEl.hidden = false;
+          return;
+        }
+        emptyEl.hidden = true;
+        feedEl.innerHTML = snap.docs.map((d) => {
+          const x = d.data();
+          const gps = x.gps ? `<span class="gps">GPS ${x.gps.lat.toFixed(5)}, ${x.gps.lon.toFixed(5)} ±${Math.round(x.gps.accuracy)}m</span>` : '';
+          return `<div class="feed-entry">
+            <div class="meta"><span>${fmtTs(x.timestamp)}</span>${gps}</div>
+            <div class="body">${escapeHtml(String(x.message || ''))}</div>
+          </div>`;
+        }).join('');
+      });
+    }, { once: true });
+  </script>
+</PortalLayout>

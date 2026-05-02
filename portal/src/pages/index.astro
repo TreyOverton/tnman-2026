@@ -1,0 +1,49 @@
+---
+import PortalLayout from '~/layouts/PortalLayout.astro';
+---
+<PortalLayout title="Home" active="home">
+  <h1>TNMAN 2026 Field Portal</h1>
+  <p class="muted">
+    13–15 MAY 26 · Holston AAP, Kingsport TN · Tennessee State Guard, 3 RGT
+  </p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Start Here</h2>
+    <p>
+      This portal is the field-side companion to the planning site. Your role guide
+      tells you what's expected; this app captures your activity log and AAR notes.
+    </p>
+    <ol>
+      <li>Open <a href="/guides">Participant Guides</a> and read your role page.</li>
+      <li>Review <a href="/guides/common">Common Expectations</a> — applies to everyone.</li>
+      <li>Install and verify <a href="/guides/caltopo">CalTopo</a> before 12 MAY.</li>
+      <li>Log your activity each day at <a href="/log">214 Log</a>.</li>
+      <li>Capture observations as they happen at <a href="/aar">AAR</a>.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Quick Actions</h2>
+    <div class="row">
+      <a class="btn primary" href="/log">Log a 214 entry</a>
+      <a class="btn teal" href="/aar">Record an AAR observation</a>
+      <a class="btn" href="/injects">Active injects</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Where to Get Help</h2>
+    <ul class="list-tight">
+      <li><strong>Role-specific clarification:</strong> your Section Chief.</li>
+      <li><strong>ICS / docs / process:</strong> 1LT Overton (Planning Section Chief).</li>
+      <li><strong>Personnel / orders / sign-in:</strong> 1LT Fielitz-Scarbrough (RUL).</li>
+      <li><strong>Safety / hydration / MRC:</strong> SFC Sturgill (Safety Officer).</li>
+      <li><strong>Medical:</strong> MAJ Gampe (Medical Unit).</li>
+      <li><strong>Comms / WINLINK:</strong> CSM Rutherford (Comms Unit).</li>
+    </ul>
+  </div>
+
+  <p class="muted small">
+    Planner site (orders, graphics, full reference): <a href="https://tnman-2026.web.app">tnman-2026.web.app</a>.
+  </p>
+</PortalLayout>
