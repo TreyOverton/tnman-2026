@@ -21,6 +21,12 @@
     <p id="auth-site-desc"></p>
     <p class="subtitle" id="auth-hint"></p>
     <button id="sign-in-btn" onclick="signIn()">Sign in with Google</button>
+    <div id="email-link-section" style="display:none">
+      <div class="auth-divider">or</div>
+      <input type="email" id="email-input" placeholder="you@example.com" autocomplete="email">
+      <button id="email-link-btn" onclick="sendEmailLink()">Email me a sign-in link</button>
+      <p id="email-link-status" style="display:none"></p>
+    </div>
     <p id="auth-error" class="error" style="display:none"></p>
   </div>
   <div id="app"></div>
@@ -72,13 +78,6 @@
           name: sidebarName,
           repo: false,
           loadSidebar: true,
-          // NOTE on relativePath. We deliberately do NOT use relativePath:true.
-          // Setting it works for the first navigation hop but Docsify's route
-          // handling accumulates path segments on subsequent navigations,
-          // producing 404s site-wide that only clear with a full reload.
-          // Instead, all in-site cross-page links should use absolute paths
-          // starting with '/' (e.g. /docs/opord-rgt.md), which Docsify
-          // resolves cleanly without the route-corruption side effect.
           // Pin sidebar/navbar resolution to the root copy. Without this,
           // Docsify walks up from the current route probing for _sidebar.md
           // at each level. Firebase's SPA rewrite returns index.html for
@@ -104,13 +103,6 @@
           } : false,
           plugins: [
             function(hook) {
-              // Strip leading YAML frontmatter so authoring planning docs
-              // with frontmatter (in the spirit of OPORD/Plan templates)
-              // doesn't render the YAML as page content.
-              hook.beforeEach(function(content) {
-                return content.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
-              });
-
               // Transform mermaid code blocks into mermaid divs
               hook.afterEach(function(html) {
                 return html.replace(/<pre[^>]*><code[^>]*class="lang-mermaid"[^>]*>([\s\S]*?)<\/code><\/pre>/gi, function(m, code) {
@@ -180,16 +172,21 @@
           ]
         };
 
-        var docsifyScript = document.createElement('script');
-        docsifyScript.src = 'https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js';
-        docsifyScript.onload = function() {
-          if (docsifyOpts.search) {
-            var searchScript = document.createElement('script');
-            searchScript.src = 'https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js';
-            document.body.appendChild(searchScript);
-          }
-        };
-        document.body.appendChild(docsifyScript);
+        // Load search plugin before docsify so it registers during init
+        if (docsifyOpts.search) {
+          var searchScript = document.createElement('script');
+          searchScript.src = 'js/search.min.js';
+          searchScript.onload = function() {
+            var docsifyScript = document.createElement('script');
+            docsifyScript.src = 'https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js';
+            document.body.appendChild(docsifyScript);
+          };
+          document.body.appendChild(searchScript);
+        } else {
+          var docsifyScript = document.createElement('script');
+          docsifyScript.src = 'https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js';
+          document.body.appendChild(docsifyScript);
+        }
       }
 
       // --- Public mode: skip auth entirely ---
@@ -207,7 +204,11 @@
       if (auth.mode === "domain") {
         document.getElementById('auth-hint').textContent = "Sign in with your " + auth.allowedDomain + " account";
       } else {
-        document.getElementById('auth-hint').textContent = "Sign in with an authorized Google account";
+        document.getElementById('auth-hint').textContent = "Sign in with an authorized account";
+      }
+
+      if (auth.allowEmailLink && auth.mode === "allowlist") {
+        document.getElementById('email-link-section').style.display = '';
       }
 
       // Load Firebase and set up auth
@@ -225,7 +226,7 @@
       initScript.type = 'module';
       initScript.textContent = [
         'import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";',
-        'import { getAuth, signInWithPopup, onAuthStateChanged, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js";',
+        'import { getAuth, signInWithPopup, onAuthStateChanged, GoogleAuthProvider, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js";',
         '',
         'var auth = window.TABULAKIT_AUTH;',
         'var app = initializeApp(auth.firebase);',
@@ -237,11 +238,18 @@
         '}',
         '',
         'function checkEmail(email) {',
+        '  if (!email) return false;',
+        '  email = String(email).toLowerCase();',
         '  if (auth.mode === "domain") {',
-        '    return email.endsWith("@" + auth.allowedDomain);',
+        '    return email.endsWith("@" + String(auth.allowedDomain || "").toLowerCase());',
         '  }',
         '  if (auth.mode === "allowlist") {',
-        '    return (auth.allowedEmails || []).indexOf(email) !== -1;',
+        '    var domains = (auth.allowedDomains || []).map(function(d){ return String(d).toLowerCase(); });',
+        '    for (var i = 0; i < domains.length; i++) {',
+        '      if (domains[i] && email.endsWith("@" + domains[i])) return true;',
+        '    }',
+        '    var emails = (auth.allowedEmails || []).map(function(e){ return String(e).toLowerCase(); });',
+        '    return emails.indexOf(email) !== -1;',
         '  }',
         '  return false;',
         '}',
@@ -251,6 +259,8 @@
         '  el.textContent = msg;',
         '  el.style.display = "";',
         '  document.getElementById("sign-in-btn").disabled = false;',
+        '  var linkBtn = document.getElementById("email-link-btn");',
+        '  if (linkBtn) linkBtn.disabled = false;',
         '}',
         '',
         'window.signIn = async function() {',
@@ -268,6 +278,53 @@
         '    showError("Sign-in failed. Please try again.");',
         '  }',
         '};',
+        '',
+        'window.sendEmailLink = async function() {',
+        '  var input = document.getElementById("email-input");',
+        '  var email = String(input && input.value || "").trim().toLowerCase();',
+        '  if (!email) { showError("Please enter your email address."); return; }',
+        '  if (!checkEmail(email)) { showError("This email is not authorized for this site."); return; }',
+        '  var btn = document.getElementById("email-link-btn");',
+        '  var statusEl = document.getElementById("email-link-status");',
+        '  btn.disabled = true;',
+        '  document.getElementById("auth-error").style.display = "none";',
+        '  statusEl.style.display = "none";',
+        '  try {',
+        '    await sendSignInLinkToEmail(fbAuth, email, {',
+        '      url: window.location.origin + window.location.pathname,',
+        '      handleCodeInApp: true',
+        '    });',
+        '    window.localStorage.setItem("emailForSignIn", email);',
+        '    statusEl.textContent = "Sign-in link sent to " + email + ". Check your inbox and click the link to complete sign-in.";',
+        '    statusEl.style.display = "";',
+        '  } catch (e) {',
+        '    showError("Failed to send sign-in link. Please try again.");',
+        '  } finally {',
+        '    btn.disabled = false;',
+        '  }',
+        '};',
+        '',
+        '// Handle return from email sign-in link',
+        'if (auth.allowEmailLink && isSignInWithEmailLink(fbAuth, window.location.href)) {',
+        '  var storedEmail = window.localStorage.getItem("emailForSignIn");',
+        '  if (!storedEmail) {',
+        '    storedEmail = window.prompt("Please confirm the email you used to request the sign-in link:");',
+        '  }',
+        '  if (storedEmail) {',
+        '    signInWithEmailLink(fbAuth, storedEmail, window.location.href).then(function(result) {',
+        '      window.localStorage.removeItem("emailForSignIn");',
+        '      history.replaceState(null, "", window.location.pathname);',
+        '      if (!checkEmail(result.user.email)) {',
+        '        fbAuth.signOut();',
+        '        showError("Access denied. Your account is not authorized.");',
+        '        return;',
+        '      }',
+        '      window.__tabulakit_loadDocsify();',
+        '    }).catch(function(e) {',
+        '      showError("Sign-in link is invalid or has expired. Please request a new one.");',
+        '    });',
+        '  }',
+        '}',
         '',
         '// Auto-login for returning users',
         'if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {',
