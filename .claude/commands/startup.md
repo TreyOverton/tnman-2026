@@ -13,11 +13,42 @@ You are configuring a freshly forked TabulaKit documentation site. Walk the user
 
 ---
 
+## Pre-flight: Orientation
+
+Before asking any questions, orient the user:
+
+> **Welcome to TabulaKit setup!**
+>
+> I'm going to walk you through configuring your documentation site. It takes about 2-3 minutes. I'll ask you a few questions — things like what to name your site, what colors you want, and where to host it.
+
+Then ask: **"Before we start, are you comfortable with software terms like 'commit' and 'deploy', or would you prefer I use simpler language like 'save' and 'publish'?"**
+
+Store their preference. If they prefer simpler language, avoid all git/dev terminology throughout this wizard AND write the following to `.claude/CLAUDE.md` (append to the end, under a new `## User Preferences` section):
+
+```
+## User Preferences
+
+This user prefers non-technical language. Avoid git terminology (commit, push, pull, merge, branch, deploy, repository). Instead use:
+- "save" instead of "commit"
+- "publish" instead of "push" or "deploy"
+- "your site's files" instead of "repository"
+- "undo" instead of "revert"
+- "update" instead of "pull"
+```
+
+Then ask: **"Ready to go?"** and present options: "Yes, let's do it!" (default) and "I have a question first."
+
+Wait for the user to acknowledge before proceeding.
+
+---
+
 ## Step 1: Site Name & Description
 
-Ask the user:
-- What is the name of your documentation site?
-- Give a one-line description of what this site is for.
+First, check if a site name and description already exist — the user may have provided them during the initial repo creation. Check the root `CLAUDE.md` breadcrumb file for `Site name:` and `Site description:` lines, or check `site/config.js` for non-default values.
+
+- If **both** name and description are found: confirm them — "I see your site is called '{name}' with the description '{description}'. Want to keep these, or change anything?"
+- If **only description** found: confirm it and ask for the name
+- If **neither** found: ask for both
 
 **Defaults:** name = "My Documentation", description = "A documentation site powered by TabulaKit"
 
@@ -39,22 +70,40 @@ If the user picks **Mission** or **Course**, also ask the template-specific ques
 
 ---
 
-## Step 3: Theme Color
+## Step 3: Color Scheme
 
-Present these palette options and ask the user to pick one (or provide a custom hex color):
+TabulaKit uses five colors: sidebar background, body background, primary accent (headings), secondary accent (links/nav highlights), and text color. Present complete color schemes rather than individual colors.
 
-| Option | Color | Hex |
-|--------|-------|-----|
-| **Blue** (default) | A clean, professional blue | `#3b82f6` |
-| **Teal** | Calm and modern | `#14b8a6` |
-| **Purple** | Bold and creative | `#8b5cf6` |
-| **Orange** | Warm and energetic | `#f97316` |
-| **Green** | Natural and balanced | `#22c55e` |
-| **Red** | Strong and attention-grabbing | `#ef4444` |
-| **Slate** | Minimal and neutral | `#64748b` |
-| **Custom** | User provides a hex color | (ask) |
+Present the options using a visual preview format. Use the AskUserQuestion tool with preview panels showing a mockup of each scheme:
 
-**Default:** Blue (`#3b82f6`)
+| Scheme | Accent | Secondary | Sidebar BG | Body BG | Text | Vibe |
+|--------|--------|-----------|------------|---------|------|------|
+| **Heatherstone** (default) | `#e84118` (red-orange) | `#3bc0cb` (teal) | `#2a2a2a` | `#222222` | `#dddddd` | Bold, warm, professional |
+| **Ocean** | `#3b82f6` (blue) | `#22d3ee` (cyan) | `#1e293b` | `#0f172a` | `#e2e8f0` | Cool, calm, corporate |
+| **Forest** | `#22c55e` (green) | `#a3e635` (lime) | `#1a2e1a` | `#141e14` | `#d4e4d4` | Natural, balanced, grounded |
+| **Amethyst** | `#8b5cf6` (purple) | `#f472b6` (pink) | `#1e1b2e` | `#15121e` | `#e2ddf0` | Creative, bold, modern |
+| **Ember** | `#f97316` (orange) | `#fbbf24` (amber) | `#2a2019` | `#221a12` | `#ede0d0` | Warm, energetic, inviting |
+| **Minimal** | `#64748b` (slate) | `#94a3b8` (light slate) | `#1e1e1e` | `#171717` | `#d4d4d4` | Clean, neutral, understated |
+| **Custom** | User picks colors | | | | | |
+
+For each scheme in the preview, show a formatted block like:
+```
+┌─────────────────────────────────────┐
+│  SIDEBAR        │  CONTENT          │
+│  ▓▓▓▓▓▓▓▓▓▓▓▓  │                   │
+│  ■ SECTION      │  ██ Heading       │
+│    · Page One   │  Body text here   │
+│    · Page Two   │  Link text here   │
+│                 │                   │
+└─────────────────────────────────────┘
+```
+Using the actual colors described in words (e.g., "red-orange heading, teal links on dark gray").
+
+When the user picks a scheme, apply ALL five colors — update `site/css/custom.css` with the full palette as CSS variable overrides.
+
+If the user picks **Custom**, ask them for their primary accent color and secondary accent color, then auto-generate harmonious sidebar/body/text colors.
+
+**Default:** Heatherstone
 
 ---
 
@@ -104,14 +153,20 @@ Ask which auth mode they want:
 If **Domain**: ask for the domain (e.g., `yourcompany.com`)
 If **Allowlist**: ask for the email addresses (comma-separated)
 
-Then tell the user:
+Then walk the user through the Firebase setup steps inline (don't send them to a separate guide):
 
-> Firebase requires a few manual steps in your browser that I can't do for you. Follow the guide at `site/deploy-firebase.md` to:
-> 1. Create a Firebase project
-> 2. Register a web app and get your config values
-> 3. Enable Google Sign-In (if using domain or allowlist mode)
+> Firebase requires a few manual steps in your browser that I can't do for you. Here's what to do:
 >
-> Once you have your Firebase config values, share them with me and I'll update the configuration files.
+> **1. Create a Firebase project:**
+> Go to [console.firebase.google.com](https://console.firebase.google.com) → **Add project** → name it (e.g., your site name) → disable Google Analytics (not needed) → **Create project**
+>
+> **2. Register a web app:**
+> On the project home page, click the **web icon** (`</>`) → nickname it anything (e.g., "docs site") → leave Firebase Hosting **unchecked** → **Register app** → you'll see config values (apiKey, authDomain, etc.) — **copy those and paste them back to me**
+>
+> **3. Enable Google Sign-In** (only if using domain or allowlist mode):
+> In the left sidebar: **Build** → **Authentication** → **Get started** → **Sign-in method** tab → click **Google** → toggle **Enable** → **Public-facing name**: enter your site or org name (this shows on the sign-in screen) → **Support email**: pick yours → **Save**
+>
+> Once you have your Firebase config values, paste them here and I'll update everything.
 
 **Default:** Public
 
@@ -172,15 +227,29 @@ If the user chose Firebase with domain or allowlist mode:
 - Set `allowedDomain` (for domain mode) or `allowedEmails` (for allowlist mode)
 - If the user provided Firebase config values, fill in the `firebase` object
 
-### Clean up deployment configs (optional)
+### Clean up deployment configs
 
-If the user chose a specific deployment target, offer to remove the configs for targets they won't use. **Ask before deleting anything.** The files to potentially remove:
+**CRITICAL: Actually delete these files.** If the user chose a specific deployment target (not "Skip"), automatically remove the config files AND guide pages for targets they didn't choose. **Do not ask — just delete them.** Users pick one deploy target and stick with it.
 
-- GitHub Pages: `.github/workflows/deploy.yml`
-- Firebase: `firebase.json`, `.firebaserc.template`
-- Netlify: `netlify.toml`
+Delete these ROOT-LEVEL config files for unused targets:
+- If NOT using GitHub Pages: delete `.github/workflows/deploy.yml` (and `.github/` directory if empty)
+- If NOT using Firebase: delete `firebase.json` and `.firebaserc.template` (both in repo root)
+- If NOT using Netlify: delete `netlify.toml` (in repo root)
 
-Also offer to remove the deployment guides from `site/` for unused targets, and their entries from `site/_sidebar.md`.
+Also delete the deployment guide pages from `site/` for ALL targets (`deploy-github-pages.md`, `deploy-firebase.md`, `deploy-netlify.md`). Deployment instructions are provided inline in the summary below — users don't need separate guide pages on their site.
+
+Verify the deletions by running `ls firebase.json netlify.toml .github/workflows/deploy.yml 2>&1` after cleanup to confirm only the chosen target's config remains.
+
+### Remove help/meta content from user site
+
+TabulaKit help content belongs on the TabulaKit documentation site and in the VS Code extension, NOT in user sites. Automatically remove these files from `site/` if they exist:
+
+- `getting-started.md`
+- `how-do-i.md`
+- `claude-code-setup.md`
+- `case-studies.md`
+
+Also remove any references to these files from `site/_sidebar.md`. The user's site should only contain their own content from the selected template.
 
 ---
 
@@ -223,10 +292,12 @@ Then show the **manual steps** the user still needs to do, based on their deploy
 > 3. Push your changes — the site will deploy automatically
 
 **Firebase:**
-> To go live, follow the steps in `site/deploy-firebase.md`:
-> 1. Create a Firebase project and get your config values
-> 2. Share the config values with me so I can update `auth-config.js`
-> 3. Run `firebase deploy` (I can do this for you)
+> To go live:
+> 1. Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com)
+> 2. Register a web app and get your config values
+> 3. Share the config values with me so I can update `auth-config.js`
+> 4. Run `firebase deploy` (I can do this for you)
+> If you need more details, visit the [TabulaKit Firebase guide](https://heatherstoneio.github.io/tabulakit/#/deploy-firebase)
 
 **Netlify:**
 > To go live:
@@ -235,7 +306,7 @@ Then show the **manual steps** the user still needs to do, based on their deploy
 > 3. Netlify auto-detects the settings — just click **Deploy**
 
 **Skip:**
-> When you're ready to deploy, check the deployment guides in the sidebar.
+> When you're ready to deploy, just tell me and I'll walk you through it. You can also visit the [TabulaKit deployment guides](https://heatherstoneio.github.io/tabulakit/#/getting-started) for reference.
 
 If a template has `getting_started` text in its manifest, include it after the deployment instructions.
 
@@ -247,4 +318,6 @@ If a template has `getting_started` text in its manifest, include it after the d
 - If the user seems confused at any step, explain in plain language and offer the default
 - Keep the whole interaction under 3 minutes — don't over-explain
 - After the wizard, commit the changes with a message like: `feat: configure site via /startup wizard`
-- The deploy guide files (`deploy-github-pages.md`, `deploy-firebase.md`, `deploy-netlify.md`) and Claude Code setup file (`claude-code-setup.md`) should NOT be overwritten by template content — they are part of the base site infrastructure
+- When telling the user to close their session, be explicit: "Click the **New Session** button (at the top of the Claude Code panel) to start a fresh session. Your settings will take full effect in the new session."
+- Help/meta content (getting-started, how-do-i, claude-code-setup, case-studies, deploy guides) is removed from user sites during setup — it lives on the TabulaKit docs site and in the VS Code extension instead
+- Delete the root `CLAUDE.md` breadcrumb file (if it exists) after setup completes — the real project context lives in `.claude/CLAUDE.md`
