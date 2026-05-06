@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | **Role** | Chaplain (Command Staff per [ICS-203](/docs/ics-203.md) §3, third-row entry) |
-| **Assignee** | **MAJ Richard A. Bennett** (4 BN Chaplain, MRC-4 — verification pending) |
+| **Assignee** | **MAJ Richard A. Bennett** (4 BN Chaplain, MRC-4). *4 MAY 26 — S1 (1LT Fielitz-Scarbrough) confirms officially returned from IRR to active duty; PHA / MRC re-verification path now open.* |
 | **Reports to** | Incident Commander — COL Roark |
 | **Section** | Command Staff |
 | **Operational period** | 13-15 MAY 26 |

@@ -24,6 +24,7 @@ If you're filling a role, **read your role page first, then [Common Expectations
 - [Safety Officer](/participant-guides/participant-guides/safety-officer.md) — SFC Sturgill
 - [Public Information Officer](/participant-guides/participant-guides/pio.md) — open
 - [Liaison Officer](/participant-guides/participant-guides/liaison-officer.md) — open + incoming 2 RGT / 4 RGT / DIV LNOs
+- [JAG / Legal Officer](/participant-guides/participant-guides/jag.md) — CPT McCroskey *(remote on-call 13-14 MAY only)*
 
 ### Operations Section
 
@@ -44,7 +45,7 @@ If you're filling a role, **read your role page first, then [Common Expectations
 - [Planning Section Deputy](/participant-guides/participant-guides/planning-deputy.md) — 2LT Sobel
 - [Resources Unit Leader](/participant-guides/participant-guides/resources-unit-leader.md) — 1LT Fielitz-Scarbrough
 - [Situation Unit Leader](/participant-guides/participant-guides/situation-unit-leader.md) — 1SG Snow
-- [Documentation Unit](/participant-guides/participant-guides/documentation-unit.md) — CPT McCroskey
+- [Documentation Unit](/participant-guides/participant-guides/documentation-unit.md) — 1LT Overton *(dual-hat with Section Chief; reassigned 4 MAY after CPT McCroskey moved to remote-only JAG / Legal Officer)*
 - [Technical Specialist](/participant-guides/participant-guides/technical-specialist.md) — SSG Miles / WO1 Hendon
 
 ### Logistics Section

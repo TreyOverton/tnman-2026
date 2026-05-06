@@ -3,8 +3,8 @@
 | Field | Value |
 |-------|-------|
 | **Role** | Documentation Unit Leader (per [ICS-203](/docs/ics-203.md) §5) |
-| **Assignee** | **CPT Travis D. McCroskey** (3 RGT ASST JAG, MRC-4 — verification pending) |
-| **Reports to** | Planning Section Chief — 1LT Overton |
+| **Assignee** | **1LT Aaron L. Overton III** *(dual-hat — also Planning Section Chief; reassigned 4 MAY 26 after CPT McCroskey moved to JAG / Legal Officer remote-only role — see [JAG guide](/participant-guides/jag.md))* |
+| **Reports to** | Planning Section Chief — 1LT Overton (self-direction; Section-level documentation goals roll up to the IC via the Planning Chief role) |
 | **Section** | Planning |
 | **Operational period** | 13-15 MAY 26 |
 
@@ -46,12 +46,9 @@ The Documentation Unit owns the **archival and records integrity** for the opera
 
 ## Rank vs role
 
-This is a rank-vs-role billet. **CPT McCroskey is rank-senior to the Planning Section Chief (1LT Overton) and to the RUL (1LT Fielitz-Scarbrough), but reports to 1LT Overton within the Section.** The dynamic:
+Not a rank-vs-role billet under the 4 MAY assignment — 1LT Overton holds both the Section Chief and Documentation Unit roles. The lift is small because much of the documentation infrastructure (planner site, FRAGOs, ICS-203, mission-roster repository, the participant portal in development) was built by the Section Chief role; collation and intake during execution is an additive task.
 
-- **Within the Planning Section, the role governs.** McCroskey takes Section direction from 1LT Overton on Section work — meetings, deliverables, AAR collation timing — even though Overton is rank-junior.
-- **In NCO-channel and officer-development matters**, normal rank deference applies. McCroskey's CPT carries weight outside Section operational direction.
-- **The role is also a JAG-track billet by primary duty** — McCroskey is the 3 RGT ASST JAG. On this exercise, the legal review channel runs through **COL Williams (DIV PMO)** per DIV OPORD §3.i.6.(h); McCroskey's exercise role is Documentation, not legal advisor. If a JAG question lands, McCroskey routes through Williams (and the [JAG UAS Memo](/docs/jag-uas-memo.md) authored by CPT Harris is a useful baseline).
-- **MRC-4 verification pending** — see [Roster Open Items](/roster.md). If MRC-4 status holds, DD 2977 considerations apply (Block 4 mitigation).
+The original McCroskey assignment had a rank-vs-role dynamic (CPT reporting to 1LT within Section). That dynamic is preserved as a pattern reference for other Planning Section billets — see the **Resources Unit Leader** (1LT Fielitz-Scarbrough) directing **WO1 Hendon** (Tech Specialist), and the **Planning Chief** directing **1SG Snow** (SITL) — for the same role-governs-within-Section principle.
 
 ## Out of scope (do NOT do)
 
