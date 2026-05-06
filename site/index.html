@@ -117,6 +117,13 @@
           } : false,
           plugins: [
             function(hook) {
+              // Strip leading YAML frontmatter so authoring planning docs
+              // with frontmatter (in the spirit of OPORD/Plan templates)
+              // doesn't render the YAML as page content.
+              hook.beforeEach(function(content) {
+                return content.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
+              });
+
               // Transform mermaid code blocks into mermaid divs
               hook.afterEach(function(html) {
                 return html.replace(/<pre[^>]*><code[^>]*class="lang-mermaid"[^>]*>([\s\S]*?)<\/code><\/pre>/gi, function(m, code) {
