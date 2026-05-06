@@ -66,10 +66,13 @@
 - [Orders Consistency Review](warno-opord-review.md)
 - [ICP Org Reference](icp-org-reference.md)
 - [ICP Gap Analysis](icp-gap-analysis.md)
-- [Participant Portal Plan (Astro)](participant-portal-plan.md)
 
 - **TRAINING: ICS FORMS**
 - [Participant Notes](training/ics-forms-participant.md)
 - [Trainer Notes](training/ics-forms-trainer.md)
 - [Commander's Brief](training/buttermilk-cdr-brief.md)
 - [AAR (for XO)](training/buttermilk-aar.md)
+
+- **TECH**
+- [Participant Portal Plan (Astro)](participant-portal-plan.md)
+- [Task Tracking Plan](task-management-plan.md)
